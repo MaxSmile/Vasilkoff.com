@@ -3,6 +3,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Container } from 'react-bootstrap'
 import { Banner } from '@/components/Banner'
+import Services from '@/components/Services'
+
 
 
 export default function Home() {
@@ -10,10 +12,9 @@ export default function Home() {
     <>
       <Header />
       <Banner />
+      <Services />
       <Container>
-        
-
-
+      
 
         <section id="services" class="help">
           <div class="heading reveal">
@@ -72,56 +73,56 @@ export default function Home() {
           <div class="project_list">
 
             <a href="calculator-lock.html" >
-              <div class="project" data-projectName="Calculator Lock">
+              <div class="project" data-projectname="Calculator Lock">
                 <img src="images/Group-1198-300x146.png" />
               </div>
             </a>
 
             <a href="koko-mix-admin.html" >
-              <div class="project" data-projectName="KOKO-MIX ADMIN">
+              <div class="project" data-projectname="KOKO-MIX ADMIN">
                 <img src="images/Screenshot-2020-09-25-at-3.26.37-PM-1024x508.png" />
               </div>
             </a>
 
             <a href="smrtsgn-2.html" >
-              <div class="project" data-projectName="SMRTSGN" >
+              <div class="project" data-projectname="SMRTSGN" >
                 <img src="images/Screenshot-2020-09-23-at-2.06.49-PM-1024x691.png" />
               </div>
             </a>
 
             <a href="smrt16.html" >
-              <div class="project" data-projectName="SMRT16" >
+              <div class="project" data-projectname="SMRT16" >
                 <img src="images/Screenshot-2020-09-25-at-3.19.07-PM-1024x501.png" />
               </div>
             </a>
 
             <a href="votemee-app.html" >
-              <div class="project" data-projectName="Voteme App" >
+              <div class="project" data-projectname="Voteme App" >
                 <img src="images/Screenshot-2020-09-22-at-12.59.53-PM-1024x525.png" />
               </div>
             </a>
 
             <a href="spin-deals-app.html" >
-              <div class="project" data-projectName="SPIN DEALS APP" >
+              <div class="project" data-projectname="SPIN DEALS APP" >
                 <img src="images/Screenshot-2020-09-22-at-1.02.22-PM-1024x491.png" />
               </div>
             </a>
 
             <a href="abetterflorist.html" >
-              <div class="project" data-projectName="ABETTERFLORIST" >
+              <div class="project" data-projectname="ABETTERFLORIST" >
                 <img src="images/Screenshot-2020-09-25-at-12.31.10-PM-1024x588.png" />
               </div>
             </a>
 
             <a href="housekeeper-world.html" >
-              <div class="project" data-projectName="Housekeeper World" >
+              <div class="project" data-projectname="Housekeeper World" >
                 <img src="images/Screenshot-2020-09-23-at-12.28.50-PM-1024x518.png" />
               </div>
             </a>
 
 
             <a href="cbay-rent-a-car.html" >
-              <div class="project" data-projectName="CBAY RENT A CAR" >
+              <div class="project" data-projectname="CBAY RENT A CAR" >
                 <img src="images/Screenshot-2020-09-25-at-12.37.15-PM-1024x620.png" />
               </div>
             </a>
@@ -248,7 +249,7 @@ export default function Home() {
               Glastonos 12-14, 2nd Floor, Paphos 8010, Cyprus
             </div>
             <div class="gmap_container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.230872061629!2d32.419172014577214!3d34.77496278674638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f487090f1d%3A0xfcc6a7e859d3f58e!2sGladstonos%2012-2nd%20Floor%2C%20Paphos%208046%2C%20Cyprus!5e0!3m2!1sen!2s!4v1666251894571!5m2!1sen!2s" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.230872061629!2d32.419172014577214!3d34.77496278674638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e706f487090f1d%3A0xfcc6a7e859d3f58e!2sGladstonos%2012-2nd%20Floor%2C%20Paphos%208046%2C%20Cyprus!5e0!3m2!1sen!2s!4v1666251894571!5m2!1sen!2s" width="600" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </section>
