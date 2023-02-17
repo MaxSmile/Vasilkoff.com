@@ -12,6 +12,12 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+
+}
 
 :root{
 	--baseColor : #990000;
@@ -931,12 +937,12 @@ ul.social-share.social-share-style-2 li a:hover span, ul.social-share.social-sha
   list-style: none;
 }
 
-.pv-footer-styles .pv-copyright-area .copyright-inner .inner-left .quick-links li a, .single-demo a h5.title, .pv-banner-area .inner a.scroll-down-btn span, .pv-banner-area .inner a.scroll-down-btn, .privacy-policy-area a::after, .axil-single-widget.tags ul.tags-list li a, .axil-single-widget.small-post-wrapper .small-post .content h6 a, .axil-address-list .axil-address p a, .axil-breadcrumb-area.breadcrumb-style-2 ul.ax-breadcrumb li a, .axil-accordion--2 .card .card-header .btn.btn-link, .axil-accordion .card .collapse::after, .axil-accordion .card .card-header h5 .btn.btn-link, .axil-case-study .content .inner h4.title a, .axil-call-to-action .callto-action > span a, .axil-blog-list .blog-top .title a, .brand-list li a img, .brand-list li a, .axil-testimonial .description a.axil-link-button::after, .axil-testimonial .description a.axil-link-button, .axil-testimonial .inner::after, .axil-testimonial, .form-group input[type=submit], .axil-contact-form.contact-form-style-1 .callto-action-wrapper span a, .axil-service.service-bg-gray .inner, .axil-service .inner .content a.axil-button::after, .axil-service .inner .content a.axil-button, .axil-service .inner .content h4.title a, ul.followers-list li a span, ul.social-share.style-rounded.bg-color--white li a, ul.social-share.style-rounded li a, ul.social-share.social-share-style-2 li a span, ul.social-share.social-share-style-2 li a i, ul.social-share li a i, ul.social-share li a, .ft-social-share li a, a.axil-button.axil-link-button::after,
+/* .pv-footer-styles .pv-copyright-area .copyright-inner .inner-left .quick-links li a, .single-demo a h5.title, .pv-banner-area .inner a.scroll-down-btn span, .pv-banner-area .inner a.scroll-down-btn, .privacy-policy-area a::after, .axil-single-widget.tags ul.tags-list li a, .axil-single-widget.small-post-wrapper .small-post .content h6 a, .axil-address-list .axil-address p a, .axil-breadcrumb-area.breadcrumb-style-2 ul.ax-breadcrumb li a, .axil-accordion--2 .card .card-header .btn.btn-link, .axil-accordion .card .collapse::after, .axil-accordion .card .card-header h5 .btn.btn-link, .axil-case-study .content .inner h4.title a, .axil-call-to-action .callto-action > span a, .axil-blog-list .blog-top .title a, .brand-list li a img, .brand-list li a, .axil-testimonial .description a.axil-link-button::after, .axil-testimonial .description a.axil-link-button, .axil-testimonial .inner::after, .axil-testimonial, .form-group input[type=submit], .axil-contact-form.contact-form-style-1 .callto-action-wrapper span a, .axil-service.service-bg-gray .inner, .axil-service .inner .content a.axil-button::after, .axil-service .inner .content a.axil-button, .axil-service .inner .content h4.title a, ul.followers-list li a span, ul.social-share.style-rounded.bg-color--white li a, ul.social-share.style-rounded li a, ul.social-share.social-share-style-2 li a span, ul.social-share.social-share-style-2 li a i, ul.social-share li a i, ul.social-share li a, .ft-social-share li a, a.axil-button.axil-link-button::after,
 button.axil-button.axil-link-button::after, .axil-scroll-navigation .nav .nav-item a::after, .side-nav .side-nav-inner .side-nav-content .axil-contact-info-inner .axil-contact-info .address p a, .side-nav .side-nav-inner .side-nav-content ul.main-navigation li a, .side-nav .side-nav-inner .form-group button.side-nav-search-btn i, .close-sidenav button.close-button i, ul.mainmenu li.has-dropdown ul.axil-submenu li a, ul.mainmenu li a, #scrollUp, .link-hover a {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-}
+} */
 
 a.axil-button,
 button.axil-button, ul.mainmenu li a {
@@ -12096,7 +12102,7 @@ ul.mainmenu li.has-dropdown.active ul.axil-submenu.visible {
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   z-index: 999;
 }
-.popup-mobile-manu .inner {
+/* .popup-mobile-manu .inner {
   background: #000000;
   width: 400px;
   max-width: 80%;
@@ -12112,7 +12118,7 @@ ul.mainmenu li.has-dropdown.active ul.axil-submenu.visible {
   transform: translateX(-100%);
   cursor: default;
   position: relative;
-}
+} */
 
 .popup-mobile-manu-visible .popup-mobile-manu {
   visibility: visible;
@@ -13137,7 +13143,7 @@ Service Styles
     transform: perspective(0) rotateY(0deg);
   }
 }
-.axil-service .inner::before {
+/* .axil-service .inner::before {
   -webkit-transform: perspective(500px) rotateY(-5deg);
   transform: perspective(500px) rotateY(-5deg);
   position: absolute;
@@ -13153,7 +13159,7 @@ Service Styles
   visibility: hidden;
   box-shadow: 0 0 1px transparent;
   transition-delay: 0.2s;
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .axil-service .inner::before {
     width: calc(100% - 15px);
@@ -13945,7 +13951,7 @@ Masonary Grid List
     transform: perspective(0) rotateY(0deg);
   }
 }
-.portfolio .inner .thumb::before {
+/* .portfolio .inner .thumb::before {
   position: absolute;
   width: calc(100% + 2px);
   height: calc(100% - 15px);
@@ -13957,7 +13963,7 @@ Masonary Grid List
   box-shadow: 0 5px 35px rgba(0, 2, 72, 0.1);
   opacity: 0;
   transition: all 0.5s;
-}
+} */
 @media only screen and (max-width: 767px) {
   .portfolio .inner .thumb::before {
     display: none;
@@ -15628,7 +15634,7 @@ Axil Case Study
   position: relative;
   display: inline-block;
 }
-.axil-team .inner .thumbnail::before {
+/* .axil-team .inner .thumbnail::before {
   position: absolute;
   width: calc(100% - 2px);
   height: calc(100% - 7px);
@@ -15640,7 +15646,7 @@ Axil Case Study
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
-}
+} */
 .axil-team .inner .content {
   padding-top: 20px;
 }
@@ -15970,7 +15976,7 @@ Axil Case Study
     transform: perspective(0px) rotateY(0deg);
   }
 }
-.axil-pricing-table.active::before {
+/* .axil-pricing-table.active::before {
   transform: perspective(500px) rotateY(-1deg);
   position: absolute;
   width: calc(100% - 61px);
@@ -15981,7 +15987,7 @@ Axil Case Study
   z-index: -1;
   right: 36px;
   box-shadow: 0 0 1px transparent;
-}
+} */
 @media only screen and (max-width: 767px) {
   .axil-pricing-table.active::before {
     width: calc(100% - 35px);
@@ -16464,7 +16470,7 @@ Slider Style One
     width: 100%;
   }
 }
-.axil-slide.slide-style-default .topskew-thumbnail-group .thumbnail::before {
+/* .axil-slide.slide-style-default .topskew-thumbnail-group .thumbnail::before {
   position: absolute;
   width: calc(100% - 5px);
   height: calc(100% - 10px);
@@ -16475,7 +16481,7 @@ Slider Style One
   right: 34px;
   box-shadow: 0 0 1px transparent;
   transition: 0.3s;
-}
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .axil-slide.slide-style-default .topskew-thumbnail-group .thumbnail::before {
     display: none;
@@ -17223,7 +17229,7 @@ Breadcrumb Styles
     bottom: 0;
   }
 }
-.axil-breadcrumb-area.breadcrumb-style-2 .thumbnail .image-group::before {
+/* .axil-breadcrumb-area.breadcrumb-style-2 .thumbnail .image-group::before {
   position: absolute;
   width: calc(100% - 116px);
   height: calc(100% - 19px);
@@ -17233,7 +17239,7 @@ Breadcrumb Styles
   z-index: -1;
   right: 144px;
   box-shadow: 0 0 1px transparent;
-}
+} */
 @media only screen and (max-width: 767px) {
   .axil-breadcrumb-area.breadcrumb-style-2 .thumbnail .image-group::before {
     display: none;
@@ -17454,7 +17460,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
     transform: perspective(0) rotateY(0);
   }
 }
-.breadcrumb-thumbnail-group .thumbnail::before {
+/* .breadcrumb-thumbnail-group .thumbnail::before {
   position: absolute;
   width: calc(100% - 14px);
   height: calc(100% - 26px);
@@ -17465,7 +17471,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
   right: 37px;
   transform: perspective(700px) rotateY(-4deg);
   box-shadow: 0 0 1px transparent;
-}
+} */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb-thumbnail-group .thumbnail::before {
     display: none;
@@ -17597,7 +17603,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
   transform: perspective(500px) rotateY(-5deg);
   display: inline-block;
 }
-.topskew-thumbnail-group .thumbnail::before {
+/* .topskew-thumbnail-group .thumbnail::before {
   position: absolute;
   width: calc(100% - 14px);
   height: calc(100% - 26px);
@@ -17607,7 +17613,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
   z-index: -1;
   right: 37px;
   transform: perspective(700px) rotateY(-4deg);
-}
+} */
 .topskew-thumbnail-group .image-group {
   position: absolute;
   right: 0;
@@ -18164,7 +18170,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
     margin-left: 0;
   }
 }
-.axil-team-details-wrapper .thumbnail::before {
+/* .axil-team-details-wrapper .thumbnail::before {
   -webkit-transform: perspective(500px) rotateY(-5deg);
   transform: perspective(500px) rotateY(0deg);
   position: absolute;
@@ -18175,7 +18181,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
   border: 2px solid #000345;
   z-index: -1;
   right: 29px;
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .axil-team-details-wrapper .thumbnail::before {
     right: 7px;

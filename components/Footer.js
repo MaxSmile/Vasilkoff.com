@@ -10,59 +10,62 @@ const Footer = () => {
 
 
 
-  return (
-    <footer>
-      <Container>
-        <Row style={{margin:"32px 0px"}}>
-          <Col>
-            <a href="/" id="#footer"><img src="/white-logo137x49.png" width={137} height={49} alt="SMRT16" /></a>
-          </Col>
-        </Row>
-        <Row>
+    return (
+        <footer>
 
-        <Col sm={12} md={5} lg={5}>
-          
-          
-          <p>
-            <strong>TheData.projInfo.diclimerBottomline</strong>
-          </p>
-          <p>TheData.projInfo.diclimer</p>
-        </Col>
-        <Col lg={1} md={1}>&nbsp;</Col>
+            <Container>
+                <Row>
+                    <Col>
 
-        <Col sm={12} md={3} lg={3}>
-          
-          <div>
-            <div><a href="https://github.com/SMRT16/smrt16.com" target="_blank"><Github/>&nbsp;SMRT16 DApp sources</a></div>
-            <div><a href="https://polygonscan.com/address/0x1b605deaedc71f1a764e572b1ca68b5060978753#code" target="_blank"><Code/>&nbsp;SMRT16 Smart Contract sources</a></div>
-            <div><a  href="/faq#bug"><Bug />&nbsp;How to report a bug</a></div>
-            <div>Copyright Vasilkoff Ltd © 2012-{(new Date().getFullYear())}</div>
-          </div>
-          
+                        <div>UK</div>
+                        <div>
+                            Vasilkoff Ltd Reg. 07976437 <br />
+                            207 Regent Street, London W1B 3HH
+                        </div>
+                        <div>
+                            <ul class="firstadd_social">
+                                <li><a href="https://web.facebook.com/vasilkoff.software" target="_blank"><i class="fa-solid fa-square-phone"></i>+18882614460</a></li>
+                                <li><a href="https://web.facebook.com/vasilkoff.software" target="_blank"><i class="fa-solid fa-square-phone"></i>+4442045772478</a></li>
+                                <li><a href="mailto:maxim@vasilkoff.com" target="_blank"><i class="fa-solid fa-at"></i>maxim@vasilkoff.com</a></li>
+                                <li><a href="https://t.me/Vasilkoff" target="_blank"><i class="fa-solid fa-paper-plane"></i>Vasilkoff</a></li>
+                            </ul>
+                        </div>
+                    </Col>
 
-        </Col>
 
-        <Col sm={12} md={3} lg={3}>
-          <div>
-            <div>
-                <a href="https://t.me/+toXd6a6bF9QzM2Q0" target="_blank"><Telegram/>&nbsp;SMRT16.com Community</a>
-            </div>
 
-            <div>
-                <a href="mailto:dev@smrt16.com" target="_blank"><EnvelopeHeart/>&nbsp;dev@smrt16.com</a>
-            </div>
-            <hr/>
-            <div><a href="/0"><Dash style={{width:16,height:16}}/>&nbsp;Random referrer</a></div>
-            <div><a href="/1"><Hospital style={{width:16,height:16}}/>&nbsp;Client area</a></div>
-            
-          </div>
-        </Col>
+                    <Col>
+                        <div>Cyprus</div>
+                        <div>
+                            Vasilkoff (CY) Ltd Reg. HE 344792<br />
+                            ATHINODOROU BUSINESS CENTER Office 402<br />
+                            Charalambou Mouskou &amp; Grigori Afxentiou Office 20<br />
+                            Paphos 8010
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#" target="_blank"><i class="fa-regular fa-address-card"></i>VAT #CY10344792Y TIC 12344792A</a></li>
+                                <li><a href="https://wa.link/drf9vm" target="_blank"><i class="fa-brands fa-square-whatsapp"></i>+35796253566</a></li>
+                                <li><a href="tel:+35799169229" target="_blank"><i class="fa-solid fa-square-phone"></i><span>+35799169229</span></a></li>
+                                <li><a href="mailto:sp@vasilkoff.com" target="_blank"><i class="fa-solid fa-at"></i><span>sp@vasilkoff.com</span></a></li>
+                                <li><a href="https://g.page/Vasilkoff-com?share" target="_blank"><i class="fa-solid fa-location-dot"></i><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
+                            </ul>
+                        </div>
+                    </Col>
 
-        </Row>
-      </Container>
-      
-    </footer>
-  );
+                    <Col>
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="#map">Contact Us</a></li>
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
+
+        </footer>
+    );
 };
 
 export default Footer;

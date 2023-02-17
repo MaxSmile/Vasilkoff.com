@@ -44,14 +44,7 @@ const ServiceCardOne = (
                                         alt="Icon Images"
                                     />
                                 </div>
-                                <div className="image-2">
-                                    <Image
-                                        width={data.imageIcon.width}
-                                        height={data.imageIcon.height}
-                                        src={data.imageIcon.src}
-                                        alt="Shape Images"
-                                    />
-                                </div>
+                     
                             </div>
                         </div>
                         <div className="content">
