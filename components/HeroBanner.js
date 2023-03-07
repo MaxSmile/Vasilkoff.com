@@ -3,7 +3,7 @@ import 'animate.css';
 import Link from "next/link";
 import Tilt from 'react-parallax-tilt';
 
-export const Banner = () => {
+export const HeroBanner = () => {
     return (
         <div className="axil-slider-area axil-slide-activation">
             <div

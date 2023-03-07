@@ -1,7 +1,7 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { Banner } from '@/components/Banner'
+import { HeroBanner } from '@/components/HeroBanner'
 import Services from '@/components/Services'
 import Projects from '@/components/Projects'
 import About from '@/components/About'
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Banner />
+      <HeroBanner />
       <Services />
       <About />
 

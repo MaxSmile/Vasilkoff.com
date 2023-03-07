@@ -24,7 +24,8 @@ export default function Services() {
     }, []);
 
     return (
-        <div className="axil-service-area ax-section-gap bg-color-white">
+        <div style={{border: '1px solid red'}}
+        className="axil-service-area ax-section-gap bg-color-white">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
