@@ -35,7 +35,8 @@ module.exports = {
                 DEFAULT: '#311C1C',
                 dark: '#F6F6F6',
             },
-            light:'#F6F6F6'
+            light:'#F6F6F6',
+            shadow:'#999999',
         },
         extend: {
             typography: ({ theme }) => ({

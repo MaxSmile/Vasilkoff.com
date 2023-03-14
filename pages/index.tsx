@@ -19,7 +19,7 @@ const Index = (props: any) => {
                                     <span className="italic text-secondary">work</span> together
                                 </h2>
                                 <p className="my-8 text-lg lg:w-[90%] ">
-                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.
+                                    Comprehensive development services for websites and mobile applications, as well as cutting-edge blockchain technology solutions such as DApps and smart contracts
                                 </p>
                                 <Link href="/about-us" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
                                     read more
@@ -403,19 +403,6 @@ const Index = (props: any) => {
                             <h6>Our Project</h6>
                             <h4>Some of our finest work.</h4>
                         </div>
-                        {/* <div className="flex items-center justify-end gap-4">
-                            <div className="text-sm font-extrabold text-black dark:text-white">View All</div>
-                            <button type="button" className="bg-black/5 dark:bg-white/5 w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black dark:text-white">
-                                    <path d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                                </svg>
-                            </button>
-                            <button type="button" className="bg-black/5 dark:bg-white/5 text-p w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary dark:hover:bg-secondary transition">
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black dark:text-white">
-                                    <path d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                                </svg>
-                            </button>
-                        </div> */}
                     </div>
                     <div className="mb-7">
                         <ul className="filters home-filter mt-10 flex gap-8 overflow-x-auto whitespace-nowrap pb-3 font-bold lg:mt-0 lg:gap-10">
@@ -969,7 +956,7 @@ const Index = (props: any) => {
                 </div>
             </section>
 
-            <Testimonial />
+            {/* <Testimonial /> */}
             
         </div>
     );

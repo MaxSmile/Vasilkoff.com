@@ -1,24 +1,30 @@
 import Link from 'next/link';
 import { Col, Container, Row } from "react-bootstrap";
-import { EnvelopeAtFill, TelephoneFill, Telegram } from 'react-bootstrap-icons';
+import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill } from 'react-bootstrap-icons';
 
 const Footer = () => {
     return (
         <>
-            <section className="py-14 bg-black lg:py-[100px]">
+            <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
+                <div className="items-center justify-center lg:flex">
+                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
+                    </div>
+                </div>
+            </section>
+            <section className="bg-white">
                 <Container>
                     <div className="relative z-10 lg:flex">
-                        <div className="heading text-center lg:mb-0 lg:w-1/3 lg:pr-10 lg:text-left text-light">
-                            <img src="/images/answer.png" alt="Answer" className="w-full" />
+                        <div className="heading text-center lg:mb-0 lg:w-1/3 lg:pr-10 lg:text-left text-light my-20">
+
                             <div
                                 className="mx-auto"
                                 data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
-                               <p>
-                                <strong>Vasilkoff (CY) Ltd</strong> provides comprehensive development services for websites and mobile applications, as well as cutting-edge blockchain technology solutions such as DApps and smart contracts.
-                            </p>
+                                <hr />
                             </div>
+                            <img src="/images/answer.png" alt="Answer" className="w-full" />
                         </div>
                         <form action="" className="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
                             <div className="grid gap-10 sm:grid-cols-2">
@@ -187,48 +193,18 @@ const Footer = () => {
                                 </button>
                             </div>
                         </form>
+
+
                     </div>
                 </Container>
             </section>
-            <footer className="py-14 bg-black lg:py-[100px] text-light">
+            <footer className="py-14 bg-black lg:py-[100px] text-light text-base">
                 <Container>
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
-
-
                         <div>
-                            <ul className="flex flex-col gap-3 font-bold">
-                                <li className="mb-3 text-lg font-extrabold text-white">UK</li>
-                            </ul>
-                            <ul >
-                                <li>Vasilkoff Ltd Reg. 07976437</li>
-                                <li>207 Regent Street, London W1B 3HH</li>
-                                <li><TelephoneFill className="inline-block"/>&nbsp;<a href="tel:+18882614460" target="_blank">+1-888-2614460</a></li>
-                                <li><TelephoneFill className="inline-block"/>&nbsp;<a href="tel:+442045772478" target="_blank">+442045772478</a></li>
-                                <li><EnvelopeAtFill className="inline-block"/>&nbsp;<a href="mailto:maxim@vasilkoff.com" target="_blank">maxim@vasilkoff.com</a></li>
-                                <li><Telegram className="inline-block"/>&nbsp;<a href="https://t.me/Vasilkoff" target="_blank">Vasilkoff</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul className="flex flex-col gap-3 font-bold">
-                                <li className="mb-3 text-lg font-extrabold text-white">Cyprus</li>
-                            </ul>
-                            <ul>
-                                <li>Vasilkoff (CY) Ltd Reg. HE 344792</li>
-                                <li>ATHINODOROU BUSINESS CENTER Office 402</li>
-                                <li>
-Charalambou Mouskou & Grigori Afxentiou Office 20
-Paphos 8010</li>
-
-					<li><a href="#" target="_blank"><i className="fa-regular fa-address-card"></i>VAT #CY10344792Y TIC 12344792A</a></li>
-					<li><a href="https://wa.link/drf9vm" target="_blank"><i class="fa-brands fa-square-whatsapp"></i>+35796253566</a></li>
-					<li><a href="tel:+35799169229" target="_blank"><i class="fa-solid fa-square-phone"></i><span>+35799169229</span></a></li>
-					<li><a href="mailto:sp@vasilkoff.com" target="_blank"><i class="fa-solid fa-at"></i><span>sp@vasilkoff.com</span></a></li>
-					<li><a href="https://g.page/Vasilkoff-com?share" target="_blank"><i class="fa-solid fa-location-dot"></i><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
-			
-                            </ul>
-                            
-                        </div>
-                        <div>
+                            <p className="py-4">
+                                <strong>Vasilkoff (CY) Ltd</strong> provides comprehensive development services for websites and mobile applications, as well as cutting-edge blockchain technology solutions such as DApps and smart contracts.
+                            </p>
                             <ul className="flex flex-col gap-3 font-bold">
 
                                 <li>
@@ -253,22 +229,57 @@ Paphos 8010</li>
                                 </li>
                             </ul>
                         </div>
+
+
+                        <div>
+                            <ul className="flex flex-col gap-3 font-bold">
+                                <li className="mb-3 text-lg font-extrabold text-white">Cyprus</li>
+                            </ul>
+                            <ul>
+                                <li>Vasilkoff (CY) Ltd Reg. HE 344792</li>
+                                <li>ATHINODOROU BUSINESS CENTER Office 402</li>
+                                <li>Charalambou Mouskou & Grigori Afxentiou 20</li>
+                                <li>Paphos 8010</li>
+
+                                <li><CardText className="inline-block" />&nbsp;VAT #CY10344792Y TIC 12344792A</li>
+                                <li><Whatsapp className="inline-block" />&nbsp;<a href="https://wa.link/drf9vm" target="_blank">+35796253566</a></li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+35799169229" target="_blank">+35799169229</a></li>
+                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a href="mailto:sp@vasilkoff.com" target="_blank">sp@vasilkoff.com</a></li>
+                                <li><GeoAltFill className="inline-block" />&nbsp;<a href="https://g.page/Vasilkoff-com?share" target="_blank"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
+
+                            </ul>
+
+                        </div>
+                        <div>
+                            <ul className="flex flex-col gap-3 font-bold">
+                                <li className="mb-3 text-lg font-extrabold text-white">UK</li>
+                            </ul>
+                            <ul >
+                                <li>Vasilkoff Ltd Reg. 07976437</li>
+                                <li>207 Regent Street, London W1B 3HH</li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+18882614460" target="_blank">+1-888-2614460</a></li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+442045772478" target="_blank">+442045772478</a></li>
+                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a href="mailto:maxim@vasilkoff.com" target="_blank">maxim@vasilkoff.com</a></li>
+                                <li><Telegram className="inline-block" />&nbsp;<a href="https://t.me/Vasilkoff" target="_blank">Vasilkoff</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </Container>
             </footer>
-            <div className="py-5 dark:border-t-2 dark:border-white/5">
+            <hr />
+            <div className="py-5 bg-black">
                 <Container>
-                    <div className="items-center justify-between text-center font-bold dark:text-white md:flex">
+                    <div className="items-center justify-between text-center text-shadow md:flex">
                         <div className="flex items-center gap-8">
-                            <Link href="/terms-conditions" className="text-primary transition hover:text-secondary">
+                            <Link href="/terms-conditions" className=" transition hover:text-secondary">
                                 Terms & Conditions
                             </Link>
-                            <Link href="/privacy-policy" className="text-primary transition hover:text-secondary">
+                            <Link href="/privacy-policy" className="transition hover:text-secondary">
                                 Privacy Policy
                             </Link>
                         </div>
                         <div>
-                            <ul className="flex items-center gap-8">
+                            <ul className="flex items-center gap-8 text-shadow">
                                 <li>
                                     <Link href="#">
                                         <svg
