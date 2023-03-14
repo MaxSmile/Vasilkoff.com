@@ -1,3 +1,4 @@
+import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import React from "react";
 import { Telegram, EnvelopeHeart, Github, Code, Bug, HouseHeart, Dash, Hospital } from 'react-bootstrap-icons';
 
@@ -7,9 +8,9 @@ const Footer = () => {
 
     return (
         <footer>
-            <Container>
-                <Row className="upper_part">
-                    <Col className="firstadd add">
+            <MDBContainer>
+                <MDBRow className="upper_part">
+                    <MDBCol className="firstadd add">
                         <div class="firstadd_country">UK</div>
                         <div class="firstadd_add">
                             Vasilkoff Ltd Reg. 07976437 <br />

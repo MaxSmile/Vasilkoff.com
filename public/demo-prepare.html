@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Preparing demo...</title>
+        <style>
+            @-webkit-keyframes spinner-grow {
+                0% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    opacity: 1;
+                    transform: none;
+                }
+            }
+
+            @keyframes spinner-grow {
+                0% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    opacity: 1;
+                    transform: none;
+                }
+            }
+
+            .spinner-grow {
+                display: inline-block;
+                width: 2rem;
+                height: 2rem;
+                vertical-align: -0.125em;
+                background-color: currentColor;
+                border-radius: 50%;
+                opacity: 0;
+                -webkit-animation: 0.75s linear infinite spinner-grow;
+                animation: 0.75s linear infinite spinner-grow;
+            }
+
+            div#load_screen {
+                background: rgb(236, 239, 255);
+                opacity: 1;
+                position: fixed;
+                z-index: 999999;
+                top: 0px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+            }
+
+            div#load_screen .loader {
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            div#load_screen .loader-content {
+                right: 0;
+                align-self: center;
+            }
+
+            .spinner-grow {
+                color: #304aca;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="load_screen">
+            <div class="loader">
+                <div class="loader-content">
+                    <div class="spinner-grow align-self-center"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var params = {};
+            window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) {
+                params[key] = value;
+            });
+
+            if (params.theme) {
+                localStorage.setItem('theme', params.theme);
+            }
+            if (params.direction) {
+                localStorage.setItem('direction', params.direction);
+            }
+
+            window.location.href = 'https://react.plurk.sbthemes.com';
+        </script>
+    </body>
+</html>
