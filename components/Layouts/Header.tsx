@@ -56,12 +56,12 @@ const Header = (props: any) => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/services-detail" className={router.pathname === '/' ? 'active' : ''}>
+                                    <Link href="/services-detail" className={router.pathname === '/services-detail' ? 'active' : ''}>
                                         Services
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/crypto" className={router.pathname === '/' ? 'active' : ''}>
+                                    <Link href="/crypto" className={router.pathname === '/crypto' ? 'active' : ''}>
                                         Crypto
                                     </Link>
                                 </li>
@@ -81,21 +81,13 @@ const Header = (props: any) => {
                                         Service
                                     </Link>
                                 </li> */}
-                                <li>
-                                    <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
-                                        Team
-                                    </Link>
-                                </li>
+           
                                 <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/career" className={router.pathname === '/career' ? 'active' : ''}>
-                                        Career
-                                    </Link>
-                                </li>
+                                
 
                      
                             </ul>

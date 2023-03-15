@@ -2,15 +2,13 @@ import Head from 'next/head';
 import ProjectSlider from '../components/ProjectSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import Contactus from '../components/ContactUs';
 
 const Portfoliodetail = (props: any) => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
             <Head>
-                <title>Portfolio Detail | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Portfolio Detail | ...</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -300,7 +298,7 @@ const Portfoliodetail = (props: any) => {
 
             <ProjectSlider title2="Related Projects" />
 
-            <Contactus />
+            
         </div>
     );
 };

@@ -7,7 +7,7 @@ import Faq from '../components/Faq';
 import LogoSlider from '../components/LogoSlider';
 import Testimonial from '../components/Testimonial';
 
-const ModernSaas = () => {
+const StartupOffer = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
     const faqs: any = [
         {
@@ -674,4 +674,4 @@ const ModernSaas = () => {
     );
 };
 
-export default ModernSaas;
+export default StartupOffer;

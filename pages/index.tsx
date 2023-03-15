@@ -50,6 +50,9 @@ const Index = (props: any) => {
                     <div className="heading text-center">
                         <h6>Competitive rates and pricing for superior service</h6>
                         <h4>Our expertise spans both outsourcing and outstaffing</h4>
+                        <p>
+                        For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
+                        </p>
                     </div>
                     <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-2">
                         <PricingCard title="Outsourcing" 
