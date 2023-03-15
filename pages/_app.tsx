@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <Suspense>
                 <Head>
                 <meta charSet="UTF-8" />
-            <title>Vasilkoff Ltd - Software Development Services</title>
+            <title>Software Development Services</title>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -37,11 +37,11 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:title" content="Vasilkoff Ltd - Software Development Services" />
             <meta property="og:site_name" content="Vasilkoff Ltd" />
             <meta property="og:url" content="https://vasilkoff.com" />
-            <meta property="og:description" content="Vasilkoff Ltd is a full-stack development company offering web & mobile app development: blockchain, DApps, smart contracts development." />
+            <meta property="og:description" content="Full-stack software development company offering outsourcing and outstaffing web & mobile apps development of simple and complex projects. Can use blockchain, AI and machine learning" />
             <meta property="og:type" content="product" />
             <meta property="og:image" content="/vasilkoff-cover-1024x583.jpg" />
             <meta content="origin" name="referrer" />
-            <meta content="/images/LOGO-vasilkoff-1024x475.png" itemProp="image" />
+            <meta content="/images/cover.png" itemProp="image" />
                     
                     
                 </Head>
