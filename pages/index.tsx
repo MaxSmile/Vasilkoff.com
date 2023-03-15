@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import TeamMember from "../components/TeamMember";
 import Services from '../components/Services';
 import PricingCard from '../components/PricingCard';
+import AIContacts from '../components/AIContacts';
 
 const Index = (props: any) => {
     return (
@@ -55,7 +56,7 @@ const Index = (props: any) => {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-2">
-                        <PricingCard title="Outsourcing" 
+                        <PricingCard title="Outsourcing" id="outsourcing" 
                         period="Hourly flat rate" 
                         price="from $40" per="hour"
                         plusArray={[
@@ -70,7 +71,7 @@ const Index = (props: any) => {
                             "May have less ownership of the project and deliverables",
                             "May have higher costs due to additional overhead and management fees"
                         ]}/>
-                        <PricingCard title="Outstaffing" 
+                        <PricingCard title="Outstaffing" id="outstaffing"
                         period="Monthly static payment" 
                         price="from $2000" per="month"
                         plusArray={[
@@ -397,11 +398,19 @@ const Index = (props: any) => {
                     </div>
                 </div>
             </section>
-
-
+         
+ <section  className="relative overflow-x-hidden border-t-2 
+ border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
+                <div className="items-center justify-center lg:flex">
+                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
+                    </div>
+                </div>
+            </section>
+        <div id="talkToUs" >&nbsp;</div>
 
             {/* <Testimonial /> */}
-
+            <AIContacts />
         </div>
     );
 };
