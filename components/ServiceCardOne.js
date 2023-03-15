@@ -1,72 +1,62 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
-import Tilt from 'react-parallax-tilt';
-import { camelCaseToDashed } from './helpers/utilities';
+import { PlayBtn } from 'react-bootstrap-icons';
+
 
 
 const ServiceCardOne = (
     {
-        column,
-        serviceClass,
-        index,
-        activeIndex,
-        data,
-        changeActive,
-        alignment = 'center',
+        title,
+        message,
+        icon,
     }
 ) => {
-    const [textAlignment, setTextAlignment] = useState('text-center');
-
-    useEffect(() => {
-        if (alignment === 'center') setTextAlignment('text-center');
-        else if (alignment === 'right') setTextAlignment('text-end');
-        else setTextAlignment('text-start');
-    }, [alignment]);
 
     return (
-        <div className={column} data-aos="aos-fade-in-up">
-            <Tilt tiltMaxAngleX={7} tiltMaxAngleY={7}>
-                <div
-                    className={`axil-service axil-control paralax-image ${serviceClass} ${textAlignment} ${
-                        activeIndex === index ? "active" : ""
-                    }`}
-                    onMouseEnter={() => changeActive(index)}
-                >
-                    <div className="inner">
-                        <div className={`icon ${data.iconColorClass}`}>
-                            <div className="icon-inner">
-                                <div className="layer-image">
-                                    <Image
-                                        width={50}
-                                        height={49}
-                                        src={data.imageLayer}
-                                        alt="Icon Images"
-                                    />
+        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div
+                                className="group rounded-3xl border-2 border-white bg-white p-6 transition duration-500 hover:border-secondary"
+                                style={{
+                                    boxShadow: '-20px 30px 70px rgba(219, 222, 225, 0.4)',
+                                }}
+                            >
+                                <div
+                                    className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary transition group-hover:bg-black"
+                                    style={{
+                                        boxShadow: '0px 15px 30px rgba(180, 118, 229, 0.4)',
+                                    }}
+                                >
+                                    {icon}
                                 </div>
-                     
+                                <Link
+                                    href="/services-detail"
+                                    className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
+                                >
+                                    {title}
+                                </Link>
+                                <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
+                                {message}
+                                </p>
+                                <Link
+                                    href="/services-detail"
+                                    className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
+                                >
+                                    <svg
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 20 20"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="text-black transition group-hover:text-white dark:text-white"
+                                    >
+                                        <path
+                                            d="M9.41083 14.4109L10.5892 15.5892L16.1783 10.0001L10.5892 4.41089L9.41083 5.58922L12.9883 9.16672H5V10.8334H12.9883L9.41083 14.4109Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                </Link>
                             </div>
                         </div>
-                        <div className="content">
-                            <h4 className="title">
-                                <Link
-                                    href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
-                            </h4>
-                            <p>{data.description}</p>
-                            <Link
-                                className="axil-button"
-                                data-hover="Learn More"
-                                href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
-                            >
-                              
-                                    Learn More
-                                
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </Tilt>
-        </div>
     );
 };
 

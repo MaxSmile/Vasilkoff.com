@@ -19,6 +19,9 @@
     .heading h4 {
         @apply text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-[40px] lg:!leading-[50px];
     }
+    /* h1,h2,h2,h4 {
+        @apply text-secondary;
+    } */
     .portfolio-filter .filter.active button {
         @apply bg-secondary text-white;
     }

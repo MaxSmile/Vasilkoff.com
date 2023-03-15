@@ -73,14 +73,14 @@ const Header = (props: any) => {
                                         Portfolio
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link
                                         href="/services"
                                         className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
                                     >
                                         Service
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
                                         Team

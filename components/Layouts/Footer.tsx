@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { Col, Container, Row } from "react-bootstrap";
-import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill } from 'react-bootstrap-icons';
+import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, Geo, GeoAlt } from 'react-bootstrap-icons';
 
 const Footer = () => {
     return (
         <>
-            <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
+            <section id="talkToUs" className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
                 <div className="items-center justify-center lg:flex">
                     <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
                         <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
@@ -15,17 +15,7 @@ const Footer = () => {
             <section className="bg-white">
                 <Container>
                     <div className="relative z-10 lg:flex">
-                        <div className="heading text-center lg:mb-0 lg:w-1/3 lg:pr-10 lg:text-left text-light my-20">
 
-                            <div
-                                className="mx-auto"
-                                data-aos='fade-right'
-                                data-aos-duration="1000"
-                            >
-                                <hr />
-                            </div>
-                            <img src="/images/answer.png" alt="Answer" className="w-full" />
-                        </div>
                         <form action="" className="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-2/3 lg:px-8">
                             <div className="grid gap-10 sm:grid-cols-2">
                                 <div className="relative">
@@ -194,7 +184,17 @@ const Footer = () => {
                             </div>
                         </form>
 
+                        <div className="heading text-center lg:mb-0 lg:w-1/3 lg:pr-10 lg:text-left text-light my-20">
 
+                            <div
+                                className="mx-auto"
+                                data-aos='fade-right'
+                                data-aos-duration="1000"
+                            >
+                                <hr />
+                            </div>
+                            <img src="/images/answer.png" alt="Answer" className="w-full" />
+                        </div>
                     </div>
                 </Container>
             </section>
@@ -237,17 +237,22 @@ const Footer = () => {
                             </ul>
                             <ul>
                                 <li>Vasilkoff (CY) Ltd Reg. HE 344792</li>
-                                <li>ATHINODOROU BUSINESS CENTER Office 402</li>
-                                <li>Charalambou Mouskou & Grigori Afxentiou 20</li>
-                                <li>Paphos 8010</li>
+                            </ul>
+                            <ul className="my-2">
 
-                                <li><CardText className="inline-block" />&nbsp;VAT #CY10344792Y TIC 12344792A</li>
-                                <li><Whatsapp className="inline-block" />&nbsp;<a href="https://wa.link/drf9vm" target="_blank">+35796253566</a></li>
-                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+35799169229" target="_blank">+35799169229</a></li>
-                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a href="mailto:sp@vasilkoff.com" target="_blank">sp@vasilkoff.com</a></li>
-                                <li><GeoAltFill className="inline-block" />&nbsp;<a href="https://g.page/Vasilkoff-com?share" target="_blank"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
+
+                                <li><CardText className="inline-block" />&nbsp;<span className="text-sm">VAT #CY10344792Y TIC 12344792A</span></li>
+                                <li><Whatsapp className="inline-block" />&nbsp;<a className="text-sm" href="https://wa.link/drf9vm" target="_blank">+35796253566</a></li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+35799169229" target="_blank">+35799169229</a></li>
+                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:sp@vasilkoff.com" target="_blank">sp@vasilkoff.com</a></li>
+                                <li><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
 
                             </ul>
+                            <p className="text-xs my-2">
+                                <GeoAlt className="inline-block" />&nbsp;ATHINODOROU BUSINESS CENTER Office 402
+                                Charalambou Mouskou & Grigori Afxentiou 20
+                                Paphos 8010
+                            </p>
 
                         </div>
                         <div>
@@ -257,10 +262,10 @@ const Footer = () => {
                             <ul >
                                 <li>Vasilkoff Ltd Reg. 07976437</li>
                                 <li>207 Regent Street, London W1B 3HH</li>
-                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+18882614460" target="_blank">+1-888-2614460</a></li>
-                                <li><TelephoneFill className="inline-block" />&nbsp;<a href="tel:+442045772478" target="_blank">+442045772478</a></li>
-                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a href="mailto:maxim@vasilkoff.com" target="_blank">maxim@vasilkoff.com</a></li>
-                                <li><Telegram className="inline-block" />&nbsp;<a href="https://t.me/Vasilkoff" target="_blank">Vasilkoff</a></li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460" target="_blank">+1-888-2614460</a></li>
+                                <li><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478" target="_blank">+442045772478</a></li>
+                                <li><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank">maxim@vasilkoff.com</a></li>
+                                <li><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank">Vasilkoff</a></li>
                             </ul>
                         </div>
                     </div>
