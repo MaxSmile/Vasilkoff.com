@@ -1280,9 +1280,9 @@ const Crypto = (props: any) => {
                 </div>
             </section>
 
-            <section className="bg-gradient-to-t from-white to-transparent py-12 dark:bg-none lg:py-24">
+            {/* <section className="bg-gradient-to-t from-white to-transparent py-12 dark:bg-none lg:py-24">
                 <Faq showTitle={true} />
-            </section>
+            </section> */}
 
            
         </div>

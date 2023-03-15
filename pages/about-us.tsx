@@ -198,71 +198,7 @@ const Aboutus = () => {
                 <CounterComponent title="Company Facts" />
             </section>
 
-            <section className="relative py-14 lg:py-[100px] xl:-mt-[100px]">
-                <div className="absolute top-0 z-[1] h-full w-full bg-white ltr:left-0 rtl:right-0 dark:bg-black xl:w-[85%] xl:rounded-r-[32px]"></div>
-                <div className="absolute -top-3 hidden h-full w-full rounded-r-[32px] bg-white/50 ltr:left-3 rtl:right-3 dark:bg-gray-dark xl:inline-block xl:w-[85%]"></div>
-                <div className="container relative z-[2] ltr:xl:pr-40 rtl:xl:pl-40">
-                    <div className="lg:w-2/3">
-                        <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h6>How it works?</h6>
-                            <h4>Here are 3 working steps to organize our business projects.</h4>
-                        </div>
-                        <p className="pb-10 text-center text-lg font-semibold leading-[30px] ltr:lg:text-left rtl:lg:text-right">
-                            Find out everything you need to know and more about how we create our business process models.
-                        </p>
-                    </div>
-                    <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
-                        <div data-aos="fade-up" data-aos-duration="1000">
-                            <div
-                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
-                            hover:border-secondary hover:bg-transparent"
-                            >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    01
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Collect Ideas</h6>
-                                    <p className="text-sm font-semibold text-black dark:text-gray">
-                                        The generated Lorem Ipsum is therefore always free from repetition.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-duration="1000">
-                            <div
-                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
-                            hover:border-secondary hover:bg-transparent"
-                            >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    02
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Data Analysis</h6>
-                                    <p className="text-sm font-semibold text-black dark:text-gray">
-                                        There are many variations of passages of Lorem Ipsum available
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-duration="1000">
-                            <div
-                                className="flex items-start gap-[10px] rounded-[10px] border border-transparent bg-secondary/10 py-6 px-5 transition
-                            hover:border-secondary hover:bg-transparent"
-                            >
-                                <span className="flex h-[50px] w-[50px] min-w-[50px] items-center justify-center rounded-full bg-secondary text-lg text-white">
-                                    03
-                                </span>
-                                <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Finalize Product</h6>
-                                    <p className="text-sm font-semibold text-black dark:text-gray">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">

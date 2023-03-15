@@ -52,40 +52,40 @@ const Index = (props: any) => {
                         <h6>Competitive rates and pricing for superior service</h6>
                         <h4>Our expertise spans both outsourcing and outstaffing</h4>
                         <p>
-                        For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
+                            For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-2">
-                        <PricingCard title="Outsourcing" id="outsourcing" 
-                        period="Hourly flat rate" 
-                        price="from $40" per="hour"
-                        plusArray={[
-                            "Access to specialized expertise and skills",
-                            "Opportunity to work with established teams and companies",
-                            "Flexibility to scale resources up or down as needed",
-                            "Lower management overhead"
-                        ]} minusArray={[
-                            "Limited control over project management and team dynamics",
-                            "May have less transparency into the development process",
-                            "Communication and collaboration may be more challenging",
-                            "May have less ownership of the project and deliverables",
-                            "May have higher costs due to additional overhead and management fees"
-                        ]}/>
+                        <PricingCard title="Outsourcing" id="outsourcing"
+                            period="Hourly flat rate"
+                            price="from $40" per="hour"
+                            plusArray={[
+                                "Access to specialized expertise and skills",
+                                "Opportunity to work with established teams and companies",
+                                "Flexibility to scale resources up or down as needed",
+                                "Lower management overhead"
+                            ]} minusArray={[
+                                "Limited control over project management and team dynamics",
+                                "May have less transparency into the development process",
+                                "Communication and collaboration may be more challenging",
+                                "May have less ownership of the project and deliverables",
+                                "May have higher costs due to additional overhead and management fees"
+                            ]} />
                         <PricingCard title="Outstaffing" id="outstaffing"
-                        period="Monthly static payment" 
-                        price="from $2000" per="month"
-                        plusArray={[
-                            "High level of control over project management and team dynamics",
-                            "Clear communication and collaboration with the team",
-                            "Access to highly skilled talent without long-term hiring commitments",
-                            "High level of ownership over the project and deliverables",
-                            "Lower overall cost compared to outsourcing"
-                        ]} minusArray={[
-                            "Require more management and oversight",
-                            "Require more time and effort to assemble a team",
-                            "Require more time to ramp up and begin development",
-                            "Require more effort to establish company culture and team dynamics"
-                        ]}/>
+                            period="Monthly static payment"
+                            price="from $2000" per="month"
+                            plusArray={[
+                                "High level of control over project management and team dynamics",
+                                "Clear communication and collaboration with the team",
+                                "Access to highly skilled talent without long-term hiring commitments",
+                                "High level of ownership over the project and deliverables",
+                                "Lower overall cost compared to outsourcing"
+                            ]} minusArray={[
+                                "Require more management and oversight",
+                                "Require more time and effort to assemble a team",
+                                "Require more time to ramp up and begin development",
+                                "Require more effort to establish company culture and team dynamics"
+                            ]} />
 
                     </div>
                 </div>
@@ -398,16 +398,15 @@ const Index = (props: any) => {
                     </div>
                 </div>
             </section>
-         
- <section  className="relative overflow-x-hidden border-t-2 
- border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
+
+            <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
                 <div className="items-center justify-center lg:flex">
                     <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
                         <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
                     </div>
                 </div>
             </section>
-        <div id="talkToUs" >&nbsp;</div>
+            <div id="talkToUs" >&nbsp;</div>
 
             {/* <Testimonial /> */}
             <AIContacts />
