@@ -1,22 +1,28 @@
 import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import blogs from '../../data/blogs.json';
 
 const Blogdetail = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-
+    const router = useRouter();
+    const { id } = router.query;
+    const blog = blogs[id];
+    if (!blog) {
+         router.push('/404')
+         return null;
+      }
     return (
         <div>
             <Head>
-                <title>Blog Detail | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Blog Detail | ...</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Project Management</h6>
-                                <h4 className="!text-white">Why is JIRA important for managing projects?</h4>
+                                <h6>{id}</h6>
+                                <h4 className="!text-white">{blog.title}</h4>
                                 <ul className="items-center justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
                                         <img src="/assets/images/sophia-avtar.png" alt="avtar" />
@@ -32,7 +38,7 @@ const Blogdetail = () => {
                             </div>
                             <div
                                 className="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
-                                data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                data-aos= 'fade-left'
                                 data-aos-duration="1000"
                             >
                                 <img

@@ -25,8 +25,8 @@ const Aboutus = () => {
                             In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a
                             typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
                         </p>
-                        <Link href="/career" className="btn capitalize text-white">
-                            Join Our Team
+                        <Link href="/contact-us" className="btn capitalize text-primary">
+                            Work with us
                         </Link>
                     </div>
                 </div>

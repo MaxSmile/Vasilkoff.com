@@ -23,8 +23,7 @@ const Contactus = () => {
                             <h4>Start working with us</h4>
                         </div>
                         <p className="text-lg font-bold">
-                            We specialize in outsourcing and outstaffing software development services
-                            to help your organization achieve its goals faster, with high-quality customized solutions.
+                        We provide outsourcing and outstaffing software development services
                         </p>
                         <div className="mt-12 flex items-center justify-between gap-4 font-extrabold sm:gap-7">
                             <Link href="#outsourcing" className="btn w-full bg-secondary text-base capitalize text-white hover:bg-gray/10 hover:text-gray sm:text-lg">
@@ -103,7 +102,7 @@ const Contactus = () => {
                     </div>
                 </div>
             </section>
-            
+
             <OfficeSwiper />
 
 
