@@ -2,13 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+#over {
+    background-image: url(/images/over.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-attachment: scroll;
+}
+#bg {
+    background-image: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-attachment: scroll;
+}
+
 @layer components {
     html {
         @apply scroll-smooth;
     }
 
     .btn {
-        @apply inline-block rounded-2xl bg-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition  hover:scale-105 hover:bg-secondary;
+        border-width: 1px;
+        @apply inline-block rounded-2xl bg-white border-solid border-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition  hover:scale-105 hover:bg-secondary hover:text-white;
     }
     .heading {
         @apply mb-10 lg:mb-14;

@@ -22,9 +22,9 @@ const ServiceCardOne = (
                             >
                                 <div
                                     className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary transition group-hover:bg-black"
-                                    style={{
-                                        boxShadow: '0px 15px 30px rgba(180, 118, 229, 0.4)',
-                                    }}
+                                    // style={{
+                                    //     boxShadow: '0px 15px 30px rgba(180, 118, 229, 0.4)',
+                                    // }}
                                 >
                                     {icon}
                                 </div>
@@ -34,7 +34,7 @@ const ServiceCardOne = (
                                 >
                                     {title}
                                 </Link>
-                                <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
+                                <p className="mb-10 text-lg  transition line-clamp-5 group-hover:text-secondary">
                                 {message}
                                 </p>
                                 <Link
