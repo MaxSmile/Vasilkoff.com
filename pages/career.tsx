@@ -6,7 +6,6 @@ import Lightbox from 'react-18-image-lightbox';
 import 'react-18-image-lightbox/style.css';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import Contactus from '../components/ContactUs';
 
 const items = [
     '/assets/images/gallery-1.png',
