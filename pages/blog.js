@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import Link from 'next/link';
 import Head from 'next/head';
 import { IRootState } from '../store';
-import blogs from '../data/blogs.json';
+import {blogs} from '../data/blogs';
 import BlogCard from '../components/BlogCard';
 
 const Blog = () => {
@@ -18,8 +18,8 @@ const Blog = () => {
                     
                     <div className="grid gap-x-[30px] gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
 
-                        {keys.map((key, index) => (
-                            <BlogCard key={index} blog={blogs[key]} />
+                        {keys.map((item, index) => (
+                            <BlogCard key={index} blog={blogs[item]} slug={item}/>
                         ))}
 
                     </div>
