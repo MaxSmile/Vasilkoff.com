@@ -332,7 +332,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-1.png" alt="cases-1" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -346,7 +346,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-2.png" alt="cases-2" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -360,7 +360,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-3.png" alt="cases-3" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -374,7 +374,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-4.png" alt="cases-4" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -388,7 +388,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[606px]">
                                 <img src="/assets/images/cases-5.png" alt="cases-5" className="h-full w-full rounded-t-[32px] object-cover" />
                             </div>
