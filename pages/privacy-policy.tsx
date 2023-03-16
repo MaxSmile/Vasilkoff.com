@@ -12,7 +12,7 @@ const Privacypolicy = () => {
                 <title>Privacy Policy</title>
             </Head>
             <Container className=" md:pt-[100px] pb-5 text-lg font-medium">
-                <div className="pb-12 mt-20 space-y-2">
+                <div className="pb-12 mt-20 space-y-2 prose">
                     <h4 className="pb-5 text-xl font-bold text-black sm:text-2xl">Privacy Policy</h4>
                     <p>
                         At Vasilkoff (CY) Ltd, accessible at vasilkoff.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by  Vasilkoff (CY) Ltd and how we use it.

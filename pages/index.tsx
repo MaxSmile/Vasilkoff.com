@@ -36,8 +36,11 @@ const Index = (props: any) => {
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <Container className="space-y-8">
                     <div className="heading text-center">
-                        <h6>High - Impact Services</h6>
+                        <h6>Achieve Your Goals with Our High-Impact Services</h6>
                         <h4>We help with</h4>
+                        <p className="my-10">
+                        These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients. 
+                        </p>
                     </div>
 
                     <Services />
@@ -51,7 +54,7 @@ const Index = (props: any) => {
                     <div className="heading text-center">
                         <h6>Competitive rates and pricing for superior service</h6>
                         <h4>Our expertise spans both outsourcing and outstaffing</h4>
-                        <p>
+                        <p className="my-10">
                             For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
                         </p>
                     </div>
@@ -406,7 +409,7 @@ const Index = (props: any) => {
                     </div>
                 </div>
             </section>
-            <div id="talkToUs" >&nbsp;</div>
+            <div id="talkToUs" className="relative -top-20">&nbsp;</div>
 
             {/* <Testimonial /> */}
             <AIContacts />
