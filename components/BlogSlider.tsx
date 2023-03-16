@@ -7,8 +7,8 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
 const BlogSlider = ({
-    title1 = '',
-    title2 = '',
+    title1 = 'Blogs',
+    title2 = 'Related Blogs',
     blogs = [
         {
             id: 1,
@@ -36,18 +36,18 @@ const BlogSlider = ({
         },
     ],
     type = 'service',
-    className = '',
 }) => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-
+    
     return (
-        <section className={`py-14 lg:py-[100px] ${className}`}>
+        <section className="py-14 lg:py-[100px]" >
             <div className="container">
                 <div className={`flex flex-col items-center justify-center lg:flex-row lg:justify-between ${title1.length > 0 ? '' : 'mb-10'}`}>
+                    
                     <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${title1.length > 0 ? '' : 'mb-0'}`}>
                         {title1.length > 0 && <h6 className={type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}>{title1}</h6>}
                         {title2.length > 0 && <h4>{title2}</h4>}
                     </div>
+
                     <div className="mb-8 flex items-center justify-end gap-4 lg:mb-0">
                         <Link
                             href="/blog"
@@ -115,8 +115,8 @@ const BlogSlider = ({
                             slidesPerView: 3,
                         },
                     }}
-                    dir={isRtl ? 'rtl' : 'ltr'}
-                    key={isRtl ? 'true' : 'false'}
+                    dir='ltr'
+                    key= 'false'
                 >
                     {type.toLowerCase() === 'service' &&
                         blogs.map((blog: any, i: number) => {

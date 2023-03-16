@@ -4,14 +4,16 @@ import { useRouter } from 'next/router';
 import { blogs } from '../../data/blogs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import Error404 from '../404';
+import { ProjectorFill } from 'react-bootstrap-icons';
+import BlogSlider from '../../components/BlogSlider';
 
 const Blogdetail = () => {
     const router = useRouter();
     const { id } = router.query;
     const blog = blogs[id];
     if (!blog) {
-        router.push('/404')
-        return null;
+        return <Error404 />;
     }
     return (
         <div>
@@ -27,14 +29,14 @@ const Blogdetail = () => {
                                 <h4 className="!text-white">{blog.title}</h4>
                                 <ul className="items-center justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
-                                        <img src="/assets/images/sophia-avtar.png" alt="avtar" />
-                                        <span className="px-4 font-semibold sm:text-lg">Sophia Reyes</span>
+                                        <ProjectorFill />
+                                        <span className="px-4 font-semibold sm:text-lg">Maxim Vasilkov</span>
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        June 2, 2021
+                                        March 16, 2023
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        3 mins read
+                                        2 mins read
                                     </li>
                                 </ul>
                             </div>
@@ -61,6 +63,7 @@ const Blogdetail = () => {
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown></div>
                 </div>
             </section>
+            <BlogSlider title2="Related articles" />
         </div>
     );
 };
