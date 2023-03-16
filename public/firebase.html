@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Firebase Anonymous Authentication</title>
   <!-- Firebase SDK -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js';
-    import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js';
+    import { getAuth, signInAnonymously, onAuthStateChanged, updateProfile, updateEmail } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js';
     import { httpsCallable, getFunctions } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-functions.js';
 
     const firebaseConfig = {
-        apiKey: "AIzaSyCO85HA4C5Wi0YWdjM4g8rBs9kJggPgXeE",
-        authDomain: "vasilkoffcom-1532682115746.firebaseapp.com",
-        databaseURL: "https://vasilkoffcom-1532682115746-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "vasilkoffcom-1532682115746",
-        storageBucket: "vasilkoffcom-1532682115746.appspot.com",
-        messagingSenderId: "984244302774",
-        appId: "1:984244302774:web:32d5800f25cebf27a48717",
-        measurementId: "G-4SQX3RQYV3"
-      };
+      apiKey: "AIzaSyCO85HA4C5Wi0YWdjM4g8rBs9kJggPgXeE",
+      authDomain: "vasilkoffcom-1532682115746.firebaseapp.com",
+      databaseURL: "https://vasilkoffcom-1532682115746-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vasilkoffcom-1532682115746",
+      storageBucket: "vasilkoffcom-1532682115746.appspot.com",
+      messagingSenderId: "984244302774",
+      appId: "1:984244302774:web:32d5800f25cebf27a48717",
+      measurementId: "G-4SQX3RQYV3"
+    };
     // Initialize Firebase
     const firebaseApp = initializeApp(firebaseConfig);
-    console.log("firebaseApp",firebaseApp);
+    console.log("firebaseApp", firebaseApp);
     const auth = getAuth(firebaseApp);
     const functions = getFunctions(firebaseApp);
 
-    console.log("auth",auth);
+    console.log("auth", auth);
     signInAnonymously(auth).then(() => {
+
       console.log("Authenticated anonymously");
       // Call the addMessage function with a parameter 'text'
-      const addMessage = httpsCallable(functions,'addMessage');
+      const addMessage = httpsCallable(functions, 'addMessage');
       document.getElementById('submit-btn').addEventListener('click', () => {
-        let text = document.getElementById('text-input').value;
+        var text = document.getElementById('text-input').value;
         document.getElementById('result').innerHTML += "You: " + text + "<br>";
-
-        try{
-          addMessage({text: text}).then((result) => {
+        document.getElementById('text-input').value = '';
+        document.getElementById('submit-btn').disabled = true;
+      updateProfile(auth.currentUser, {
+        displayName: "John Smith"
+      }).then(() => {
+        // Profile updated!
+        try {
+          addMessage({ text: text,model:"Model" }).then((result) => {
             console.log("Function call result:", result.data);
-            document.getElementById('result').innerHTML += "Bot: " + result.data + "<br>";
+            document.getElementById('result').innerHTML += "Anastasia: " + result.data.text + "<br>";
+            document.getElementById('submit-btn').disabled = false;
           }).catch((error) => {
             console.error("Function call error:", error);
             document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
           });
-        }catch(e){console.log("e",e);}
+        } catch (e) { console.log("e", e); }
+      }).catch((error) => {
+        // An error occurred
+        console.error("Function call error:", error);
+        document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
+      });
+      
+
+
 
 
       });
@@ -52,10 +68,17 @@
     });
   </script>
 </head>
+
 <body>
-  <h1>Firebase Anonymous Authentication</h1>
-  <div id="result"></div>
-  <input type="text" id="text-input" placeholder="Enter message">
-  <button id="submit-btn">Send</button>
+  <div id="result" style="margin-bottom: 50px;"></div>
+  <div style="position: fixed;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  bottom: 0;">
+    <input type="text" id="text-input" placeholder="Enter message">
+    <button id="submit-btn">Send</button>
+  </div>
 </body>
+
 </html>

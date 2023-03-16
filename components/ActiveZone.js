@@ -2,8 +2,8 @@ export default function ActiveZone() {
 
 
     return (
-        <div>
-            Starting AI...
-        </div>
+        
+        <iframe src="firebase.html" style={{height:"280px",width:"100%"}} />
+        
     );
 }
