@@ -81,14 +81,14 @@ export default function AIContacts() {
                                 </label>
                                 <ChatLeftDots className="absolute top-1/2 -translate-y-1/2 right-4 " />
                             </div>
-                            <div className="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                                <button type="button" className="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
+                            <div className="mt-10 text-center lg:text-right">
+                                <button type="button" className="btn bg-white px-12 capitalize text-secondary  dark:hover:bg-secondary">
                                     Send Message
                                 </button>
                             </div>
                         </form>
 
-                        <div className="heading text-center lg:mb-0 lg:w-1/2 lg:pr-10 lg:text-left text-secondary my-8">
+                        <div className="heading text-center lg:mb-0 lg:w-1/2 lg:pr-10 lg:text-left text-dark my-8">
 
                             <div
                                 className="mx-auto"
