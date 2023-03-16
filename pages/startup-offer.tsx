@@ -615,9 +615,9 @@ const StartupOffer = () => {
 
                 <BlogSlider
                     title1="Blog"
-                    title2="Unlock the latest trends/news"
-                    className="dark:bg-white/[0.03] lg:py-20"
-                    type="modern-saas"
+                    // title2="Unlock the latest trends/news"
+                    // className="dark:bg-white/[0.03] lg:py-20"
+                    // type="modern-saas"
                     blogs={blogs}
                 ></BlogSlider>
 
