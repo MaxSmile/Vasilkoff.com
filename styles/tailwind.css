@@ -15,6 +15,28 @@
     background-attachment: scroll;
 }
 
+.height-60 {
+    height: 60px;
+    transition: all .5s ease;
+} 
+
+
+.height-300 {
+    height: 300px;
+    transition: all 0.5s ease-out;
+}
+
+.topping-0 {
+    top: 0px;
+    transition: all 0.5s ease-out;
+}
+
+.shrink-away {
+    @apply scale-0 duration-500;
+}
+
+
+
 @layer components {
     html {
         @apply scroll-smooth;

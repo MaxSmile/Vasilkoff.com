@@ -1,7 +1,27 @@
+import { useEffect, useRef, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots } from 'react-bootstrap-icons';
+import ActiveZone from './ActiveZone';
 
 export default function AIContacts() {
+    const [activeZone, setActiveZone] = useState(false);
+    const containerRef = useRef();
+    const aicheadRef = useRef();
+    const parentRef = useRef();
+    const chatLeftDotsRef = useRef();
+    const submitMessageBtnRef = useRef();
+
+    const submitMessage = () => {
+        aicheadRef.current?.classList.add("hidden");
+        containerRef.current?.classList.add("height-300");
+        parentRef.current?.classList.add("topping-0");
+        chatLeftDotsRef.current?.classList.add("shrink-away");
+        submitMessageBtnRef.current?.classList.add("shrink-away");
+        containerRef.current.contentEditable = false;
+        setActiveZone(<ActiveZone />)
+    }
+
+    
     return (
         <>
 
@@ -12,7 +32,7 @@ export default function AIContacts() {
                     <div className="relative z-10 lg:flex ">
 
                         <form action="" className="rounded-3xl bg-white px-4 py-12 dark:bg-[#101626] lg:w-1/2 lg:px-8">
-                            <div className="grid gap-10 sm:grid-cols-2">
+                            <div id="aichead" className="grid gap-10 sm:grid-cols-2" ref={aicheadRef}>
                                 <div className="relative">
                                     <input
                                         type="text"
@@ -70,25 +90,30 @@ export default function AIContacts() {
                                     <GeoAlt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                             </div>
-                            <div className="relative mt-10">
-                                <input
-                                    type="text"
+                            <div className="relative top-10" ref={parentRef}>
+                                <div
+                                    contentEditable="true"
                                     name="message"
-                                    className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
-                                />
-                                <label htmlFor="" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
+                                    id="messageContainer"
+                                    ref={containerRef}
+                                    className=" height-60 w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary pr-12"
+                                >{activeZone}</div>
+                                <label htmlFor="message" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
                                     Message
                                 </label>
-                                <ChatLeftDots className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                <ChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
                             </div>
-                            <div className="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
-                                <button type="button" className="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
+                            <div className="mt-20 text-center lg:text-right">
+                                <button type="button" 
+                                    ref={submitMessageBtnRef}
+                                    onClick={submitMessage}
+                                    className="btn bg-white px-12 capitalize text-secondary  dark:hover:bg-secondary">
                                     Send Message
                                 </button>
                             </div>
                         </form>
 
-                        <div className="heading text-center lg:mb-0 lg:w-1/2 lg:pr-10 lg:text-left text-secondary my-8">
+                        <div className="heading text-center lg:mb-0 lg:w-1/2 lg:pr-10 lg:text-left text-dark my-8">
 
                             <div
                                 className="mx-auto"

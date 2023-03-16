@@ -30,7 +30,7 @@ const Header = (props: any) => {
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/images/logo-vasilkoff.png" alt="plurk" className="h-12 w-full" />
+                        <img src="/images/logo-vasilkoff.png" alt="plurk" className="h-12" />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
@@ -56,7 +56,7 @@ const Header = (props: any) => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/services-detail" className={router.pathname === '/services-detail' ? 'active' : ''}>
+                                    <Link href="/services" className={router.pathname === '/services' ? 'active' : ''}>
                                         Services
                                     </Link>
                                 </li>
@@ -68,7 +68,7 @@ const Header = (props: any) => {
                                 <li>
                                     <Link
                                         href="/portfolio"
-                                        className={router.pathname === '/portfolio' || router.pathname === '/portfolio-detail' ? 'active' : ''}
+                                        className={router.pathname === '/portfolio' || router.pathname === '/portfolio/detail' ? 'active' : ''}
                                     >
                                         Portfolio
                                     </Link>

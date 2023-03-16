@@ -5,7 +5,7 @@ import { blogs } from '../../data/blogs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Error404 from '../404';
-import { ProjectorFill } from 'react-bootstrap-icons';
+import { ArrowLeftCircle, ArrowLeftShort, Back, ProjectorFill } from 'react-bootstrap-icons';
 import BlogSlider from '../../components/BlogSlider';
 
 const Blogdetail = () => {
@@ -20,14 +20,14 @@ const Blogdetail = () => {
             <Head>
                 <title>{blog.title}</title>
             </Head>
-            <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
+            <div className=" bg-black bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <h6><u><a href="/blog">Blog</a></u>/{id}</h6>
+                                <h6 className="!text-white"><a href="/blog"><ArrowLeftCircle className="text-2xl"/></a></h6>
                                 <h4 className="!text-white">{blog.title}</h4>
-                                <ul className="items-center justify-center pt-6 sm:flex lg:justify-start">
+                                <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
                                         <ProjectorFill />
                                         <span className="px-4 font-semibold sm:text-lg">Maxim Vasilkov</span>

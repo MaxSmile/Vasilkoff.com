@@ -1,20 +1,18 @@
 import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
+import BlogSlider from '../../components/BlogSlider';
 import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
+//import { IRootState } from '../store';
 import Head from 'next/head';
 
 const Servicesdetail = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
+    //const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
             <Head>
                 <title>Service Detail | ...</title>
             </Head>
-            <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
+            <div className=" bg-black bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="relative items-center py-14 lg:flex lg:py-[100px]">
@@ -30,7 +28,7 @@ const Servicesdetail = () => {
                             </div>
                             <div
                                 className="top-[100px] mt-10 h-96 w-auto ltr:right-0 rtl:left-0 lg:absolute lg:mt-0 lg:h-auto lg:w-2/5"
-                                data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
                                 <img src="/assets/images/services-detail-phone.png" alt="services-detail-phone" className="mx-auto h-full" />
@@ -249,7 +247,7 @@ const Servicesdetail = () => {
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
                                 className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                data-aos= 'fade-right'
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>01
@@ -266,7 +264,7 @@ const Servicesdetail = () => {
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
                                 className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>02
@@ -282,7 +280,7 @@ const Servicesdetail = () => {
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
                                 className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>03
@@ -298,7 +296,7 @@ const Servicesdetail = () => {
                         <li className="flex border-t-2 border-black/5 pt-10 dark:border-gray-dark lg:items-center">
                             <div
                                 className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>04
@@ -334,7 +332,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-1.png" alt="cases-1" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -348,7 +346,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-2.png" alt="cases-2" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -362,7 +360,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-3.png" alt="cases-3" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -376,7 +374,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[355px]">
                                 <img src="/assets/images/cases-4.png" alt="cases-4" className="mx-auto h-full w-full rounded-t-[32px] object-cover" />
                             </div>
@@ -390,7 +388,7 @@ const Servicesdetail = () => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            <Link href="/portfolio-detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
+                            <Link href="/portfolio/detail" className="absolute top-0 z-[1] h-full w-full ltr:left-0 rtl:right-0"></Link>
                             <div className="rounded-t-[32px] md:h-[606px]">
                                 <img src="/assets/images/cases-5.png" alt="cases-5" className="h-full w-full rounded-t-[32px] object-cover" />
                             </div>

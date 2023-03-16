@@ -33,7 +33,7 @@ module.exports = {
             primary: '#990000',
             secondary: '#660000',
             gray: {
-                DEFAULT: '#999',
+                DEFAULT: '#333',
                 dark: '#F6F6F6',
             },
             light:'#F6F6F6',

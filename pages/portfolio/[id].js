@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import ProjectSlider from '../components/ProjectSlider';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
+import ProjectSlider from '../../components/ProjectSlider';
+// import { useSelector } from 'react-redux';
+// import { IRootState } from '../store';
 
-const Portfoliodetail = (props: any) => {
+const Portfoliodetail = (props) => {
 
     return (
         <div>
