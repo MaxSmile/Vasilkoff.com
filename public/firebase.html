@@ -3,7 +3,134 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Firebase Anonymous Authentication</title>
+  <title>Assistant Chat</title>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+    [class*="fontawesome-"]:before {
+      font-family: 'FontAwesome', sans-serif;
+    }
+
+    :root {
+      --gray: #e8e8e8;
+      --white: #ffffff;
+      --textcolor: #666;
+      --them: #FFF;
+      --me: #FFF;
+    }
+
+    html,
+    body {
+      height: 100vh;
+      font: 100%/1.5em "Varela Round", sans-serif;
+      background-color: var(--white);
+    }
+
+
+    body,
+    header,
+    .msg,
+    .toolbar,
+    #form {
+      display: flex;
+    }
+
+    header,
+    .messages,
+    blockquote {
+      padding: .5em;
+    }
+
+    header {
+      background-color: var(--white);
+      color: var(--textcolor);
+      line-height: 0.5em;
+    }
+
+    .contact--details__name {
+      font-weight: normal;
+      font-size: 1.75em;
+    }
+
+    .contact--details__tel {
+      font-size: .875em;
+    }
+
+    #text-input {
+      padding-left: .325em;
+      border: none;
+      flex: 1;
+      background-color: var(--white);
+    }
+
+    .msg {
+      position: relative;
+      margin-bottom: 2em;
+    }
+
+    blockquote {
+      border-radius: .35em;
+      position: relative;
+      display: inline-block;
+      margin: 0;
+      max-width: 90%;
+    }
+
+    .msg--them blockquote::after,
+    .msg--me blockquote::before {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 0;
+      height: 0;
+    }
+
+    .msg--them blockquote {
+      background-color: var(--them);
+    }
+
+    .msg--them blockquote::after {
+      border: .5em solid var(--them);
+      border-color: var(--them) transparent transparent var(--them);
+      top: .5em;
+      right: -1em;
+    }
+
+    .msg--me blockquote {
+      background-color: var(--me);
+      margin-left: 1em;
+    }
+
+    .msg--me blockquote::before {
+      border: .5em solid var(--me);
+      border-color: var(--me) var(--me) transparent transparent;
+      top: .5em;
+      left: -1em;
+    }
+
+    .messages {
+      flex: 1;
+      overflow: auto;
+      background-color: var(--gray);
+    }
+
+    .msg--them {
+      justify-content: flex-end;
+    }
+
+    .msg--them blockquote {
+      order: -1;
+      margin-right: 1em;
+    }
+
+    *:focus {
+      outline: none;
+    }
+
+    .msg-send {
+      padding: 5px;
+    }
+  </style>
   <!-- Firebase SDK -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js';
@@ -34,29 +161,31 @@
       const addMessage = httpsCallable(functions, 'addMessage');
       document.getElementById('submit-btn').addEventListener('click', () => {
         var text = document.getElementById('text-input').value;
-        document.getElementById('result').innerHTML += "You: " + text + "<br>";
+        document.getElementById('result').innerHTML += `<div class="msg msg--them">
+      <blockquote>${text}</blockquote>
+    </div>`;
         document.getElementById('text-input').value = '';
         document.getElementById('submit-btn').disabled = true;
-      updateProfile(auth.currentUser, {
-        displayName: "John Smith"
-      }).then(() => {
-        // Profile updated!
-        try {
-          addMessage({ text: text,model:"Model" }).then((result) => {
-            console.log("Function call result:", result.data);
-            document.getElementById('result').innerHTML += "Anastasia: " + result.data.text + "<br>";
-            document.getElementById('submit-btn').disabled = false;
-          }).catch((error) => {
-            console.error("Function call error:", error);
-            document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
-          });
-        } catch (e) { console.log("e", e); }
-      }).catch((error) => {
-        // An error occurred
-        console.error("Function call error:", error);
-        document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
-      });
-      
+        updateProfile(auth.currentUser, {
+          displayName: "John Smith"
+        }).then(() => {
+          console.log("Profile updated!");
+          try {
+            addMessage({ text: text, model: "Model" }).then((result) => {
+              console.log("Function call result:", result.data);
+              document.getElementById('result').innerHTML += `<div class="msg msg--me">
+      <blockquote>${result.data.text}</blockquote>
+    </div>`;
+              document.getElementById('submit-btn').disabled = false;
+            }).catch((error) => {
+              console.error("Function call error:", error);
+            });
+          } catch (e) { console.log("e", e); }
+        }).catch((error) => {
+          // An error occurred
+          console.error("Function call error:", error);
+        });
+
 
 
 
@@ -66,21 +195,62 @@
       console.error("Authentication error:", error);
       document.getElementById('result').textContent = "Authentication error: " + error.message;
     });
+    //https://stackoverflow.com/questions/25505778/automatically-scroll-down-chat-div
   </script>
 </head>
 
-<body style="display: flex;flex-direction: column;">
-  <div id="result" style="margin-bottom: 50px;border: 1px solid silver;
+<body style="display: flex;
+overflow: hidden; margin: 0; padding:0;
+align-items:stretch;align-content:stretch;
+flex-direction: column;">
+  <header class="contact">
+    <section class="contact--details">
+      <h1 class="contact--details__name">Anastasia</h1>
+      <p class="contact--details__tel">+44 9 555 66 777</p>
+    </section>
+  </header>
+  <section class="messages" id="result">
+    <div class="msg msg--me">
+      <blockquote>Dad! You killed the zombie Flanders!</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>He was a zombie?</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>Grrrr WHY YOU LITTLE...</blockquote>
+    </div>
+    <div class="msg msg--me">
+      <blockquote>It was like that when I got here!</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>Hehehe, that's my boy</blockquote>
+    </div>
+    <div class="msg msg--me">
+      <blockquote>Dad! You killed the zombie Flanders!</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>He was a zombie?</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>Grrrr WHY YOU LITTLE...</blockquote>
+    </div>
+    <div class="msg msg--me">
+      <blockquote>It was like that when I got here!</blockquote>
+    </div>
+    <div class="msg msg--them">
+      <blockquote>Hehehe, that's my boy</blockquote>
+    </div>
+  </section>
+  <div id="form" style="border: 1px solid silver;
   border-radius: 5px;
-  padding: 5px;"></div>
-  <div style="position: fixed;
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding: 5px;
-  bottom: 0;">
+  padding: 5px; margin:1px;
+  ">
     <input type="text" id="text-input" placeholder="Enter message">
-    <button id="submit-btn">Send</button>
+    <button id="submit-btn" class="msg-send">
+      &nbsp;<span class="fontawesome-send">&nbsp;</span>&nbsp;
+    </button>
   </div>
+
 </body>
 
 </html>
