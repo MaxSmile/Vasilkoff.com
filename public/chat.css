@@ -39,6 +39,7 @@ header,
 .messages,
 blockquote {
     padding: .5em;
+    overflow: hidden;
 }
 
 header {

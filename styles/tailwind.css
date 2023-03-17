@@ -20,7 +20,7 @@
 }
 
 .height-60 {
-    height: 60px;
+    height: auto;
     transition: all .5s ease;
 } 
 
