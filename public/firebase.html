@@ -94,7 +94,7 @@ flex-direction: column;" onload="ms()">
         src="https://firebasestorage.googleapis.com/v0/b/vasilkoffcom-1532682115746.appspot.com/o/anastasia-sarlidou.jpg?alt=media&token=d6e4f159-d0f5-4bbb-b395-064400901863"
         alt="profile" class="contact--details__img" />
       <h1 class="contact--details__name">Anastasia</h1>
-      <div class="dot-flashing"></div>
+      <div id="dots" class="dot-flashing"></div>
     </section>
   </header>
   <section class="messages" id="messages">
@@ -132,7 +132,7 @@ flex-direction: column;" onload="ms()">
     </div>
   </section>
   <div id="form" style="padding: 5px; margin:1px;">
-    <input type="text" id="text-input" placeholder="Enter message">
+    <textarea type="text" id="text-input" rows="2" placeholder="Enter message"></textarea>
     <button id="submit-btn" class="msg-send" style="line-height: 0px;
     background: white;
     border: 0px;
