@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@charset "UTF-8";
 
 :root {
     --gray: #e8e8e8;
@@ -6,6 +7,7 @@
     --textcolor: #666;
     --them: #FFF;
     --me: #FFF;
+    --dots-color: #c0c0c0;
 }
 
 html,
@@ -135,3 +137,53 @@ blockquote {
     padding: 5px;
 }
 
+/**
+ * ==============================================
+ * Dot Flashing
+ * ==============================================
+ */
+.dot-flashing {
+position: relative;
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background-color: var(--dots-color);
+color: var(--dots-color);
+animation: dot-flashing 1s infinite linear alternate;
+animation-delay: 0.5s;
+}
+.dot-flashing::before, .dot-flashing::after {
+content: "";
+display: inline-block;
+position: absolute;
+top: 0;
+}
+.dot-flashing::before {
+left: -15px;
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background-color: var(--dots-color);
+color: var(--dots-color);
+animation: dot-flashing 1s infinite alternate;
+animation-delay: 0s;
+}
+.dot-flashing::after {
+left: 15px;
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background-color: var(--dots-color);
+color: var(--dots-color);
+animation: dot-flashing 1s infinite alternate;
+animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+0% {
+    background-color: var(--dots-color);
+}
+50%, 100% {
+    background-color: rgba(152, 128, 255, 0.2);
+}
+}

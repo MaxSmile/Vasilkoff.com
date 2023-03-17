@@ -4,146 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Assistant Chat</title>
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
-    :root {
-      --gray: #e8e8e8;
-      --white: #ffffff;
-      --textcolor: #666;
-      --them: #FFF;
-      --me: #FFF;
-    }
-
-    html,
-    body,input,textarea,button,
-    input:-webkit-autofill,
-    input:-internal-autofill-selected {
-      
-      font: 100%/1.5em "Varela Round", sans-serif;
-      background-color: var(--white);
-    }
-
-    input:-internal-autofill-selected {
-      background-color: white !important;
-    }
-
-    input:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0px 1000px white inset;
-    }
-
-    body,
-    header,
-    .msg,
-    .toolbar,
-    #form {
-      display: flex;
-    }
-
-    header,
-    .messages,
-    blockquote {
-      padding: .5em;
-    }
-
-    header {
-      background-color: var(--white);
-      color: var(--textcolor);
-      line-height: 0.5em;
-      border-bottom: 1px solid silver;
-    }
-
-    .contact--details {
-      gap: 20px;
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-    }
-
-    .contact--details__img {
-      border-radius: 30%;
-      width: 50px;
-      height: 50px;
-    }
-
-    #text-input {
-      padding-left: .325em;
-      border: none;
-      flex: 1;
-      background-color: var(--white);
-    }
-
-    .msg {
-      position: relative;
-      margin-bottom: 2em;
-    }
-
-    blockquote {
-      border-radius: .35em;
-      position: relative;
-      display: inline-block;
-      margin: 0;
-      max-width: 90%;
-    }
-
-    .msg--them blockquote::after,
-    .msg--me blockquote::before {
-      position: absolute;
-      display: block;
-      content: '';
-      width: 0;
-      height: 0;
-    }
-
-    .msg--them blockquote {
-      background-color: var(--them);
-    }
-
-    .msg--them blockquote::after {
-      border: .5em solid var(--them);
-      border-color: var(--them) transparent transparent var(--them);
-      top: .5em;
-      right: -1em;
-    }
-
-    .msg--me blockquote {
-      background-color: var(--me);
-      margin-left: 1em;
-    }
-
-    .msg--me blockquote::before {
-      border: .5em solid var(--me);
-      border-color: var(--me) var(--me) transparent transparent;
-      top: .5em;
-      left: -1em;
-    }
-
-    .messages {
-      flex: 1;
-      overflow: auto;
-      background-color: var(--gray);
-      border-bottom: 1px solid silver;
-    }
-
-    .msg--them {
-      justify-content: flex-end;
-    }
-
-    .msg--them blockquote {
-      order: -1;
-      margin-right: 1em;
-    }
-
-    *:focus {
-      outline: none;
-    }
-
-    .msg-send {
-      padding: 5px;
-    }
-
-
-  </style>
+  <link rel="stylesheet" href="//vasilkoff-com.vercel.app/chat.css">
   <!-- JS -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js';
@@ -233,6 +94,7 @@ flex-direction: column;" onload="ms()">
         src="https://firebasestorage.googleapis.com/v0/b/vasilkoffcom-1532682115746.appspot.com/o/anastasia-sarlidou.jpg?alt=media&token=d6e4f159-d0f5-4bbb-b395-064400901863"
         alt="profile" class="contact--details__img" />
       <h1 class="contact--details__name">Anastasia</h1>
+      <div class="dot-flashing"></div>
     </section>
   </header>
   <section class="messages" id="messages">
