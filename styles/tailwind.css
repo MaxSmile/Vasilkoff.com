@@ -20,6 +20,13 @@
     transition: all .5s ease;
 } 
 
+input:-internal-autofill-selected {
+    background-color: white !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
 
 .height-300 {
     height: 300px;

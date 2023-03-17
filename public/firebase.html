@@ -16,12 +16,21 @@
     }
 
     html,
-    body {
-      height: 100vh;
+    body,input,textarea,button,
+    input:-webkit-autofill,
+    input:-internal-autofill-selected {
+      
       font: 100%/1.5em "Varela Round", sans-serif;
       background-color: var(--white);
     }
 
+    input:-internal-autofill-selected {
+      background-color: white !important;
+    }
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px white inset;
+    }
 
     body,
     header,
@@ -132,6 +141,8 @@
     .msg-send {
       padding: 5px;
     }
+
+
   </style>
   <!-- JS -->
   <script type="module">
@@ -160,31 +171,31 @@
 
     window.proc = () => {
       var text = document.getElementById('text-input').value;
-        if (text && text.trim() != "") {
-          document.getElementById('chat').innerHTML += `<div class="msg msg--them">
+      if (text && text.trim() != "") {
+        document.getElementById('chat').innerHTML += `<div class="msg msg--them">
       <blockquote>${text}</blockquote>
     </div>`;
-          document.getElementById('text-input').value = '';
-          document.getElementById('submit-btn').disabled = true;
-          updateProfile(auth.currentUser, {
-            displayName: "John Smith"
-          }).then(() => {
-            console.log("Profile updated!");
-            try {
-              addMessage({ text: text, model: "Model" }).then((result) => {
-                console.log("Function call result:", result.data);
-                document.getElementById('chat').innerHTML += `<div class="msg msg--me"><blockquote>${result.data.text}</blockquote></div>`;
-                document.getElementById('submit-btn').disabled = false;
-              }).catch((error) => {
-                console.error("Function call error:", error);
-              });
-            } catch (e) { console.log("e", e); }
-          }).catch((error) => {
-            // An error occurred
-            console.error("Function call error:", error);
-          });
+        document.getElementById('text-input').value = '';
+        document.getElementById('submit-btn').disabled = true;
+        updateProfile(auth.currentUser, {
+          displayName: "John Smith"
+        }).then(() => {
+          console.log("Profile updated!");
+          try {
+            addMessage({ text: text, model: "Model" }).then((result) => {
+              console.log("Function call result:", result.data);
+              document.getElementById('chat').innerHTML += `<div class="msg msg--me"><blockquote>${result.data.text}</blockquote></div>`;
+              document.getElementById('submit-btn').disabled = false;
+            }).catch((error) => {
+              console.error("Function call error:", error);
+            });
+          } catch (e) { console.log("e", e); }
+        }).catch((error) => {
+          // An error occurred
+          console.error("Function call error:", error);
+        });
 
-        }
+      }
     }
     // Initialize Firebase
     const firebaseApp = initializeApp(firebaseConfig);
@@ -196,29 +207,31 @@
     signInAnonymously(auth).then(() => {
 
       console.log("Authenticated anonymously");
-      
+
       window.addMessage = httpsCallable(functions, 'addMessage');
 
-      document.getElementById('chat').addEventListener("keyup", ({key}) => {
-          if (key === "Enter") {
-              proc();
-          }
+      document.getElementById('chat').addEventListener("keyup", ({ key }) => {
+        if (key === "Enter") {
+          proc();
+        }
       })
       document.getElementById('submit-btn').addEventListener('click', proc);
-      
+
     }).catch((error) => {
       console.error("Authentication error:", error);
     });
   </script>
 </head>
 
-<body style="display: flex;
+<body style="display: flex; height: 100vh;
 overflow: hidden; margin: 0; padding:0;
 align-items:stretch;align-content:stretch;
 flex-direction: column;" onload="ms()">
   <header class="contact">
     <section class="contact--details">
-      <img src="https://firebasestorage.googleapis.com/v0/b/vasilkoffcom-1532682115746.appspot.com/o/anastasia-sarlidou.jpg?alt=media&token=d6e4f159-d0f5-4bbb-b395-064400901863" alt="profile" class="contact--details__img"/>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/vasilkoffcom-1532682115746.appspot.com/o/anastasia-sarlidou.jpg?alt=media&token=d6e4f159-d0f5-4bbb-b395-064400901863"
+        alt="profile" class="contact--details__img" />
       <h1 class="contact--details__name">Anastasia</h1>
     </section>
   </header>
@@ -262,7 +275,11 @@ flex-direction: column;" onload="ms()">
     background: white;
     border: 0px;
     cursor: pointer;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor"><path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor">
+        <path
+          d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z">
+        </path>
+      </svg>
     </button>
   </div>
 
