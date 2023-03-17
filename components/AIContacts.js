@@ -1,24 +1,42 @@
 import { useEffect, useRef, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots } from 'react-bootstrap-icons';
+import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
 
 export default function AIContacts() {
     const [activeZone, setActiveZone] = useState(false);
-    const containerRef = useRef();
+    
     const aicheadRef = useRef();
     const parentRef = useRef();
     const chatLeftDotsRef = useRef();
     const submitMessageBtnRef = useRef();
 
+    const nameRef = useRef();
+    const emailRef = useRef();
+    const mobileRef = useRef();
+    const messageRef = useRef();
+    const cityRef = useRef();
+
+    const containerRef = messageRef;
+
     const submitMessage = () => {
+        const message = messageRef.current.innerText;
+        messageRef.current.innerHTML = "";
+        setActiveZone(<ActiveZone 
+            name={nameRef.current.value}
+            email={emailRef.current.value}
+            mobile={mobileRef.current.value}
+            message={message}
+            city={cityRef.current.value}
+            />);
+
         aicheadRef.current?.classList.add("hidden");
         containerRef.current?.classList.add("height-300");
         parentRef.current?.classList.add("topping-0");
         chatLeftDotsRef.current?.classList.add("shrink-away");
         submitMessageBtnRef.current?.classList.add("shrink-away");
         containerRef.current.contentEditable = false;
-        setActiveZone(<ActiveZone />)
+        
     }
 
     
@@ -37,6 +55,7 @@ export default function AIContacts() {
                                     <input
                                         type="text"
                                         name="name"
+                                        ref={nameRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
@@ -51,6 +70,7 @@ export default function AIContacts() {
                                     <input
                                         type="email"
                                         name="email"
+                                        ref={emailRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
@@ -65,6 +85,7 @@ export default function AIContacts() {
                                     <input
                                         type="text"
                                         name="mobile"
+                                        ref={mobileRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
@@ -79,6 +100,7 @@ export default function AIContacts() {
                                     <input
                                         type="text"
                                         name="city"
+                                        ref={cityRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
@@ -95,12 +117,16 @@ export default function AIContacts() {
                                     contentEditable="true"
                                     name="message"
                                     id="messageContainer"
-                                    ref={containerRef}
+                                    style={activeZone ? { padding: 0, overflow: "hidden" }:{}}
+                                    ref={messageRef}
                                     className=" height-60 w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary pr-12"
                                 >{activeZone}</div>
-                                <label htmlFor="message" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                    Message
-                                </label>
+                                {!activeZone && (
+                                    <label htmlFor="message" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
+                                        Message
+                                    </label>
+                                )}
+                                
                                 <ChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
                             </div>
                             <div className="mt-20 text-center lg:text-right">
