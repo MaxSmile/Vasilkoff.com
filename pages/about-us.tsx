@@ -5,6 +5,7 @@ import CounterComponent from '../components/CounterComponent';
 import Testimonial from '../components/Testimonial';
 import BlogSlider from '../components/BlogSlider';
 import { IRootState } from '../store';
+import TeamMember from '../components/TeamMember';
 
 const Aboutus = () => {
     return (
@@ -33,53 +34,22 @@ const Aboutus = () => {
                 <img src="/assets/images/about-who-bg.png" alt="about-who-bg" className="-bottom-5 ltr:right-0 rtl:left-0 rtl:rotate-y-180 lg:absolute" />
             </section>
 
-            <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
+            <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h4>Our Visionary Leaders</h4>
+                        <h6>Meet Our Team</h6>
+                        <h4>Ingenious Problem-Solvers</h4>
                     </div>
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="group cursor-pointer text-center">
-                            <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-1.png" alt="leader-1" className="h-full w-full rounded-3xl object-cover object-top" />
-                            </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Aditya Patel
-                            </h4>
-                            <h6 className="text-sm font-bold">Chief Executive Officer</h6>
-                        </div>
-                        <div className="group cursor-pointer text-center">
-                            <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-2.png" alt="leader-2" className="h-full w-full rounded-3xl object-cover object-top" />
-                            </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Audrey Ramirez
-                            </h4>
-                            <h6 className="text-sm font-bold">Chief Operating Officer</h6>
-                        </div>
-                        <div className="group cursor-pointer text-center">
-                            <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-3.png" alt="leader-3" className="h-full w-full rounded-3xl object-cover object-top" />
-                            </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                James Robinson
-                            </h4>
-                            <h6 className="text-sm font-bold">Chief Financial Officer</h6>
-                        </div>
-                        <div className="group cursor-pointer text-center">
-                            <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                                <img src="/assets/images/leader-4.png" alt="leader-4" className="h-full w-full rounded-3xl object-cover object-top" />
-                            </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
-                                Daniel Allen
-                            </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
-                        </div>
+                        <TeamMember name="Maxim Vasilkov" position="CBDO" picture="/images/maxim-vasilkov.png" />
+                        <TeamMember name="Simon Papazov" position="Managing Director" picture="/images/simon-papazov.png" />
+                        <TeamMember name="Anastasia Sarlidou" position="Project Manager" picture="/images/anastasia-sarlidou.png" />
+                        <TeamMember name="Irina Vasilkova" position="Graphics Designer" picture="/images/irina-vasilkova.png" />
                     </div>
                 </div>
             </section>
 
-            <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-[100px]">
+            {/* <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading mb-10 text-center">
                         <h4>Our Path Leaders</h4>
@@ -300,7 +270,7 @@ const Aboutus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <BlogSlider title1="Blog" title2="Unlock the latest trends/news" />
 
