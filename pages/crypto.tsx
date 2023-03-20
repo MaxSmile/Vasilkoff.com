@@ -9,8 +9,7 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
 const Crypto = (props: any) => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-    // success chart
+      // success chart
     const successChartOptions: any = {
         chart: {
             height: 55,
@@ -178,13 +177,13 @@ const Crypto = (props: any) => {
                                 </button>
                             </div>
                             <div>
-                                <img
+                                 <img
                                     src="/assets/images/crypto/crypto-banner.png"
                                     alt="crypto-banner"
                                     className="rtl:rotate-y-0 mx-auto w-full max-w-[560px]"
-                                    data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                    data-aos='fade-left'
                                     data-aos-duration="1000"
-                                />
+                                /> 
                             </div>
                         </div>
                     </div>
@@ -1231,7 +1230,7 @@ const Crypto = (props: any) => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
+                                    <p className="text-lg font-semibold" data-aos='fade-left' data-aos-duration="1000">
                                         Digital Marketing Solutions for Tomorrow
                                     </p>
                                 </div>
@@ -1249,7 +1248,7 @@ const Crypto = (props: any) => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
+                                    <p className="text-lg font-semibold" data-aos= 'fade-left' data-aos-duration="1000">
                                         Our Talented & Experienced Marketing Agency
                                     </p>
                                 </div>
@@ -1267,7 +1266,7 @@ const Crypto = (props: any) => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
+                                    <p className="text-lg font-semibold" data-aos='fade-left' data-aos-duration="1000">
                                         Create your own skin to match your brand
                                     </p>
                                 </div>

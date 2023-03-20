@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Firebase Anonymous Authentication</title>
-  <!-- Firebase SDK -->
+  <title>Assistant Chat</title>
+  <link rel="stylesheet" href="//vasilkoff-com.vercel.app/chat.css">
+  <!-- JS -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js';
     import { getAuth, signInAnonymously, onAuthStateChanged, updateProfile, updateEmail } from 'https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js';
@@ -20,6 +21,43 @@
       appId: "1:984244302774:web:32d5800f25cebf27a48717",
       measurementId: "G-4SQX3RQYV3"
     };
+
+    window.ms = () => {
+      let chat = document.getElementById("chat");
+      let messages = document.getElementById("messages");
+      console.log(messages, chat, "ms", 0, chat.scrollHeight);
+      messages.scrollTo(0, chat.scrollHeight);
+      return chat.scrollHeight;
+    }
+
+    window.proc = () => {
+      var text = document.getElementById('text-input').value;
+      if (text && text.trim() != "") {
+        document.getElementById('chat').innerHTML += `<div class="msg msg--them">
+      <blockquote>${text}</blockquote>
+    </div>`;
+        document.getElementById('text-input').value = '';
+        document.getElementById('submit-btn').disabled = true;
+        updateProfile(auth.currentUser, {
+          displayName: "John Smith"
+        }).then(() => {
+          console.log("Profile updated!");
+          try {
+            addMessage({ text: text, model: "Model" }).then((result) => {
+              console.log("Function call result:", result.data);
+              document.getElementById('chat').innerHTML += `<div class="msg msg--me"><blockquote>${result.data.text}</blockquote></div>`;
+              document.getElementById('submit-btn').disabled = false;
+            }).catch((error) => {
+              console.error("Function call error:", error);
+            });
+          } catch (e) { console.log("e", e); }
+        }).catch((error) => {
+          // An error occurred
+          console.error("Function call error:", error);
+        });
+
+      }
+    }
     // Initialize Firebase
     const firebaseApp = initializeApp(firebaseConfig);
     console.log("firebaseApp", firebaseApp);
@@ -30,57 +68,83 @@
     signInAnonymously(auth).then(() => {
 
       console.log("Authenticated anonymously");
-      // Call the addMessage function with a parameter 'text'
-      const addMessage = httpsCallable(functions, 'addMessage');
-      document.getElementById('submit-btn').addEventListener('click', () => {
-        var text = document.getElementById('text-input').value;
-        document.getElementById('result').innerHTML += "You: " + text + "<br>";
-        document.getElementById('text-input').value = '';
-        document.getElementById('submit-btn').disabled = true;
-      updateProfile(auth.currentUser, {
-        displayName: "John Smith"
-      }).then(() => {
-        // Profile updated!
-        try {
-          addMessage({ text: text,model:"Model" }).then((result) => {
-            console.log("Function call result:", result.data);
-            document.getElementById('result').innerHTML += "Anastasia: " + result.data.text + "<br>";
-            document.getElementById('submit-btn').disabled = false;
-          }).catch((error) => {
-            console.error("Function call error:", error);
-            document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
-          });
-        } catch (e) { console.log("e", e); }
-      }).catch((error) => {
-        // An error occurred
-        console.error("Function call error:", error);
-        document.getElementById('result').innerHTML += "Error: " + error.message + "<br>";
-      });
-      
 
+      window.addMessage = httpsCallable(functions, 'addMessage');
 
+      document.getElementById('chat').addEventListener("keyup", ({ key }) => {
+        if (key === "Enter") {
+          proc();
+        }
+      })
+      document.getElementById('submit-btn').addEventListener('click', proc);
 
-
-      });
     }).catch((error) => {
       console.error("Authentication error:", error);
-      document.getElementById('result').textContent = "Authentication error: " + error.message;
     });
   </script>
 </head>
 
-<body style="display: flex;flex-direction: column;">
-  <div id="result" style="margin-bottom: 50px;border: 1px solid silver;
-  border-radius: 5px;
-  padding: 5px;"></div>
-  <div style="position: fixed;
-  border: 1px solid silver;
-  border-radius: 5px;
-  padding: 5px;
-  bottom: 0;">
-    <input type="text" id="text-input" placeholder="Enter message">
-    <button id="submit-btn">Send</button>
+<body style="display: flex; height: 100vh;
+overflow: hidden; margin: 0; padding:0;
+align-items:stretch;align-content:stretch;
+flex-direction: column;" onload="ms()">
+  <header class="contact">
+    <section class="contact--details">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/vasilkoffcom-1532682115746.appspot.com/o/anastasia-sarlidou.jpg?alt=media&token=d6e4f159-d0f5-4bbb-b395-064400901863"
+        alt="profile" class="contact--details__img" />
+      <h1 class="contact--details__name">Anastasia</h1>
+      <div id="dots" class="dot-flashing"></div>
+    </section>
+  </header>
+  <section class="messages" id="messages">
+    <div id="chat">
+      <div class="msg msg--me">
+        <blockquote>Dad! You killed the zombie Flanders!</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>He was a zombie?</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>Grrrr WHY YOU LITTLE...</blockquote>
+      </div>
+      <div class="msg msg--me">
+        <blockquote>It was like that when I got here!</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>Hehehe, that's my boy</blockquote>
+      </div>
+      <div class="msg msg--me">
+        <blockquote>Dad! You killed the zombie Flanders!</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>He was a zombie?</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>Grrrr WHY YOU LITTLE...</blockquote>
+      </div>
+      <div class="msg msg--me">
+        <blockquote>It was like that when I got here!</blockquote>
+      </div>
+      <div class="msg msg--them">
+        <blockquote>Hehehe, that's my boy</blockquote>
+      </div>
+    </div>
+  </section>
+  <div id="form" style="padding: 5px; margin:1px;">
+    <textarea type="text" id="text-input" rows="2" placeholder="Enter message"></textarea>
+    <button id="submit-btn" class="msg-send" style="line-height: 0px;
+    background: white;
+    border: 0px;
+    cursor: pointer;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor">
+        <path
+          d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z">
+        </path>
+      </svg>
+    </button>
   </div>
+
 </body>
 
 </html>
