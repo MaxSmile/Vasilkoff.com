@@ -3,7 +3,7 @@ import { CodeSlash } from "react-bootstrap-icons";
 export const services = {
   "design":{
     "id": 1,
-    "image": "/assets/images/services-detail-phone.png",
+    "image": "/assets/images/design.png",
     "altImage": "Design from Vasilkoff Ltd",
     "title": "UI/UX Design",
     "description": "Simplify your digital journey with our expert UI/UX design services. Our team creates designs that are both beautiful and functional, delivering a seamless and engaging user experience that captures your audience's attention.",
@@ -49,7 +49,7 @@ export const services = {
   },
   "web-development":{
     "id": 2,
-    "image": "/images/layer.svg",
+    "image": "/assets/images/web-development.png",
     "altImage": "Web Development from Vasilkoff Ltd",
     "icon": <CodeSlash className="text-light"/>,
     "title": "Web Development",
@@ -96,17 +96,11 @@ export const services = {
   },
   "mobile-apps-development":{
     "id": 3,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-
+    "image": "/assets/images/mobile-apps-development.png",
+    "altImage": "Mobile Apps Development from Vasilkoff Ltd",
     "title": "Mobile Apps Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
-    "slug": "online-marketing",
+    "slug": "mobile-apps-development",
     "process": {
       "title": "Our online marketing process",
       "description": "Our comprehensive online marketing strategy ensures enough trafic for your business.",
@@ -148,17 +142,11 @@ export const services = {
   },
   "smart-contracts-development":{
     "id": 4,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-03.svg",
-      "width": "34",
-      "height": "34"
-    },
-
+    "image": "/assets/images/smart-contracts-development.png",
+    "altImage": "Smart Contracts Development from Vasilkoff Ltd",
     "title": "Smart Contracts Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
-    "slug": "business",
+    "slug": "smart-contracts-development",
     "process": {
       "title": "Our business process",
       "description": "Our comprehensive business strategy ensures quality and perfection for our clients.",
@@ -200,17 +188,11 @@ export const services = {
   },
   "dapps-development":{
     "id": 5,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-
+    "image": "/assets/images/dapps-development.png",
+    "altImage": "Dapps Development from Vasilkoff Ltd",
     "title": "Full Stack DApps Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
-    "slug": "technology",
+    "slug": "dapps-development",
     "process": {
       "title": "Our technical process",
       "description": "Our comprehensive technical strategy ensures a perfectly maintained system for your business.",
@@ -252,17 +234,11 @@ export const services = {
   },
   "ai-development":{
     "id": 6,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-
+    "imageLayer": "/assets/images/ai-development.png",
+    "altImage": "AI Development from Vasilkoff Ltd",
     "title": "AI & Machine Learning Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
-    "slug": "content-strategy",
+    "slug": "ai-development",
     "process": {
       "title": "Our content strategy process",
       "description": "Our comprehensive content strategy ensures top class content for your business.",
