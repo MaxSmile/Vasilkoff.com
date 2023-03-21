@@ -1,16 +1,12 @@
-[
-  {
+import { CodeSlash } from "react-bootstrap-icons";
+
+export const services = {
+  "design":{
     "id": 1,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/b1p1.jpg",
-      "width": "23",
-      "height": "36"
-    },
-    "iconColorClass": "",
-    "title": "Design",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
+    "image": "/assets/images/services-detail-phone.png",
+    "altImage": "Design from Vasilkoff Ltd",
+    "title": "UI/UX Design",
+    "description": "Simplify your digital journey with our expert UI/UX design services. Our team creates designs that are both beautiful and functional, delivering a seamless and engaging user experience that captures your audience's attention.",
     "slug": "design",
     "process": {
       "title": "Our design process",
@@ -51,19 +47,14 @@
       ]
     }
   },
-  {
+  "web-development":{
     "id": 2,
-    "imageLayer": "/images/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-02.svg",
-      "width": "41",
-      "height": "24"
-    },
-    "iconColorClass": "gradient-color-02",
-    "title": "Development",
-    "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
-    "category": "Default",
-    "slug": "development",
+    "image": "/images/layer.svg",
+    "altImage": "Web Development from Vasilkoff Ltd",
+    "icon": <CodeSlash className="text-light"/>,
+    "title": "Web Development",
+    "description": "Our team works with a variety of front-end and back-end technologies, CMS, including WordPress, and specializes in major eCommerce platforms like Magento and Shopify.",
+    "slug": "web-development",
     "process": {
       "title": "Our development process",
       "description": "Our comprehensive development strategy ensures a perfectly crafted application for your business.",
@@ -103,7 +94,7 @@
       ]
     }
   },
-  {
+  "mobile-apps-development":{
     "id": 3,
     "imageLayer": "/images/layer.svg",
     "imageIcon": {
@@ -111,8 +102,8 @@
       "width": "34",
       "height": "34"
     },
-    "iconColorClass": "gradient-color-03",
-    "title": "Online marketing",
+
+    "title": "Mobile Apps Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "online-marketing",
@@ -155,7 +146,7 @@
       ]
     }
   },
-  {
+  "smart-contracts-development":{
     "id": 4,
     "imageLayer": "/images/layer.svg",
     "imageIcon": {
@@ -163,8 +154,8 @@
       "width": "34",
       "height": "34"
     },
-    "iconColorClass": "gradient-color-04",
-    "title": "Business",
+
+    "title": "Smart Contracts Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "business",
@@ -207,7 +198,7 @@
       ]
     }
   },
-  {
+  "dapps-development":{
     "id": 5,
     "imageLayer": "/images/layer.svg",
     "imageIcon": {
@@ -215,8 +206,8 @@
       "width": "41",
       "height": "24"
     },
-    "iconColorClass": "gradient-color-06",
-    "title": "Technology",
+
+    "title": "Full Stack DApps Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "technology",
@@ -259,7 +250,7 @@
       ]
     }
   },
-  {
+  "ai-development":{
     "id": 6,
     "imageLayer": "/images/layer.svg",
     "imageIcon": {
@@ -267,8 +258,8 @@
       "width": "41",
       "height": "24"
     },
-    "iconColorClass": "gradient-color-05",
-    "title": "Content strategy",
+
+    "title": "AI & Machine Learning Development",
     "description": "We design professional looking yet simple websites. Our designs are search engine and user friendly.",
     "category": "Default",
     "slug": "content-strategy",
@@ -311,6 +302,7 @@
       ]
     }
   },
+  /*
   {
     "id": 6,
     "imageLayer": "/images/layer.svg",
@@ -2234,5 +2226,5 @@
         }
       ]
     }
-  }
-]
+  }//*/
+};

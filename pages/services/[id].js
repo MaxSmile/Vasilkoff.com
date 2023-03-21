@@ -1,28 +1,32 @@
 import Link from 'next/link';
 import BlogSlider from '../../components/BlogSlider';
-import { useSelector } from 'react-redux';
-//import { IRootState } from '../store';
+import {services} from '../../data/services.js';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import Error404 from '../404';
 
 const Servicesdetail = () => {
-    //const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-
+    const router = useRouter();
+    const { id } = router.query;
+    const serv = services[id];
+    if (!serv) {
+        return <Error404 />;
+    }
     return (
         <div>
             <Head>
-                <title>Service Detail | ...</title>
+                <title>{serv.title}</title>
             </Head>
             <div className=" bg-black bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="relative items-center py-14 lg:flex lg:py-[100px]">
                             <div className="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-3/5">
-                                <h2 className="text-4xl font-black sm:text-5xl sm:leading-[126px] xl:text-[100px]">UI/UX Design</h2>
+                                <h2 className="text-4xl font-black sm:text-5xl sm:leading-[126px] xl:text-[100px]">{serv.title}</h2>
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
-                                    The AppStoneLab team handles the full cycle of mobile app and website design services. We produce only top-notch
-                                    applications and websites with great design UX, UI, navigation, and functionality.
+                                    {serv.description}
                                 </p>
-                                <Link href="/about-us" className="btn mt-2 capitalize text-white">
+                                <Link href="/about-us" className="btn mt-2 capitalize">
                                     Book a free consultation
                                 </Link>
                             </div>
@@ -31,7 +35,7 @@ const Servicesdetail = () => {
                                 data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
-                                <img src="/assets/images/services-detail-phone.png" alt="services-detail-phone" className="mx-auto h-full" />
+                                <img src={serv.image} alt={serv.altImage} className="mx-auto h-full" />
                             </div>
                         </div>
                     </div>
