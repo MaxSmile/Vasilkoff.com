@@ -13,7 +13,7 @@ const BlogCard = (
 
     return (
         <div data-aos="fade-up" data-aos-duration="1000">
-            <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20">
+            <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-gray hover:bg-gray/20">
                 <Link href={"/blog/"+slug} className="absolute top-0 h-full w-full left-0"></Link>
                 <img src={blog.picture} alt={blog.title} className="h-52 w-full rounded-t-3xl object-cover" />
                 <div className="p-5 text-sm font-bold">

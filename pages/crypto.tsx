@@ -7,9 +7,10 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
+import { Check, CheckCircle } from 'react-bootstrap-icons';
 
 const Crypto = (props: any) => {
-      // success chart
+    // success chart
     const successChartOptions: any = {
         chart: {
             height: 55,
@@ -153,6 +154,14 @@ const Crypto = (props: any) => {
         },
     ];
 
+    const blsh = [
+        { number: 100, title: "Projects", suffix: "+", prefix: "" },
+        { number: 8, title: "Own products", suffix: "", prefix: "" },
+        { number: 36, title: "Crypto assets", suffix: "", prefix: "" },
+        { number: 15, title: "Total apps downloads", suffix: "M", prefix: "" }
+    ];
+    const color1 = '#ffffff';
+
     return (
         <div>
             <Head>
@@ -177,13 +186,13 @@ const Crypto = (props: any) => {
                                 </button>
                             </div>
                             <div>
-                                 <img
+                                <img
                                     src="/assets/images/crypto/crypto-banner.png"
                                     alt="crypto-banner"
                                     className="rtl:rotate-y-0 mx-auto w-full max-w-[560px]"
                                     data-aos='fade-left'
                                     data-aos-duration="1000"
-                                /> 
+                                />
                             </div>
                         </div>
                     </div>
@@ -193,7 +202,7 @@ const Crypto = (props: any) => {
             <section className="pt-12">
                 <div className="container">
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="rounded-[18px] bg-white p-4" data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F7931A]">
@@ -232,7 +241,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="rounded-[18px] bg-white p-4" data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#345d9d]">
@@ -275,7 +284,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="rounded-[18px] bg-white p-4" data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F3BA2F]">
@@ -316,7 +325,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="rounded-[18px] bg-white p-4 dark:bg-black" data-aos="fade-up" data-aos-duration="1000">
+                        <div className="rounded-[18px] bg-white p-4" data-aos="fade-up" data-aos-duration="1000">
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#53ae94]">
@@ -366,14 +375,14 @@ const Crypto = (props: any) => {
                     <div className="flex flex-col items-center justify-between gap-10 md:flex-row md:gap-0">
                         <div className="text-center ltr:md:text-left rtl:md:text-right">
                             <h6 className="mb-3 text-lg font-extrabold text-primary sm:mb-4">ABOUT US</h6>
-                            <h2 className="max-w-[457px] text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-[40px] lg:!leading-[50px]">
+                            <h2 className="max-w-[457px] text-2xl font-extrabold text-black sm:text-3xl lg:text-[40px] lg:!leading-[50px]">
                                 You do the business, we’ll handle the money.
                             </h2>
                             <p className="mt-[18px] max-w-[522px] text-lg font-semibold">
                                 With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with
                                 hundreds of credit cards on the market.
                             </p>
-                            <button type="button" className="btn mt-7 text-white">
+                            <button type="button" className="btn mt-7 ">
                                 Get Started
                             </button>
                         </div>
@@ -387,60 +396,36 @@ const Crypto = (props: any) => {
             <section className="py-14 dark:!bg-none lg:py-24">
                 <div className="container">
                     <div className="grid gap-4 sm:grid-cols-2 md:gap-[30px] lg:grid-cols-4" data-aos="fade-up" data-aos-duration="1000">
-                        <div>
-                            <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary">
-                                <div className="text-center">
-                                    <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                        <CountUp start={0} end={10} duration={10} suffix="M+"></CountUp>
-                                    </h4>
-                                    <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">Active Users</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary">
-                                <div className="text-center">
-                                    <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                        <CountUp start={0} end={120} duration={10} suffix="M" prefix="$"></CountUp>
-                                    </h4>
-                                    <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">Already Earned</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary">
-                                <div className="text-center">
-                                    <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                        <CountUp start={0} end={350} duration={10}></CountUp>
-                                    </h4>
-                                    <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">Avg Brating</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-secondary hover:bg-secondary/10 dark:border-transparent dark:bg-black dark:hover:bg-secondary">
-                                <div className="text-center">
-                                    <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
-                                        <CountUp start={0} end={1254} duration={10} suffix="+"></CountUp>
-                                    </h4>
-                                    <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">Collections</span>
-                                </div>
-                            </div>
-                        </div>
+                        {
+                            blsh.map((item: any, i: number) => {
+                                return (
+                                    <div key={i}>
+                                        <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-gray hover:bg-gray/10">
+                                            <div className="text-center">
+                                                <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                                                    <CountUp start={0} end={item.number} duration={10} suffix={item.suffix} prefix={item.prefix}></CountUp>
+                                                </h4>
+                                                <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">{item.title}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                );
+                            })
+                        }
                     </div>
                 </div>
             </section>
 
-            <section className="bg-black py-12 lg:py-24">
+            <section className="bg-gray py-12 lg:py-24">
                 <div className="bg-[url(/assets/images/crypto/background-img.png)] bg-cover bg-center bg-no-repeat">
-                    <div className="container">
+                    <div className="container text-white">
                         <div className="heading text-center">
                             <h6>We Can Shape Your Vision</h6>
                             <h4 className="!text-white">You do the business, we’ll handle the money.</h4>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                             <div
-                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 ltr:sm:border-r rtl:sm:border-l"
+                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 sm:border-r"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -449,21 +434,21 @@ const Crypto = (props: any) => {
                                         <g clipPath="url(#clip0_15_96867)">
                                             <path
                                                 d="M15 18.3333C18.6819 18.3333 21.6666 15.3486 21.6666 11.6667C21.6666 7.98477 18.6819 5 15 5C11.3181 5 8.33331 7.98477 8.33331 11.6667C8.33331 15.3486 11.3181 18.3333 15 18.3333Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M5 35V31.6667C5 29.8986 5.70238 28.2029 6.95262 26.9526C8.20286 25.7024 9.89856 25 11.6667 25H18.3333C20.1014 25 21.7971 25.7024 23.0474 26.9526C24.2976 28.2029 25 29.8986 25 31.6667V35"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M26.6667 18.334H36.6667M31.6667 13.334V23.334"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
@@ -490,7 +475,7 @@ const Crypto = (props: any) => {
                                     <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M15.8889 21.2501L19.6389 25.0001L25.8889 16.2501M20.8889 4.52344C17.1151 8.10716 12.0893 10.0727 6.88556 10.0001C6.22362 12.0167 5.88718 14.1259 5.88889 16.2484C5.88889 25.5684 12.2622 33.3984 20.8889 35.6201C29.5156 33.4001 35.8889 25.5701 35.8889 16.2501C35.8889 14.0668 35.5389 11.9651 34.8922 9.99844H34.6389C29.3122 9.99844 24.4722 7.91844 20.8889 4.52344Z"
-                                            stroke="#47BDFF"
+                                            stroke={color1}
                                             strokeWidth="3"
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
@@ -512,21 +497,21 @@ const Crypto = (props: any) => {
                                         <g clipPath="url(#clip0_15_96884)">
                                             <path
                                                 d="M6.3697 11.9947L18.2664 6.81298C18.4627 6.72884 18.6738 6.68486 18.8874 6.68362C19.101 6.68238 19.3127 6.72392 19.5099 6.80578C19.7072 6.88764 19.8861 7.00816 20.036 7.16025C20.186 7.31234 20.304 7.49291 20.383 7.69132L28.5897 27.528C28.7585 27.9304 28.7634 28.3829 28.6034 28.7889C28.4433 29.1949 28.131 29.5223 27.733 29.7013L15.838 34.883C15.6416 34.9674 15.4303 35.0116 15.2166 35.013C15.0028 35.0143 14.7909 34.9729 14.5935 34.891C14.396 34.8091 14.2169 34.6885 14.0669 34.5363C13.9168 34.384 13.7988 34.2033 13.7197 34.0047L5.51303 14.1663C5.34467 13.7638 5.33998 13.3115 5.49997 12.9057C5.65996 12.4998 5.97199 12.1723 6.3697 11.993V11.9947Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M25.363 6.66602H27.0297C27.4717 6.66602 27.8957 6.84161 28.2082 7.15417C28.5208 7.46673 28.6964 7.89065 28.6964 8.33268V14.166"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M33.6964 10C34.1364 10.1867 34.563 10.3617 34.9764 10.525C35.3832 10.6976 35.7049 11.0248 35.8705 11.4346C36.0362 11.8443 36.0323 12.3031 35.8597 12.71L32.0297 21.6667"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
@@ -554,21 +539,21 @@ const Crypto = (props: any) => {
                                         <g clipPath="url(#clip0_15_96895)">
                                             <path
                                                 d="M30 6.66602H10C7.23858 6.66602 5 8.90459 5 11.666V28.3327C5 31.0941 7.23858 33.3327 10 33.3327H30C32.7614 33.3327 35 31.0941 35 28.3327V11.666C35 8.90459 32.7614 6.66602 30 6.66602Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M15 20.0007C16.841 20.0007 18.3334 18.5083 18.3334 16.6673C18.3334 14.8264 16.841 13.334 15 13.334C13.1591 13.334 11.6667 14.8264 11.6667 16.6673C11.6667 18.5083 13.1591 20.0007 15 20.0007Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
-                                            <path d="M25 13.334H28.3333" stroke="#47BDFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M25 20H28.3333" stroke="#47BDFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M11.6667 26.666H28.3334" stroke="#47BDFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M25 13.334H28.3333" stroke={color1} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M25 20H28.3333" stroke={color1} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M11.6667 26.666H28.3334" stroke={color1} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_15_96895">
@@ -592,26 +577,26 @@ const Crypto = (props: any) => {
                                         <g clipPath="url(#clip0_15_96907)">
                                             <path
                                                 d="M12.5555 31.6667C14.3965 31.6667 15.8889 30.1743 15.8889 28.3333C15.8889 26.4924 14.3965 25 12.5555 25C10.7146 25 9.22221 26.4924 9.22221 28.3333C9.22221 30.1743 10.7146 31.6667 12.5555 31.6667Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M29.2222 31.6667C31.0632 31.6667 32.5556 30.1743 32.5556 28.3333C32.5556 26.4924 31.0632 25 29.2222 25C27.3813 25 25.8889 26.4924 25.8889 28.3333C25.8889 30.1743 27.3813 31.6667 29.2222 31.6667Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M9.22223 28.334H5.8889V21.6673M4.22223 8.33398H22.5556V28.334M15.8889 28.334H25.8889M32.5556 28.334H35.8889V18.334M35.8889 18.334H22.5556M35.8889 18.334L30.8889 10.0007H22.5556"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
-                                            <path d="M5.88889 15H12.5556" stroke="#47BDFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                            <path d="M5.88889 15H12.5556" stroke={color1} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <clipPath id="clip0_15_96907">
@@ -631,21 +616,21 @@ const Crypto = (props: any) => {
                                         <g clipPath="url(#clip0_15_96918)">
                                             <path
                                                 d="M29.068 18.334H12.4013C10.5603 18.334 9.06796 19.8264 9.06796 21.6673V31.6673C9.06796 33.5083 10.5603 35.0007 12.4013 35.0007H29.068C30.9089 35.0007 32.4013 33.5083 32.4013 31.6673V21.6673C32.4013 19.8264 30.9089 18.334 29.068 18.334Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M20.7346 28.3333C21.6551 28.3333 22.4013 27.5871 22.4013 26.6667C22.4013 25.7462 21.6551 25 20.7346 25C19.8141 25 19.0679 25.7462 19.0679 26.6667C19.0679 27.5871 19.8141 28.3333 20.7346 28.3333Z"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M14.0679 18.3333V11.6667C14.0679 9.89856 14.7703 8.20286 16.0206 6.95262C17.2708 5.70238 18.9665 5 20.7346 5C22.5027 5 24.1984 5.70238 25.4487 6.95262C26.6989 8.20286 27.4013 9.89856 27.4013 11.6667V18.3333"
-                                                stroke="#47BDFF"
+                                                stroke={color1}
                                                 strokeWidth="3"
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
@@ -1030,7 +1015,7 @@ const Crypto = (props: any) => {
                                 </svg>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <div className="flex items-center justify-center rounded-[32px] bg-[#7780A1]/10 p-11 duration-500 hover:bg-secondary hover:text-white">
                                 <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0_15_89053)">
@@ -1049,18 +1034,19 @@ const Crypto = (props: any) => {
                                     </defs>
                                 </svg>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
 
-            <section className="bg-[#47BDFF] bg-[url(/assets/images/crypto/our-partners.png)] bg-cover bg-center bg-no-repeat py-12 dark:bg-black md:py-24">
+            <section className="bg-gray bg-[url(/assets/images/crypto/our-partners.png)] bg-cover bg-center bg-no-repeat py-12 dark:bg-black md:py-24">
                 <div className="container">
                     <h2 className="text-center text-3xl font-black text-white sm:text-4xl md:text-[46px] md:leading-[58px]">
                         We featured on popular partners like
                     </h2>
                     <div className="mt-12 grid grid-cols-2 gap-4 md:gap-7 lg:grid-cols-4">
-                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-black hover:text-white dark:bg-gray-dark">
+
+                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white">
                             <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M90.494 35.6298C81.4371 39.4472 71.6317 41.3185 62.7245 41.3185C49.476 41.3185 36.6766 37.7257 26.2724 31.6628C25.3742 31.1388 24.7006 32.1119 25.4491 32.7855C35.0299 41.3933 47.7545 46.6328 61.9012 46.6328C71.9311 46.6328 83.6078 43.4143 91.6916 37.5011C92.9641 36.528 91.7665 35.031 90.494 35.6298Z"
@@ -1096,7 +1082,8 @@ const Crypto = (props: any) => {
                                 />
                             </svg>
                         </div>
-                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-black hover:text-white dark:bg-gray-dark">
+
+                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white">
                             <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M38.5479 18.2637H21.7066V23.2038H33.6826C33.0838 30.1649 27.2455 33.2338 21.7814 33.2338C14.7455 33.2338 8.60778 27.6949 8.60778 19.9853C8.60778 12.4254 14.4461 6.58708 21.7814 6.58708C27.4701 6.58708 30.7635 10.1799 30.7635 10.1799L34.2066 6.58708C34.2066 6.58708 29.7156 1.64696 21.5569 1.64696C11.1527 1.57211 3.14371 10.3296 3.14371 19.8356C3.14371 29.117 10.7036 38.1739 21.8563 38.1739C31.6617 38.1739 38.8473 31.5122 38.8473 21.5571C38.8473 19.4613 38.5479 18.2637 38.5479 18.2637Z"
@@ -1121,7 +1108,8 @@ const Crypto = (props: any) => {
                                 <path d="M118.039 37.5001H123.204V2.76953H118.039V37.5001Z" fill="currentColor" />
                             </svg>
                         </div>
-                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-black hover:text-white dark:bg-gray-dark">
+
+                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white k">
                             <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M60.1796 15.8672C57.5599 15.8672 54.6407 17.0648 52.8443 19.46V16.2414H46.7066V38.6965H52.8443V25.8971C52.8443 23.5768 54.6407 21.1816 57.9341 21.1816C60.479 21.1816 63.0988 22.978 63.0988 25.8971V38.6965H69.2365V24.7744C69.3114 19.6097 65.6437 15.8672 60.1796 15.8672Z"
@@ -1151,7 +1139,8 @@ const Crypto = (props: any) => {
                                 />
                             </svg>
                         </div>
-                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-black hover:text-white dark:bg-gray-dark">
+
+                        <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white">
                             <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_15_88925)">
                                     <path
@@ -1219,15 +1208,8 @@ const Crypto = (props: any) => {
                             </p>
                             <div className="mt-6 flex items-center gap-3">
                                 <div>
-                                    <svg width="20" height="20" viewBox="0 0 20 20" className="text-[#B476E5]" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.5 10.625L9.375 12.5L12.5 8.125M17.5 10C17.5 10.9849 17.306 11.9602 16.9291 12.8701C16.5522 13.7801 15.9997 14.6069 15.3033 15.3033C14.6069 15.9997 13.7801 16.5522 12.8701 16.9291C11.9602 17.306 10.9849 17.5 10 17.5C9.01509 17.5 8.03982 17.306 7.12987 16.9291C6.21993 16.5522 5.39314 15.9997 4.6967 15.3033C4.00026 14.6069 3.44781 13.7801 3.0709 12.8701C2.69399 11.9602 2.5 10.9849 2.5 10C2.5 8.01088 3.29018 6.10322 4.6967 4.6967C6.10322 3.29018 8.01088 2.5 10 2.5C11.9891 2.5 13.8968 3.29018 15.3033 4.6967C16.7098 6.10322 17.5 8.01088 17.5 10Z"
-                                            stroke="currentcolor"
-                                            strokeWidth="1.5"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
+                                    <CheckCircle className="text-primary" />
+
                                 </div>
                                 <div>
                                     <p className="text-lg font-semibold" data-aos='fade-left' data-aos-duration="1000">
@@ -1237,33 +1219,17 @@ const Crypto = (props: any) => {
                             </div>
                             <div className="mt-2.5 flex items-center gap-3">
                                 <div>
-                                    <svg width="20" height="20" viewBox="0 0 20 20" className="text-[#B476E5]" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.5 10.625L9.375 12.5L12.5 8.125M17.5 10C17.5 10.9849 17.306 11.9602 16.9291 12.8701C16.5522 13.7801 15.9997 14.6069 15.3033 15.3033C14.6069 15.9997 13.7801 16.5522 12.8701 16.9291C11.9602 17.306 10.9849 17.5 10 17.5C9.01509 17.5 8.03982 17.306 7.12987 16.9291C6.21993 16.5522 5.39314 15.9997 4.6967 15.3033C4.00026 14.6069 3.44781 13.7801 3.0709 12.8701C2.69399 11.9602 2.5 10.9849 2.5 10C2.5 8.01088 3.29018 6.10322 4.6967 4.6967C6.10322 3.29018 8.01088 2.5 10 2.5C11.9891 2.5 13.8968 3.29018 15.3033 4.6967C16.7098 6.10322 17.5 8.01088 17.5 10Z"
-                                            stroke="currentcolor"
-                                            strokeWidth="1.5"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
+                                    <CheckCircle className="text-primary" />
                                 </div>
                                 <div>
-                                    <p className="text-lg font-semibold" data-aos= 'fade-left' data-aos-duration="1000">
+                                    <p className="text-lg font-semibold" data-aos='fade-left' data-aos-duration="1000">
                                         Our Talented & Experienced Marketing Agency
                                     </p>
                                 </div>
                             </div>
                             <div className="mt-2.5 flex items-center gap-3">
                                 <div>
-                                    <svg width="20" height="20" viewBox="0 0 20 20" className="text-[#B476E5]" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.5 10.625L9.375 12.5L12.5 8.125M17.5 10C17.5 10.9849 17.306 11.9602 16.9291 12.8701C16.5522 13.7801 15.9997 14.6069 15.3033 15.3033C14.6069 15.9997 13.7801 16.5522 12.8701 16.9291C11.9602 17.306 10.9849 17.5 10 17.5C9.01509 17.5 8.03982 17.306 7.12987 16.9291C6.21993 16.5522 5.39314 15.9997 4.6967 15.3033C4.00026 14.6069 3.44781 13.7801 3.0709 12.8701C2.69399 11.9602 2.5 10.9849 2.5 10C2.5 8.01088 3.29018 6.10322 4.6967 4.6967C6.10322 3.29018 8.01088 2.5 10 2.5C11.9891 2.5 13.8968 3.29018 15.3033 4.6967C16.7098 6.10322 17.5 8.01088 17.5 10Z"
-                                            stroke="currentcolor"
-                                            strokeWidth="1.5"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
+                                    <CheckCircle className="text-primary" />
                                 </div>
                                 <div>
                                     <p className="text-lg font-semibold" data-aos='fade-left' data-aos-duration="1000">
@@ -1271,7 +1237,7 @@ const Crypto = (props: any) => {
                                     </p>
                                 </div>
                             </div>
-                            <button type="button" className="btn mt-6 py-[18px] px-8 text-base text-white">
+                            <button type="button" className="btn mt-6 py-[18px] px-8 text-base">
                                 Find Out More
                             </button>
                         </div>
@@ -1283,7 +1249,7 @@ const Crypto = (props: any) => {
                 <Faq showTitle={true} />
             </section> */}
 
-           
+
         </div>
     );
 };
