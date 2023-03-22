@@ -5,7 +5,7 @@ import { blogs } from '../../data/blogs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Error404 from '../404';
-import { ArrowLeftCircle, ArrowLeftShort, Back, ProjectorFill } from 'react-bootstrap-icons';
+import { ArrowLeftCircle, ProjectorFill } from 'react-bootstrap-icons';
 import BlogSlider from '../../components/BlogSlider';
 
 const Blogdetail = () => {
@@ -25,7 +25,7 @@ const Blogdetail = () => {
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <h6 className="!text-white"><a href="/blog"><ArrowLeftCircle className="text-2xl"/></a></h6>
+                                <h6 className="!text-white"><a href="/blog"><ArrowLeftCircle className="text-2xl" /></a></h6>
                                 <h4 className="!text-white">{blog.title}</h4>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
@@ -48,7 +48,7 @@ const Blogdetail = () => {
                                 <img
                                     src={blog.picture}
                                     alt="blog-detail-hero"
-                                    className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px]"
+                                    className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px] border border-gray"
                                 />
                             </div>
                         </div>
@@ -58,9 +58,9 @@ const Blogdetail = () => {
 
             <section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
                 <div className="container">
-                
-                <div className="prose max-w-full">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown></div>
+                    <div className="prose max-w-full">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown>
+                    </div>
                 </div>
             </section>
             <BlogSlider title2="Related articles" />

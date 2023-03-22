@@ -32,7 +32,7 @@ const Index = (props: any) => {
                     </div>
                 </div>
             </div>
-
+            <div id="services" className="relative -top-10">&nbsp;</div>
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <Container className="space-y-8">
                     <div className="heading text-center">

@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import BlogSlider from '../../components/BlogSlider';
-import {services} from '../../data/services.js';
+import { services } from '../../data/services.js';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Error404 from '../404';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import { ArrowLeftCircle } from 'react-bootstrap-icons';
 
 const Servicesdetail = () => {
     const router = useRouter();
@@ -24,7 +27,7 @@ const Servicesdetail = () => {
                     <div className="container">
                         <div className="relative items-center py-14 lg:flex lg:py-[100px]">
                             <div className="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-3/5">
-                                <h2 className="text-4xl font-black sm:text-5xl sm:leading-[126px] xl:text-[100px]">{serv.title}</h2>
+                                <h2 className="text-2xl font-black sm:leading-[126px] xl:text-[100px]">{serv.title}</h2>
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
                                     {serv.description}
                                 </p>
@@ -46,14 +49,96 @@ const Servicesdetail = () => {
 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
-                    <div className="heading text-center lg:w-7/12 ltr:lg:text-left rtl:lg:text-right">
-                        <h6>Design Process</h6>
-                        <h4>Keep your users at the center of your design process with our UXD practices</h4>
-                        <p className="mt-4 text-lg font-semibold">
-                            We combine our team’s depth of experience in design, our client’s intimate knowledge of the industries they serve and insights
-                            uncovered through the discoveries we make.
-                        </p>
+                    <div className="heading text-left">
+                        <h6><a href="/#services"><ArrowLeftCircle className="text-2xl inline-block" />&nbsp;Back to Services</a></h6>
+                        <h4>{serv.subtitle}</h4>
                     </div>
+
+                    <div className="prose max-w-full">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{serv.article}</ReactMarkdown>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section className="py-14 lg:py-[100px]">
+                <div className="container">
+                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                        <h4>Our Expertise</h4>
+                    </div>
+                    <ul>
+                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                            <div
+                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                data-aos='fade-right'
+                                data-aos-duration="1000"
+                            >
+                                <span className="text-primary">/</span>01
+                            </div>
+                            <div className="lg:w-4/6">
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Clear and straightforward</h4>
+                                <p className="text-lg font-semibold">
+                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
+                                    available.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                            <div
+                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                data-aos='fade-right'
+                                data-aos-duration="1000"
+                            >
+                                <span className="text-primary">/</span>02
+                            </div>
+                            <div className="lg:w-4/6">
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Visually appealing</h4>
+                                <p className="text-lg font-semibold">
+                                    We pay a lot of attention to the visual solution so that it is also attractive and in line with modern market requirements
+                                    in addition to being comfortable to use.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                            <div
+                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                data-aos='fade-right'
+                                data-aos-duration="1000"
+                            >
+                                <span className="text-primary">/</span>03
+                            </div>
+                            <div className="lg:w-4/6">
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h4>
+                                <p className="text-lg font-semibold">
+                                    Our design solutions are aesthetically pleasing, user-friendly, and practical so that users will feel attention and a gentle
+                                    attitude in every pixel.
+                                </p>
+                            </div>
+                        </li>
+                        <li className="flex border-t-2 border-black/5 pt-10 dark:border-gray-dark lg:items-center">
+                            <div
+                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                data-aos='fade-right'
+                                data-aos-duration="1000"
+                            >
+                                <span className="text-primary">/</span>04
+                            </div>
+                            <div className="lg:w-4/6">
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Enhanced Productivity</h4>
+                                <p className="text-lg font-semibold">
+                                    We significantly reduce the task completion time, allowing users to do their jobs in fewer clicks, thus contributing to
+                                    better overall productivity.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="py-14 lg:py-[100px]">
+                <div className="container">
                     <div className="grid gap-10 sm:grid-cols-3 sm:gap-7 lg:grid-cols-4">
                         <div>
                             <div className="h-[100px]" data-aos="fade-up" data-aos-duration="1000">
@@ -246,81 +331,6 @@ const Servicesdetail = () => {
 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
-                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4>Our Design Expertise</h4>
-                    </div>
-                    <ul>
-                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
-                            <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos= 'fade-right'
-                                data-aos-duration="1000"
-                            >
-                                <span className="text-primary">/</span>01
-                            </div>
-                            <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Clear and straightforward</h4>
-                                <p className="text-lg font-semibold">
-                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
-                                    document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
-                                    available.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
-                            <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos='fade-right'
-                                data-aos-duration="1000"
-                            >
-                                <span className="text-primary">/</span>02
-                            </div>
-                            <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Visually appealing</h4>
-                                <p className="text-lg font-semibold">
-                                    We pay a lot of attention to the visual solution so that it is also attractive and in line with modern market requirements
-                                    in addition to being comfortable to use.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
-                            <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos='fade-right'
-                                data-aos-duration="1000"
-                            >
-                                <span className="text-primary">/</span>03
-                            </div>
-                            <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h4>
-                                <p className="text-lg font-semibold">
-                                    Our design solutions are aesthetically pleasing, user-friendly, and practical so that users will feel attention and a gentle
-                                    attitude in every pixel.
-                                </p>
-                            </div>
-                        </li>
-                        <li className="flex border-t-2 border-black/5 pt-10 dark:border-gray-dark lg:items-center">
-                            <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos='fade-right'
-                                data-aos-duration="1000"
-                            >
-                                <span className="text-primary">/</span>04
-                            </div>
-                            <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Enhanced Productivity</h4>
-                                <p className="text-lg font-semibold">
-                                    We significantly reduce the task completion time, allowing users to do their jobs in fewer clicks, thus contributing to
-                                    better overall productivity.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section className="py-14 lg:py-[100px]">
-                <div className="container">
                     <div className="mb-10 flex flex-col items-center justify-center gap-4 lg:mb-14 lg:flex-row lg:justify-between">
                         <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h4>Some of Our Cases</h4>
@@ -443,7 +453,7 @@ const Servicesdetail = () => {
 
             <Faq showTitle={false} /> */}
 
-     
+
         </div>
     );
 };
