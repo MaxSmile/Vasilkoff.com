@@ -1,10 +1,13 @@
 {
     "name": "my-app",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "build-patch": "yarn version --patch && genversion version.js && next build",
+        "build-minor": "yarn version --minor && genversion version.js && next build",
+        "build-major": "yarn version --major && genversion version.js && next build",
         "start": "next start",
         "lint": "next lint"
     },
