@@ -1,6 +1,5 @@
 
 import ServiceCardOne from './ServiceCardOne';
-import ServiceData from '../data/Services';
 import { Boxes, Braces, CodeSlash, FileEarmarkBinary, FileEarmarkCheckFill, Images } from 'react-bootstrap-icons';
 
 export default function Services() {

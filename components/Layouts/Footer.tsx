@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Container } from "react-bootstrap";
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
+import version from "../../version.js";
 
 const Footer = () => {
     return (
@@ -116,6 +117,7 @@ const Footer = () => {
                                         <Instagram />
                                     </Link>
                                 </li>
+                                <li className="text-gray text-xs">v.{version}</li>
                             </ul>
                         </div>
                     </div>
