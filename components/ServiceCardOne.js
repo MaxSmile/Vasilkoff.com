@@ -30,7 +30,7 @@ const ServiceCardOne = (
                                     {icon}
                                 </div>
                                 <Link
-                                    href="/services-detail"
+                                    href={"/services/"+slug}
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
                                     {title}
