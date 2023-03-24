@@ -175,13 +175,13 @@ const Crypto = (props: any) => {
                         <div className="relative flex flex-col items-center bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat lg:flex-row">
                             <div className="flex-1 py-10 text-center text-white ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[55px] lg:leading-[70px]">
-                                    Building the <span className="italic text-primary">future</span> of{' '}
-                                    <span className="italic text-secondary">Crypto Revolution</span>
+                                    Building the <span className="italic text-[#1c62ff]">future</span> of{' '}
+                                    <span className="italic text-[#78fefe]">Crypto Revolution</span>
                                 </h2>
                                 <p className="my-5 text-lg lg:my-8">
                                     Cryptography, encryption process of transforming information referred to as plain text using done.
                                 </p>
-                                <button type="button" className="btn mx-auto mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">
+                                <button type="button" className="btn mx-auto border-[#78fefe] hover:bg-[#1c62ff] mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">
                                     REGISTER NOW
                                 </button>
                             </div>
