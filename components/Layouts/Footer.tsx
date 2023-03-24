@@ -25,8 +25,8 @@ const Footer = () => {
                             <ul className="flex flex-col gap-3 font-bold">
 
                                 <li>
-                                    <Link href="/startup-offer" className="inline-block transition hover:scale-110">
-                                        Startup Offer
+                                    <Link href="/business-offer" className="inline-block transition hover:scale-110">
+                                        Business Offer
                                     </Link>
                                 </li>
                                 <li>
@@ -44,11 +44,11 @@ const Footer = () => {
                                         Blog
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/career" className="inline-block transition hover:scale-110">
                                         Career
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 
@@ -105,7 +105,7 @@ const Footer = () => {
                                 Privacy Policy
                             </Link>
                         </div>
-                        <div>
+                        <div className="my-8">
                             <ul className="flex items-center gap-4 text-shadow">
                                 <li className="transition hover:text-light hover:scale-110">
                                     <Link href="https://www.facebook.com/vasilkoff.software" target="_blank">
