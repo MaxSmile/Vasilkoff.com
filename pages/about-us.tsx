@@ -5,7 +5,7 @@ import CounterComponent from '../components/CounterComponent';
 import Testimonial from '../components/Testimonial';
 import BlogSlider from '../components/BlogSlider';
 import {portfolios} from '../data/portfolios';
-import TeamMember from '../components/TeamMember';
+import TeamMembers from '../components/TeamMembers';
 import {OurProjectCard} from '../components/OurProjectCard';
 
 const Aboutus = () => {
@@ -48,12 +48,7 @@ const Aboutus = () => {
                         <h4>Ingenious Problem-Solvers</h4>
                         <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
                     </div>
-                    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-                        <TeamMember name="Maxim Vasilkov" position="CBDO" picture="/images/maxim-vasilkov.png" />
-                        <TeamMember name="Simon Papazov" position="Managing Director" picture="/images/simon-papazov.png" />
-                        <TeamMember name="Anastasia Sarlidou" position="Project Manager" picture="/images/anastasia-sarlidou.png" />
-                        <TeamMember name="Irina Vasilkova" position="Graphics Designer" picture="/images/irina-vasilkova.png" />
-                    </div>
+                    <TeamMembers />
                 </div>
             </section>
 

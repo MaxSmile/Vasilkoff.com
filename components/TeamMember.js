@@ -1,8 +1,4 @@
 
-import Link from 'next/link';
-import { PlayBtn } from 'react-bootstrap-icons';
-
-
 
 const TeamMember = (
     {
