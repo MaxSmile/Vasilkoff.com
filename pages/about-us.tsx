@@ -68,15 +68,7 @@ const Aboutus = () => {
 
                     <div className="grid gap-[30px] sm:grid-cols-2">
                         {ourprojects.map((project, index) => (
-                            <OurProjectCard key={index} 
-                                title={project.title} 
-                                link={project.link}
-                                image={project.image}
-                                slug={project.slug}
-                                url={project.url}
-                                extra={project.extra}
-                                description={project.description}
-                                />
+                            <OurProjectCard key={index} proj={project} />
                         ))}
 
                     </div>
