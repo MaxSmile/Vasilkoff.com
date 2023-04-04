@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowThroughHeart, Bookmark, BookmarkHeart } from "react-bootstrap-icons";
 
 
 const PortfolioCard = (
@@ -15,7 +16,7 @@ const PortfolioCard = (
                 <img src={obj.image} alt={obj.description} className="h-52 w-full rounded-t-3xl object-cover" />
                 <div className="p-5 text-sm ">
                     <h6 className="mb-1 text-black font-bold dark:text-white">{obj.title}</h6>
-                    <p>{obj.description}</p>
+                    <p><span>{obj.type=="our-projects"?<BookmarkHeart className="inline-block" />:<Bookmark className="inline-block"/>}&nbsp;</span>{obj.description}</p>
                 </div>
             </div>
         </div>
