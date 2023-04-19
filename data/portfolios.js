@@ -17,6 +17,9 @@ export const portfolios = [
     },
     {
         type:"projects",
+        categories: [
+            "Mobile App","Website","WordPress"
+        ],
         title: "Housekeeper World",
         link: "housekeeperworld.com (Not working)",
         image: "/images/housekeeper.png",
@@ -31,7 +34,7 @@ export const portfolios = [
     {
         type:"projects",
         categories: [
-            "Mobile App","Business", "CRM", "Chat", "Firebase"
+            "Mobile App","Business", "CRM", "Chat", "Firebase", "Web App", "Website"
         ],
         title: "KOKO-MIX ADMIN",
         link: "Play Market, Admin Panel, Chat",
@@ -54,6 +57,9 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     },
     {
         type:"projects",
+        categories: [
+            "Mobile App", "Chat", "Firebase"
+        ],
         title: "Voteme App",
         link: "iOS and Android apps",
         image: "/images/votemee.png",
@@ -101,7 +107,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Mobile App","Android"
+            "Mobile App","Android","Open Source"
         ],
         title: "Easy VPN Free",
         link: "GitHub",
@@ -117,7 +123,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Website","WordPress"
         ],
         title: "P. NEOFYTOU & ASSOCIATES LLC",
         link: "neofytoullc.com",
@@ -133,7 +139,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Web3","Crypto"
         ],
         title: "HEPTAPOLIS",
         link: "Heptapolis.com crypto ICO",
@@ -149,7 +155,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Website","Mobile App"
         ],
         title: "Nutribar",
         link: "smrt16.com",
@@ -165,7 +171,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Shopify","eCommerce","Plugin"
         ],
         title: "POLLCART",
         link: "pollcart.com",
@@ -181,7 +187,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Website","WordPress"
         ],
         title: "CLARUS APEX",
         link: "clarus-apex.com",
@@ -197,7 +203,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Website","WordPress"
         ],
         title: "KIMFOOT",
         link: "kimfoot.com",
@@ -213,7 +219,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Website","ExpressJS"
         ],
         title: "STYLE TRIBUTE SELLER",
         link: "StyleTribute.com",
@@ -229,7 +235,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Game","Mobile App"
         ],
         title: "BUBBLE PIRATE QUEST",
         link: "iOS Game",
@@ -245,7 +251,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Crypto","Mobile App"
         ],
         title: "NAVIADDRESS",
         link: "naviaddress.com",
@@ -261,7 +267,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Mobile App",
+            "Mobile App","Game"
         ],
         title: "BUGMATH",
         link: "bugmath.com",
@@ -277,7 +283,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Web3","DApp"
+            "Web app","Mobile App"
         ],
         title: "ONLINEPAY WALLET",
         link: "onlinepay.com",
@@ -325,7 +331,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Crypto",
+            "Crypto","Website"
         ],
         title: "COINAGE WALLET",
         link: "Coingage Wallet",
@@ -341,7 +347,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "Crypto","Exchange"
+            "Crypto","Exchange","Website","Design"
         ],
         title: "GARANTEX EXCHANGE",
         link: "smrt16.com",
@@ -373,7 +379,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "WordPress"
+            "WordPress", "Website"
         ],
         title: "DONKIM",
         link: "donkim.com",
@@ -389,7 +395,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"projects",
         categories: [
-            "WordPress"
+            "WordPress", "Website"
         ],
         title: "INTER EURO INVESTMENTS",
         link: "inter-euro.com",
@@ -449,7 +455,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"our-projects",
         categories: [
-            "Web3","DApp"
+            "Web3","DApp","Crypto"
         ],
         title: "NFTTRX",
         link: "nfttrx.com",
@@ -463,7 +469,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"our-projects",
         categories: [
-            "Web3","DApp"
+            "Web3","DApp","Crypto"
         ],
         title: "SMRT16",
         link: "smrt16.com",
@@ -478,6 +484,9 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     },
     {
         type:"our-projects",
+        categories: [
+            "Web3","DApp","Crypto"
+        ],
         title: "SMRTSGN",
         link: "smrtsgn.com",
         image: "/assets/images/cases-3.png",
@@ -492,7 +501,7 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     {
         type:"our-projects",
         categories: [
-            "Mobile App","iOS App","Android App","Flutter","Web3","DApp","Blockchain","Smart Contract","NFT","AI","Game"
+            "Mobile App","iOS App","Android App","Flutter","Web3","DApp","Blockchain","Smart Contract","NFT","AI","Game","Crypto"
         ],
         title: "Bella Chess",
         link: "Bella Chess, Play Market, App Store",
@@ -507,6 +516,9 @@ Overall, KOKOMIX's unwavering commitment to quality, innovation, and customer se
     },
     {
         type:"our-projects",
+        categories: [
+            "Mobile App","iOS App","Android App","Game"
+        ],
         title: "Calculator Lock",
         link: "Play Market: Calculator Lock Hide App Photo",
         image: "/assets/images/cases-5.png",
@@ -521,7 +533,7 @@ The Calculator Lock app is a privacy protection application for Android devices 
     {
         type:"projects",
         categories: [
-            "Magento","eCommerce","PHP","AWS","WordPress"
+            "Magento","eCommerce","PHP","AWS","WordPress","Website"
         ],
         title: "A Better Florist",
         link: "ABetterFlorist.com",

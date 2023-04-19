@@ -28,55 +28,54 @@ const Portfolio = () => {
                                     All Work
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'design' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'Mobile App' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('design')}
+                                    onClick={() => setActiveTab('Mobile App')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Design
+                                    Mobile Apps
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'website' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'Website' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('website')}
+                                    onClick={() => setActiveTab('Website')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Website
+                                    Websites
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'app' ? 'active' : ''}`}>
+                            {/* <li className={`filter ${activeTab === 'Web App' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('app')}
+                                    onClick={() => setActiveTab('Web App')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Mobile App
+                                    Web App
+                                </button>
+                            </li> */}
+                            <li className={`filter ${activeTab === 'Crypto' ? 'active' : ''}`}>
+                                <button
+                                    type="button"
+                                    onClick={() => setActiveTab('Crypto')}
+                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
+                                >
+                                    Crypto
                                 </button>
                             </li>
-                            <li className={`filter ${activeTab === 'application' ? 'active' : ''}`}>
+                            <li className={`filter ${activeTab === 'eCommerce' ? 'active' : ''}`}>
                                 <button
                                     type="button"
-                                    onClick={() => setActiveTab('application')}
+                                    onClick={() => setActiveTab('eCommerce')}
                                     className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
                                 >
-                                    Web Application
-                                </button>
-                            </li>
-                            <li className={`filter ${activeTab === 'ecommerce' ? 'active' : ''}`}>
-                                <button
-                                    type="button"
-                                    onClick={() => setActiveTab('ecommerce')}
-                                    className="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                                >
-                                    Ecommerce
+                                    eCommerce
                                 </button>
                             </li>
                         </ul>
                     </div>
                     <div className="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-
 
                         {
                             portfolios.map((portfolio, index) => (
