@@ -53,7 +53,7 @@ export default function AIContacts() {
     return (
         <NoSSR>
 
-            <section className="bg-white my-20">
+            <section className="bg-white my-10">
                 <Container>
                     <h2 className="text-center text-3xl font-bold text-primary">Please, try our assistant manager chat</h2>
                     <h4 className="text-center text-xl font-bold text-secondary mb-20">- AI powered -</h4>

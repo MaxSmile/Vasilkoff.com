@@ -7,7 +7,7 @@ import {offices} from '../data/offices.js';
 const OfficeSwiper = () => {
 
     return (
-        <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
+        <section className="bg-gradient-to-t from-white/[54%] to-transparent pt-14 mt-20">
             <div className="container">
                 <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div className="heading mt-10 text-center md:w-1/2 lg:text-left ">
@@ -81,8 +81,8 @@ const OfficeSwiper = () => {
                                     <SwiperSlide key={idx}>
                                 <div className="mt-10 rounded-[32px] bg-white dark:bg-gray-dark md:grid md:grid-cols-2 lg:mt-0">
                                     <img
-                                        src="/assets/images/ofc.png"
-                                        alt="ofc"
+                                        src={office.image}
+                                        alt={office.address}
                                         className="h-full w-full rounded-r-[32px] rounded-l-[32px] object-cover md:rounded-r-none"
                                     />
                                     <div className="py-10 px-5 sm:px-8">
@@ -145,9 +145,7 @@ const OfficeSwiper = () => {
                             </SwiperSlide>
                                 ))
                             }
-                            
-
-                           
+                                                   
 
                         </Swiper>
                     </div>
