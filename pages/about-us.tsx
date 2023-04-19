@@ -1,9 +1,9 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import CounterComponent from '../components/CounterComponent';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
+// import CounterComponent from '../components/CounterComponent';
+// import Testimonial from '../components/Testimonial';
+// import BlogSlider from '../components/BlogSlider';
 import {portfolios} from '../data/portfolios';
 import TeamMembers from '../components/TeamMembers';
 import {OurProjectCard} from '../components/OurProjectCard';
@@ -15,7 +15,6 @@ const Aboutus = () => {
             <Head>
                 <title>About Us</title>
             </Head>
-
 
             <section className="relative overflow-hidden pt-14 mt-40 lg:pb-48 lg:pt-[100px]">
                 <div className="container relative z-[1]">
