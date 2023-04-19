@@ -16,7 +16,7 @@ const Contactus = () => {
 
             
 
-            <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent py-14 dark:from-white/[0.03] lg:py-[100px]">
+            {/* <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent py-14 dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
                         <div className="heading mb-6">
@@ -35,9 +35,9 @@ const Contactus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section className="relative py-14 lg:py-[100px] xl:-mt-[100px]">
+            {/* <section className="relative py-14 lg:py-[100px] xl:-mt-[100px]">
                 <div className="absolute top-0 z-[1] h-full w-full bg-white ltr:left-0 rtl:right-0 dark:bg-black xl:w-[85%] xl:rounded-r-[32px]"></div>
                 <div className="absolute -top-3 hidden h-full w-full rounded-r-[32px] bg-white/50 ltr:left-3 rtl:right-3 dark:bg-gray-dark xl:inline-block xl:w-[85%]"></div>
                 <div className="container relative z-[2] ltr:xl:pr-40 rtl:xl:pl-40">
@@ -101,12 +101,12 @@ const Contactus = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <OfficeSwiper />
 
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4>Our Design Expertise</h4>
@@ -179,12 +179,12 @@ const Contactus = () => {
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> */}
 
 
             
 
-            <section className="bg-gradient-to-t from-white/[55%] to-transparent mt-20 py-14 dark:bg-none lg:py-[100px]">
+            {/* <section className="bg-gradient-to-t from-white/[55%] to-transparent mt-20 py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="relative z-10 lg:flex">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
@@ -512,11 +512,11 @@ const Contactus = () => {
                         </form>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <hr/>
 
-            <section className="py-14 lg:py-[100px]">
+
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 className="sm:!leading-[50px]">Canada Branch</h4>
@@ -598,9 +598,9 @@ const Contactus = () => {
                     </div>
                     <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />
                 </div>
-            </section>
+            </section> */}
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4 className="sm:!leading-[50px]">Australia Branch</h4>
@@ -682,7 +682,7 @@ const Contactus = () => {
                     </div>
                     <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />
                 </div>
-            </section>
+            </section> */}
 
             
 
