@@ -4,9 +4,9 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Link from 'next/link';
 import Head from 'next/head';
+import AIContacts from '../components/AIContacts';
 
 const Contactus = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>
@@ -14,7 +14,6 @@ const Contactus = () => {
                 <title>Contact Us</title>
             </Head>
 
-            
 
             {/* <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent py-14 dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
@@ -687,7 +686,7 @@ const Contactus = () => {
             
 
 
-
+            <AIContacts />
 
         </div>
     );

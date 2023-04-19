@@ -34,7 +34,7 @@ const Aboutus = () => {
                         </div>
 
                         <Link href="/contact-us" className="btn capitalize text-primary">
-                            Work with us
+                            Contact us
                         </Link>
                     </div>
                 </div>
@@ -44,9 +44,10 @@ const Aboutus = () => {
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Meet Our Team</h6>
+                        {/* <h6>Meet Our Team</h6> */}
                         <h4>Ingenious Problem-Solvers</h4>
-                        <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
+                        {/* <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
+                     */}
                     </div>
                     <TeamMembers />
                 </div>
@@ -58,7 +59,7 @@ const Aboutus = () => {
                         <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h4>Our Projects</h4>
                         </div>
-                        <Link
+                        Or <Link
                             href="/portfolio"
                             className="text-sm font-extrabold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary"
                         >
