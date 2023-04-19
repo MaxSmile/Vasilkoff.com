@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Error404 from '../404';
 import { ArrowLeftCircle, ProjectorFill } from 'react-bootstrap-icons';
-import BlogSlider from '../../components/BlogSlider';
+//import BlogSlider from '../../components/BlogSlider';
 
 const Blogdetail = () => {
     const router = useRouter();
@@ -33,10 +33,10 @@ const Blogdetail = () => {
                                         <span className="px-4 font-semibold sm:text-lg">Maxim Vasilkov</span>
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        March 16, 2023
+                                        {blog.date}
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        2 mins read
+                                        {blog.time}
                                     </li>
                                 </ul>
                             </div>
@@ -63,7 +63,7 @@ const Blogdetail = () => {
                     </div>
                 </div>
             </section>
-            <BlogSlider title2="Related articles" />
+            {/* <BlogSlider title2="Related articles" /> */}
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import BlogSlider from '../../components/BlogSlider';
+//import BlogSlider from '../../components/BlogSlider';
 import { services } from '../../data/services.js';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -361,7 +361,7 @@ const Servicesdetail = () => {
                 </div>
             </section>
 
-            <BlogSlider title2="Related articles" />
+            {/* <BlogSlider title2="Related articles" /> */}
 
             {/* <Testimonial showTitle={false} />
 

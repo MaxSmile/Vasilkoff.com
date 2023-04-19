@@ -24,11 +24,11 @@ const Footer = () => {
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
 
-                                <li>
+                                {/* <li>
                                     <Link href="/business-offer" className="inline-block transition hover:scale-110">
                                         Business Offer
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/contact-us" className="inline-block transition hover:scale-110">
                                         Contact Us

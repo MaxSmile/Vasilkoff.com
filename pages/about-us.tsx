@@ -298,8 +298,8 @@ const Aboutus = () => {
                 </div>
             </section> */}
 
-            <BlogSlider title1="Blog" title2="Unlock the latest trends/news" />
-
+            {/* <BlogSlider title1="Blog" title2="Unlock the latest trends/news" />
+ */}
 
         </div>
     );

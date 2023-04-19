@@ -1,9 +1,11 @@
 export const blogs = {
     "Why-Outsourcing": {
+        "date": "March 16, 2023",
         "title": "Why Outsourcing Software Development Can Benefit Your Business",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/assets/images/blog-3.png",
+        "time": "5 min",
         "content":
 `In today's digital age, software development has become a crucial part of business operations. Whether you're looking to develop a new web or mobile application or need to upgrade your existing software, it can be a time-consuming and resource-intensive process. This is where outsourcing software development can be beneficial for your business.
 
@@ -28,10 +30,12 @@ In conclusion, outsourcing software development can be a valuable strategy for b
 `,
     },
     "Pros-and-Cons-of-Outstaffing": {
+        "date": "March 16, 2023",
         "title": "The Pros and Cons of Outstaffing Software Development",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b1p1.jpg",
+        "time": "1 min",
         "content":
 `Outstaffing software development is the process of hiring remote developers who work exclusively for your organization but are employed by a third-party company. In this model, the outstaffing company takes care of administrative tasks related to employment, such as payroll and benefits. Here are some of the key pros and cons of outstaffing software development:
 
@@ -71,10 +75,12 @@ In conclusion, outstaffing software development can be a viable solution for bus
 
 
     "Right-Outsourcing-Company": {
+        "date": "March 16, 2023",
         "title": "How to Choose the Right Outsourcing Company for Your Software Development Needs",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b1p2.jpg",
+        "time": "1 min",
         "content": 
 `Outsourcing software development has become a popular option for businesses looking to develop software solutions without having to hire and manage an in-house development team. However, choosing the right outsourcing company can be a daunting task. Here are some key factors to consider when selecting an outsourcing company for your software development needs:
 
@@ -104,6 +110,7 @@ In conclusion, choosing the right outsourcing company for your software developm
 
 
     "Communication-and-Collaboration": {
+        "date": "March 16, 2023",
         "title": "Maximizing Communication and Collaboration with Outsourced Development Teams",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
@@ -136,10 +143,12 @@ Fostering a sense of teamwork is important for creating a collaborative and prod
 
 
     "Data-Security": {
+        "date": "March 16, 2023",
         "title": "The Importance of Data Security in Outsourcing and Outstaffing Software Development",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b1p4.jpg",
+        "time": "1 min",
         "content": 
 `Data security is a critical concern in the world of software development, particularly when it comes to outsourcing and outstaffing. When you entrust a third-party with your sensitive data, you want to ensure that it remains safe and secure. Here are some reasons why data security is so important when outsourcing and outstaffing software development, along with some real-life examples that highlight the importance of this issue.
 ## Protecting sensitive data
@@ -165,10 +174,12 @@ In conclusion, data security is a critical concern when outsourcing and outstaff
 
 
     "Outsourcing-vs-Outstaffing": {
+        "date": "March 16, 2023",
         "title": "Outsourcing vs. Outstaffing: Which is the Best Fit for Your Business?",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b2p1.png",
+        "time": "1 min",
         "content": 
 `Outsourcing and outstaffing are two popular models for accessing talent outside of your organization. Both options can provide businesses with access to specialized skills, cost savings, and flexibility. However, they differ in their approach and may be better suited to certain business needs. Here are some creative examples to help you determine which model is the best fit for your business.
 
@@ -194,10 +205,12 @@ In conclusion, both outsourcing and outstaffing can be beneficial for businesses
 
 
     "Nearshore-Outsourcing": {
+        "date": "March 16, 2023",
         "title": "The Benefits of Nearshore Outsourcing for Software Development",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/hero-768x768.jpg",
+        "time": "1 min",
         "content": 
 `Nearshore outsourcing is the practice of hiring a third-party company located in a nearby country or region to handle software development projects. This model has become increasingly popular in recent years, and for good reason. Here are some of the key benefits of nearshore outsourcing for software development:
 
@@ -226,10 +239,12 @@ In conclusion, nearshore outsourcing can provide many benefits for businesses lo
 
 
     "Challenges-and-Solutions ": {
+        "date": "March 16, 2023",
         "title": "Common Challenges and Solutions for Outsourcing Software Development Projects",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b1p1.jpg",
+        "time": "2 min",
         "content": 
 `Outsourcing software development has become increasingly popular as businesses look to access specialized skills and cost savings. However, outsourcing also presents unique challenges that can impact project success. Here are some common challenges and solutions for outsourcing software development projects.
 
@@ -259,10 +274,12 @@ In conclusion, outsourcing software development presents unique challenges that 
 
 
     "Ensure-Quality": {
+        "date": "March 16, 2023",
         "title": "How to Ensure Quality When Outsourcing or Outstaffing Software Development",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/assets/images/blog-1.png",
+        "time": "2 min",
         "content": 
 `Outsourcing or outstaffing software development can provide many benefits, including access to specialized skills, cost savings, and flexibility. However, maintaining quality can be a challenge, particularly when working with a third-party team. Here are some tips on how to ensure quality when outsourcing or outstaffing software development.
 
@@ -291,10 +308,12 @@ In conclusion, maintaining quality when outsourcing or outstaffing software deve
 
 
     "Navigating-Cultural-Differences": {
+        "date": "March 16, 2023",
         "title": "Navigating Cultural Differences in Outsourcing and Outstaffing Software Development",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/assets/images/blog-2.png",
+        "time": "2 min",
         "content": 
 `Outsourcing and outstaffing software development can provide many benefits, including access to specialized skills, cost savings, and flexibility. However, navigating cultural differences can be a challenge, particularly when working with a team located in a different region or country. Here are some tips on how to navigate cultural differences in outsourcing and outstaffing software development.
 
@@ -319,10 +338,12 @@ In conclusion, navigating cultural differences in outsourcing and outstaffing so
 
 
     "Measuring-the-Success": {
+        "date": "March 16, 2023",
         "title": "Key Metrics for Measuring the Success of Outsourced Software Development Projects",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/assets/images/blog-1.png",
+        "time": "2 min",
         "content": 
 `Measuring the success of outsourced software development projects can be challenging, particularly when working with a third-party team. However, there are several key metrics that businesses can use to evaluate the success of these projects. Here are some key metrics for measuring the success of outsourced software development projects:
 
@@ -351,10 +372,12 @@ In conclusion, measuring the success of outsourced software development projects
 
 
     "Future-Outsourcing-and-Outstaffing": {
+        "date": "March 17, 2023",
         "title": "The Future of Software Development Outsourcing and Outstaffing: Trends to Watch",
         "subtitle": "our four step process",
         "description": "Our digital strategy ensures a well maintained digital system for your business.",
         "picture": "/images/b1p1.jpg",
+        "time": "2 min",
         "content": 
 `Software development outsourcing and outstaffing have become increasingly popular in recent years, and the industry is constantly evolving. Here are some trends to watch for the future of software development outsourcing and outstaffing:
 

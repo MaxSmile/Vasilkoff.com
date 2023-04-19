@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import BlogSlider from '../components/BlogSlider';
+//import BlogSlider from '../components/BlogSlider';
 import Faq from '../components/Faq';
 import LogoSlider from '../components/LogoSlider';
 import Testimonial from '../components/Testimonial';
@@ -613,13 +613,13 @@ const StartupOffer = () => {
 
                 <Faq showTitle={true} type="modern-saas" queries={faqs} />
 
-                <BlogSlider
+                {/* <BlogSlider
                     title1="Blog"
                     // title2="Unlock the latest trends/news"
                     // className="dark:bg-white/[0.03] lg:py-20"
                     // type="modern-saas"
                     blogs={blogs}
-                ></BlogSlider>
+                ></BlogSlider> */}
 
                 <section className="relative bg-black py-14 lg:py-24">
                     <img src="/assets/images/modern-saas/newsletter.svg" alt="" className="absolute right-0 bottom-0 hidden xl:inline-block" />
