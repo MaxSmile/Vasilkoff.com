@@ -1,25 +1,33 @@
 import Head from 'next/head';
-import ProjectSlider from '../../components/ProjectSlider';
-// import { useSelector } from 'react-redux';
-// import { IRootState } from '../store';
+// import ProjectSlider from '../../components/ProjectSlider';
+import { portfolios } from '../../data/portfolios.js';
+import { useRouter } from 'next/router';
+import Error404 from '../404';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const Portfoliodetail = (props) => {
-
+    const router = useRouter();
+    const { id } = router.query;
+    const pf = portfolios.filter(obj => {
+        return obj.slug === id
+      })[0];
+    if (!pf) {
+        return <Error404 />;
+    }
     return (
         <div>
             <Head>
-                <title>Portfolio Detail | ...</title>
+                <title>{pf.title}</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="items-center py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 md:w-[725px]">
-                                <h4 className="!text-white">Crypto Game - UX Interface</h4>
+                                <h4 className="!text-white">{pf.title}</h4>
                                 <p className="relative mt-7 font-medium text-[#BBC0D0] before:absolute before:top-0 before:h-full before:w-1 before:bg-primary ltr:pl-8 ltr:before:left-0 rtl:pr-8 rtl:before:right-0">
-                                    Axie Infinity is a non-fungible token-based online video game developed by Vietnamese studio Sky Mavis, known for its
-                                    in-game economy which uses Ethereum-based cryptocurrencies. Players of Axie Infinity collect and mint NFTs which represent
-                                    axolotl-inspired digital pets known as Axies.
+                                    {pf.description}
                                 </p>
                             </div>
                         </div>
@@ -30,14 +38,24 @@ const Portfoliodetail = (props) => {
             <section className="py-14 md:py-[100px]">
                 <div className="container">
                     <div>
-                        <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Technologies</h3>
+                        <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Categories</h3>
                         <div className="overflow-x-auto overflow-y-hidden">
                             <ul
-                                className="flex w-[520px] justify-between gap-4 md:w-auto md:justify-start md:gap-7"
+                                className="flex w-[520px] justify-between gap-4 md:w-auto md:justify-start md:gap-7 heading"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
-                                <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
+                                {
+                                    pf.categories.map((cat,idx) => {
+                                        return (
+                                            <li key={idx}>
+                                                <h6>{cat}</h6>
+                                            </li>
+                                        )
+                                    })
+                                }
+
+                                {/* <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
                                         <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -229,11 +247,14 @@ const Portfoliodetail = (props) => {
                                             <path d="M6.86926 0L17.391 18.087L27.8258 0H21.391L17.391 6.95652L13.304 0H6.86926Z" fill="#35495E" />
                                         </svg>
                                     </div>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
-                    <div className="py-14 md:py-20">
+                    <div className="prose max-w-full mb-10">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{pf.article}</ReactMarkdown>
+                    </div>
+                    {/* <div className="py-14 md:py-20">
                         <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Features and Functionalities</h3>
                         <ul className="list-disc space-y-4 font-semibold leading-6 ltr:ml-[18px] rtl:mr-[18px] md:text-lg ltr:md:pl-4 rtl:md:pr-4">
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -245,8 +266,8 @@ const Portfoliodetail = (props) => {
                             <li>Nullam fermentum ipsum sit amet justo convallis, quis iaculis massa finibus.</li>
                             <li>Vivamus eget dui pulvinar, aliquet magna eget, dignissim felis.</li>
                         </ul>
-                    </div>
-                    <div className="pb-14 md:pb-20">
+                    </div> */}
+                    {/* <div className="pb-14 md:pb-20">
                         <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Description</h3>
                         <p className="relative font-semibold leading-[30px] before:absolute before:top-0 before:h-full before:w-1 before:rounded before:bg-primary ltr:pl-6 ltr:before:left-0 rtl:pr-6 rtl:before:right-0 md:text-lg">
                             Mosaic is a finance tool for making better business moves — automating data aggregation, analysis, and financial forecasting. In
@@ -258,8 +279,8 @@ const Portfoliodetail = (props) => {
                             doing kinda folk. Tasked with bringing this new brand to life online, we built an experience to catch the eye of startups
                             everywhere.
                         </p>
-                    </div>
-                    <div className="grid gap-[30px] sm:grid-cols-2">
+                    </div> */}
+                    {/* <div className="grid gap-[30px] sm:grid-cols-2 my-8">
                         <img
                             src="/assets/images/portfolio-img-1.png"
                             alt="portfolio-img-1"
@@ -283,10 +304,10 @@ const Portfoliodetail = (props) => {
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         />
-                    </div>
+                    </div> */}
                     <div>
                         <img
-                            src="/assets/images/portfolio-img-4.png"
+                            src={pf.image}
                             alt="portfolio-img-4"
                             className="rounded-[32px]"
                             data-aos="fade-up"
@@ -296,9 +317,9 @@ const Portfoliodetail = (props) => {
                 </div>
             </section>
 
-            <ProjectSlider title2="Related Projects" />
+            {/* <ProjectSlider title2="Related Projects" />
 
-            
+             */}
         </div>
     );
 };
