@@ -59,12 +59,12 @@ const Header = (props: any) => {
                                     <Link href="/services" className={router.pathname === '/services' ? 'active' : ''}>
                                         Services
                                     </Link>
-                                </li> */}
+                                </li> 
                                 <li>
                                     <Link href="/crypto" className={router.pathname === '/crypto' ? 'active' : ''}>
                                         Crypto
                                     </Link>
-                                </li>
+                                </li>*/}
                                 <li>
                                     <Link
                                         href="/portfolio"
