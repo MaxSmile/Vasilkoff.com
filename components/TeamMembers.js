@@ -10,7 +10,7 @@ const TeamMembers = (
             <TeamMember name="Simon Papazov" position="Managing Director"
                 email="sp@vasilkoff.com"
                 picture="/images/simon-papazov.png" />
-            <TeamMember name="Anastasia Sarlidou" position="Human Centered AI programmer"
+            <TeamMember name="Anastasia Sarlidou" position="Human Centered AI engineer"
                 email="anastasia@vasilkoff.com"
                 picture="/images/anastasia-sarlidou.png" />
             <TeamMember name="Irina Vasilkova" position="Design Director"
