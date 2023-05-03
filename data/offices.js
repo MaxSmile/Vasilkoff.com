@@ -4,7 +4,7 @@ export const offices = [
         "address": "Glastonos 12-14, 2nd Floor, Paphos 8046",
         "phones": [ "+35796253566", "+35799169229" ],
         "emails": [ "sp@vasilkoff.com", "maxim@vasilkoff.com" ],
-        "image": "/assets/images/ofc.png",
+        "image": "/assets/images/paphos.jpeg",
     },
     {
         "country": "🇬🇧",

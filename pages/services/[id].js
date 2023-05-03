@@ -47,7 +47,7 @@ const Servicesdetail = () => {
                 </div>
             </div>
 
-            <section className="py-14 lg:py-[100px]">
+            <section className="py-14 lg:py-[140px]">
                 <div className="container">
                     <div className="heading text-left">
                         <h6><a href="/#services"><ArrowLeftCircle className="text-2xl inline-block" />&nbsp;Back to Services</a></h6>
