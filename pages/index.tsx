@@ -418,6 +418,7 @@ const Index = (props: any) => {
                             "@context": "https://schema.org",
                             "@type": "Organization",
                             "name": "Vasilkoff",
+                            "headline": "Vasilkoff Ltd - Software Development Company",
                             "legalName": "Vasilkoff Ltd",
                             "url": "https://www.vasilkoff.com",
                             "logo": "https://www.vasilkoff.com/images/logo-vasilkoff.png",

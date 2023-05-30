@@ -14,10 +14,11 @@ const Blog = () => {
         return {
             "@type": "Article",
             "name": blog.title,
+            "headline": blog.title,
             "url": "https://vasilkoff.com/blog/" + key,
             "image": "https://vasilkoff.com/" + blog.picture,
             "description": blog.description,
-            "creator": {
+            "author": {
                 "@type": "Organization",
                 "name": "Vasilkoff",
                 "url": "https://vasilkoff.com"

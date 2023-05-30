@@ -24,6 +24,7 @@ const Contactus = () => {
     "mainEntity": {
         "@type": "Organization",
         "name": "Vasilkoff Ltd",
+        "headline": "Vasilkoff Ltd",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Glastonos 12-14",
