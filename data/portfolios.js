@@ -23,7 +23,7 @@ Libi & Daughters is a luxury cosmetics company that offers a range of premium sk
         title: "Housekeeper World",
         link: "housekeeperworld.com (Not working)",
         image: "/images/housekeeper.png",
-        slug: "smrtsgn",
+        slug: "housekeeperworld",
         url: "https://housekeeperworld.com/",
         extra:"",
         description:"Housekeeper is a professional cleaning service platform in Cyprus that offers flexible packages and a user-friendly mobile application for iOS and Android.",

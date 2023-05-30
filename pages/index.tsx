@@ -6,6 +6,7 @@ import TeamMembers from "../components/TeamMembers";
 import Services from '../components/Services';
 import PricingCard from '../components/PricingCard';
 import AIContacts from '../components/AIContacts';
+import Head from 'next/head';
 
 const Index = (props: any) => {
     return (
@@ -39,7 +40,7 @@ const Index = (props: any) => {
                         <h6>Achieve Your Goals with Our High-Impact Services</h6>
                         <h4>We help with</h4>
                         <p className="my-10">
-                        These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients. 
+                            These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
                         </p>
                     </div>
 
@@ -408,6 +409,88 @@ const Index = (props: any) => {
 
             {/* <Testimonial /> */}
             <AIContacts />
+            <Head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Vasilkoff",
+                            "legalName": "Vasilkoff Ltd",
+                            "url": "https://www.vasilkoff.com",
+                            "logo": "https://www.vasilkoff.com/images/logo-vasilkoff.png",
+                            "image": "https://www.vasilkoff.com/vasilkoff-cover.webp",
+                            "sameAs": [
+                                "https://www.facebook.com/VasilkoffLtd",
+                                "https://www.twitter.com/VasilkoffLtd"
+                            ],
+                            "telephone": "+35799169229",
+                            "email": "maxim@vasilkoff.com",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Glastonos 12-14",
+                                "addressLocality": "Paphos",
+                                "addressRegion": "Paphos",
+                                "addressCountry": "Cyprus",
+                                "postalCode": "8046"
+                            },
+                            "contactPoint": [
+                                {
+                                    "@type": "ContactPoint",
+                                    "name": "Simon Papazov",
+                                    "email": "sp@vasilkoff.com",
+                                    "telephone": "+35799169229",
+                                    "jobTitle": "Managing Director",
+                                    "image": "https://www.vasilkoff.com/images/simon-papazov.png",
+                                    "contactType": "customer service"
+                                },
+                                {
+                                    "@type": "ContactPoint",
+                                    "name": "Anastasia Sarlidou",
+                                    "email": "anastasia@vasilkoff.com",
+                                    "jobTitle": "Human Centered AI engineer",
+                                    "image": "https://www.vasilkoff.com/images/anastasia-sarlidou.png",
+                                    "contactType": "AI related questions"
+                                },
+                                {
+                                    "@type": "ContactPoint",
+                                    "name": "Irina Vasilkova",
+                                    "email": "omorfi@vasilkoff.com",
+                                    "jobTitle": "Design Director",
+                                    "image": "https://www.vasilkoff.com/images/irina-vasilkova.png",
+                                    "contactType": "design related questions"
+                                },
+                                {
+                                    "@type": "ContactPoint",
+                                    "name": "Nikol Todorova",
+                                    "email": "nikol@vasilkoff.com",
+                                    "jobTitle": "UI/UX Designer",
+                                    "image": "https://www.vasilkoff.com/images/nikol.jpg",
+                                    "contactType": "customer service"
+                                },
+                                {
+                                    "@type": "ContactPoint",
+                                    "name": "Maxim Vasilkov",
+                                    "email": "maxim@vasilkoff.com",
+                                    "jobTitle": "Systems Architect",
+                                    "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+                                    "contactType": "founder, business related questions"
+                                }
+
+                            ],
+                            "founder": {
+                                "@type": "Person",
+                                "name": "Maxim Vasilkov",
+                                "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+                                "jobTitle": "CBDO"
+                            }
+
+                        }),
+                    }}
+                />
+            </Head>
         </div>
     );
 };

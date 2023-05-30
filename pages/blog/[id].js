@@ -1,25 +1,61 @@
-import { useSelector } from 'react-redux';
-import Head from 'next/head';
+
 import { useRouter } from 'next/router';
 import { blogs } from '../../data/blogs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Error404 from '../404';
 import { ArrowLeftCircle, ProjectorFill } from 'react-bootstrap-icons';
-//import BlogSlider from '../../components/BlogSlider';
+import Head from 'next/head';
 
-const Blogdetail = () => {
-    const router = useRouter();
-    const { id } = router.query;
-    const blog = blogs[id];
+
+export const getServerSideProps = async ({ params }) => {
+    const blog = blogs[params.id];
+
     if (!blog) {
-        return <Error404 />;
+        return {
+            notFound: true,
+        }
     }
+
+    return {
+        props: {
+            blog,
+        },
+    }
+}
+
+const Blogdetail = ({ blog }) => {
     return (
         <div>
             <Head>
-                <title>{blog.title}</title>
+                <title>Blog: {blog.title}</title>
+                <script type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "${blog.title}",
+    "author": {
+        "@type": "Person",
+        "name": "Maxim Vasilkov"
+      },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vasilkoff",
+      "url": "https://vasilkoff.com"
+    },
+    "url": "https://vasilkoff.com/blog/${blog.slug}",
+    "image": "https://vasilkoff.com/${blog.picture}",
+    "description": "${blog.description}",
+    "datePublished": "${blog.date}"
+  }
+`
+}} />
+
             </Head>
+            
             <div className=" bg-black bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">

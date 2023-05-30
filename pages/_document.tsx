@@ -7,6 +7,7 @@ export default function Document() {
             <Head>
                 {/* Fonts  */}
                 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;800&display=swap" rel="stylesheet" />
+                 
             </Head>
             <body>
                 <Main />

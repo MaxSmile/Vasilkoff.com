@@ -41,10 +41,11 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:url" content="https://vasilkoff.com" />
             <meta property="og:description" content="Full-stack software development company offering outsourcing and outstaffing web & mobile apps development of simple and complex projects. Can use blockchain, AI and machine learning" />
             <meta property="og:type" content="product" />
-            <meta property="og:image" content="/vasilkoff-cover-1024x583.jpg" />
+            <meta property="og:image" content="/vasilkoff-cover.webp" />
             <meta content="origin" name="referrer" />
             <meta content="/images/cover.png" itemProp="image" />
-                    
+
+                  
                     
                 </Head>
                 <DefaultLayout>

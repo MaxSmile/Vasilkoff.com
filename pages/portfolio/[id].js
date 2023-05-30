@@ -6,19 +6,49 @@ import Error404 from '../404';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-const Portfoliodetail = (props) => {
-    const router = useRouter();
-    const { id } = router.query;
+
+export const getServerSideProps = async ({ params }) => {
+    const { id } = params;
     const pf = portfolios.filter(obj => {
         return obj.slug === id
-      })[0];
+    })[0];
+
     if (!pf) {
-        return <Error404 />;
+        return {
+            notFound: true,
+        }
     }
+
+    return {
+        props: {
+            pf,
+        },
+    }
+}
+
+const Portfoliodetail = ({pf}) => {
     return (
         <div>
             <Head>
                 <title>{pf.title}</title>
+                <script type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "${pf.title}",
+    "creator": {
+      "@type": "Organization",
+      "name": "Vasilkoff",
+      "url": "https://vasilkoff.com"
+    },
+    "url": "https://vasilkoff.com/portfolio/${pf.slug}",
+    "image": "https://vasilkoff.com/${pf.image}",
+    "description": "${pf.description}"
+  }
+`
+}} />
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -46,7 +76,7 @@ const Portfoliodetail = (props) => {
                                 data-aos-duration="1000"
                             >
                                 {
-                                    pf.categories.map((cat,idx) => {
+                                    pf.categories.map((cat, idx) => {
                                         return (
                                             <li key={idx}>
                                                 <h6>{cat}</h6>

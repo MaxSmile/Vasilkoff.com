@@ -7,12 +7,37 @@ import PortfolioCard from '../components/PortfolioCard';
 
 const Portfolio = () => {
     const [activeTab, setActiveTab] = useState<string>('all');
+    let hasPart = portfolios.map((portfolio) => {
+        return {
+            "@type": "CreativeWork",
+            "name": portfolio.title,
+            "url": "https://vasilkoff.com/portfolio/" + portfolio.slug,
+            "image": "https://vasilkoff.com/" + portfolio.image,
+            "description": portfolio.description,
+            "creator": {
+                "@type": "Organization",
+                "name": "Vasilkoff",
+                "url": "https://vasilkoff.com"
+            }
+        }
+    });
     return (
         <div>
             <Head>
                 <title>Portfolio</title>
+                <script type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Portfolio",
+    "description": "A collection of projects we have developed",
+    "hasPart": ${JSON.stringify(hasPart)}
+}`
+                    }} />
+
             </Head>
-            
 
 
             <section className="pt-12 mt-40 pb-14 md:pb-[100px]">
@@ -208,7 +233,6 @@ const Portfolio = () => {
                     </div>
                 </div>
             </section>
-            
         </div>
     );
 };

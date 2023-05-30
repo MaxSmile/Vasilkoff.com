@@ -8,19 +8,51 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
 
-const Servicesdetail = () => {
-    const router = useRouter();
-    const { id } = router.query;
-    const serv = services[id];
+
+export const getServerSideProps = async ({ params }) => {
+    const serv = services[params.id];
+
+    if (!serv) {
+        return {
+            notFound: true,
+        }
+    }
+
+    return {
+        props: {
+            serv,
+        },
+    }
+}
+const Servicesdetail = ({serv}) => {
+
     const color1 = '#990000';
     const color2 = '#666666'
-    if (!serv) {
-        return <Error404 />;
-    }
+
     return (
         <div>
             <Head>
                 <title>{serv.title}</title>
+                <script type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "provider": {
+        "@type": "Organization",
+        "name": "Vasilkoff Ltd",
+        "url": "https://www.vasilkoff.com"
+    },
+    "serviceType": "${serv.title}",
+    "name": "${serv.subtitle}",
+    "description": "${serv.description}",
+    "areaServed": "Worldwide",
+    "url": "https://www.vasilkoff.com/services/${serv.slug}"
+`
+}} />
+
             </Head>
             <div className=" bg-black bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
