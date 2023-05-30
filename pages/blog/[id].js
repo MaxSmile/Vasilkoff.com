@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import Error404 from '../404';
 import { ArrowLeftCircle, ProjectorFill } from 'react-bootstrap-icons';
 import Head from 'next/head';
+import Link from 'next/link';
 
 
 export const getServerSideProps = async ({ params }) => {
@@ -39,7 +40,8 @@ const Blogdetail = ({ blog }) => {
     "headline": "${blog.title}",
     "author": {
         "@type": "Person",
-        "name": "Maxim Vasilkov"
+        "name": "Maxim Vasilkov",
+        "url": "https://about.me/maxim.vasilkov"
       },
     "publisher": {
       "@type": "Organization",
@@ -65,7 +67,7 @@ const Blogdetail = ({ blog }) => {
                                 <h4 className="!text-white">{blog.title}</h4>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">
-                                        <ProjectorFill />
+                                        <Link href="https://about.me/maxim.vasilkov" target="_blank"><ProjectorFill /></Link>
                                         <span className="px-4 font-semibold sm:text-lg">Maxim Vasilkov</span>
                                     </li>
                                     <li className="relative px-4 font-semibold before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
