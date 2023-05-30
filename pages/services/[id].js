@@ -50,7 +50,7 @@ const Servicesdetail = ({serv}) => {
     "description": "${serv.description}",
     "areaServed": "Worldwide",
     "url": "https://www.vasilkoff.com/services/${serv.slug}"
-`
+}`
 }} />
 
             </Head>
