@@ -34,7 +34,9 @@ const Contactus = () => {
         },
         "email": "maxim@vasilkoff.com",
         "telephone": "+35799169229",
-        "url": "https://vasilkoff.com"
+        "url": "https://vasilkoff.com",
+        "sameAs": ["https://www.facebook.com/vasilkoff.software", 
+        "https://www.instagram.com/vasilkoff"]
     }
 }
 `

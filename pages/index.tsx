@@ -422,10 +422,8 @@ const Index = (props: any) => {
                             "url": "https://www.vasilkoff.com",
                             "logo": "https://www.vasilkoff.com/images/logo-vasilkoff.png",
                             "image": "https://www.vasilkoff.com/vasilkoff-cover.webp",
-                            "sameAs": [
-                                "https://www.facebook.com/VasilkoffLtd",
-                                "https://www.twitter.com/VasilkoffLtd"
-                            ],
+                            "sameAs": ["https://www.facebook.com/vasilkoff.software",
+                                "https://www.instagram.com/vasilkoff"],
                             "telephone": "+35799169229",
                             "email": "maxim@vasilkoff.com",
                             "address": {
