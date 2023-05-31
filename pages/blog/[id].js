@@ -30,6 +30,7 @@ const Blogdetail = ({ blog }) => {
         <div>
             <Head>
                 <title>Blog: {blog.title}</title>
+                <meta name="description" content={blog.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `

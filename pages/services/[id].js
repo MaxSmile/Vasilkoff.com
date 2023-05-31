@@ -33,6 +33,7 @@ const Servicesdetail = ({serv}) => {
         <div>
             <Head>
                 <title>{serv.title}</title>
+                <meta name="description" content={serv.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `

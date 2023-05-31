@@ -31,6 +31,7 @@ const Portfoliodetail = ({pf}) => {
         <div>
             <Head>
                 <title>{pf.title}</title>
+                <meta name="description" content={pf.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `
