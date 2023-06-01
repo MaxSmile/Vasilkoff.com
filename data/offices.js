@@ -1,4 +1,4 @@
-export const offices = [
+const offices = [
     {
         "country": "🇨🇾",
         "address": "Glastonos 12-14, 2nd Floor, Paphos 8046",
@@ -30,3 +30,5 @@ export const offices = [
     },
 
 ]
+
+exports.offices = offices;

@@ -1,4 +1,4 @@
-export const portfolios = [
+const portfolios = [
     {
         type:"projects",
         categories: [
@@ -800,3 +800,9 @@ A Better Florist is a global network of online flower shops, offering a range of
  
 
 ]
+
+const getPortfoliosIds = () => {
+    return portfolios.map(portfolio => portfolio.slug);
+}
+exports.getPortfoliosIds = getPortfoliosIds;
+exports.portfolios = portfolios;

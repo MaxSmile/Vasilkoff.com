@@ -1,4 +1,4 @@
-export const blogs = {
+const blogs = {
     "seo-rich-snippets-google": {
       "date": "May 30, 2023",
       "title": "Step-by-Step: Implementing Structured Data for Better SEO",
@@ -597,8 +597,10 @@ Cloud computing is becoming increasingly popular in software development, and ou
 In conclusion, the future of software development outsourcing and outstaffing is likely to be shaped by trends such as increased adoption of AI, emergence of new outsourcing destinations, focus on agile development, increased focus on cybersecurity, rise of remote work, and increased use of cloud computing. By staying on top of these trends, businesses can take advantage of the benefits of outsourcing and outstaffing and stay ahead of the competition.
 `
     }
-
-  
-
     
 };
+
+const getBlogIds = () => Object.keys(blogs);
+
+exports.getBlogIds = getBlogIds;
+exports.blogs = blogs;

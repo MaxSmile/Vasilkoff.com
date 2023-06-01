@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:image" content="/vasilkoff-cover.webp" />
             <meta content="origin" name="referrer" />
             <meta content="/images/cover.png" itemProp="image" />
-
+            <link rel="canonical" href="https://vasilkoff.com" />
                   
                     
                 </Head>

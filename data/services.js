@@ -1,6 +1,4 @@
-import { CodeSlash } from "react-bootstrap-icons";
-
-export const services = {
+const services = {
   "design":{
     "id": 1,
     "image": "/assets/images/design.png",
@@ -46,7 +44,6 @@ By leveraging our expertise in UI/UX design, we create captivating and user-frie
     "id": 2,
     "image": "/assets/images/web-development.png",
     "altImage": "Web Development from Vasilkoff Ltd",
-    "icon": <CodeSlash className="text-light"/>,
     "title": "Web Development",
     "subtitle":"Unleashing Business Potential with Web Development: From Concept to Digital Success",
     "description": "Discover how our expertise in front-end and back-end technologies, CMS, WordPress, and major eCommerce platforms like Magento and Shopify can drive growth in your business.",
@@ -311,3 +308,7 @@ Embracing these powerful AI and machine learning tools can unlock new opportunit
   },
  
 };
+
+const getServicesIds = () => Object.keys(services);
+exports.services = services;
+exports.getServicesIds = getServicesIds;
