@@ -7,6 +7,8 @@ import Head from 'next/head';
 import {portfolios} from '../data/portfolios';
 import TeamMembers from '../components/TeamMembers';
 import {OurProjectCard} from '../components/OurProjectCard';
+import CounterComponent from '../components/CounterComponent';
+import AIContacts from '../components/AIContacts';
 
 const Aboutus = () => {
     const ourprojects = portfolios.filter(portfolio => portfolio.type === 'our-projects');
@@ -300,6 +302,9 @@ const Aboutus = () => {
 
             {/* <BlogSlider title1="Blog" title2="Unlock the latest trends/news" />
  */}
+
+<CounterComponent />
+<AIContacts />
 
         </div>
     );

@@ -5,7 +5,7 @@ import version from "../../version.js";
 
 
 const Footer = () => {
-   
+
     return (
         <>
             {/* <section  className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
@@ -26,11 +26,11 @@ const Footer = () => {
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
 
-                                {/* <li>
-                                    <Link href="/business-offer" className="inline-block transition hover:scale-110">
-                                        Business Offer
+                                <li>
+                                    <Link href="/crypto" className="inline-block transition hover:scale-110">
+                                        Crypto Offer
                                     </Link>
-                                </li> */}
+                                </li>
                                 <li>
                                     <Link href="/contact-us" className="inline-block transition hover:scale-110">
                                         Contact Us
@@ -46,6 +46,7 @@ const Footer = () => {
                                         Blog
                                     </Link>
                                 </li>
+
                                 {/* <li>
                                     <Link href="/career" className="inline-block transition hover:scale-110">
                                         Career
