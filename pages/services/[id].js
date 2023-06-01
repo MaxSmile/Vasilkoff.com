@@ -64,8 +64,8 @@ const Servicesdetail = ({serv}) => {
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
                                     {serv.description}
                                 </p>
-                                <Link href="/about-us" className="btn mt-2 capitalize">
-                                    Book a free consultation
+                                <Link href="/contact-us" className="btn mt-2 capitalize">
+                                    Get a free consultation
                                 </Link>
                             </div>
                             <div
@@ -165,7 +165,7 @@ const Servicesdetail = ({serv}) => {
                 </div>
             </section>
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="grid gap-10 sm:grid-cols-3 sm:gap-7 lg:grid-cols-4">
                         <div>
@@ -355,11 +355,11 @@ const Servicesdetail = ({serv}) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
-            <section className="py-14 lg:py-[100px]">
+            {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h4>Our Technologies</h4>
@@ -387,7 +387,7 @@ const Servicesdetail = ({serv}) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* <BlogSlider title2="Related articles" /> */}
 
