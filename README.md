@@ -46,6 +46,31 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+
+## Schemas
+
+
+## Google Analytics
+
+STREAM NAME
+Vasilkoff.com
+STREAM URL
+https://vasilkoff.com
+STREAM ID
+4635087964
+MEASUREMENT ID
+G-9WSLDWGM8P
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9WSLDWGM8P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9WSLDWGM8P');
+</script>
+
 # License
 
-MIT License
+Copyright © 2022 Vasilkoff.com
