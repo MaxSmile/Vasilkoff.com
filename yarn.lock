@@ -1879,6 +1879,11 @@ kleur@^4.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
+lachie-ga4@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/lachie-ga4/-/lachie-ga4-2.1.1.tgz#7b8ad03f6fd7b021fa04bbf04dfde1b9271527f9"
+  integrity sha512-Rc0Q9lBH0fhc6FKTi3OiFe0CRDN8TGaPmvXp3iVVfJUA9YSNFHDFXJxFPSagR6AwpjekQ+9HOjluCbDbl8ygIQ==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"

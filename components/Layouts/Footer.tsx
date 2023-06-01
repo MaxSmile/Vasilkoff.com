@@ -2,8 +2,10 @@ import Link from 'next/link';
 import { Container } from "react-bootstrap";
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
+import ReactGA from 'lachie-ga4';
 
 const Footer = () => {
+    ReactGA.initialize("G-9WSLDWGM8P");
     return (
         <>
             {/* <section  className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
