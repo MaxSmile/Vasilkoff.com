@@ -110,11 +110,9 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>01
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Clear and straightforward</h4>
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">End-to-End Full Stack Development</h4>
                                 <p className="text-lg font-semibold">
-                                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
-                                    document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
-                                    available.
+                                Take advantage of our comprehensive full-stack development services. From ideation to execution, we are your reliable partner. We kick-start the process with strategic consulting, continue with meticulous architecture planning and UI/UX design, and finalize with seamless coding and development.
                                 </p>
                             </div>
                         </li>
@@ -127,10 +125,9 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>02
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Visually appealing</h4>
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Tailored To Your Needs</h4>
                                 <p className="text-lg font-semibold">
-                                    We pay a lot of attention to the visual solution so that it is also attractive and in line with modern market requirements
-                                    in addition to being comfortable to use.
+                                Our strength lies in our versatility. Our proficient team can adapt to your specific requirements, leveraging a broad array of programming languages and technologies. With Vasilkoff, rest assured you're getting a solution that is custom-crafted to align with your unique needs and stay abreast with the most recent market trends.
                                 </p>
                             </div>
                         </li>
@@ -145,8 +142,7 @@ const Servicesdetail = ({serv}) => {
                             <div className="lg:w-4/6">
                                 <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h4>
                                 <p className="text-lg font-semibold">
-                                    Our design solutions are aesthetically pleasing, user-friendly, and practical so that users will feel attention and a gentle
-                                    attitude in every pixel.
+                                At Vasilkoff, we prioritize your users. With our user-centric approach to design and development, we guarantee the delivery of not only technically robust but also intuitive and user-friendly applications. Every interaction point is engineered with your users' comfort and satisfaction in mind.
                                 </p>
                             </div>
                         </li>
@@ -159,10 +155,9 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>04
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Enhanced Productivity</h4>
+                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Adaptable and Cutting-Edge Technology</h4>
                                 <p className="text-lg font-semibold">
-                                    We significantly reduce the task completion time, allowing users to do their jobs in fewer clicks, thus contributing to
-                                    better overall productivity.
+                                With a team proficient in a wide array of programming languages and technologies, we bring versatility to your project. We adapt to your unique needs, employing cutting-edge technologies that align with your project requirements and follow the latest market trends.
                                 </p>
                             </div>
                         </li>
