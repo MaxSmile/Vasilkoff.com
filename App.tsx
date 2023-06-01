@@ -30,7 +30,7 @@ function App({ children }: PropsWithChildren) {
           return () => {
             router.events.off('routeChangeComplete', handleRouteChange);
           };
-    }, [dispatch, themeConfig.direction, themeConfig.theme]);
+    }, [dispatch, themeConfig.direction, themeConfig.theme, router.events]);
 
     return <div className="App">{children}</div>;
 }
