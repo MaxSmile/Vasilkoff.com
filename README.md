@@ -71,6 +71,11 @@ G-9WSLDWGM8P
   gtag('config', 'G-9WSLDWGM8P');
 </script>
 
+
+<script async src="https://cse.google.com/cse.js?cx=a4466be8f630340db">
+                </script>
+                <div class="gcse-search"></div>   
+
 # License
 
 Copyright © 2022 Vasilkoff.com

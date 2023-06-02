@@ -8,9 +8,6 @@ import { useRouter } from 'next/router';
 const Header = (props: any) => {
     const router = useRouter();
 
-    const themeConfig = useSelector((state: IRootState) => state.themeConfig);
-    const dispatch = useDispatch();
-
     const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
         if (window.innerWidth < 1024) {
@@ -92,7 +89,7 @@ const Header = (props: any) => {
                      
                             </ul>
                         </div>
-
+                        
                         <button
                             type="button"
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
@@ -116,6 +113,7 @@ const Header = (props: any) => {
                     </div>
                 </div>
             </div>
+             
         </header>
     );
 };
