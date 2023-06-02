@@ -8,15 +8,6 @@ const Footer = () => {
 
     return (
         <>
-            {/* <section  className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
-                <div className="items-center justify-center lg:flex">
-                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
-                    </div>
-                </div>
-            </section> */}
-
-
             <footer className="py-14 bg-black lg:py-[100px] text-light text-base">
                 <Container>
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
