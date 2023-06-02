@@ -2,7 +2,7 @@ import { PropsWithChildren, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { IRootState } from './store';
 import { toggleDirection, toggleTheme } from './store/themeConfigSlice';
-import ReactGA from 'lachie-ga4';
+import ReactGA from 'react-ga4';
 import { useRouter } from 'next/router';
 
 ReactGA.initialize("G-9WSLDWGM8P");
