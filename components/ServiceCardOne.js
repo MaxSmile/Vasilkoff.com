@@ -31,6 +31,7 @@ const ServiceCardOne = (
                 </div>
                 <Link
                     href={"/services/" + slug}
+                    aria-label={title}
                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                 >
                     {title}
@@ -40,6 +41,7 @@ const ServiceCardOne = (
                 </p>
                 <Link
                     href={"/services/" + slug}
+                    aria-label={"Link to service page: "+title}
                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
                 >
                     <svg

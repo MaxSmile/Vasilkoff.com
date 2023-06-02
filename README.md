@@ -49,6 +49,81 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Schemas
 
+index - Organization
+
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vasilkoff",
+    "headline": "Vasilkoff Ltd - Software Development Company",
+    "legalName": "Vasilkoff Ltd",
+    "url": "https://vasilkoff.com",
+    "logo": "https://vasilkoff.com/images/logo-vasilkoff.png",
+    "image": "https://vasilkoff.com/vasilkoff-cover.webp",
+    "sameAs": ["https://www.facebook.com/vasilkoff.software",
+        "https://www.instagram.com/vasilkoff"],
+    "telephone": "+35799169229",
+    "email": "maxim@vasilkoff.com",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Glastonos 12-14",
+        "addressLocality": "Paphos",
+        "addressRegion": "Paphos",
+        "addressCountry": "Cyprus",
+        "postalCode": "8046"
+    },
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "name": "Simon Papazov",
+            "email": "sp@vasilkoff.com",
+            "telephone": "+35799169229",
+            "jobTitle": "Managing Director",
+            "image": "https://www.vasilkoff.com/images/simon-papazov.png",
+            "contactType": "customer service"
+        },
+        {
+            "@type": "ContactPoint",
+            "name": "Anastasia Sarlidou",
+            "email": "anastasia@vasilkoff.com",
+            "jobTitle": "Human Centered AI engineer",
+            "image": "https://www.vasilkoff.com/images/anastasia-sarlidou.png",
+            "contactType": "AI related questions"
+        },
+        {
+            "@type": "ContactPoint",
+            "name": "Irina Vasilkova",
+            "email": "omorfi@vasilkoff.com",
+            "jobTitle": "Design Director",
+            "image": "https://www.vasilkoff.com/images/irina-vasilkova.png",
+            "contactType": "design related questions"
+        },
+        {
+            "@type": "ContactPoint",
+            "name": "Nikol Todorova",
+            "email": "nikol@vasilkoff.com",
+            "jobTitle": "UI/UX Designer",
+            "image": "https://www.vasilkoff.com/images/nikol.jpg",
+            "contactType": "customer service"
+        },
+        {
+            "@type": "ContactPoint",
+            "name": "Maxim Vasilkov",
+            "email": "maxim@vasilkoff.com",
+            "jobTitle": "Systems Architect",
+            "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+            "contactType": "founder, business related questions"
+        }
+
+    ],
+    "founder": {
+        "@type": "Person",
+        "name": "Maxim Vasilkov",
+        "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+        "jobTitle": "CBDO"
+    }
+
+
+
 
 ## Google Analytics
 

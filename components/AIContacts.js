@@ -67,11 +67,12 @@ export default function AIContacts() {
                                     <input required
                                         type="text"
                                         name="name"
+                                        id='name'
                                         ref={nameRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
-                                        htmlFor=""
+                                        htmlFor="name"
                                         className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
                                     >
                                         Full Name
@@ -83,10 +84,11 @@ export default function AIContacts() {
                                         type="email"
                                         name="email"
                                         ref={emailRef}
+                                        id='email'
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
-                                        htmlFor=""
+                                        htmlFor="email"
                                         className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
                                     >
                                         Email Address
@@ -97,11 +99,12 @@ export default function AIContacts() {
                                     <input required
                                         type="text"
                                         name="mobile"
+                                        id='mobile'
                                         ref={mobileRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
-                                        htmlFor=""
+                                        htmlFor="mobile"
                                         className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
                                     >
                                         Mobile Number
@@ -112,11 +115,12 @@ export default function AIContacts() {
                                     <input required
                                         type="text"
                                         name="city"
+                                        id='city'
                                         ref={cityRef}
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label
-                                        htmlFor=""
+                                        htmlFor="city"
                                         className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
                                     >
                                         City
