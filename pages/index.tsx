@@ -17,8 +17,10 @@ const Index = (props: any) => {
                         <div className="relative pt-14 pb-0 lg:pt-20 lg:pb-40 xl:pt-36">
                             <div className="relative text-center ">
                                 <h2 className="text-4xl font-bold leading-normal sm:text-5xl lg:text-[70px] lg:leading-[90px] " >
-                                    <span className="italic text-primary" style={{ letterSpacing: "0.04em" }}>Team</span>
-                                    <span className="text-secondary">work</span>&nbsp;<span>makes</span><br /><span style={{ fontSize: "70%", lineHeight: "50%" }}>the dream work</span>
+                                    <span className="text-primary" style={{ letterSpacing: "0.04em" }}>Team</span>
+                                    <span className="text-secondary">work</span>&nbsp;<span>makes</span>
+                                    <br style={{ fontSize: "10%", lineHeight: "10%" }} />
+                                    <span style={{ fontSize: "70%", lineHeight: "50%" }}>the dream work</span>
                                 </h2>
                                 <div className="pb-10  text-lg font-extralight leading-[30px]"
                                     style={{ maxWidth: "840px", margin: "19px auto" }}>
