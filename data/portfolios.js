@@ -645,7 +645,7 @@ SmrtSgn is a cutting-edge web3 application that allows users to securely sign do
         extra:"",
         description:"This classic board chess game project includes a mobile app with iOS and Android support, Flutter integration, Web3, DApp, blockchain, smart contract, NFT, AI, and engaging gameplay.",
         article:`
-This project is a classic board chess game that offers a range of features including a mobile app, iOS and Android versions, and Flutter support. It also incorporates Web3, DApp, blockchain, and smart contract technologies to enable secure and transparent gameplay, as well as NFTs to represent unique game pieces. The game also includes AI capabilities for players to practice against and offers a highly engaging and entertaining experience for players of all skill levels.
+This project is a classic board chess game that offers a range of features including a mobile app, iOS and Android versions, and Flutter support. It also incorporates Web3, DApp, blockchain, and smart contract technologies to enable secure and transparent gameplay, as well as NFTs to represent unique game pieces. The game also includes AI capabilities for players to practice against and offers a highly engaging and entertaining experience for players of all skill levels. https://github.com/Vasilkoff-com/BellaChess
         `,
     },
     {
