@@ -2,8 +2,6 @@ import Link from 'next/link';
 //import BlogSlider from '../../components/BlogSlider';
 import { services } from '../../data/services.js';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
-import Error404 from '../404';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';

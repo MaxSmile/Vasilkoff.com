@@ -31,14 +31,13 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## TODO
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. From the main page, you can click on the Price button to open the price calculator, sign order and order prepaipents.
+2. Price calculator to be powered by AI
+3. Add smrtAI widget.
+4. Improve visuals of Portfolio: especially BellaChess and Calculator lock
+5. Add smrtAI to the portfolio
 
 ## Deploy on Vercel
 

@@ -1,7 +1,4 @@
-import { useSelector } from 'react-redux';
-import Link from 'next/link';
 import Head from 'next/head';
-import { IRootState } from '../store';
 import {blogs} from '../data/blogs';
 import BlogCard from '../components/BlogCard';
 
