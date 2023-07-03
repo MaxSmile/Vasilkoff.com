@@ -38,6 +38,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 3. Add smrtAI widget.
 4. Improve visuals of Portfolio: especially BellaChess and Calculator lock
 5. Add smrtAI to the portfolio
+6. Make a simialr page to https://lookmy.info/index.php?id=15862&show=58935
+7. Add more pages like lookmy.info
 
 ## Deploy on Vercel
 
