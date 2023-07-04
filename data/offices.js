@@ -1,20 +1,6 @@
 const offices = [
     {
         "country": "🇨🇾",
-        "address": "Glastonos 12-14, 2nd Floor, Paphos 8046",
-        "phones": [ "+35796253566", "+35799169229" ],
-        "emails": [ "sp@vasilkoff.com", "maxim@vasilkoff.com" ],
-        "image": "/images/vasilkoff-office.webp",
-    },
-    {
-        "country": "🇬🇧",
-        "address": "207 Regent Street, London W1B 3HH",
-        "phones": [ "+442045772478" ],
-        "emails": [ "developer@vasilkoff.com" ],
-        "image": "/images/regent-street.webp",
-    },
-    {
-        "country": "🇨🇾",
         "address": "Office 402 Charalambou Mouskou & Grigori Afxentiou 20 (ATHINODOROU BUSINESS CENTER), Paphos, Cyprus, 8010",
         "phones": [ "+1-888-2614460" ],
         "emails": [ "dev@vasilkoff.com" ],
@@ -28,6 +14,20 @@ const offices = [
         "emails": [ "sergey@vasilkoff.com" ],
         "image": "/images/cherkasy.jpg",
     },
+    {
+        "country": "🇨🇾",
+        "address": "Glastonos 12-14, 2nd Floor, Paphos 8046",
+        "phones": [ "+35796253566", "+35799169229" ],
+        "emails": [ "sp@vasilkoff.com", "maxim@vasilkoff.com" ],
+        "image": "/images/vasilkoff-office.webp",
+    },
+    {
+        "country": "🇬🇧",
+        "address": "207 Regent Street, London W1B 3HH",
+        "phones": [ "+442045772478" ],
+        "emails": [ "developer@vasilkoff.com" ],
+        "image": "/images/regent-street.webp",
+    }
 
 ]
 
