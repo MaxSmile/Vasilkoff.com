@@ -40,6 +40,20 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 5. Add smrtAI to the portfolio
 6. Make a simialr page to https://lookmy.info/index.php?id=15862&show=58935
 7. Add more pages like lookmy.info
+8. Let's make http://preview.codecanyon.net/item/manager-resume-app/full_screen_preview/46341465?_ga=2.41351974.569631678.1688384657-633491467.1643048083 from https://codecanyon.net/item/manager-resume-app/46341465 
+9. Update smrt16.com https://codecanyon.net/item/bithu-nft-mintingcollection-with-smart-contract-react-jssolidity/38514572/comments 
+10. WhatsApp API? https://codecanyon.net/item/whatsapi-a-multipurpose-whatsapp-api/reviews/42445454 
+11. https://tinify.com/ i have account with maxim@vasilkoff.com 500 calls per month
+12. NextAI -> smrtAI
+13. block certify -> NFTTRX A Blockchain-based certificate creation and verification system 
+14. Fscebook like https://www.facebook.com/codeyon/
+15. Instant Invoice Generator - like https://codecanyon.net/item/instant-invoice-generator/39035008 by html to pdf
+16. NFTTRX - NFTTRX A Blockchain-based certificate creation and verification system https://codecanyon.net/item/pdf-merger-merge-rotate-organize-delete-preview-pdf-all-in-one-react-nextjs-web-application/42741922
+17. Inter-euro and neophitoullc 
+18. https://dashboard.render.com/ cool free hosting
+19. https://github.com/raid-guild/smart-escrow-nextjs for which domain?
+20. SMRT16 https://www.koob.ru/mlm/ 
+21. https://www.npmjs.com/package/react-vertical-timeline-component 
 
 ## Deploy on Vercel
 

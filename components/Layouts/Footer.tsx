@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Container } from "react-bootstrap";
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
+import WhosAmungUs from "../WhosAmungUs";
 
 
 const Footer = () => {
@@ -111,7 +112,10 @@ const Footer = () => {
                                         <Instagram />
                                     </Link>
                                 </li>
-                                <li className="text-gray text-xs">v.{version}</li>
+                                <li className="text-xs">v.{version}</li>
+                                <li className="text-xs">
+                                    &copy; 2012-{new Date().getFullYear()} Vasilkoff Ltd
+                                </li>
                             </ul>
                         </div>
                     </div>
