@@ -24,7 +24,9 @@ const Portfolio = () => {
     return (
         <div>
             <Head>
-                <title>Portfolio</title>
+                <title>Portfolio - Vasilkoff</title>
+                <meta name="description" content="Explore our diverse portfolio at Vasilkoff. We've developed innovative web and mobile solutions for businesses across various sectors, demonstrating our commitment to excellence and client satisfaction." />
+        
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `

@@ -9,7 +9,11 @@ const Privacypolicy = () => {
     return (
         <>
             <Head>
-                <title>Privacy Policy</title>
+                <title>Privacy Policy - Vasilkoff</title>
+                <meta 
+                    name="description" 
+                    content="This Privacy Policy outlines how Vasilkoff collects, uses, and manages your information. Your privacy is our top priority." 
+                />
             </Head>
             <div className="pt-40 md:py-[100px]">
                 <div className="container">

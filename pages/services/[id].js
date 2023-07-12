@@ -30,7 +30,7 @@ const Servicesdetail = ({serv}) => {
     return (
         <div>
             <Head>
-                <title>{serv.title}</title>
+                <title>{serv.title} - Vasilkoff</title>
                 <meta name="description" content={serv.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{

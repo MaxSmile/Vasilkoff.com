@@ -11,7 +11,11 @@ const Contactus = () => {
     return (
         <div>
             <Head>
-                <title>Contact Vasilkoff Ltd</title>
+                <title>Contact Us - Vasilkoff</title>
+                <meta
+                    name="description"
+                    content="Get in touch with Vasilkoff. Contact us for any inquiries related to our software development services, partnerships, career opportunities, and more."
+                />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -41,7 +45,7 @@ const Contactus = () => {
     }
 }
 `
-}} />
+                    }} />
 
             </Head>
 
@@ -212,7 +216,7 @@ const Contactus = () => {
             </section> */}
 
 
-            
+
 
             {/* <section className="bg-gradient-to-t from-white/[55%] to-transparent mt-20 py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
@@ -714,7 +718,7 @@ const Contactus = () => {
                 </div>
             </section> */}
 
-            
+
 
 
             <AIContacts />

@@ -30,7 +30,7 @@ const Portfoliodetail = ({pf}) => {
     return (
         <div>
             <Head>
-                <title>{pf.title}</title>
+                <title>{pf.title} - Vasilkoff</title>
                 <meta name="description" content={pf.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{

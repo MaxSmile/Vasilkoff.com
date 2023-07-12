@@ -15,7 +15,11 @@ const Aboutus = () => {
     return (
         <div>
             <Head>
-                <title>About Us</title>
+            <title>About Us - Vasilkoff</title>
+                <meta 
+                    name="description" 
+                    content="Learn more about Vasilkoff, a full-stack software development company. Discover our mission, vision, team, and why we're the right choice for your software development needs." 
+                />
             </Head>
 
             <section className="relative overflow-hidden pt-14 mt-40 lg:pb-48 lg:pt-[100px]">

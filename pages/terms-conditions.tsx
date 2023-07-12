@@ -9,7 +9,11 @@ const Termsandcondition = () => {
     return (
         <div>
             <Head>
-                <title>Terms and Conditions</title>
+                <title>Terms and Conditions - Vasilkoff</title>
+                <meta
+                    name="description"
+                    content="Read the terms and conditions that govern your use of Vasilkoff's services. Understand your rights and obligations when engaging with our software development solutions."
+                />
             </Head>
 
             <div className="pt-40 md:py-[100px]">

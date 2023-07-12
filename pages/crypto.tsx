@@ -25,7 +25,7 @@ const Crypto = (props: any) => {
     return (
         <div>
             <Head>
-                <title>Drive Your Crypto Startup Forward with Tailored Blockchain Solutions</title>
+                <title>Drive Your Crypto Startup Forward with Tailored Blockchain Solutions - Vasilkoff</title>
             </Head>
             <div className="overflow-hidden bg-black pt-[82px] lg:pt-[106px]">
                 <div className="relative">
