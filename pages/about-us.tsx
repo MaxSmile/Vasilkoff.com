@@ -22,7 +22,7 @@ const Aboutus = () => {
                 <div className="container relative z-[1]">
                     <div className="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                         <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
-                            <h6>Who are we?</h6>
+                            <h1>Who are we?</h1>
                             <h4>Your Trusted IT Partners</h4>
                         </div>
                         <div className="font-medium pb-10 text-lg leading-[30px]">
@@ -47,7 +47,7 @@ const Aboutus = () => {
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        {/* <h6>Meet Our Team</h6> */}
+                        {/* <h1>Meet Our Team</h1> */}
                         <h4>Ingenious Problem-Solvers</h4>
                         {/* <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
                      */}

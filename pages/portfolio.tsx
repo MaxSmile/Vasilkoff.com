@@ -113,7 +113,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-1.png" alt="project-1" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Space Landing page</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Space Landing page</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-2.png" alt="project-2" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h1>
                                     <p>Website, App</p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-3.png" alt="project-3" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Looking for a quiet place</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Looking for a quiet place</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-4.png" alt="project-4" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-5.png" alt="project-5" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Digital Art Guide</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Digital Art Guide</h1>
                                     <p>Branding</p>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-6.png" alt="project-6" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h1>
                                     <p>Branding, Website, App</p>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-7.png" alt="project-7" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Space Landing page</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Space Landing page</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-8.png" alt="project-8" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Crypto Game - UX Interface</h1>
                                     <p>Website, App</p>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-9.png" alt="project-9" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Looking for a quiet place</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Looking for a quiet place</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-10.png" alt="project-10" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">WeTour - Travel Hero Illustration</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-11.png" alt="project-11" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Digital Art Guide</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Digital Art Guide</h1>
                                     <p>Branding</p>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@ const Portfolio = () => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-12.png" alt="project-12" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h6>
+                                    <h1 className="mb-1 text-black dark:text-white">Frozeverse - 3D and motion design</h1>
                                     <p>Branding, Website, App</p>
                                 </div>
                             </div>

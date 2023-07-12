@@ -35,7 +35,7 @@ const Career = () => {
                     <div className="grid items-center gap-8 md:grid-cols-3 lg:grid-cols-2 xl:items-start">
                         <div className="order-2 md:order-1 md:col-span-2 lg:col-auto">
                             <div className="heading mb-5 text-center ltr:md:text-left rtl:md:text-right">
-                                <h6>Careers</h6>
+                                <h1>Careers</h1>
                                 <h4>Join the #1 Creative Agency</h4>
                             </div>
                             <div className="text-center font-semibold ltr:md:text-left rtl:md:text-right">
@@ -64,7 +64,7 @@ const Career = () => {
             <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Our Culture</h6>
+                        <h1>Our Culture</h1>
                         <h4>Be Great. Do Good. Have Fun.</h4>
                     </div>
                     {isOpen && (
@@ -168,7 +168,7 @@ const Career = () => {
             <section className="bg-gradient-to-t from-white/[54%] to-transparent py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Our Amazing Perks</h6>
+                        <h1>Our Amazing Perks</h1>
                         <h4>Great benefits of working at Plurk</h4>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
@@ -197,7 +197,7 @@ const Career = () => {
                                         </defs>
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">Health Insurance</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">Health Insurance</h1>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -218,7 +218,7 @@ const Career = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">Employee Allowance</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">Employee Allowance</h1>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -235,7 +235,7 @@ const Career = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">Perks & Bonuses</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">Perks & Bonuses</h1>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -344,7 +344,7 @@ const Career = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">4 weeks PTO</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">4 weeks PTO</h1>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -369,7 +369,7 @@ const Career = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">Flexible Work Environment</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">Flexible Work Environment</h1>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -403,7 +403,7 @@ const Career = () => {
                                         />
                                     </svg>
                                 </div>
-                                <h6 className="text-xl font-bold text-black dark:text-white">Healthy Snacks</h6>
+                                <h1 className="text-xl font-bold text-black dark:text-white">Healthy Snacks</h1>
                             </div>
                         </div>
                     </div>
@@ -413,7 +413,7 @@ const Career = () => {
             <section className="py-14 lg:py-[100px]" id="open-position">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Open Positions</h6>
+                        <h1>Open Positions</h1>
                         <h4>Wake Up To A Better Future</h4>
                     </div>
                     <div className="pb-[50px]">
@@ -468,7 +468,7 @@ const Career = () => {
                     <div className="projects grid gap-[30px] md:grid-cols-2">
                         <div className={`project ${activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Design</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Design</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Lead Mobile UI/UX Designer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -502,7 +502,7 @@ const Career = () => {
                         </div>
                         <div className={`project ${activeTab === 'all' || activeTab === 'website' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Website development</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Website development</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Systems Engineer - Java</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -536,7 +536,7 @@ const Career = () => {
                         </div>
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -570,7 +570,7 @@ const Career = () => {
                         </div>
                         <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -604,7 +604,7 @@ const Career = () => {
                         </div>
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -638,7 +638,7 @@ const Career = () => {
                         </div>
                         <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
-                                <h6 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h6>
+                                <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h1>
                                 <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
@@ -677,7 +677,7 @@ const Career = () => {
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Meet Our Team</h6>
+                        <h1>Meet Our Team</h1>
                         <h4>Creative Minds</h4>
                     </div>
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -688,7 +688,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Executive Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Executive Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -697,7 +697,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Operating Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Operating Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -706,7 +706,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Financial Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Financial Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -715,7 +715,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Marketing Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -724,7 +724,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Executive Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Executive Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -733,7 +733,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Operating Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Operating Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -742,7 +742,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Financial Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Financial Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
@@ -751,7 +751,7 @@ const Career = () => {
                             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
                             </h4>
-                            <h6 className="text-sm font-bold">Chief Marketing Officer</h6>
+                            <h1 className="text-sm font-bold">Chief Marketing Officer</h1>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ const CounterComponent = (props: any) => {
     return (
         <div className="container">
             <div className="heading text-center">
-                <h6>{props.title}</h6>
+                <h1>{props.title}</h1>
                 <h4>We are proud of our team</h4>
             </div>
             <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-4">

@@ -73,7 +73,7 @@ const Contactus = () => {
                 <div className="container relative z-[2] ltr:xl:pr-40 rtl:xl:pl-40">
                     <div className="lg:w-2/3">
                         <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h6>How it works?</h6>
+                            <h1>How it works?</h1>
                             <h4>Here are 3 working steps to organize our business projects.</h4>
                         </div>
                         <p className="pb-10 text-center text-lg font-semibold leading-[30px] ltr:lg:text-left rtl:lg:text-right">
@@ -90,7 +90,7 @@ const Contactus = () => {
                                     01
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Collect Ideas</h6>
+                                    <h1 className="mb-1 font-bold text-secondary">Collect Ideas</h1>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
                                         The generated Lorem Ipsum is therefore always free from repetition.
                                     </p>
@@ -106,7 +106,7 @@ const Contactus = () => {
                                     02
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Data Analysis</h6>
+                                    <h1 className="mb-1 font-bold text-secondary">Data Analysis</h1>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
                                         There are many variations of passages of Lorem Ipsum available
                                     </p>
@@ -122,7 +122,7 @@ const Contactus = () => {
                                     03
                                 </span>
                                 <div>
-                                    <h6 className="mb-1 font-bold text-secondary">Finalize Product</h6>
+                                    <h1 className="mb-1 font-bold text-secondary">Finalize Product</h1>
                                     <p className="text-sm font-semibold text-black dark:text-gray">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text
                                     </p>

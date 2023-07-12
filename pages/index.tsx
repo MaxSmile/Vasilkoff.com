@@ -39,7 +39,8 @@ const Index = (props: any) => {
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <Container className="space-y-8">
                     <div className="heading text-center">
-                        <h6>Achieve Your Goals with Our High-Impact Services</h6>
+                    <h1>Welcome to Vasilkoff Ltd - Your Partner for Full-Stack Blockchain Software Development</h1>
+                        <h2>Achieve Your Goals with Our High-Impact Services</h2>
                         <h4>We help with</h4>
                         <p className="my-10">
                             These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
@@ -55,8 +56,8 @@ const Index = (props: any) => {
             <section className="bg-gradient-to-b from-white/60 to-transparent py-14 dark:from-white/[0.02] lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Competitive rates and pricing for superior service</h6>
-                        <h4>Our expertise spans both outsourcing and outstaffing</h4>
+                        <h1>Competitive rates and pricing for superior service</h1>
+                        <h2>Our expertise spans both outsourcing and outstaffing</h2>
                         <p className="my-10">
                             For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
                         </p>
@@ -102,7 +103,7 @@ const Index = (props: any) => {
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>Meet Our Team</h6>
+                        <h1>Meet Our Team</h1>
                         <h4>Ingenious Problem-Solvers</h4>
                     </div>
                     <TeamMembers />
@@ -200,6 +201,8 @@ const Index = (props: any) => {
                         }),
                     }}
                 />
+                <title>Vasilkoff Ltd - Full-stack Software Development Services</title>
+                <meta name="description" content="Full-stack software development company specializing in blockchain technology. We offer outsourcing and outstaffing services for the development of web & mobile apps, handling projects from simple to complex." />
             </Head>
         </div>
     );

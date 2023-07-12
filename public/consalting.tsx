@@ -163,7 +163,7 @@ const StartupOffer = () => {
                     <div className="container">
                         <div className="lg:w-1/2">
                             <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6 className="!text-secondary">OUR FEATURES</h6>
+                                <h1 className="!text-secondary">OUR FEATURES</h1>
                                 <h4>A robust set of features</h4>
                                 <p className="mt-4 text-lg font-semibold">
                                     We will help a client's problems to develop the products they have with high quality Change the appearance.
@@ -336,7 +336,7 @@ const StartupOffer = () => {
                                 <div className="grid gap-4 lg:grid-cols-2">
                                     <div className="pt-28 lg:pb-10 lg:pt-0">
                                         <div className="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
-                                            <h6 className="!text-secondary">WHAT WE DO</h6>
+                                            <h1 className="!text-secondary">WHAT WE DO</h1>
                                             <h4 className="pb-4 leading-normal !text-white lg:!leading-[50px]">Increase your performance</h4>
                                             <p className="text-lg font-semibold xl:w-11/12">
                                                 We take step wise for your every platform. We helping to client with our talented expert.
@@ -403,7 +403,7 @@ const StartupOffer = () => {
                         <div className="relative">
                             <div className="lg:w-2/3">
                                 <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                                    <h6 className="!text-secondary">THOUSANDS OF BENIFITS</h6>
+                                    <h1 className="!text-secondary">THOUSANDS OF BENIFITS</h1>
                                     <h4 className="">We make it easy to track all user analytics</h4>
                                     <p className="mt-4 text-lg font-semibold">
                                         We analyze step wise for your every platform. You will get best reports and analytics. We helping to client with our
@@ -463,7 +463,7 @@ const StartupOffer = () => {
                                 <img src="/assets/images/modern-saas/integration-img.png" alt="" />
                             </div>
                             <div className="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
-                                <h6 className="!text-secondary">INTEGRATIONS</h6>
+                                <h1 className="!text-secondary">INTEGRATIONS</h1>
                                 <h4 className="">Integrated with all tools you already know and love</h4>
                                 <p className="mt-4 text-lg font-semibold">
                                     Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy
@@ -489,7 +489,7 @@ const StartupOffer = () => {
                 <section className="bg-white/50 py-14 dark:bg-white/[0.03] lg:py-20">
                     <div className="container">
                         <div className="heading mb-5 text-center">
-                            <h6 className="!text-secondary">Drive more lead with Plurk</h6>
+                            <h1 className="!text-secondary">Drive more lead with Plurk</h1>
                             <h4 className="">Our response management having automatically track customer sentiment</h4>
                         </div>
                         <div
@@ -556,7 +556,7 @@ const StartupOffer = () => {
                 <section className="py-14 text-center lg:py-20">
                     <div className="container">
                         <div className="heading mb-12 lg:mb-20">
-                            <h6 className="!text-secondary">Our Services</h6>
+                            <h1 className="!text-secondary">Our Services</h1>
                             <h4 className="">The Best Solutions To Your Business</h4>
                         </div>
                         <div className="grid gap-14 sm:grid-cols-2 lg:grid-cols-3">

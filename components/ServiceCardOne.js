@@ -34,7 +34,7 @@ const ServiceCardOne = (
                     aria-label={title}
                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                 >
-                    {title}
+                    <h2>{title}</h2>
                 </Link>
                 <p className="mb-10 text-lg  transition line-clamp-5 group-hover:text-secondary">
                     {message}

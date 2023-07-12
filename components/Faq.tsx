@@ -112,7 +112,7 @@ const Faq = ({
         <section className="py-14 lg:py-[100px]">
             <div className="container">
                 <div className="heading text-center">
-                    <h6>FAQs</h6>
+                    <h1>FAQs</h1>
                     <h4>Frequently Asked Questions</h4>
                     <p className="mt-5 text-lg font-bold">Have questions? We're here to help!</p>
                 </div>

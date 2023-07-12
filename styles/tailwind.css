@@ -60,7 +60,7 @@ input:-webkit-autofill {
     .heading {
         @apply mb-10 lg:mb-14;
     }
-    .heading h6 {
+    .heading h1 {
         @apply mb-3 text-lg font-extrabold text-primary sm:mb-4;
     }
     .heading h4 {

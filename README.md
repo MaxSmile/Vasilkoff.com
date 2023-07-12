@@ -31,6 +31,31 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## SEO
+
+HIGH
+To ensure that Search Engines can accurately identify the topic of this webpage, it is important to include the most common keywords in the title tag, meta description, and heading tags.
+HIGH
+H1 and H2 tags ensure better search engine visibility and ranking by providing structure and hierarchy to the content, improving readability, and providing opportunities for keyword optimization.
+HIGH
+Add a meta description tag to provide a brief and informative summary of the page's content for search engines.
+HIGH
+To improve the website experience for your visitors, it is recommended to eliminate any render-blocking resources on this webpage.
+HIGH
+Using images in a modern format can significantly reduce the file size and improve the loading speed of a webpage, providing a better user experience and potentially increasing engagement.
+MEDIUM
+Avoid using distorted images, as they can have a negative impact on the user experience.
+MEDIUM
+Serve properly sized images to reduce page loading times and to improve user's experience.
+MEDIUM
+Avoid performance and security issues by adding "rel=noopener" or "rel=noreferrer" to your "target=_blank" links.
+LOW
+To protect against spam harvesters, consider hiding or obfuscating email addresses in your page code.
+LOW
+Using more than 20 HTTP requests on a webpage can negatively impact the loading time.
+LOW
+Consider moving inline CSS styles to an external stylesheet to improve site performance and maintain separation of content and design.
+
 ## TODO
 
 1. From the main page, you can click on the Price button to open the price calculator, sign order and order prepaipents.

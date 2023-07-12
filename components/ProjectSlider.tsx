@@ -14,7 +14,7 @@ const ProjectSlider = (props: any) => {
             <div className="container">
                 <div className="mb-7 flex flex-col items-center justify-center lg:mb-0 lg:flex-row lg:justify-between">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h6>{props.title1}</h6>
+                        <h1>{props.title1}</h1>
                         <h4>{props.title2}</h4>
                     </div>
                     <div className="flex items-center justify-end gap-4">
@@ -115,7 +115,7 @@ const ProjectSlider = (props: any) => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-2.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Crypto Game - UX Interface</h6>
+                                    <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Crypto Game - UX Interface</h1>
                                     <p>Website, App</p>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ const ProjectSlider = (props: any) => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-3.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Looking for a quiet place</h6>
+                                    <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Looking for a quiet place</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ const ProjectSlider = (props: any) => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-4.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">WeTour - Travel Hero Illustration</h6>
+                                    <h1 className="mb-1 text-black line-clamp-1 dark:text-white">WeTour - Travel Hero Illustration</h1>
                                     <p>Website</p>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ const ProjectSlider = (props: any) => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-5.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Digital Art Guide</h6>
+                                    <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Digital Art Guide</h1>
                                     <p>Branding</p>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ const ProjectSlider = (props: any) => {
                                 <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-6.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Frozeverse - 3D and motion design</h6>
+                                    <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Frozeverse - 3D and motion design</h1>
                                     <p>Branding, Website, App</p>
                                 </div>
                             </div>

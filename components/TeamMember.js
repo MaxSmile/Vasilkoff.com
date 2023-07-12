@@ -18,7 +18,7 @@ const TeamMember = (
             <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary">
                 {name}
             </h4>
-            <h6 className="text-sm font-bold">{position}</h6>
+            <h1 className="text-sm font-bold">{position}</h1>
             </Link> 
         </div>
     );

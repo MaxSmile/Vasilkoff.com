@@ -15,7 +15,7 @@ const PortfolioCard = (
                 <Link href={"/portfolio/"+obj.slug} className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                 <img src={obj.image} alt={obj.description} className="h-52 w-full rounded-t-3xl object-cover" />
                 <div className="p-5 text-sm ">
-                    <h6 className="mb-1 text-black font-bold dark:text-white">{obj.title}</h6>
+                    <h1 className="mb-1 text-black font-bold dark:text-white">{obj.title}</h1>
                     <p><span>{obj.type=="our-projects"?<BookmarkHeart className="inline-block" />:<Bookmark className="inline-block"/>}&nbsp;</span>{obj.description}</p>
                 </div>
             </div>

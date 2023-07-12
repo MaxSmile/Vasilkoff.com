@@ -17,9 +17,9 @@ const BlogCard = (
                 <Link href={"/blog/"+slug} className="absolute top-0 h-full w-full left-0"></Link>
                 <img src={blog.picture} alt={blog.title} className="h-52 w-full rounded-t-3xl object-cover" />
                 <div className="p-5 text-sm font-bold">
-                    <h6 className="font-extrabold text-secondary dark:text-secondary">
+                    <h1 className="font-extrabold text-secondary dark:text-secondary">
                         Maxim Vasilkov
-                    </h6>
+                    </h1>
                     <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2">
                         {blog.title}
                     </h5>

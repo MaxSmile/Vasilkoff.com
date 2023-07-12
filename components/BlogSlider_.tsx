@@ -44,7 +44,7 @@ const BlogSlider = ({
                 <div className={`flex flex-col items-center justify-center lg:flex-row lg:justify-between ${title1.length > 0 ? '' : 'mb-10'}`}>
                     
                     <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${title1.length > 0 ? '' : 'mb-0'}`}>
-                        {title1.length > 0 && <h6 className={type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}>{title1}</h6>}
+                        {title1.length > 0 && <h1 className={type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}>{title1}</h1>}
                         {title2.length > 0 && <h4>{title2}</h4>}
                     </div>
 
@@ -126,7 +126,7 @@ const BlogSlider = ({
                                         <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                         <img src={blog.thumbnail} alt="blog-1" className="h-52 w-full rounded-t-3xl object-cover" />
                                         <div className="p-5 text-sm font-bold">
-                                            <h6 className="font-extrabold text-secondary dark:text-secondary">{blog.title}</h6>
+                                            <h1 className="font-extrabold text-secondary dark:text-secondary">{blog.title}</h1>
                                             <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2 dark:text-white">
                                                 {blog.excerpt}
                                             </h5>

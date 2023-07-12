@@ -179,7 +179,7 @@ const Testimonial = ({
             )}
             <div className="container">
                 <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${showTitle ? '' : 'hidden'}`}>
-                    <h6>Testimonial</h6>
+                    <h1>Testimonial</h1>
                     <h4 className="!text-white">Feedback from our clients</h4>
                 </div>
                 <div className={`mx-auto ${type.toLowerCase() === 'common' ? 'lg:w-11/12' : ''} `}>
@@ -259,7 +259,7 @@ const Testimonial = ({
                                                         </p>
                                                         <div className="mt-12">
                                                             <h5 className="font-extrabold text-primary">{feedback.name}</h5>
-                                                            <h6 className="text-sm font-bold italic">{feedback.role}</h6>
+                                                            <h1 className="text-sm font-bold italic">{feedback.role}</h1>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -317,7 +317,7 @@ const Testimonial = ({
                                                     <p className="relative font-medium italic text-white">{feedback.message}</p>
                                                     <div className="mt-12">
                                                         <h5 className="font-extrabold text-primary">{feedback.name}</h5>
-                                                        <h6 className="text-sm font-bold italic">{feedback.role}</h6>
+                                                        <h1 className="text-sm font-bold italic">{feedback.role}</h1>
                                                     </div>
                                                 </div>
                                                 <div className="mx-auto w-40 flex-1 md:mx-0 md:w-full md:max-w-sm">

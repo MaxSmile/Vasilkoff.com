@@ -64,7 +64,7 @@ const Blogdetail = ({ blog }) => {
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <h6 className="!text-white"><a href="/blog"><ArrowLeftCircle className="text-2xl" /></a></h6>
+                                <h1 className="!text-white"><a href="/blog"><ArrowLeftCircle className="text-2xl" /></a></h1>
                                 <h4 className="!text-white">{blog.title}</h4>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
                                     <li className="flex items-center justify-center">

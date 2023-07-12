@@ -80,7 +80,7 @@ const Portfoliodetail = ({pf}) => {
                                     pf.categories.map((cat, idx) => {
                                         return (
                                             <li key={idx}>
-                                                <h6>{cat}</h6>
+                                                <h1>{cat}</h1>
                                             </li>
                                         )
                                     })

@@ -235,7 +235,7 @@ const Crypto = (props: any) => {
                 <div className="container">
                     <div className="flex flex-col items-center justify-between gap-10 md:flex-row md:gap-0">
                         <div className="text-center ltr:md:text-left rtl:md:text-right">
-                            <h6 className="mb-3 text-lg font-extrabold text-primary sm:mb-4">ABOUT US</h6>
+                            <h1 className="mb-3 text-lg font-extrabold text-primary sm:mb-4">ABOUT US</h1>
                             <h2 className="max-w-[457px] text-2xl font-extrabold text-black sm:text-3xl lg:text-[40px] lg:!leading-[50px]">
                                 You do the business, we’ll handle the money.
                             </h2>
@@ -260,7 +260,7 @@ const Crypto = (props: any) => {
                     <div className="flex flex-col gap-5 lg:flex-row lg:gap-24">
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Our Specialized Services</h6>
+                                <h1>Our Specialized Services</h1>
                                 <h4>Smart Contracts Testing</h4>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
@@ -289,7 +289,7 @@ const Crypto = (props: any) => {
                         </div>
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Our Advanced Techniques</h6>
+                                <h1>Our Advanced Techniques</h1>
                                 <h4>Smart Contracts Security</h4>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
@@ -325,7 +325,7 @@ const Crypto = (props: any) => {
                     <div className="flex flex-col gap-5 lg:flex-row lg:gap-24">
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Exploring the Potential</h6>
+                                <h1>Exploring the Potential</h1>
                                 <h4>Navigating the Regulatory Landscape</h4>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
@@ -354,7 +354,7 @@ const Crypto = (props: any) => {
                         </div>
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h6>Our Commitment</h6>
+                                <h1>Our Commitment</h1>
                                 <h4>Securing Your Startup's Future</h4>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
@@ -391,7 +391,7 @@ const Crypto = (props: any) => {
 
                     <div className="container text-white">
                         <div className="heading text-center">
-                            <h6>Your Crypto Startup Success Starts Here</h6>
+                            <h1>Your Crypto Startup Success Starts Here</h1>
                             <h4 className="!text-white">You focus on the vision, we'll provide the blockchain solutions.</h4>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
