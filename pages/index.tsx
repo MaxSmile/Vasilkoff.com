@@ -56,7 +56,7 @@ const Index = (props: any) => {
             <section className="bg-gradient-to-b from-white/60 to-transparent py-14 dark:from-white/[0.02] lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h1>Competitive rates and pricing for superior service</h1>
+                        <h3>Competitive rates and pricing for superior service</h3>
                         <h2>Our expertise spans both outsourcing and outstaffing</h2>
                         <p className="my-10">
                             For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
@@ -103,8 +103,8 @@ const Index = (props: any) => {
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h1>Meet Our Team</h1>
-                        <h2>Ingenious Problem-Solvers</h2>
+                        <h2>Meet Our Team</h2>
+                        <h3>Ingenious Problem-Solvers</h3>
                     </div>
                     <TeamMembers />
                 </div>

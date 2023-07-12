@@ -67,7 +67,7 @@ const Crypto = (props: any) => {
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F7931A]">
-                                        <svg width="30" height="30" viewBox="0 0 97 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="30" height="30" viewBox="0 0 97 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M47.8917 0.84375C51.5534 1.72875 55.205 2.65708 58.8567 3.58375C57.39 9.46875 55.92 15.3538 54.4534 21.2371C57.3917 21.8954 60.3217 22.5871 63.2434 23.3171C64.7017 17.4654 66.1567 11.6138 67.62 5.76375C71.28 6.65375 74.9367 7.56708 78.5884 8.49708C77.0934 14.5038 75.5934 20.5088 74.0967 26.5154C79.7384 28.5038 85.385 30.9154 89.935 34.8921C92.2167 36.9204 94.1434 39.4138 95.2267 42.2888C96.335 45.1554 96.5517 48.3071 96.1434 51.3371C95.7484 54.3154 94.9234 57.2754 93.4084 59.8854C92.235 61.9138 90.63 63.6938 88.6984 65.0254C86.7117 66.4004 84.4267 67.3038 82.0817 67.8554C84.7117 69.2271 87.2167 70.9021 89.275 73.0554C90.9367 74.7804 92.2584 76.8471 93.045 79.1154C94.4984 83.2638 94.1 87.8154 92.9384 91.9838C91.75 96.2071 89.9234 100.354 86.9634 103.644C84.9617 105.894 82.4367 107.669 79.645 108.802C75.7634 110.415 71.505 110.892 67.33 110.845C62.6667 110.809 58.04 110.12 53.4634 109.284C51.9484 115.35 50.4334 121.417 48.9217 127.485C45.27 126.549 41.61 125.639 37.95 124.739C39.4434 118.759 40.9367 112.779 42.43 106.799C39.5134 106.047 36.5984 105.289 33.6867 104.52C32.1867 110.532 30.69 116.545 29.19 122.559C25.54 121.635 21.8867 120.727 18.2334 119.822C19.7434 113.745 21.2584 107.672 22.7717 101.597C15.43 99.6421 8.04669 97.8454 0.671692 96.0171C2.48836 91.8304 4.30169 87.6421 6.12169 83.4571C8.39836 84.0471 10.6734 84.6504 12.9567 85.2188C14.1034 85.4704 15.31 85.7938 16.4767 85.4638C17.8534 85.0788 18.85 83.8254 19.2134 82.4821C21.5717 73.0121 23.9334 63.5438 26.2984 54.0754C26.6517 54.1571 27.0067 54.2354 27.3634 54.3038C27.0167 54.1921 26.6684 54.0888 26.32 53.9888C27.945 47.4471 29.5767 40.9088 31.21 34.3704C31.6817 32.8854 31.4217 31.2021 30.6267 29.8737C29.8584 28.6054 28.5317 27.7738 27.145 27.3254C24.27 26.3854 21.2934 25.8071 18.355 25.1054C19.3234 21.1988 20.2967 17.2921 21.2717 13.3871C25.36 14.3771 29.435 15.4187 33.5167 16.4304C35.4167 16.8687 37.2717 17.4704 39.18 17.8787C40.5817 18.2237 41.9934 18.5254 43.4017 18.8454C44.8967 12.8438 46.395 6.84375 47.8917 0.84375ZM51.4984 34.2071C49.6734 41.5054 47.8567 48.8054 46.035 56.1038C49.115 56.9088 52.1867 57.7688 55.3234 58.3338C58.7767 58.9821 62.3367 59.3438 65.8317 58.8254C68.3517 58.4388 70.9034 57.4004 72.55 55.3804C74.1384 53.4254 74.84 50.8338 74.7484 48.3404C74.655 45.9521 73.4584 43.7171 71.745 42.0904C69.3984 39.8238 66.3767 38.4288 63.35 37.3154C59.4967 35.9371 55.4834 35.1004 51.4984 34.2071ZM43.2784 67.1554C41.2717 75.2104 39.26 83.2637 37.2534 91.3187C44.21 93.1071 51.2534 95.1304 58.505 94.9421C61.7567 94.8304 65.1984 94.2188 67.8 92.1304C70.1834 90.2454 71.335 87.1538 71.375 84.1771C71.405 82.0988 70.6867 80.0454 69.4517 78.3838C67.8317 76.1971 65.5517 74.6021 63.1734 73.3371C56.9684 70.0904 50.0334 68.7404 43.2784 67.1554Z"
                                                 fill="white"
@@ -80,7 +80,7 @@ const Crypto = (props: any) => {
                                     </span>
                                 </div>
                                 <div>
-                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M17 19.9815L24 14M24 14L31 19.9815M24 14V33"
                                             stroke="#12AF97"
@@ -106,7 +106,7 @@ const Crypto = (props: any) => {
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#345d9d]">
-                                        <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clipPath="url(#clip0_1_209)">
                                                 <path d="M10.4628 12.4716L5.25708 9.99516L10.4628 19.0926L15.6687 9.99516L10.4628 12.4716Z" fill="white" />
                                                 <path d="M15.1018 8.14969L10.4628 0.0926056L5.81866 8.15897L10.4628 5.95589L15.1018 8.14969Z" fill="white" />
@@ -124,7 +124,7 @@ const Crypto = (props: any) => {
                                         ETHEREUM
                                     </span>
                                 </div>
-                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg role="presentation"  width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M31.0208 27.0264L24.0208 33.0078M24.0208 33.0078L17.0208 27.0264M24.0208 33.0078V14.0078"
                                         stroke="#FF0000"
@@ -149,7 +149,7 @@ const Crypto = (props: any) => {
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#F3BA2F]">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 fillRule="evenodd"
                                                 clipRule="evenodd"
@@ -164,7 +164,7 @@ const Crypto = (props: any) => {
                                     </span>
                                 </div>
                                 <div>
-                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M17 19.9815L24 14M24 14L31 19.9815M24 14V33"
                                             stroke="#12AF97"
@@ -190,7 +190,7 @@ const Crypto = (props: any) => {
                             <div className="flex justify-between">
                                 <div className="flex items-center gap-2.5">
                                     <Link href="#" className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-[#53ae94]">
-                                        <svg width="30" height="30" viewBox="0 0 212 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="30" height="30" viewBox="0 0 212 195" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 fillRule="evenodd"
                                                 clipRule="evenodd"
@@ -205,7 +205,7 @@ const Crypto = (props: any) => {
                                     </span>
                                 </div>
                                 <div>
-                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M31.0208 27.0264L24.0208 33.0078M24.0208 33.0078L17.0208 27.0264M24.0208 33.0078V14.0078"
                                             stroke="#FF0000"
@@ -482,7 +482,7 @@ const Crypto = (props: any) => {
                     <div className="mt-12 grid grid-cols-2 gap-4 md:gap-7 lg:grid-cols-4">
 
                         <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white">
-                            <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg role="presentation"  width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M90.494 35.6298C81.4371 39.4472 71.6317 41.3185 62.7245 41.3185C49.476 41.3185 36.6766 37.7257 26.2724 31.6628C25.3742 31.1388 24.7006 32.1119 25.4491 32.7855C35.0299 41.3933 47.7545 46.6328 61.9012 46.6328C71.9311 46.6328 83.6078 43.4143 91.6916 37.5011C92.9641 36.528 91.7665 35.031 90.494 35.6298Z"
                                     fill="currentColor"
@@ -519,7 +519,7 @@ const Crypto = (props: any) => {
                         </div>
 
                         <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white">
-                            <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg role="presentation"  width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M38.5479 18.2637H21.7066V23.2038H33.6826C33.0838 30.1649 27.2455 33.2338 21.7814 33.2338C14.7455 33.2338 8.60778 27.6949 8.60778 19.9853C8.60778 12.4254 14.4461 6.58708 21.7814 6.58708C27.4701 6.58708 30.7635 10.1799 30.7635 10.1799L34.2066 6.58708C34.2066 6.58708 29.7156 1.64696 21.5569 1.64696C11.1527 1.57211 3.14371 10.3296 3.14371 19.8356C3.14371 29.117 10.7036 38.1739 21.8563 38.1739C31.6617 38.1739 38.8473 31.5122 38.8473 21.5571C38.8473 19.4613 38.5479 18.2637 38.5479 18.2637Z"
                                     fill="currentColor"
@@ -545,7 +545,7 @@ const Crypto = (props: any) => {
                         </div>
 
                         <div className="group flex items-center justify-center rounded-[20px] bg-white py-10 px-[50px] text-[#8C98A4] duration-200 hover:bg-primary hover:text-white k">
-                            <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg role="presentation"  width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M60.1796 15.8672C57.5599 15.8672 54.6407 17.0648 52.8443 19.46V16.2414H46.7066V38.6965H52.8443V25.8971C52.8443 23.5768 54.6407 21.1816 57.9341 21.1816C60.479 21.1816 63.0988 22.978 63.0988 25.8971V38.6965H69.2365V24.7744C69.3114 19.6097 65.6437 15.8672 60.1796 15.8672Z"
                                     fill="currentColor"

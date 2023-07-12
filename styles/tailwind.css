@@ -49,6 +49,24 @@ input:-webkit-autofill {
 
 
 @layer components {
+    button:focus, a:focus, input:focus {
+        outline: 2px dotted #660000;
+    }
+    .skip-link {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+      
+      .skip-link:focus {
+        position: static;
+        width: auto;
+        height: auto;
+      }
+      
     html {
         @apply scroll-smooth;
     }

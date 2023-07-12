@@ -10,6 +10,7 @@ export default function Document() {
                 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;800&display=swap" rel="stylesheet" />  
             </Head>
             <body>
+                <a href="#maincontent" className="skip-link">Skip to main content</a>
                 <Main />
                 <NextScript />
             </body>

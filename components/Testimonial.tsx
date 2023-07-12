@@ -27,7 +27,7 @@ const Testimonial = ({
         <section className={`relative bg-black py-14 dark:bg-transparent lg:py-[100px] ${className}`}>
             {type.toLowerCase() === 'common' && (
                 <div className="absolute top-0 ltr:right-0 rtl:left-0">
-                    <svg width="758" height="741" viewBox="0 0 758 741" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg role="presentation"  width="758" height="741" viewBox="0 0 758 741" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.03">
                             <ellipse
                                 opacity="0.1"
@@ -142,7 +142,7 @@ const Testimonial = ({
             {type.toLowerCase() === 'modern-saas' && (
                 <div>
                     <div className="absolute top-0 ltr:left-1/4 rtl:right-1/4 rtl:rotate-y-180">
-                        <svg width="191" height="66" viewBox="0 0 191 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg role="presentation"  width="191" height="66" viewBox="0 0 191 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 fillRule="evenodd"
                                 clipRule="evenodd"
@@ -159,7 +159,7 @@ const Testimonial = ({
                         </svg>
                     </div>
                     <div className="absolute top-1/4 hidden ltr:right-4 rtl:left-4 rtl:rotate-y-180 lg:block">
-                        <svg width="301" height="322" viewBox="0 0 301 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg role="presentation"  width="301" height="322" viewBox="0 0 301 322" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 fillRule="evenodd"
                                 clipRule="evenodd"
@@ -211,7 +211,7 @@ const Testimonial = ({
                                                             className="absolute top-0 ltr:right-0 rtl:left-0 sm:-top-6 ltr:sm:-right-6 rtl:sm:-left-6"
                                                         />
                                                         <div className="pb-8">
-                                                            <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <svg role="presentation"  width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path
                                                                     d="M86.2864 2.84744C87.0637 1.5558 88.9363 1.5558 89.7136 2.84744L90.1964 3.64962C90.4756 4.11365 90.9311 4.44459 91.4587 4.56678L92.3708 4.77803C93.8395 5.11816 94.4181 6.8991 93.4299 8.03752L92.8162 8.74454C92.4612 9.15352 92.2872 9.68898 92.334 10.2285L92.4149 11.1613C92.5453 12.6631 91.0303 13.7638 89.6423 13.1757L88.7802 12.8105C88.2815 12.5993 87.7185 12.5993 87.2198 12.8105L86.3577 13.1757C84.9697 13.7638 83.4547 12.6631 83.5851 11.1613L83.666 10.2285C83.7128 9.68899 83.5388 9.15352 83.1838 8.74454L82.5701 8.03752C81.5819 6.89911 82.1605 5.11816 83.6292 4.77803L84.5413 4.56678C85.0689 4.44459 85.5244 4.11365 85.8036 3.64962L86.2864 2.84744Z"
                                                                     fill="#7780A1"
@@ -277,7 +277,7 @@ const Testimonial = ({
                                             <div className="mb-6 flex flex-col items-center justify-between gap-6 md:mb-14 md:flex-row">
                                                 <div className="relative rounded-3xl bg-white/[0.02] p-6 md:w-2/3 lg:w-1/2">
                                                     <div className="absolute right-4 top-4">
-                                                        <svg width="90" height="73" viewBox="0 0 90 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg role="presentation"  width="90" height="73" viewBox="0 0 90 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <g opacity="0.05">
                                                                 <path
                                                                     d="M69.4343 72.4434C75.0205 72.4434 79.8069 70.3154 83.7954 66.3267C88.0513 62.338 89.9121 57.5499 89.9121 52.2306C89.9121 47.1768 88.3166 42.6559 84.8583 38.6669C81.4002 34.4111 75.816 33.6131 71.2946 33.3481C72.0924 26.699 75.8158 19.7844 79.274 14.9962C79.8065 14.1984 80.3371 13.4007 81.1367 12.8682C82.1997 11.8052 82.1997 10.2078 81.1367 9.1448L73.4247 0.900398C72.3616 -0.429802 70.2337 -0.162651 69.1688 0.900398C65.9779 4.3585 62.7852 8.6124 60.1266 12.8683C52.6796 24.8362 48.9561 36.8041 48.9561 48.7743C48.9561 55.6889 51.084 61.5401 55.0728 65.796C59.0615 70.05 64.1151 72.4432 69.4339 72.4432L69.4343 72.4434Z"
@@ -291,7 +291,7 @@ const Testimonial = ({
                                                         </svg>
                                                     </div>
                                                     <div className="pb-8">
-                                                        <svg width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg role="presentation"  width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path
                                                                 d="M86.2864 2.84744C87.0637 1.5558 88.9363 1.5558 89.7136 2.84744L90.1964 3.64962C90.4756 4.11365 90.9311 4.44459 91.4587 4.56678L92.3708 4.77803C93.8395 5.11816 94.4181 6.8991 93.4299 8.03752L92.8162 8.74454C92.4612 9.15352 92.2872 9.68898 92.334 10.2285L92.4149 11.1613C92.5453 12.6631 91.0303 13.7638 89.6423 13.1757L88.7802 12.8105C88.2815 12.5993 87.7185 12.5993 87.2198 12.8105L86.3577 13.1757C84.9697 13.7638 83.4547 12.6631 83.5851 11.1613L83.666 10.2285C83.7128 9.68899 83.5388 9.15352 83.1838 8.74454L82.5701 8.03752C81.5819 6.89911 82.1605 5.11816 83.6292 4.77803L84.5413 4.56678C85.0689 4.44459 85.5244 4.11365 85.8036 3.64962L86.2864 2.84744Z"
                                                                 fill="#7780A1"
@@ -340,7 +340,7 @@ const Testimonial = ({
                                 type="button"
                                 className="testimonial-button-prev static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary rtl:rotate-180"
                             >
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg role="presentation"  width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502"
                                         stroke="white"
@@ -353,7 +353,7 @@ const Testimonial = ({
                                 type="button"
                                 className="testimonial-button-next static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary rtl:rotate-180"
                             >
-                                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg role="presentation"  width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498"
                                         stroke="white"

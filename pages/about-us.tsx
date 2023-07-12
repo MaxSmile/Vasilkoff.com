@@ -51,7 +51,6 @@ const Aboutus = () => {
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        {/* <h1>Meet Our Team</h1> */}
                         <h2>Ingenious Problem-Solvers</h2>
                         {/* <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
                      */}

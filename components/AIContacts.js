@@ -64,7 +64,7 @@ export default function AIContacts() {
                             <div id="aichead" className="grid gap-10 sm:grid-cols-2" ref={aicheadRef}>
 
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="name"
                                         id='name'
@@ -80,7 +80,7 @@ export default function AIContacts() {
                                     <Person className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="email"
                                         name="email"
                                         ref={emailRef}
@@ -96,7 +96,7 @@ export default function AIContacts() {
                                     <EnvelopeAt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="mobile"
                                         id='mobile'
@@ -112,7 +112,7 @@ export default function AIContacts() {
                                     <Telephone className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="city"
                                         id='city'

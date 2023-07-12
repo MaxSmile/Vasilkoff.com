@@ -226,7 +226,7 @@ const Contactus = () => {
                             <ul className="mt-8 flex items-center justify-center gap-4 lg:justify-start" data-aos="fade-up" data-aos-duration="500">
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">
                                     <Link href="#" className="group">
-                                        <svg width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g opacity="0.3" className="transition duration-500 group-hover:opacity-100">
                                                 <circle
                                                     cx="32.782"
@@ -246,7 +246,7 @@ const Contactus = () => {
                                 </li>
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">
                                     <Link href="#" className="group">
-                                        <svg width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g opacity="0.3" className="transition duration-500 group-hover:opacity-100">
                                                 <mask
                                                     id="mask0_553_5772"
@@ -336,7 +336,7 @@ const Contactus = () => {
                                 </li>
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">
                                     <Link href="#" className="group">
-                                        <svg width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g opacity="0.3" className="transition duration-500 group-hover:opacity-100">
                                                 <circle
                                                     cx="33.3459"
@@ -356,7 +356,7 @@ const Contactus = () => {
                                 </li>
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">
                                     <Link href="#" className="group">
-                                        <svg width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="100%" height="100%" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g opacity="0.3" className="transition duration-500 group-hover:opacity-100">
                                                 <circle
                                                     cx="33.3459"
@@ -559,7 +559,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-secondary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8253)">
                                             <path
                                                 d="M22.75 17.7883V21.619C22.7501 21.8933 22.6462 22.1574 22.4592 22.358C22.2722 22.5587 22.0161 22.681 21.7425 22.7002C21.2691 22.7327 20.8823 22.75 20.5833 22.75C11.0099 22.75 3.25 14.9901 3.25 5.41667C3.25 5.11767 3.26625 4.73092 3.29983 4.2575C3.31903 3.9839 3.4413 3.72776 3.64195 3.54078C3.84261 3.35379 4.10672 3.24988 4.381 3.25H8.21167C8.34604 3.24986 8.47567 3.29968 8.57537 3.38977C8.67507 3.47986 8.73773 3.6038 8.75117 3.7375C8.77608 3.98667 8.79883 4.18492 8.8205 4.3355C9.0358 5.838 9.477 7.29932 10.1292 8.66992C10.2321 8.88658 10.1649 9.1455 9.96992 9.28417L7.63208 10.9547C9.06149 14.2853 11.7158 16.9396 15.0464 18.369L16.7148 16.0355C16.7829 15.9402 16.8824 15.8718 16.9959 15.8423C17.1093 15.8128 17.2295 15.824 17.3355 15.8741C18.7059 16.525 20.1669 16.9651 21.6688 17.1795C21.8194 17.2012 22.0177 17.225 22.2647 17.2488C22.3982 17.2625 22.5218 17.3253 22.6117 17.425C22.7016 17.5246 22.7512 17.6541 22.7511 17.7883H22.75Z"
@@ -585,7 +585,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-primary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8262)">
                                             <path
                                                 d="M3.24996 3.25H22.75C23.0373 3.25 23.3128 3.36414 23.516 3.5673C23.7192 3.77047 23.8333 4.04602 23.8333 4.33333V21.6667C23.8333 21.954 23.7192 22.2295 23.516 22.4327C23.3128 22.6359 23.0373 22.75 22.75 22.75H3.24996C2.96264 22.75 2.68709 22.6359 2.48393 22.4327C2.28076 22.2295 2.16663 21.954 2.16663 21.6667V4.33333C2.16663 4.04602 2.28076 3.77047 2.48393 3.5673C2.68709 3.36414 2.96264 3.25 3.24996 3.25ZM13.065 12.6566L6.11863 6.75783L4.71571 8.40883L13.079 15.5101L21.2918 8.40342L19.8748 6.76433L13.066 12.6566H13.065Z"
@@ -611,7 +611,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-secondary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8282)">
                                             <path
                                                 d="M19.8943 18.8122L13 25.7066L6.10567 18.8122C4.74212 17.4486 3.81354 15.7114 3.43734 13.8201C3.06114 11.9287 3.25423 9.96835 3.99219 8.18678C4.73015 6.4052 5.97983 4.88247 7.58321 3.81113C9.18658 2.73979 11.0716 2.16797 13 2.16797C14.9284 2.16797 16.8134 2.73979 18.4168 3.81113C20.0202 4.88247 21.2699 6.4052 22.0078 8.18678C22.7458 9.96835 22.9389 11.9287 22.5627 13.8201C22.1865 15.7114 21.2579 17.4486 19.8943 18.8122ZM13 14.0845C13.5746 14.0845 14.1257 13.8563 14.5321 13.4499C14.9384 13.0436 15.1667 12.4925 15.1667 11.9179C15.1667 11.3432 14.9384 10.7921 14.5321 10.3858C14.1257 9.97949 13.5746 9.75122 13 9.75122C12.4254 9.75122 11.8743 9.97949 11.4679 10.3858C11.0616 10.7921 10.8333 11.3432 10.8333 11.9179C10.8333 12.4925 11.0616 13.0436 11.4679 13.4499C11.8743 13.8563 12.4254 14.0845 13 14.0845Z"
@@ -643,7 +643,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-secondary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8253)">
                                             <path
                                                 d="M22.75 17.7883V21.619C22.7501 21.8933 22.6462 22.1574 22.4592 22.358C22.2722 22.5587 22.0161 22.681 21.7425 22.7002C21.2691 22.7327 20.8823 22.75 20.5833 22.75C11.0099 22.75 3.25 14.9901 3.25 5.41667C3.25 5.11767 3.26625 4.73092 3.29983 4.2575C3.31903 3.9839 3.4413 3.72776 3.64195 3.54078C3.84261 3.35379 4.10672 3.24988 4.381 3.25H8.21167C8.34604 3.24986 8.47567 3.29968 8.57537 3.38977C8.67507 3.47986 8.73773 3.6038 8.75117 3.7375C8.77608 3.98667 8.79883 4.18492 8.8205 4.3355C9.0358 5.838 9.477 7.29932 10.1292 8.66992C10.2321 8.88658 10.1649 9.1455 9.96992 9.28417L7.63208 10.9547C9.06149 14.2853 11.7158 16.9396 15.0464 18.369L16.7148 16.0355C16.7829 15.9402 16.8824 15.8718 16.9959 15.8423C17.1093 15.8128 17.2295 15.824 17.3355 15.8741C18.7059 16.525 20.1669 16.9651 21.6688 17.1795C21.8194 17.2012 22.0177 17.225 22.2647 17.2488C22.3982 17.2625 22.5218 17.3253 22.6117 17.425C22.7016 17.5246 22.7512 17.6541 22.7511 17.7883H22.75Z"
@@ -669,7 +669,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-primary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8262)">
                                             <path
                                                 d="M3.24996 3.25H22.75C23.0373 3.25 23.3128 3.36414 23.516 3.5673C23.7192 3.77047 23.8333 4.04602 23.8333 4.33333V21.6667C23.8333 21.954 23.7192 22.2295 23.516 22.4327C23.3128 22.6359 23.0373 22.75 22.75 22.75H3.24996C2.96264 22.75 2.68709 22.6359 2.48393 22.4327C2.28076 22.2295 2.16663 21.954 2.16663 21.6667V4.33333C2.16663 4.04602 2.28076 3.77047 2.48393 3.5673C2.68709 3.36414 2.96264 3.25 3.24996 3.25ZM13.065 12.6566L6.11863 6.75783L4.71571 8.40883L13.079 15.5101L21.2918 8.40342L19.8748 6.76433L13.066 12.6566H13.065Z"
@@ -695,7 +695,7 @@ const Contactus = () => {
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
                             <div className="mb-4 flex items-center gap-2 text-secondary">
                                 <div>
-                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg role="presentation"  width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clipPath="url(#clip0_563_8282)">
                                             <path
                                                 d="M19.8943 18.8122L13 25.7066L6.10567 18.8122C4.74212 17.4486 3.81354 15.7114 3.43734 13.8201C3.06114 11.9287 3.25423 9.96835 3.99219 8.18678C4.73015 6.4052 5.97983 4.88247 7.58321 3.81113C9.18658 2.73979 11.0716 2.16797 13 2.16797C14.9284 2.16797 16.8134 2.73979 18.4168 3.81113C20.0202 4.88247 21.2699 6.4052 22.0078 8.18678C22.7458 9.96835 22.9389 11.9287 22.5627 13.8201C22.1865 15.7114 21.2579 17.4486 19.8943 18.8122ZM13 14.0845C13.5746 14.0845 14.1257 13.8563 14.5321 13.4499C14.9384 13.0436 15.1667 12.4925 15.1667 11.9179C15.1667 11.3432 14.9384 10.7921 14.5321 10.3858C14.1257 9.97949 13.5746 9.75122 13 9.75122C12.4254 9.75122 11.8743 9.97949 11.4679 10.3858C11.0616 10.7921 10.8333 11.3432 10.8333 11.9179C10.8333 12.4925 11.0616 13.0436 11.4679 13.4499C11.8743 13.8563 12.4254 14.0845 13 14.0845Z"

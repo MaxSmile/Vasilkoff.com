@@ -92,7 +92,7 @@ const OfficeSwiper = () => {
                                         <ul className="space-y-4 pt-10">
                                             <li className="flex gap-3">
                                                 <div className="pt-1">
-                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <svg role="presentation"  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path
                                                             fillRule="evenodd"
                                                             clipRule="evenodd"
@@ -105,7 +105,7 @@ const OfficeSwiper = () => {
                                             </li>
                                             <li className="flex items-center gap-3">
                                                 <div>
-                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <svg role="presentation"  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path
                                                             d="M17.0621 18.2183C15.1077 20.1726 10.1028 18.3363 5.88327 14.1167C1.66372 9.89718 -0.172609 4.89227 1.7817 2.93795L3.06847 1.65118C3.9568 0.762856 5.42054 0.786338 6.33784 1.70363L8.33092 3.69672C9.24822 4.61401 9.2717 6.07776 8.38337 6.96609L8.10699 7.24247C7.62737 7.72209 7.58045 8.49581 8.0261 9.03587C8.45597 9.55679 8.9194 10.0756 9.42188 10.5781C9.92435 11.0806 10.4432 11.544 10.9641 11.9739C11.5042 12.4196 12.2779 12.3726 12.7575 11.893L13.0339 11.6166C13.9222 10.7283 15.386 10.7518 16.3033 11.6691L18.2964 13.6622C19.2137 14.5795 19.2371 16.0432 18.3488 16.9315L17.0621 18.2183Z"
                                                             fill="#45B649"
@@ -122,7 +122,7 @@ const OfficeSwiper = () => {
                                             </li>
                                             <li className="flex items-center gap-3">
                                                 <div>
-                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <svg role="presentation"  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path
                                                             fillRule="evenodd"
                                                             clipRule="evenodd"

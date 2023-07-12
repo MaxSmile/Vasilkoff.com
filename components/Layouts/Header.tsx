@@ -46,7 +46,7 @@ const Header = (props: any) => {
                                     </svg>
                                 </button>
                             </div>
-                            <ul onClick={() => toggleMenu()}>
+                            <ul onClick={() => toggleMenu()} role='menu'>
                                 <li>
                                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
                                         Home
@@ -95,7 +95,7 @@ const Header = (props: any) => {
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
                             onClick={() => toggleMenu()}
                         >
-                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                            <svg role="presentation"  width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
                                 <path
                                     d="M2 15H11C11.552 15 12 15.447 12 16C12 16.553 11.552 17 11 17H2C1.448 17 1 16.553 1 16C1 15.447 1.448 15 2 15Z"
                                     fill="currentColor"

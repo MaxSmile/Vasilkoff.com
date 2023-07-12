@@ -110,7 +110,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
                 <div className="bg-white font-mulish text-base text-gray antialiased dark:bg-[#261010]">
                     <Header className={showTopButton ? 'sticky-header' : ''}/>
 
-                    <div className="-mt-[82px] bg-white lg:-mt-[106px]">
+                    <div id="maincontent" role="main" className="-mt-[82px] bg-white lg:-mt-[106px]">
                         {children}
 
                         <Footer />
