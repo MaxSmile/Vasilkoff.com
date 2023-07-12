@@ -33,12 +33,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## SEO
 
-HIGH
-To ensure that Search Engines can accurately identify the topic of this webpage, it is important to include the most common keywords in the title tag, meta description, and heading tags.
-HIGH
-H1 and H2 tags ensure better search engine visibility and ranking by providing structure and hierarchy to the content, improving readability, and providing opportunities for keyword optimization.
-HIGH
-Add a meta description tag to provide a brief and informative summary of the page's content for search engines.
+
 HIGH
 To improve the website experience for your visitors, it is recommended to eliminate any render-blocking resources on this webpage.
 HIGH
@@ -71,18 +66,16 @@ Consider moving inline CSS styles to an external stylesheet to improve site perf
 11. https://tinify.com/ i have account with maxim@vasilkoff.com 500 calls per month
 12. NextAI -> smrtAI
 13. block certify -> NFTTRX A Blockchain-based certificate creation and verification system 
-14. Fscebook like https://www.facebook.com/codeyon/
+14. Facebook like https://www.facebook.com/codeyon/
 15. Instant Invoice Generator - like https://codecanyon.net/item/instant-invoice-generator/39035008 by html to pdf
 16. NFTTRX - NFTTRX A Blockchain-based certificate creation and verification system https://codecanyon.net/item/pdf-merger-merge-rotate-organize-delete-preview-pdf-all-in-one-react-nextjs-web-application/42741922
-17. Inter-euro and neophitoullc 
+17. Inter-euro and neophitoullc ... maybe not
 18. https://dashboard.render.com/ cool free hosting
 19. https://github.com/raid-guild/smart-escrow-nextjs for which domain?
 20. SMRT16 https://www.koob.ru/mlm/ 
 21. https://www.npmjs.com/package/react-vertical-timeline-component 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployed on Vercel
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
@@ -193,4 +186,4 @@ G-9WSLDWGM8P
 
 # License
 
-Copyright © 2022 Vasilkoff.com
+Copyright © Vasilkoff.com
