@@ -13,7 +13,7 @@ const Privacypolicy = () => {
             </Head>
             <div className="pt-40 md:py-[100px]">
                 <div className="container">
-                    <h4 className="pb-5 text-xl font-bold text-black sm:text-2xl">Terms and Conditions</h4>
+                    <h2 className="pb-5 text-xl font-bold text-black sm:text-2xl">Terms and Conditions</h2>
 
                     <p>Last updated: April 18, 2023</p>
                     <div className="pb-12 my-10 space-y-2 prose">

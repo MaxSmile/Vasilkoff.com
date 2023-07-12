@@ -23,7 +23,7 @@ const Aboutus = () => {
                     <div className="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
                         <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
                             <h1>Who are we?</h1>
-                            <h4>Your Trusted IT Partners</h4>
+                            <h2>Your Trusted IT Partners</h2>
                         </div>
                         <div className="font-medium pb-10 text-lg leading-[30px]">
                             <p >
@@ -48,7 +48,7 @@ const Aboutus = () => {
                 <div className="container">
                     <div className="heading text-center">
                         {/* <h1>Meet Our Team</h1> */}
-                        <h4>Ingenious Problem-Solvers</h4>
+                        <h2>Ingenious Problem-Solvers</h2>
                         {/* <p>Trust in our expertise to provide the cutting-edge solutions your business requires to thrive in today's competitive landscape.</p>
                      */}
                     </div>
@@ -61,7 +61,7 @@ const Aboutus = () => {
                 <div className="container">
                     <div className="mb-10 flex flex-col items-center justify-center gap-4 lg:mb-14 lg:flex-row lg:justify-between">
                         <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h4>Our Projects</h4>
+                            <h2>Our Projects</h2>
                         </div>
                         Or <Link
                             href="/portfolio"

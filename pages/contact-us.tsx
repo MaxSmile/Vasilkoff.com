@@ -50,7 +50,7 @@ const Contactus = () => {
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
                         <div className="heading mb-6">
-                            <h4>Start working with us</h4>
+                            <h2>Start working with us</h2>
                         </div>
                         <p className="text-lg font-bold">
                         We provide outsourcing and outstaffing software development services
@@ -74,7 +74,7 @@ const Contactus = () => {
                     <div className="lg:w-2/3">
                         <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h1>How it works?</h1>
-                            <h4>Here are 3 working steps to organize our business projects.</h4>
+                            <h2>Here are 3 working steps to organize our business projects.</h2>
                         </div>
                         <p className="pb-10 text-center text-lg font-semibold leading-[30px] ltr:lg:text-left rtl:lg:text-right">
                             Find out everything you need to know and more about how we create our business process models.
@@ -139,7 +139,7 @@ const Contactus = () => {
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4>Our Design Expertise</h4>
+                        <h2>Our Design Expertise</h2>
                     </div>
                     <ul>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -151,7 +151,7 @@ const Contactus = () => {
                                 <span className="text-primary">/</span>01
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Clear and straightforward</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Clear and straightforward</h2>
                                 <p className="text-lg font-semibold">
                                     In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
                                     document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is
@@ -168,7 +168,7 @@ const Contactus = () => {
                                 <span className="text-primary">/</span>02
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Visually appealing</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Visually appealing</h2>
                                 <p className="text-lg font-semibold">
                                     We pay a lot of attention to the visual solution so that it is also attractive and in line with modern market requirements
                                     in addition to being comfortable to use.
@@ -184,7 +184,7 @@ const Contactus = () => {
                                 <span className="text-primary">/</span>03
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h2>
                                 <p className="text-lg font-semibold">
                                     Our design solutions are aesthetically pleasing, user-friendly, and practical so that users will feel attention and a gentle
                                     attitude in every pixel.
@@ -200,7 +200,7 @@ const Contactus = () => {
                                 <span className="text-primary">/</span>04
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Enhanced Productivity</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Enhanced Productivity</h2>
                                 <p className="text-lg font-semibold">
                                     We significantly reduce the task completion time, allowing users to do their jobs in fewer clicks, thus contributing to
                                     better overall productivity.
@@ -218,7 +218,7 @@ const Contactus = () => {
                 <div className="container">
                     <div className="relative z-10 lg:flex">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h4 className="sm:!leading-[50px]">Get in touch with us</h4>
+                            <h2 className="sm:!leading-[50px]">Get in touch with us</h2>
                             <ul className="mt-8 flex items-center justify-center gap-4 lg:justify-start" data-aos="fade-up" data-aos-duration="500">
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">
                                     <Link href="#" className="group">
@@ -549,7 +549,7 @@ const Contactus = () => {
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4 className="sm:!leading-[50px]">Canada Branch</h4>
+                        <h2 className="sm:!leading-[50px]">Canada Branch</h2>
                     </div>
                     <div className="mb-10 grid gap-[30px] md:grid-cols-2 lg:grid-cols-3">
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
@@ -633,7 +633,7 @@ const Contactus = () => {
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4 className="sm:!leading-[50px]">Australia Branch</h4>
+                        <h2 className="sm:!leading-[50px]">Australia Branch</h2>
                     </div>
                     <div className="mb-10 grid gap-[30px] md:grid-cols-2 lg:grid-cols-3">
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">

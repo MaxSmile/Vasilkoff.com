@@ -41,7 +41,7 @@ const Index = (props: any) => {
                     <div className="heading text-center">
                     <h1>Welcome to Vasilkoff Ltd - Your Partner for Full-Stack Blockchain Software Development</h1>
                         <h2>Achieve Your Goals with Our High-Impact Services</h2>
-                        <h4>We help with</h4>
+                        <h2>We help with</h2>
                         <p className="my-10">
                             These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
                         </p>
@@ -104,7 +104,7 @@ const Index = (props: any) => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Meet Our Team</h1>
-                        <h4>Ingenious Problem-Solvers</h4>
+                        <h2>Ingenious Problem-Solvers</h2>
                     </div>
                     <TeamMembers />
                 </div>

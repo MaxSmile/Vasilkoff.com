@@ -82,7 +82,7 @@ const Servicesdetail = ({serv}) => {
                 <div className="container">
                     <div className="heading text-left">
                         <h1><a href="/#services"><ArrowLeftCircle className="text-2xl inline-block" />&nbsp;Back to Services</a></h1>
-                        <h4>{serv.subtitle}</h4>
+                        <h2>{serv.subtitle}</h2>
                     </div>
 
                     <div className="prose max-w-full">
@@ -96,7 +96,7 @@ const Servicesdetail = ({serv}) => {
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4>Our Expertise</h4>
+                        <h2>Our Expertise</h2>
                     </div>
                     <ul>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -108,7 +108,7 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>01
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">End-to-End Full Stack Development</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">End-to-End Full Stack Development</h2>
                                 <p className="text-lg font-semibold">
                                 Take advantage of our comprehensive full-stack development services. From ideation to execution, we are your reliable partner. We kick-start the process with strategic consulting, continue with meticulous architecture planning and UI/UX design, and finalize with seamless coding and development.
                                 </p>
@@ -123,7 +123,7 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>02
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Tailored To Your Needs</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Tailored To Your Needs</h2>
                                 <p className="text-lg font-semibold">
                                 Our strength lies in our versatility. Our proficient team can adapt to your specific requirements, leveraging a broad array of programming languages and technologies. With Vasilkoff, rest assured you're getting a solution that is custom-crafted to align with your unique needs and stay abreast with the most recent market trends.
                                 </p>
@@ -138,7 +138,7 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>03
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">User-friendly</h2>
                                 <p className="text-lg font-semibold">
                                 At Vasilkoff, we prioritize your users. With our user-centric approach to design and development, we guarantee the delivery of not only technically robust but also intuitive and user-friendly applications. Every interaction point is engineered with your users' comfort and satisfaction in mind.
                                 </p>
@@ -153,7 +153,7 @@ const Servicesdetail = ({serv}) => {
                                 <span className="text-primary">/</span>04
                             </div>
                             <div className="lg:w-4/6">
-                                <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Adaptable and Cutting-Edge Technology</h4>
+                                <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Adaptable and Cutting-Edge Technology</h2>
                                 <p className="text-lg font-semibold">
                                 With a team proficient in a wide array of programming languages and technologies, we bring versatility to your project. We adapt to your unique needs, employing cutting-edge technologies that align with your project requirements and follow the latest market trends.
                                 </p>
@@ -191,7 +191,7 @@ const Servicesdetail = ({serv}) => {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Define</h4>
+                            <h2 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Define</h2>
                             <p className="font-semibold leading-[32px] md:text-lg">We combine our team’s depth of experience in design.</p>
                         </div>
                         <div>
@@ -226,7 +226,7 @@ const Servicesdetail = ({serv}) => {
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Design</h4>
+                            <h2 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Design</h2>
                             <p className="font-semibold leading-[32px] md:text-lg">Curabitur a libero nec dolor ultricies suscipit.</p>
                         </div>
                         <div>
@@ -285,7 +285,7 @@ const Servicesdetail = ({serv}) => {
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Build</h4>
+                            <h2 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Build</h2>
                             <p className="font-semibold leading-[32px] md:text-lg">Donec iaculis massa id venenatis ultrices.</p>
                         </div>
                         <div>
@@ -316,7 +316,7 @@ const Servicesdetail = ({serv}) => {
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Test</h4>
+                            <h2 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Test</h2>
                             <p className="font-semibold leading-[32px] md:text-lg">Proin cursus diam eu nunc aliquet aliquam.</p>
                         </div>
                         <div>
@@ -348,7 +348,7 @@ const Servicesdetail = ({serv}) => {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Launch</h4>
+                            <h2 className="mb-4 text-[22px] font-extrabold text-black dark:text-white">Launch</h2>
                             <p className="font-semibold leading-[32px] md:text-lg">Ut vehicula ante at turpis luctus sollicitudin.</p>
                         </div>
                     </div>
@@ -360,7 +360,7 @@ const Servicesdetail = ({serv}) => {
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                        <h4>Our Technologies</h4>
+                        <h2>Our Technologies</h2>
                     </div>
                     <div className="overflow-y-auto">
                         <div className="grid w-[768px] grid-cols-6 gap-[30px] md:w-auto">

@@ -74,7 +74,7 @@ const Crypto = (props: any) => {
                                             />
                                         </svg>
                                     </Link>
-                                    <h4 className="text-lg font-bold text-black dark:text-white">BTC</h4>
+                                    <h2 className="text-lg font-bold text-black dark:text-white">BTC</h2>
                                     <span className="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white">
                                         BITCON
                                     </span>
@@ -95,7 +95,7 @@ const Crypto = (props: any) => {
                             <div className="flex items-center justify-between gap-2">
                                 <div>
                                     <h3 className="text-xl font-bold leading-[25px] text-black dark:text-white">$56,623.54</h3>
-                                    <h4 className="mt-2 text-lg font-semibold text-[#12AF97]">1.41%</h4>
+                                    <h2 className="mt-2 text-lg font-semibold text-[#12AF97]">1.41%</h2>
                                 </div>
                                 <div>
                                     <ReactApexChart series={successChartSeries} options={successChartOptions} type="area" height={55} />
@@ -119,7 +119,7 @@ const Crypto = (props: any) => {
                                             </defs>
                                         </svg>
                                     </Link>
-                                    <h4 className="text-lg font-bold text-black dark:text-white">ETH</h4>
+                                    <h2 className="text-lg font-bold text-black dark:text-white">ETH</h2>
                                     <span className="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white">
                                         ETHEREUM
                                     </span>
@@ -138,7 +138,7 @@ const Crypto = (props: any) => {
                             <div className="flex items-center justify-between gap-2">
                                 <div>
                                     <h3 className="text-xl font-bold leading-[25px] text-black dark:text-white">$4,267.90</h3>
-                                    <h4 className="mt-2 text-lg font-semibold text-[#FF0000]">-2.22%</h4>
+                                    <h2 className="mt-2 text-lg font-semibold text-[#FF0000]">-2.22%</h2>
                                 </div>
                                 <div>
                                     <ReactApexChart series={dangerChartSeries} options={dangerChartOptions} type="area" height={55} />
@@ -158,7 +158,7 @@ const Crypto = (props: any) => {
                                             />
                                         </svg>
                                     </Link>
-                                    <h4 className="text-lg font-bold text-black dark:text-white">BNB</h4>
+                                    <h2 className="text-lg font-bold text-black dark:text-white">BNB</h2>
                                     <span className="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white">
                                         BINANCE
                                     </span>
@@ -179,7 +179,7 @@ const Crypto = (props: any) => {
                             <div className="flex items-center justify-between gap-2">
                                 <div>
                                     <h3 className="text-xl font-bold leading-[25px] text-black dark:text-white">$587.74</h3>
-                                    <h4 className="mt-2 text-lg font-semibold text-[#12AF97]">0.82%</h4>
+                                    <h2 className="mt-2 text-lg font-semibold text-[#12AF97]">0.82%</h2>
                                 </div>
                                 <div>
                                     <ReactApexChart series={successChartSeries} options={successChartOptions} type="area" height={55} />
@@ -199,7 +199,7 @@ const Crypto = (props: any) => {
                                             />
                                         </svg>
                                     </Link>
-                                    <h4 className="text-lg font-bold text-black dark:text-white">USDT</h4>
+                                    <h2 className="text-lg font-bold text-black dark:text-white">USDT</h2>
                                     <span className="rounded bg-[rgba(198,198,198,0.4)] py-1 px-[6px] text-[10px] font-semibold leading-3 text-black dark:text-white">
                                         TETHER
                                     </span>
@@ -220,7 +220,7 @@ const Crypto = (props: any) => {
                             <div className="item-center flex justify-between gap-2">
                                 <div>
                                     <h3 className="text-xl font-bold leading-[25px] text-black dark:text-white">$0.9998</h3>
-                                    <h4 className="mt-2 text-lg font-semibold text-[#FF0000]">-0.03%</h4>
+                                    <h2 className="mt-2 text-lg font-semibold text-[#FF0000]">-0.03%</h2>
                                 </div>
                                 <div>
                                     <ReactApexChart series={dangerChartSeries} options={dangerChartOptions} type="area" height={55} />
@@ -261,7 +261,7 @@ const Crypto = (props: any) => {
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h1>Our Specialized Services</h1>
-                                <h4>Smart Contracts Testing</h4>
+                                <h2>Smart Contracts Testing</h2>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
                                 Our approach to testing smart contracts is rigorous and comprehensive, ensuring your blockchain solutions are secure and reliable.
@@ -290,7 +290,7 @@ const Crypto = (props: any) => {
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h1>Our Advanced Techniques</h1>
-                                <h4>Smart Contracts Security</h4>
+                                <h2>Smart Contracts Security</h2>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
                                 Our focus is to ensure your smart contracts are secure and trustworthy, to give you the best outcomes.
@@ -326,7 +326,7 @@ const Crypto = (props: any) => {
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h1>Exploring the Potential</h1>
-                                <h4>Navigating the Regulatory Landscape</h4>
+                                <h2>Navigating the Regulatory Landscape</h2>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
                                 Our expertise in the regulatory landscape of blockchain gaming can be an invaluable asset for your startup.
@@ -355,7 +355,7 @@ const Crypto = (props: any) => {
                         <div className="heading flex-1">
                             <div className="text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h1>Our Commitment</h1>
-                                <h4>Securing Your Startup's Future</h4>
+                                <h2>Securing Your Startup's Future</h2>
                             </div>
                             <p className="mt-5 text-lg font-semibold">
                                 We're committed to supporting your blockchain startup while navigating regulatory challenges.
@@ -392,7 +392,7 @@ const Crypto = (props: any) => {
                     <div className="container text-white">
                         <div className="heading text-center">
                             <h1>Your Crypto Startup Success Starts Here</h1>
-                            <h4 className="!text-white">You focus on the vision, we'll provide the blockchain solutions.</h4>
+                            <h2 className="!text-white">You focus on the vision, we'll provide the blockchain solutions.</h2>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                             <div
@@ -404,7 +404,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">Expert Blockchain Development</h4>
+                                    <h2 className="text-lg font-bold text-white">Expert Blockchain Development</h2>
                                     <p className="mt-2.5 font-semibold">Our team brings deep expertise in blockchain game development, ready to transform your unique ideas into reality.</p>
                                 </div>
                             </div>
@@ -417,7 +417,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">Engaging User Experiences</h4>
+                                    <h2 className="text-lg font-bold text-white">Engaging User Experiences</h2>
                                     <p className="mt-2.5 font-semibold">We excel in creating engaging user experiences, balancing the complexities of blockchain technology with seamless design.</p>
                                 </div>
                             </div>
@@ -430,7 +430,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">Scalable Solutions</h4>
+                                    <h2 className="text-lg font-bold text-white">Scalable Solutions</h2>
                                     <p className="mt-2.5 font-semibold">We develop scalable blockchain solutions capable of handling high transaction volumes without compromising on speed or cost.</p>
                                 </div>
                             </div>
@@ -443,7 +443,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">Secure Smart Contract Development</h4>
+                                    <h2 className="text-lg font-bold text-white">Secure Smart Contract Development</h2>
                                     <p className="mt-2.5 font-semibold">Security is paramount. Our secure smart contract development practices ensure the safe management of your digital assets.</p>
                                 </div>
                             </div>
@@ -456,7 +456,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">In-Game Economy Design</h4>
+                                    <h2 className="text-lg font-bold text-white">In-Game Economy Design</h2>
                                     <p className="mt-2.5 font-semibold">We specialize in designing in-game economies that balance fairness, incentives, and sustainability, ensuring a thriving gaming experience for users.</p>
                                 </div>
                             </div>
@@ -465,7 +465,7 @@ const Crypto = (props: any) => {
                                     <CheckCircle />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-bold text-white">Navigating Regulatory Compliance</h4>
+                                    <h2 className="text-lg font-bold text-white">Navigating Regulatory Compliance</h2>
                                     <p className="mt-2.5 font-semibold">We have a comprehensive understanding of the regulatory landscape of blockchain gaming. Our solutions are designed for compliance without compromising on your vision.</p>
                                 </div>
                             </div>
@@ -601,9 +601,9 @@ const Crypto = (props: any) => {
                                     <div key={i}>
                                         <div className="group cursor-pointer items-baseline rounded-3xl border border-white bg-white py-10 px-6 transition duration-500 hover:border-gray hover:bg-gray/10">
                                             <div className="text-center">
-                                                <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                                                <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                                     <CountUp start={0} end={item.number} duration={10} suffix={item.suffix} prefix={item.prefix}></CountUp>
-                                                </h4>
+                                                </h2>
                                                 <span className="font-bold text-black transition dark:text-white dark:group-hover:text-black">{item.title}</span>
                                             </div>
                                         </div>

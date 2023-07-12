@@ -164,7 +164,7 @@ const StartupOffer = () => {
                         <div className="lg:w-1/2">
                             <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h1 className="!text-secondary">OUR FEATURES</h1>
-                                <h4>A robust set of features</h4>
+                                <h2>A robust set of features</h2>
                                 <p className="mt-4 text-lg font-semibold">
                                     We will help a client's problems to develop the products they have with high quality Change the appearance.
                                 </p>
@@ -337,7 +337,7 @@ const StartupOffer = () => {
                                     <div className="pt-28 lg:pb-10 lg:pt-0">
                                         <div className="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
                                             <h1 className="!text-secondary">WHAT WE DO</h1>
-                                            <h4 className="pb-4 leading-normal !text-white lg:!leading-[50px]">Increase your performance</h4>
+                                            <h2 className="pb-4 leading-normal !text-white lg:!leading-[50px]">Increase your performance</h2>
                                             <p className="text-lg font-semibold xl:w-11/12">
                                                 We take step wise for your every platform. We helping to client with our talented expert.
                                             </p>
@@ -404,7 +404,7 @@ const StartupOffer = () => {
                             <div className="lg:w-2/3">
                                 <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
                                     <h1 className="!text-secondary">THOUSANDS OF BENIFITS</h1>
-                                    <h4 className="">We make it easy to track all user analytics</h4>
+                                    <h2 className="">We make it easy to track all user analytics</h2>
                                     <p className="mt-4 text-lg font-semibold">
                                         We analyze step wise for your every platform. You will get best reports and analytics. We helping to client with our
                                         talented expert.
@@ -416,7 +416,7 @@ const StartupOffer = () => {
                                             <img src="/assets/images/modern-saas/tracking-icon.svg" alt="" />
                                         </div>
                                         <div className="flex-1">
-                                            <h4 className="text-[22px] font-extrabold text-black dark:text-white">Advanced tracking</h4>
+                                            <h2 className="text-[22px] font-extrabold text-black dark:text-white">Advanced tracking</h2>
                                             <p className="pt-4 text-lg font-semibold">
                                                 Use our analytics, reporting, and AI-assisted optimization tools to monitor trends, track.
                                             </p>
@@ -427,7 +427,7 @@ const StartupOffer = () => {
                                             <img src="assets/images/modern-saas/monitoring-icon.svg" alt="" />
                                         </div>
                                         <div className="flex-1">
-                                            <h4 className="text-[22px] font-extrabold text-black dark:text-white">In-depth monitoring</h4>
+                                            <h2 className="text-[22px] font-extrabold text-black dark:text-white">In-depth monitoring</h2>
                                             <p className="pt-4 text-lg font-semibold">Time Tracking is never been easier. Just let the stopwatch run.</p>
                                         </div>
                                     </li>
@@ -464,7 +464,7 @@ const StartupOffer = () => {
                             </div>
                             <div className="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
                                 <h1 className="!text-secondary">INTEGRATIONS</h1>
-                                <h4 className="">Integrated with all tools you already know and love</h4>
+                                <h2 className="">Integrated with all tools you already know and love</h2>
                                 <p className="mt-4 text-lg font-semibold">
                                     Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy
                                     foster collaborative thinking
@@ -490,7 +490,7 @@ const StartupOffer = () => {
                     <div className="container">
                         <div className="heading mb-5 text-center">
                             <h1 className="!text-secondary">Drive more lead with Plurk</h1>
-                            <h4 className="">Our response management having automatically track customer sentiment</h4>
+                            <h2 className="">Our response management having automatically track customer sentiment</h2>
                         </div>
                         <div
                             className="mt-14 grid gap-4 rounded-2xl py-8 px-4 sm:p-10 lg:mt-20 lg:grid-cols-2"
@@ -499,7 +499,7 @@ const StartupOffer = () => {
                             }}
                         >
                             <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h4 className="">Tenancy Optimization</h4>
+                                <h2 className="">Tenancy Optimization</h2>
                                 <p className="mt-6 text-lg font-semibold">
                                     Optimize your SaaS solutions’ tenancy by leveraging our deep understanding of the unit economics of SaaS products. We can
                                     take existing single-tenant applications and securely deliver a cost optimized multi-tenant solution.
@@ -528,7 +528,7 @@ const StartupOffer = () => {
                             }}
                         >
                             <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
-                                <h4 className="">Migrate and Modernize</h4>
+                                <h2 className="">Migrate and Modernize</h2>
                                 <p className="mt-6 text-lg font-semibold">
                                     Migrating a legacy system involves taking your old infrastructure and transferring it to the cloud. This does provide
                                     potential cost and efficiency benefits. However, it fails to give your application a growth perspective.
@@ -557,14 +557,14 @@ const StartupOffer = () => {
                     <div className="container">
                         <div className="heading mb-12 lg:mb-20">
                             <h1 className="!text-secondary">Our Services</h1>
-                            <h4 className="">The Best Solutions To Your Business</h4>
+                            <h2 className="">The Best Solutions To Your Business</h2>
                         </div>
                         <div className="grid gap-14 sm:grid-cols-2 lg:grid-cols-3">
                             <div data-aos="fade-up" data-aos-duration="1000">
                                 <div className="mb-10">
                                     <img src="/assets/images/modern-saas/modern-design.svg" alt="" className="mx-auto w-24" />
                                 </div>
-                                <h4 className="text-[22px] font-extrabold text-black dark:text-white">Modern Design</h4>
+                                <h2 className="text-[22px] font-extrabold text-black dark:text-white">Modern Design</h2>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
                                     Design and user experience are among the essential aspects of SaaS. Even if you are just entering the market and no one
                                     knows you,
@@ -577,7 +577,7 @@ const StartupOffer = () => {
                                 <div className="mb-10">
                                     <img src="/assets/images/modern-saas/magic-pagebuilder.svg" alt="" className="mx-auto w-24" />
                                 </div>
-                                <h4 className="text-[22px] font-extrabold text-black dark:text-white">Magic Pagebuilder</h4>
+                                <h2 className="text-[22px] font-extrabold text-black dark:text-white">Magic Pagebuilder</h2>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
                                     Design and simplicity are at the core of our website builder. Easily create, customize, and promote a stunning website
                                     that's search...
@@ -590,7 +590,7 @@ const StartupOffer = () => {
                                 <div className="mb-10">
                                     <img src="/assets/images/modern-saas/support-icon.svg" alt="" className="mx-auto w-24" />
                                 </div>
-                                <h4 className="text-[22px] font-extrabold text-black dark:text-white">Support 24/7</h4>
+                                <h2 className="text-[22px] font-extrabold text-black dark:text-white">Support 24/7</h2>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
                                     24/7 support model ensures that a customer is able to get their issue resolved no matter what day or time it is.
                                 </p>

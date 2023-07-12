@@ -15,7 +15,7 @@ const ProjectSlider = (props: any) => {
                 <div className="mb-7 flex flex-col items-center justify-center lg:mb-0 lg:flex-row lg:justify-between">
                     <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                         <h1>{props.title1}</h1>
-                        <h4>{props.title2}</h4>
+                        <h2>{props.title2}</h2>
                     </div>
                     <div className="flex items-center justify-end gap-4">
                         <Link

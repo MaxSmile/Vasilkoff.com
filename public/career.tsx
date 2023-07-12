@@ -36,7 +36,7 @@ const Career = () => {
                         <div className="order-2 md:order-1 md:col-span-2 lg:col-auto">
                             <div className="heading mb-5 text-center ltr:md:text-left rtl:md:text-right">
                                 <h1>Careers</h1>
-                                <h4>Join the #1 Creative Agency</h4>
+                                <h2>Join the #1 Creative Agency</h2>
                             </div>
                             <div className="text-center font-semibold ltr:md:text-left rtl:md:text-right">
                                 <p className="pb-5">Find out everything you need to know and more about how we create our business process models.</p>
@@ -65,7 +65,7 @@ const Career = () => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Our Culture</h1>
-                        <h4>Be Great. Do Good. Have Fun.</h4>
+                        <h2>Be Great. Do Good. Have Fun.</h2>
                     </div>
                     {isOpen && (
                         <Lightbox
@@ -169,7 +169,7 @@ const Career = () => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Our Amazing Perks</h1>
-                        <h4>Great benefits of working at Plurk</h4>
+                        <h2>Great benefits of working at Plurk</h2>
                     </div>
                     <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
                         <div data-aos="fade-up" data-aos-duration="1000">
@@ -414,7 +414,7 @@ const Career = () => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Open Positions</h1>
-                        <h4>Wake Up To A Better Future</h4>
+                        <h2>Wake Up To A Better Future</h2>
                     </div>
                     <div className="pb-[50px]">
                         <ul className="filters portfolio-filter flex items-center gap-4 overflow-x-auto whitespace-nowrap pb-2.5 font-bold dark:text-white md:justify-between">
@@ -469,7 +469,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'design' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Design</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Lead Mobile UI/UX Designer</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Lead Mobile UI/UX Designer</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -503,7 +503,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'website' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Website development</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Systems Engineer - Java</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. Systems Engineer - Java</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -537,7 +537,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -571,7 +571,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -605,7 +605,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'app' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">application development</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Flutter Developer</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -639,7 +639,7 @@ const Career = () => {
                         <div className={`project ${activeTab === 'all' || activeTab === 'marketing' ? 'block' : 'hidden'}`}>
                             <div className="group rounded-[32px] border-2 border-white bg-white px-4 py-6 transition hover:border-secondary hover:bg-secondary/10 dark:border-gray-dark dark:bg-gray-dark dark:hover:border-secondary dark:hover:bg-secondary sm:p-[30px]">
                                 <h1 className="mb-5 text-base font-black uppercase text-secondary dark:group-hover:text-black">Digital marketing</h1>
-                                <h4 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h4>
+                                <h2 className="mb-10 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Sr. SEO Expert</h2>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <div>
@@ -678,79 +678,79 @@ const Career = () => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Meet Our Team</h1>
-                        <h4>Creative Minds</h4>
+                        <h2>Creative Minds</h2>
                     </div>
                     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Executive Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Operating Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Financial Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Marketing Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-1.png" alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Aditya Patel
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Executive Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-2.png" alt="team-member-2" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Audrey Ramirez
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Operating Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-3.png" alt="team-member-3" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 James Robinson
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Financial Officer</h1>
                         </div>
                         <div className="group cursor-pointer text-center">
                             <div className="relative h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
                                 <img src="/assets/images/team-member-4.png" alt="team-member-4" className="h-full w-full rounded-3xl object-cover object-top" />
                             </div>
-                            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+                            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
                                 Daniel Allen
-                            </h4>
+                            </h2>
                             <h1 className="text-sm font-bold">Chief Marketing Officer</h1>
                         </div>
                     </div>

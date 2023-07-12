@@ -12,7 +12,7 @@ const OfficeSwiper = () => {
                 <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div className="heading mt-10 text-center md:w-1/2 lg:text-left ">
                  
-                        <h4>Our offices</h4>
+                        <h2>Our offices</h2>
                     </div>
                     <div className="flex items-center justify-end gap-4">
                         {/* <Link

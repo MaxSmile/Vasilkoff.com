@@ -45,7 +45,7 @@ const BlogSlider = ({
                     
                     <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${title1.length > 0 ? '' : 'mb-0'}`}>
                         {title1.length > 0 && <h1 className={type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}>{title1}</h1>}
-                        {title2.length > 0 && <h4>{title2}</h4>}
+                        {title2.length > 0 && <h2>{title2}</h2>}
                     </div>
 
                     <div className="mb-8 flex items-center justify-end gap-4 lg:mb-0">

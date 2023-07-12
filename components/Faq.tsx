@@ -113,7 +113,7 @@ const Faq = ({
             <div className="container">
                 <div className="heading text-center">
                     <h1>FAQs</h1>
-                    <h4>Frequently Asked Questions</h4>
+                    <h2>Frequently Asked Questions</h2>
                     <p className="mt-5 text-lg font-bold">Have questions? We're here to help!</p>
                 </div>
                 <div className="mx-auto lg:w-[730px]">

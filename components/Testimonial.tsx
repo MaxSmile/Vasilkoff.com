@@ -180,7 +180,7 @@ const Testimonial = ({
             <div className="container">
                 <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${showTitle ? '' : 'hidden'}`}>
                     <h1>Testimonial</h1>
-                    <h4 className="!text-white">Feedback from our clients</h4>
+                    <h2 className="!text-white">Feedback from our clients</h2>
                 </div>
                 <div className={`mx-auto ${type.toLowerCase() === 'common' ? 'lg:w-11/12' : ''} `}>
                     <div className="relative sm:py-12 md:py-0">

@@ -22,7 +22,7 @@ export const OurProjectCard = (
             </div>
             </Link>
             <div className="rounded-b-[32px] bg-white p-5 transition duration-500 group-hover:bg-secondary/5 dark:bg-gray-dark">
-                <h4 className="text-lg font-bold text-black dark:text-white md:text-xl">{proj.title}</h4>
+                <h2 className="text-lg font-bold text-black dark:text-white md:text-xl">{proj.title}</h2>
                 <p>{proj.description}</p>
                 <h5 className="mt-2 font-semibold md:text-lg"><Link target="_blank" href={proj.url}>{proj.link}</Link></h5>
             </div>

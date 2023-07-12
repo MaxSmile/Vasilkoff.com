@@ -11,9 +11,8 @@ const FAQs = () => {
     return (
         <>
             <Head>
-                <title>Vasilkoff Ltd - FAQs</title>
-                <meta name="description" content="Full-stack software development company specializing in blockchain technology. We offer outsourcing and outstaffing services for the development of web & mobile apps, handling projects from simple to complex." />
-
+                <title>FAQs - Vasilkoff Ltd</title>
+                <meta name="description" content="Get answers to common questions about Vasilkoff's full-stack software development services, blockchain technology, outsourcing, and outstaffing in our comprehensive FAQ." />
             </Head>
 
 
@@ -24,7 +23,7 @@ const FAQs = () => {
                 <div className="container">
                     <div className="heading text-center">
                         <h1>Google-powered Search</h1>
-                        <h4>Find Your Answers</h4>
+                        <h2>Find Your Answers</h2>
                         <p className="mt-5 text-lg font-bold">Looking for something specific? Use our search feature to find exactly what you need!</p>
                     </div>
                     <div className="mt-8 justify-center">
