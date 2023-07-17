@@ -47,22 +47,22 @@ const Header = (props: any) => {
                                 </button>
                             </div>
                             <ul onClick={() => toggleMenu()} role='menu'>
-                                <li>
+                                <li role='menuitem'>
                                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
                                         Home
                                     </Link>
                                 </li>
-                                {/* <li>
+                                {/* <li role='menuitem'>
                                     <Link href="/services" className={router.pathname === '/services' ? 'active' : ''}>
                                         Services
                                     </Link>
                                 </li> 
-                                <li>
+                                <li role='menuitem'>
                                     <Link href="/crypto" className={router.pathname === '/crypto' ? 'active' : ''}>
                                         Crypto
                                     </Link>
                                 </li>*/}
-                                <li>
+                                <li  role='menuitem'>
                                     <Link
                                         href="/portfolio"
                                         className={router.pathname === '/portfolio' || router.pathname === '/portfolio/detail' ? 'active' : ''}
@@ -70,7 +70,7 @@ const Header = (props: any) => {
                                         Portfolio
                                     </Link>
                                 </li>
-                                {/* <li>
+                                {/* <li role='menuitem'>
                                     <Link
                                         href="/services"
                                         className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
@@ -79,7 +79,7 @@ const Header = (props: any) => {
                                     </Link>
                                 </li> */}
            
-                                <li>
+                                <li role='menuitem'>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us
                                     </Link>
