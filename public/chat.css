@@ -67,6 +67,11 @@ header {
     border: none;
     flex: 1;
     background-color: var(--white);
+    min-height: 24px; 
+    width: 100%; 
+    padding: 5px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
 }
 
 .msg {
