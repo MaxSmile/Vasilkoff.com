@@ -49,8 +49,10 @@ input:-webkit-autofill {
 
 
 @layer components {
+    /* active items */
     button:focus, a:focus, input:focus {
-        outline: 2px dotted #660000;
+        border: 1px dotted silver;
+        box-shadow: 1px 1px 12px -3px rgba(97,0,0,0.75);
     }
     .skip-link {
         position: absolute;
@@ -105,8 +107,13 @@ input:-webkit-autofill {
     header .menus > ul {
         @apply relative flex  flex-col divide-y divide-gray/10  font-bold text-black  lg:flex-row lg:items-center lg:gap-11 lg:divide-y-0  lg:p-0;
     }
-    header .menus > ul li > a {
+    header .menus > ul li
+    {
         @apply flex items-center justify-between py-4 px-4 transition hover:text-secondary dark:text-white dark:hover:text-secondary lg:px-0 lg:py-10 hover:lg:scale-110;
+    }
+    header .menus > ul li > a
+    {
+        @apply px-4 rounded
     }
     header .menus > ul li > a.active {
         @apply text-secondary lg:scale-110;
