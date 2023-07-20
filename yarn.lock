@@ -74,6 +74,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@minimal-analytics/ga4@^1.8.7":
+  version "1.8.7"
+  resolved "https://registry.yarnpkg.com/@minimal-analytics/ga4/-/ga4-1.8.7.tgz#4fee7b6354feb28480fdc8e60993105205e25929"
+  integrity sha512-W6BVFkdOJEq8aG4i+Kg/itLD2QpJQq97oA6nrGFtWy3CIhUj1EOXOzmhd2KCl2SQd4OPY3rZBtDbczyTZYcL0Q==
+
 "@next/env@13.0.5":
   version "13.0.5"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.0.5.tgz#f2fafaa42c6693260e00f443853b549509715ad1"

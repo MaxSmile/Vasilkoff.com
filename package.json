@@ -13,6 +13,7 @@
         "postbuild": "next-sitemap"
     },
     "dependencies": {
+        "@minimal-analytics/ga4": "^1.8.7",
         "@reduxjs/toolkit": "^1.9.0",
         "@tailwindcss/line-clamp": "^0.4.2",
         "@types/node": "18.15.3",
