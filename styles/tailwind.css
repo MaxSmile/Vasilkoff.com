@@ -54,6 +54,14 @@ input:-webkit-autofill {
         border: 1px dotted silver;
         box-shadow: 1px 1px 12px -3px rgba(97,0,0,0.75);
     }
+    [placeholder]:empty::before {
+        content: attr(placeholder);
+        color: #999; 
+    }
+    
+    [placeholder]:empty:focus::before {
+        content: "";
+    }
     .skip-link {
         position: absolute;
         left: -10000px;
