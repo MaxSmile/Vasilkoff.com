@@ -24,7 +24,7 @@ function App({ children }: PropsWithChildren) {
     useEffect(() => {
         dispatch(toggleTheme(themeConfig.theme));
         dispatch(toggleDirection(themeConfig.direction));
-        track('G-9WSLDWGM8P');
+        //track('G-9WSLDWGM8P');
         const handleRouteChange = (url: any) => {
             ReactGA.send({ hitType: "pageview", page: url});
             //track('G-9WSLDWGM8P');
