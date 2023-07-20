@@ -1,8 +1,5 @@
 import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
-import { IRootState } from '../../store';
-import { toggleTheme, toggleDirection } from '../../store/themeConfigSlice';
 import { useRouter } from 'next/router';
 
 const Header = (props: any) => {
@@ -27,7 +24,7 @@ const Header = (props: any) => {
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/images/logo-vasilkoff.webp" alt="plurk" className="h-12" width={104} height={48} />
+                        <img src="/images/logo-vasilkoff.webp" alt="plurk" className="h-12" width={"104px"} height={"48px"} />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>

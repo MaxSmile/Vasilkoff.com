@@ -113,7 +113,7 @@ const Index = (props: any) => {
             <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
                 <div className="items-center justify-center lg:flex">
                     <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="/assets/images/contact-text.webp" alt="Contact us" width={393} height={90} className="mx-auto sm:pt-4 xl:mx-0" />
+                        <img src="/assets/images/contact-text.webp" alt="Contact us" width={"393px"} height={"90px"} className="mx-auto sm:pt-4 xl:mx-0" />
                     </div>
                 </div>
             </section>
