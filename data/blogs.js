@@ -1,4 +1,14 @@
 const blogs = {
+    "boc-hackathon-fintech-3-0":{
+        "date": "May 30, 2023",
+        "title": "Step-by-Step: Implementing Structured Data for Better SEO",
+        "subtitle": "SEO Rich Snippets for Google",
+        "description": "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort",
+        "picture": "/assets/images/project-9.png",
+        "time": "3 min",
+        "content":``
+
+    },
     "seo-rich-snippets-google": {
       "date": "May 30, 2023",
       "title": "Step-by-Step: Implementing Structured Data for Better SEO",

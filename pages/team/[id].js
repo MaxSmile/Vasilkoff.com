@@ -1,16 +1,14 @@
-
-import { useRouter } from 'next/router';
-import { blogs } from '../../data/blogs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import Error404 from '../404';
-import { ArrowLeftCircle, Link45deg, ProjectorFill } from 'react-bootstrap-icons';
 import Head from 'next/head';
+import { members } from '../../data/members';
+import Image from 'next/image';
 import Link from 'next/link';
+import { ArrowLeftCircle } from 'react-bootstrap-icons';
 
 
 export const getServerSideProps = async ({ params }) => {
-    const blog = blogs[params.id];
+    const blog = members[params.id];
 
     if (!blog) {
         return {
@@ -26,11 +24,11 @@ export const getServerSideProps = async ({ params }) => {
     }
 }
 
-const Blogdetail = ({ blog, slug }) => {
+const MemberPage = ({ blog, slug }) => {
     return (
         <div>
             <Head>
-                <title>Blog: {blog.title} - Vasilkoff</title>
+                <title>{blog.title}</title>
                 <meta name="description" content={blog.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -65,15 +63,10 @@ const Blogdetail = ({ blog, slug }) => {
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                                <p className="!text-white py-4"><a href="/blog"><ArrowLeftCircle className="text-2xl" /></a></p>
+                                <p className="!text-white py-4"><Link href='/#team'><ArrowLeftCircle className="text-2xl" /></Link></p>
                                 <h1 className="!text-white">{blog.title}</h1>
-                                <p className="!text-white py-4">
-                                    <Link href="/team/maxim-vasilkov">
-                                        <Link45deg className='inline-block' />
-                                        Author: <span className="px-4 font-semibold sm:text-lg">Maxim Vasilkov</span>
-                                    </Link>
-                                </p>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
+                
                                     <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
                                         Date: {blog.date}
                                     </li>
@@ -81,17 +74,22 @@ const Blogdetail = ({ blog, slug }) => {
                                         Time to read: {blog.time}
                                     </li>
                                 </ul>
-                                
+                                <p className='text-light p-4'>
+                                    {blog.description}
+                                </p>
                             </div>
                             <div
                                 className="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
                                 data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
-                                <img
+                                <Image
                                     src={blog.picture}
-                                    alt="blog-detail-hero"
-                                    className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px] border border-gray"
+                                    width={160}
+                                    height={160}
+                                    loading='lazy'
+                                    alt={blog.subtitle}
+                                    className="mx-auto rounded-[16px] border border-gray"
                                 />
                             </div>
                         </div>
@@ -106,9 +104,8 @@ const Blogdetail = ({ blog, slug }) => {
                     </div>
                 </div>
             </section>
-            {/* <BlogSlider title2="Related articles" /> */}
         </div>
     );
 };
 
-export default Blogdetail;
+export default MemberPage;

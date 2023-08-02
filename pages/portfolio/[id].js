@@ -1,8 +1,6 @@
 import Head from 'next/head';
 // import ProjectSlider from '../../components/ProjectSlider';
 import { portfolios } from '../../data/portfolios.js';
-import { useRouter } from 'next/router';
-import Error404 from '../404';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 

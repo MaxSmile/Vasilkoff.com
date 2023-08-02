@@ -62,19 +62,19 @@ const Header = (props: any) => {
                                 <li  role='menuitem'>
                                     <Link
                                         href="/portfolio"
-                                        className={router.pathname === '/portfolio' || router.pathname === '/portfolio/detail' ? 'active' : ''}
+                                        className={router.pathname === '/portfolio' || router.pathname.startsWith('/portfolio/') ? 'active' : ''}
                                     >
                                         Portfolio
                                     </Link>
                                 </li>
-                                {/* <li role='menuitem'>
+                                <li role='menuitem'>
                                     <Link
-                                        href="/services"
-                                        className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
+                                        href="/#team"
+                                        className={router.pathname === '/#team' ? 'active' : ''}
                                     >
-                                        Service
+                                        Team
                                     </Link>
-                                </li> */}
+                                </li>
            
                                 <li role='menuitem'>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
