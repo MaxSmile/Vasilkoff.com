@@ -1,20 +1,10 @@
 const blogs = {
-    "boc-hackathon-fintech-3-0":{
-        "date": "May 30, 2023",
-        "title": "Step-by-Step: Implementing Structured Data for Better SEO",
-        "subtitle": "SEO Rich Snippets for Google",
-        "description": "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort",
-        "picture": "/assets/images/project-9.png",
-        "time": "3 min",
-        "content":``
-
-    },
     "seo-rich-snippets-google": {
       "date": "May 30, 2023",
       "title": "Step-by-Step: Implementing Structured Data for Better SEO",
       "subtitle": "SEO Rich Snippets for Google",
       "description": "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort",
-      "picture": "/assets/images/project-9.png",
+      "picture": "/assets/images/blog-3.png",
       "time": "3 min",
       "content":`# Your SEO strategy
 In the vast landscape of SEO, staying ahead means not just keeping up with the trends, but leveraging every available tool at your disposal. One such powerful yet often overlooked tool is structured data. By understanding and implementing structured data, you can boost your SEO and significantly enhance your visibility on search engine results pages.
@@ -211,7 +201,7 @@ By following this comprehensive checklist and leveraging the recommended tools a
         "title": "Why Outsourcing Software Development Can Benefit Your Business",
         "subtitle": "Rewards of Outsourced Software Development",
         "description": "How Your Business Can Reap the Rewards of Outsourced Software Development.",
-        "picture": "/assets/images/blog-3.png",
+        "picture": "/assets/images/project-9.png",
         "time": "5 min",
         "content":
 `In today's digital age, software development has become a crucial part of business operations. Whether you're looking to develop a new web or mobile application or need to upgrade your existing software, it can be a time-consuming and resource-intensive process. This is where outsourcing software development can be beneficial for your business.
@@ -576,7 +566,7 @@ In conclusion, measuring the success of outsourced software development projects
 
 
 
-    "Future-Outsourcing-and-Outstaffing": {
+"Future-Outsourcing-and-Outstaffing": {
         "date": "March 17, 2023",
         "title": "The Future of Software Development Outsourcing and Outstaffing: Trends to Watch",
         "subtitle": "trends to observe in outsourcing",
@@ -606,6 +596,31 @@ Cloud computing is becoming increasingly popular in software development, and ou
 
 In conclusion, the future of software development outsourcing and outstaffing is likely to be shaped by trends such as increased adoption of AI, emergence of new outsourcing destinations, focus on agile development, increased focus on cybersecurity, rise of remote work, and increased use of cloud computing. By staying on top of these trends, businesses can take advantage of the benefits of outsourcing and outstaffing and stay ahead of the competition.
 `
+    },
+    "boc-hackathon-fintech-3-0":{
+        "date": "May 30, 2020",
+        "title": "Making Strides in Fintech: Vasilkoff's Triumph at BOC Hackathon Fintech 3.0",
+        "subtitle": "BOC Hackathon Fintech 3.0: 2nd prise for Team Vasilkoff",
+        "description": "Team Vasilkoff's innovative solution, SmartWallet, secures the 2nd prize at the prestigious BOC Hackathon Fintech 3.0 event in Cyprus.",
+        "picture": "/images/boc-hackathon3.jpg",
+        "time": "2 min",
+        "content":`In the competitive landscape of financial technology (fintech), innovative ideas and solutions are always in high demand. Recently, one such competition provided an excellent platform for demonstrating cutting-edge fintech solutions. The "BOC Hackathon Fintech 3.0," organized by the Bank of Cyprus from the 18th to the 20th of October, brought together teams of coders and startups. The goal was to create innovative fintech solutions and progress them to the stage of Minimum Viable Product (MVP), with prospects for further development into fully functional apps.
+
+To facilitate the creation of these apps, the Bank of Cyprus provided upgraded open banking APIs and SDK (Software Development Kit), allowing teams to integrate novel features, such as secure payment processing or data utilization services.
+
+The event was held at the IDEA Innovation Center in Nicosia, a space renowned for inspiring creativity and technological advancement. It wasn't just the competition that was the highlight of the event; two open API days were held prior to the hackathon in Limassol and Nicosia, which gave participants the chance to review the latest trends in fintech and learn about the bank's upgraded APIs.
+
+Amidst the highly competitive and inspiring environment, team Vasilkoff, composed of innovative thinkers and developers, shone brightly. They developed an ingenious system called "SmartWallet". SmartWallet links traditional banking with electronic contracts, providing businesses and individuals a faster, cheaper access to a wide array of financial services. Remarkably, the solution complies with current Cyprus laws, highlighting the team's commitment to lawful and ethical tech development.
+
+This innovative solution secured the team a well-deserved second prize at the event, underlining their aptitude and creativity in the fintech space. Team Vasilkoff walked away with €4,000, marking their impressive achievement.
+
+As a mentor and participant, Dr. Demetris Antoniades, leader of Digitally Enhanced Urban Environments (DARE) MRG, shared his enriching experience. He lauded the event for providing an ideal environment for startups and coders to flex their innovative muscles and create tangible, tech-forward solutions.
+
+You can learn more about the event and team Vasilkoff's triumph [here](https://inbusinessnews.reporter.com.cy/article/2019/10/24/393375/me-epitukhia-kai-phetos-to-boc-hackathon-fintech-30-tes-trapezas-kuprou/).
+
+The success at BOC Hackathon Fintech 3.0 is a testament to Vasilkoff's commitment to driving innovation in the fintech space and their ability to deliver remarkable solutions. This experience inspires us to continue pushing boundaries, innovating, and creating outstanding fintech solutions for a brighter, tech-forward future.
+`
+
     }
     
 };

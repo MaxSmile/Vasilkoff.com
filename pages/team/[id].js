@@ -28,7 +28,7 @@ const MemberPage = ({ blog, slug }) => {
     return (
         <div>
             <Head>
-                <title>{blog.title}</title>
+                <title>Team - {blog.title}</title>
                 <meta name="description" content={blog.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
