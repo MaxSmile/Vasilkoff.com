@@ -599,27 +599,27 @@ In conclusion, the future of software development outsourcing and outstaffing is
     },
     "boc-hackathon-fintech-3-0":{
         "date": "May 30, 2020",
-        "title": "Making Strides in Fintech: Vasilkoff's Triumph at BOC Hackathon Fintech 3.0",
+        "title": "A Remarkable Achievement: Vasilkoff at BOC Hackathon Fintech 3.0",
         "subtitle": "BOC Hackathon Fintech 3.0: 2nd prise for Team Vasilkoff",
         "description": "Team Vasilkoff's innovative solution, SmartWallet, secures the 2nd prize at the prestigious BOC Hackathon Fintech 3.0 event in Cyprus.",
         "picture": "/images/boc-hackathon3.jpg",
         "time": "2 min",
-        "content":`In the competitive landscape of financial technology (fintech), innovative ideas and solutions are always in high demand. Recently, one such competition provided an excellent platform for demonstrating cutting-edge fintech solutions. The "BOC Hackathon Fintech 3.0," organized by the Bank of Cyprus from the 18th to the 20th of October, brought together teams of coders and startups. The goal was to create innovative fintech solutions and progress them to the stage of Minimum Viable Product (MVP), with prospects for further development into fully functional apps.
+        "content":`
+When it comes to cutting-edge Fintech solutions, Vasilkoff has always been at the forefront, as our latest accomplishment at the BOC Hackathon Fintech 3.0 proves. This event, hosted from October 18th to 20th at the IDEA Innovation Center in Nicosia, brought together coders and startups to develop Minimum Viable Products (MVPs) for Fintech innovation.
 
-To facilitate the creation of these apps, the Bank of Cyprus provided upgraded open banking APIs and SDK (Software Development Kit), allowing teams to integrate novel features, such as secure payment processing or data utilization services.
+Dr. Demetris Antoniades, the leader of the Digitally Enhanced Urban Environments (DARE) MRG, participated as a mentor at the hackathon and shared his extensive expertise. The Bank of Cyprus facilitated the teams by offering its upgraded open banking APIs and SDK, enabling integration of innovative features such as secure payment processing or data utilization services.
 
-The event was held at the IDEA Innovation Center in Nicosia, a space renowned for inspiring creativity and technological advancement. It wasn't just the competition that was the highlight of the event; two open API days were held prior to the hackathon in Limassol and Nicosia, which gave participants the chance to review the latest trends in fintech and learn about the bank's upgraded APIs.
+In preparation for this event, two open API days were held in Limassol and Nicosia on October 9 and 10. Participants were given insights into the latest Fintech trends and the Bank of Cyprus's advanced APIs.
 
-Amidst the highly competitive and inspiring environment, team Vasilkoff, composed of innovative thinkers and developers, shone brightly. They developed an ingenious system called "SmartWallet". SmartWallet links traditional banking with electronic contracts, providing businesses and individuals a faster, cheaper access to a wide array of financial services. Remarkably, the solution complies with current Cyprus laws, highlighting the team's commitment to lawful and ethical tech development.
+Vasilkoff, represented by a dedicated team of three professionals, [Maxim Vasilkov](/team/maxim-vasilkov), [Anastasia Sarlidou](/team/anastasia-sarlidou), and [Simon Papazov](/team/simon-papazov), made an impressive showing. Their ingenuity shone through when they developed the 'SmartWallet', an inventive system bridging the gap between traditional banking and electronic contracts.
 
-This innovative solution secured the team a well-deserved second prize at the event, underlining their aptitude and creativity in the fintech space. Team Vasilkoff walked away with €4,000, marking their impressive achievement.
+SmartWallet provides a fast, cost-effective means for businesses and individuals to access a wide range of financial services, all while complying with the existing laws of Cyprus. This innovation was so well-received that it won the team the second prize, an award of €4,000!
 
-As a mentor and participant, Dr. Demetris Antoniades, leader of Digitally Enhanced Urban Environments (DARE) MRG, shared his enriching experience. He lauded the event for providing an ideal environment for startups and coders to flex their innovative muscles and create tangible, tech-forward solutions.
+For more information about the event and Vasilkoff's achievement, check out this [article in Greek](https://inbusinessnews.reporter.com.cy/article/2019/10/24/393375/me-epitukhia-kai-phetos-to-boc-hackathon-fintech-30-tes-trapezas-kuprou/).
 
-You can learn more about the event and team Vasilkoff's triumph [here](https://inbusinessnews.reporter.com.cy/article/2019/10/24/393375/me-epitukhia-kai-phetos-to-boc-hackathon-fintech-30-tes-trapezas-kuprou/).
+As a company dedicated to pushing boundaries in the Fintech sector, this achievement is a testament to our commitment and passion. We remain eager to continue creating disruptive solutions and leave our mark in the fast-paced world of financial technology.
 
-The success at BOC Hackathon Fintech 3.0 is a testament to Vasilkoff's commitment to driving innovation in the fintech space and their ability to deliver remarkable solutions. This experience inspires us to continue pushing boundaries, innovating, and creating outstanding fintech solutions for a brighter, tech-forward future.
-`
+        `
 
     }
     
