@@ -29,6 +29,14 @@ const MemberPage = ({ blog, slug }) => {
         <div>
             <Head>
                 <title>Team - {blog.title}</title>
+                <meta property="og:title" content={blog.title} />
+                <meta property="og:site_name" content="Vasilkoff Ltd" />
+                <meta property="og:url" content={"https://vasilkoff.com/team/" + slug} />
+                <meta property="og:description" content={blog.description} />
+                <meta property="og:type" content="person" />
+                <meta property="og:image" content={blog.picture} />
+                <meta content="origin" name="referrer" />
+                <meta content={blog.picture} itemProp="image" />
                 <meta name="description" content={blog.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -48,7 +56,7 @@ const MemberPage = ({ blog, slug }) => {
       "name": "Vasilkoff",
       "url": "https://vasilkoff.com"
     },
-    "url": "https://vasilkoff.com/blog/${slug}",
+    "url": "https://vasilkoff.com/team/${slug}",
     "image": "https://vasilkoff.com/${blog.picture}",
     "description": "${blog.description}",
     "datePublished": "${blog.date}"
@@ -66,7 +74,7 @@ const MemberPage = ({ blog, slug }) => {
                                 <p className="!text-white py-4"><Link href='/#team'><ArrowLeftCircle className="text-2xl" /></Link></p>
                                 <h1 className="!text-white">{blog.title}</h1>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
-                
+
                                     <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
                                         Date: {blog.date}
                                     </li>
