@@ -49,7 +49,7 @@ const MemberPage = ({ blog, slug }) => {
     "author": {
         "@type": "Person",
         "name": "Maxim Vasilkov",
-        "url": "https://about.me/maxim.vasilkov"
+        "url": "https://vasilkoff.com/maxim-vasilkov"
       },
     "publisher": {
       "@type": "Organization",

@@ -1,12 +1,51 @@
 const blogs = {
+  "7-essential-ui-design-tips-for-better-typography-and-spacing":{
+        "date": "August 3, 2023",
+        "title": "7 Essential UI Design Tips for Better Typography and Spacing",
+        "subtitle": "A comprehensive guide to refining your User Interface design skills with proven techniques.",
+        "description":"Unlock the potential of your UI design with our seven essential tips. Learn the importance of line height, letter spacing, text alignment, text width, hierarchy, spacing, and consistency.",
+        "picture": "/assets/blog/7-ui-rules.webp",
+        "time": "2 min",
+        "content":`
+User Interface (UI) design is a subtle craft. The difference between a good and a bad design may seem apparent at first glance, but discerning why one design looks better than another can be elusive. The secret often lies in how we handle text and use space in our layouts. Here are six practical tips that will help improve your UI design with regards to typography and spacing:
+
+## 1. Adjust Your Line Height
+
+One of the fastest ways to go from poor to professional design is by adjusting line height—the space between lines of text. As a rule of thumb, headings typically have a line height of 1.1 to 1.3 times the text size, while body text has a line height of 1.3 to 1.5 times the text size.
+
+## 2. Play with Letter Spacing
+
+The distance between characters in your text—letter spacing—can greatly influence the design. For headings, consider using negative letter spacing for a sleek, crisp look. However, avoid using it excessively for body text as it could decrease readability.
+
+## 3. Be Wise with Text Alignment
+
+Avoid long, center-aligned paragraphs as they slow down reading speed. For text that spans more than three lines, stick to left alignment. Also, it's crucial not to mix alignment types between headings and body text.
+
+## 4. Maintain a Suitable Text Width
+
+According to a UX study by the Baymard Institute, long lines of text can intimidate users and discourage them from reading. This can negatively impact conversions. Aim for a text width that accommodates around 50 to 75 characters for body text, which is roughly 600 pixels on a desktop screen.
+
+## 5. Create Clear Text Hierarchy
+
+Overuse of text sizes to indicate hierarchy can make designs look chaotic. Try sticking to two different font sizes and use font weight and subtle color changes to indicate hierarchy.
+
+## 6. Consider Spacing Between Text Elements
+
+White space—or simply 'space'—is an active element in design that should be carefully considered. Applying a relationship rule to UI design can help; if elements have a closer relationship, they should be positioned closer to each other.
+
+
+
+In the competitive world of UI design, these tips can give your layouts a noticeable lift, making them not only aesthetically pleasing but also more user-friendly. If you're considering scaling up your software development team to take your UI design to the next level, explore the benefits of outsourcing in our recent blog post ["Why Outsourcing Software Development Can Benefit Your Business"](https://www.vasilkoff.com/blog/Why-Outsourcing).
+        `
+    },
     "seo-rich-snippets-google": {
       "date": "May 30, 2023",
       "title": "Step-by-Step: Implementing Structured Data for Better SEO",
       "subtitle": "SEO Rich Snippets for Google",
       "description": "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort",
-      "picture": "/assets/images/blog-3.png",
+      "picture": "/assets/blog/seo-2.webp",
       "time": "3 min",
-      "content":`# Your SEO strategy
+      "content":`
 In the vast landscape of SEO, staying ahead means not just keeping up with the trends, but leveraging every available tool at your disposal. One such powerful yet often overlooked tool is structured data. By understanding and implementing structured data, you can boost your SEO and significantly enhance your visibility on search engine results pages.
 
 So, what exactly is structured data? In simple terms, it's a specific format of HTML code that helps search engines understand your website's content. But its real power lies in its ability to create "rich snippets" — search results that include additional features or information, such as reviews, images, or site links. These rich snippets can make your site stand out in the search results, potentially leading to higher click-through rates and increased web traffic.
