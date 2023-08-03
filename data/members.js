@@ -4,7 +4,7 @@ const members = {
       "title": "Maxim Vasilkov: The Driving Force Behind Vasilkoff Ltd",
       "subtitle": "CBDO, System Architect",
       "description": "Explore Maxim Vasilkov's journey from seasoned programmer to founder of Vasilkoff Ltd, highlighting his technical prowess, leadership skills, and innovative projects.",
-      "picture": "/images/maxim-vasylkov.webp",
+      "picture": "/assets/team/maxim-vasylkov.webp",
       "time": "1 min",
       "content":`In the dynamic landscape of information technology, few figures stand as testaments to both technical mastery and leadership acumen. One such individual is Maxim Vasilkov, the founder of Vasilkoff Ltd and Vasilkoff CY Ltd. With 15 years of experience in the IT field and a dedicated focus on IT management for the past 7 years, Vasilkov has consistently demonstrated his prowess in both technical and leadership domains.
 
@@ -27,7 +27,7 @@ Engaging with Maxim Vasilkov is made easy through his various social media chann
         "title": "Irina Vasilkova - The Architect Behind Vasilkoff's Design",
         "subtitle": "Design Director",
         "description": "Explore the design journey of Irina Vasilkova, Design Director at Vasilkoff CY Ltd, who has transformed the face of digital interfaces with her innovative designs.",
-        "picture": "/images/irina-vasilkova.webp",
+        "picture": "/assets/team/irina-vasilkova.webp",
         "time": "1 min",
         "content": 
 `A company's website is often a client's first impression of their brand, and no one understands this better than Irina Vasilkova, the Design Director at [Vasilkoff CY Ltd](https://vasilkoff.com). With her keen eye for design, attention to detail, and dedication to user-friendly experiences, she played a pivotal role in the creation of the aesthetically pleasing and intuitive [Vasilkoff.com](https://vasilkoff.com) website.
@@ -53,7 +53,7 @@ Irina Vasilkova's innovative design work has played an instrumental role in Vasi
         "title": "Simon Papazov: A Leading Figure in Cyprus's Software Development Industry",
         "subtitle": "Managing Director of Vasilkoff CY Ltd",
         "description": "Explore the journey of Simon Papazov, Managing Director of Vasilkoff CY Ltd. Discover his influence in the Cypriot tech industry and successful projects.",
-        "picture": "/images/simon-papazov.webp",
+        "picture": "/assets/team/simon-papazov.webp",
         "time": "1 min",
         "content": 
 `Simon Papazov is the Managing Director of [Vasilkoff CY Ltd](https://vasilkoff.com), a full-stack software development company based in Cyprus. Simon is a seasoned programmer with a special interest in Android Mobile Application Development. His influence in the Cypriot tech industry extends beyond his managerial role at Vasilkoff, with his notable successes in competitive platforms such as the [BOC HACKATHON FINTECH 3.0](/blog/boc-hackathon-fintech-3-0) and impressive contributions to various projects.
@@ -86,7 +86,7 @@ Indeed, [Simon Papazov](/team/simon-papazov) is not just a programmer, a manager
         "title": "Nikol Todorova: The Art of UI/UX Design at Vasilkoff CY Ltd",
         "subtitle": "UI/UX Designer",
         "description": "Highlighting Nikol Todorova's contributions as a UI/UX Designer at Vasilkoff CY Ltd, with a focus on her major projects and design philosophy.",
-        "picture": "/images/nicol-papazova.webp",
+        "picture": "/assets/team/nicol-papazova.webp",
         "time": "1 min",
         "content":
 `Nikol Todorova, the gifted UI/UX Designer at Vasilkoff CY Ltd, is renowned for her ability to seamlessly blend user needs, technical constraints, and business objectives into visually stunning and intuitive designs. 
@@ -116,7 +116,7 @@ This quote aptly sums up Nikol's design philosophy. She not only focuses on the 
         "title": "The AI Engineer Behind Vasilkoff: Anastasia Sarlidou",
         "subtitle": "Human Centered AI engineer",
         "description": "Explore the innovative work of Anastasia Sarlidou, an AI Engineer at Vasilkoff Ltd, who masterfully integrates AI and machine learning into groundbreaking projects.",
-        "picture": "/images/anastasia-sarlidou.webp",
+        "picture": "/assets/team/anastasia-sarlidou.webp",
         "time": "1 min",
         "content":
 `Anastasia Sarlidou's story is one of genuine passion for artificial intelligence (AI) and machine learning (ML). A dedicated programmer and a Bachelor of "Human Centered AI Engineering" from the Denmark University of Technology, Sarlidou is a driving force behind some of the most exciting AI initiatives at Vasilkoff Ltd.

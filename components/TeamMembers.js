@@ -9,19 +9,19 @@ const TeamMembers = (
 
             <TeamMember name="Simon Papazov" position="Managing Director"
                 email="sp@vasilkoff.com" link={"/team/simon-papazov"}
-                picture="/images/simon-papazov.webp" />
+                picture="/assets/team/simon-papazov.webp" />
             <TeamMember name="Anastasia Sarlidou" position="Human Centered AI engineer"
                 email="anastasia@vasilkoff.com" link={"/team/anastasia-sarlidou"}
-                picture="/images/anastasia-sarlidou.webp" />
+                picture="/assets/team/anastasia-sarlidou.webp" />
             <TeamMember name="Irina Vasilkova" position="Design Director"
                 email="omorfi@vasilkoff.com" link={"/team/iryna-vasilkova"}
-                picture="/images/irina-vasilkova.webp" />
+                picture="/assets/team/irina-vasilkova.webp" />
             <TeamMember name="Nikol Todorova" position="UI/UX Designer"
                 email="nikol@vasilkoff.com" link={"/team/nikol-todorova"}
-                picture="/images/nicol-papazova.webp" />
+                picture="/assets/team/nicol-papazova.webp" />
             <TeamMember name="Maxim Vasilkov" position="Systems Architect"
                 email="maxim@vasilkoff.com" link={"/team/maxim-vasilkov"}
-                picture="/images/maxim-vasylkov.webp " />
+                picture="/assets/team/maxim-vasylkov.webp " />
         </div>
     );
 };

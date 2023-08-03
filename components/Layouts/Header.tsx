@@ -75,6 +75,14 @@ const Header = (props: any) => {
                                         Team
                                     </Link>
                                 </li>
+                                <li role='menuitem'>
+                                    <Link
+                                        href="/blog"
+                                        className={router.pathname === '/blog' || router.pathname.startsWith('/blog/')  ? 'active' : ''}
+                                    >
+                                        Blog
+                                    </Link>
+                                </li>
            
                                 <li role='menuitem'>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
