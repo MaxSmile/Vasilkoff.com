@@ -72,15 +72,15 @@ const Contactus = () => {
             </section> */}
 
             {/* <section className="relative py-14 lg:py-[100px] xl:-mt-[100px]">
-                <div className="absolute top-0 z-[1] h-full w-full bg-white ltr:left-0 rtl:right-0 dark:bg-black xl:w-[85%] xl:rounded-r-[32px]"></div>
-                <div className="absolute -top-3 hidden h-full w-full rounded-r-[32px] bg-white/50 ltr:left-3 rtl:right-3 dark:bg-gray-dark xl:inline-block xl:w-[85%]"></div>
-                <div className="container relative z-[2] ltr:xl:pr-40 rtl:xl:pl-40">
+                <div className="absolute top-0 z-[1] h-full w-full bg-white ltr:left-0 dark:bg-black xl:w-[85%] xl:rounded-r-[32px]"></div>
+                <div className="absolute -top-3 hidden h-full w-full rounded-r-[32px] bg-white/50 ltr:left-3 dark:bg-gray-dark xl:inline-block xl:w-[85%]"></div>
+                <div className="container relative z-[2] ltr:xl:pr-40">
                     <div className="lg:w-2/3">
-                        <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                        <div className="heading mb-5 text-center lg:text-left">
                             <h1>How it works?</h1>
                             <h2>Here are 3 working steps to organize our business projects.</h2>
                         </div>
-                        <p className="pb-10 text-center text-lg font-semibold leading-[30px] ltr:lg:text-left rtl:lg:text-right">
+                        <p className="pb-10 text-center text-lg font-semibold leading-[30px] lg:text-left">
                             Find out everything you need to know and more about how we create our business process models.
                         </p>
                     </div>
@@ -142,14 +142,14 @@ const Contactus = () => {
 
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
-                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                    <div className="heading text-center lg:text-left">
                         <h2>Our Design Expertise</h2>
                     </div>
                     <ul>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                data-aos={ 'fade-right'}
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>01
@@ -165,8 +165,8 @@ const Contactus = () => {
                         </li>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl sm:pr-12 lg:w-1/6 lg:p-0"
+                                data-aos={'fade-right'}
                                 data-aos-duration="1000"
                             >
                                 <span className="text-primary">/</span>02
@@ -221,7 +221,7 @@ const Contactus = () => {
             {/* <section className="bg-gradient-to-t from-white/[55%] to-transparent mt-20 py-14 dark:bg-none lg:py-[100px]">
                 <div className="container">
                     <div className="relative z-10 lg:flex">
-                        <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                        <div className="heading text-center lg:text-left">
                             <h2 className="sm:!leading-[50px]">Get in touch with us</h2>
                             <ul className="mt-8 flex items-center justify-center gap-4 lg:justify-start" data-aos="fade-up" data-aos-duration="500">
                                 <li className="h-[45px] w-[45px] md:h-[60px] md:w-[60px]">

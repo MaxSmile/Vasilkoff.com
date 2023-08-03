@@ -33,7 +33,7 @@ const Crypto = (props: any) => {
                     <img src="/assets/images/banner-rightIcon.png" alt="banner-rightIcon" className="absolute right-0 -top-4" />
                     <div className="container">
                         <div className="relative flex flex-col items-center bg-[url(/assets/images/world-map.png)] bg-cover bg-top bg-no-repeat lg:flex-row">
-                            <div className="flex-1 py-10 text-center text-white ltr:lg:text-left rtl:lg:text-right">
+                            <div className="flex-1 py-10 text-center text-white lg:text-left">
                                 <h2 className="text-4xl font-extrabold leading-normal sm:text-5xl lg:text-[55px] lg:leading-[70px]">
                                     Accelerating Your <span className="italic text-[#1c62ff]">Crypto Startup</span> with{' '}
                                     <span className="italic text-[#78fefe]">Blockchain Solutions</span>
@@ -41,7 +41,7 @@ const Crypto = (props: any) => {
                                 <p className="my-5 text-lg lg:my-8">
                                     Unlock the potential of blockchain for your startup, enhancing user experience, scalability, and security.
                                 </p>
-                                <Link href="contact-us" type="button" className="btn mx-auto border-[#78fefe] hover:bg-[#1c62ff] mt-2 block bg-white py-[18px] px-8 rtl:ml-auto lg:mx-0">
+                                <Link href="contact-us" type="button" className="btn mx-auto border-[#78fefe] hover:bg-[#1c62ff] mt-2 block bg-white py-[18px] px-8 lg:mx-0">
                                     Discover Our Services
                                 </Link>
                             </div>
@@ -50,7 +50,7 @@ const Crypto = (props: any) => {
                                 <img
                                     src="/assets/images/crypto/crypto-banner.png"
                                     alt="crypto-banner"
-                                    className="rtl:rotate-y-0 mx-auto w-full max-w-[560px]"
+                                    className="mx-auto w-full max-w-[560px]"
                                     data-aos='fade-left'
                                     data-aos-duration="1000"
                                 />
@@ -234,7 +234,7 @@ const Crypto = (props: any) => {
             <section className="pt-12 lg:pt-24">
                 <div className="container">
                     <div className="flex flex-col items-center justify-between gap-10 md:flex-row md:gap-0">
-                        <div className="text-center ltr:md:text-left rtl:md:text-right">
+                        <div className="text-center md:text-left">
                             <h1 className="mb-3 text-lg font-extrabold text-primary sm:mb-4">ABOUT US</h1>
                             <h2 className="max-w-[457px] text-2xl font-extrabold text-black sm:text-3xl lg:text-[40px] lg:!leading-[50px]">
                                 You do the business, we’ll handle the money.
@@ -248,7 +248,7 @@ const Crypto = (props: any) => {
                             </button>
                         </div>
                         <div>
-                            <img src="/assets/images/crypto/crypto-about-img.png" className="w-full max-w-[550px] rtl:rotate-y-180" alt="crypto-about-img" />
+                            <img src="/assets/images/crypto/crypto-about-img.png" className="w-full max-w-[550px]" alt="crypto-about-img" />
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@ const Crypto = (props: any) => {
                 <div className="container">
                     <div className="flex flex-col gap-5 lg:flex-row lg:gap-24">
                         <div className="heading flex-1">
-                            <div className="text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="text-center lg:text-left">
                                 <h1>Our Specialized Services</h1>
                                 <h2>Smart Contracts Testing</h2>
                             </div>
@@ -288,7 +288,7 @@ const Crypto = (props: any) => {
                             </div>
                         </div>
                         <div className="heading flex-1">
-                            <div className="text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="text-center lg:text-left">
                                 <h1>Our Advanced Techniques</h1>
                                 <h2>Smart Contracts Security</h2>
                             </div>
@@ -324,7 +324,7 @@ const Crypto = (props: any) => {
                 <div className="container">
                     <div className="flex flex-col gap-5 lg:flex-row lg:gap-24">
                         <div className="heading flex-1">
-                            <div className="text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="text-center lg:text-left">
                                 <h1>Exploring the Potential</h1>
                                 <h2>Navigating the Regulatory Landscape</h2>
                             </div>
@@ -353,7 +353,7 @@ const Crypto = (props: any) => {
                             </div>
                         </div>
                         <div className="heading flex-1">
-                            <div className="text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="text-center lg:text-left">
                                 <h1>Our Commitment</h1>
                                 <h2>Securing Your Startup's Future</h2>
                             </div>
@@ -409,7 +409,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                             <div
-                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 ltr:lg:border-r rtl:lg:border-l"
+                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 lg:border-r"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -422,7 +422,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                             <div
-                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 ltr:sm:border-r rtl:sm:border-l ltr:lg:border-r-0 rtl:lg:border-l-0"
+                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 sm:border-r lg:border-r-0"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -435,7 +435,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                             <div
-                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 lg:border-b-0 ltr:lg:border-r rtl:lg:border-l"
+                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:py-9 lg:border-b-0 lg:border-r"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
@@ -448,7 +448,7 @@ const Crypto = (props: any) => {
                                 </div>
                             </div>
                             <div
-                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:border-b-0 sm:py-9 ltr:sm:border-r rtl:sm:border-l"
+                                className="flex gap-[15px] border-b border-dashed px-4 py-5 sm:border-b-0 sm:py-9 sm:border-r"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >

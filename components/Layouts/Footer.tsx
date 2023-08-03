@@ -33,11 +33,7 @@ const Footer = () => {
                                         FAQs
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/blog" className="inline-block transition hover:scale-110">
-                                        Blog
-                                    </Link>
-                                </li>
+                               
 
                                 {/* <li>
                                     <Link href="/career" className="inline-block transition hover:scale-110">

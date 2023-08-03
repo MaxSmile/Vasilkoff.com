@@ -6,8 +6,6 @@ import AIContacts from '../components/AIContacts';
 import { IRootState } from '../store';
 
 const FAQs = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-
     return (
         <>
             <Head>

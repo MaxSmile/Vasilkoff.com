@@ -70,15 +70,15 @@ const MemberPage = ({ blog, slug }) => {
                 <div className="relative">
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
-                            <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
+                            <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 lg:text-left">
                                 <p className="!text-white py-4"><Link href='/#team'><ArrowLeftCircle className="text-2xl" /></Link></p>
                                 <h1 className="!text-white">{blog.title}</h1>
                                 <ul className="items-center text-light justify-center pt-6 sm:flex lg:justify-start">
 
-                                    <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
+                                    <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray before:left-0 sm:text-lg sm:before:h-1 sm:before:w-1">
                                         Date: {blog.date}
                                     </li>
-                                    <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray ltr:before:left-0 rtl:before:right-0 sm:text-lg sm:before:h-1 sm:before:w-1">
+                                    <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray before:left-0 sm:text-lg sm:before:h-1 sm:before:w-1">
                                         Time to read: {blog.time}
                                     </li>
                                 </ul>
@@ -87,7 +87,7 @@ const MemberPage = ({ blog, slug }) => {
                                 </p>
                             </div>
                             <div
-                                className="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute"
+                                className="top-0 mt-6 right-0 md:mt-0 lg:absolute"
                                 data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
@@ -107,7 +107,7 @@ const MemberPage = ({ blog, slug }) => {
 
             <section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
                 <div className="container">
-                    <div className="prose max-w-full">
+                    <div className="prose max-w-[740px]">
                         <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown>
                     </div>
                 </div>

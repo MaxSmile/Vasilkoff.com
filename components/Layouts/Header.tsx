@@ -28,8 +28,8 @@ const Header = (props: any) => {
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
-                        <div className={`menus ${showMenu ? 'overflow-y-auto ltr:!right-0 rtl:!left-0' : ''}`}>
-                            <div className="border-b border-gray/10 ltr:text-right rtl:text-left lg:hidden">
+                        <div className={`menus ${showMenu ? 'overflow-y-auto ltr:!right-0' : ''}`}>
+                            <div className="border-b border-gray/10 text-right lg:hidden">
                                 <button onClick={() => toggleMenu()} type="button" aria-label="Menu" className="p-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

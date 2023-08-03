@@ -43,7 +43,7 @@ const BlogSlider = ({
             <div className="container">
                 <div className={`flex flex-col items-center justify-center lg:flex-row lg:justify-between ${title1.length > 0 ? '' : 'mb-10'}`}>
                     
-                    <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${title1.length > 0 ? '' : 'mb-0'}`}>
+                    <div className={`heading text-center ltr:lg:text-left ${title1.length > 0 ? '' : 'mb-0'}`}>
                         {title1.length > 0 && <h1 className={type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}>{title1}</h1>}
                         {title2.length > 0 && <h2>{title2}</h2>}
                     </div>
@@ -65,7 +65,7 @@ const BlogSlider = ({
                                 viewBox="0 0 7 12"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="text-black rtl:rotate-180 dark:text-white"
+                                className="text-black dark:text-white"
                             >
                                 <path
                                     d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502"
@@ -85,7 +85,7 @@ const BlogSlider = ({
                                 viewBox="0 0 7 12"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="text-black rtl:rotate-180 dark:text-white"
+                                className="text-black dark:text-white"
                             >
                                 <path
                                     d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498"
@@ -123,7 +123,7 @@ const BlogSlider = ({
                             return (
                                 <SwiperSlide key={blog.id}>
                                     <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                        <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                        <Link href="/blog-details" className="absolute top-0 h-full w-full ltr:left-0"></Link>
                                         <img src={blog.thumbnail} alt="blog-1" className="h-52 w-full rounded-t-3xl object-cover" />
                                         <div className="p-5 text-sm font-bold">
                                             <h1 className="font-extrabold text-secondary dark:text-secondary">{blog.title}</h1>

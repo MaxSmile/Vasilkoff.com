@@ -21,7 +21,7 @@ const themeConfigSlice = createSlice({
             }
         },
         toggleDirection(state, { payload }) {
-            payload = payload || state.direction; // rtl, ltr
+            payload = 'ltr'
             localStorage.setItem('direction', payload);
             state.direction = payload;
 

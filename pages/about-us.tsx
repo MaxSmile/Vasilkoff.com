@@ -24,8 +24,8 @@ const Aboutus = () => {
 
             <section className="relative overflow-hidden pt-14 mt-40 lg:pb-48 lg:pt-[100px]">
                 <div className="container relative z-[1]">
-                    <div className="text-center lg:w-1/2 ltr:lg:text-left rtl:lg:text-right">
-                        <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right xl:w-[95%]">
+                    <div className="text-center lg:w-1/2 lg:text-left">
+                        <div className="heading mb-5 text-center lg:text-left xl:w-[95%]">
                             <h1>Who are we?</h1>
                             <h2>Your Trusted IT Partners</h2>
                         </div>
@@ -43,7 +43,7 @@ const Aboutus = () => {
                         </Link>
                     </div>
                 </div>
-                <img src="/assets/images/about-who-bg.png" alt="about-who-bg" className="-bottom-5 ltr:right-0 rtl:left-0 rtl:rotate-y-180 lg:absolute" />
+                <img src="/assets/images/about-who-bg.png" alt="about-who-bg" className="-bottom-5 ltr:right-0 lg:absolute" />
             </section>
 
             <CounterComponent />
@@ -63,7 +63,7 @@ const Aboutus = () => {
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
                     <div className="mb-10 flex flex-col items-center justify-center gap-4 lg:mb-14 lg:flex-row lg:justify-between">
-                        <div className="heading mb-0 text-center ltr:lg:text-left rtl:lg:text-right">
+                        <div className="heading mb-0 text-center lg:text-left">
                             <h2>Our Projects</h2>
                         </div>
                         Or <Link

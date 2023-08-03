@@ -37,7 +37,7 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
+                        <div className="pl-4">
                             <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={10} duration={4} suffix="+"></CountUp>
                             </h2>
@@ -75,7 +75,7 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
+                        <div className="pl-4">
                             <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={120} duration={4} suffix="+"></CountUp>
                             </h2>
@@ -112,7 +112,7 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
+                        <div className="pl-4">
                             <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={350} duration={4} suffix="+"></CountUp>{' '}
                             </h2>
@@ -149,7 +149,7 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
+                        <div className="pl-4">
                             <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={1254} duration={4} suffix="+"></CountUp>{' '}
                             </h2>

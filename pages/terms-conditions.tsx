@@ -1,10 +1,7 @@
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
 import Head from 'next/head';
 import Link from 'next/link';
 
 const Termsandcondition = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <div>

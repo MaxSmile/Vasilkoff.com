@@ -57,7 +57,7 @@ const Servicesdetail = ({serv}) => {
                 <div className="relative">
                     <div className="container">
                         <div className="relative items-center py-14 lg:flex lg:py-[100px]">
-                            <div className="relative z-[1] text-center text-white lg:w-3/5 ltr:lg:text-left rtl:lg:text-right xl:w-3/5">
+                            <div className="relative z-[1] text-center text-white lg:w-3/5 lg:text-left xl:w-3/5">
                                 <h2 className="text-2xl font-black sm:leading-[126px] xl:text-[100px]">{serv.title}</h2>
                                 <p className="my-8 text-xl leading-[40px] text-[#7780A1]">
                                     {serv.description}
@@ -67,7 +67,7 @@ const Servicesdetail = ({serv}) => {
                                 </Link>
                             </div>
                             <div
-                                className="top-[100px] mt-10 h-96 w-auto ltr:right-0 rtl:left-0 lg:absolute lg:mt-0 lg:h-auto lg:w-2/5"
+                                className="top-[100px] mt-10 h-96 w-auto right-0 lg:absolute lg:mt-0 lg:h-auto lg:w-2/5"
                                 data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
@@ -85,7 +85,7 @@ const Servicesdetail = ({serv}) => {
                         <h2>{serv.subtitle}</h2>
                     </div>
 
-                    <div className="prose max-w-full">
+                    <div className="prose max-w-[740px]">
                         <ReactMarkdown remarkPlugins={[remarkGfm]}>{serv.article}</ReactMarkdown>
                     </div>
 
@@ -95,13 +95,13 @@ const Servicesdetail = ({serv}) => {
 
             <section className="py-14 lg:py-[100px]">
                 <div className="container">
-                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                    <div className="heading text-center lg:text-left">
                         <h2>Our Expertise</h2>
                     </div>
                     <ul>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl sm:pr-12 lg:w-1/6 lg:p-0"
                                 data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
@@ -116,7 +116,7 @@ const Servicesdetail = ({serv}) => {
                         </li>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl sm:pr-12 lg:w-1/6 lg:p-0"
                                 data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
@@ -131,7 +131,7 @@ const Servicesdetail = ({serv}) => {
                         </li>
                         <li className="flex border-t-2 border-black/5 py-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl sm:pr-12 lg:w-1/6 lg:p-0"
                                 data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
@@ -146,7 +146,7 @@ const Servicesdetail = ({serv}) => {
                         </li>
                         <li className="flex border-t-2 border-black/5 pt-10 dark:border-gray-dark lg:items-center">
                             <div
-                                className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                className="text-lg font-extrabold text-secondary pr-5 sm:pt-0.5 sm:text-xl sm:pr-12 lg:w-1/6 lg:p-0"
                                 data-aos='fade-right'
                                 data-aos-duration="1000"
                             >
@@ -359,7 +359,7 @@ const Servicesdetail = ({serv}) => {
 
             {/* <section className="py-14 lg:py-[100px]">
                 <div className="container">
-                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                    <div className="heading text-center lg:text-left">
                         <h2>Our Technologies</h2>
                     </div>
                     <div className="overflow-y-auto">

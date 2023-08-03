@@ -21,12 +21,11 @@ const Testimonial = ({
     ],
     className = '',
 }) => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <section className={`relative bg-black py-14 dark:bg-transparent lg:py-[100px] ${className}`}>
             {type.toLowerCase() === 'common' && (
-                <div className="absolute top-0 ltr:right-0 rtl:left-0">
+                <div className="absolute top-0 right-0">
                     <svg role="presentation"  width="758" height="741" viewBox="0 0 758 741" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.03">
                             <ellipse
@@ -141,7 +140,7 @@ const Testimonial = ({
             )}
             {type.toLowerCase() === 'modern-saas' && (
                 <div>
-                    <div className="absolute top-0 ltr:left-1/4 rtl:right-1/4 rtl:rotate-y-180">
+                    <div className="absolute top-0 left-1/4">
                         <svg role="presentation"  width="191" height="66" viewBox="0 0 191 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 fillRule="evenodd"
@@ -158,7 +157,7 @@ const Testimonial = ({
                             </defs>
                         </svg>
                     </div>
-                    <div className="absolute top-1/4 hidden ltr:right-4 rtl:left-4 rtl:rotate-y-180 lg:block">
+                    <div className="absolute top-1/4 hidden right-4 lg:block">
                         <svg role="presentation"  width="301" height="322" viewBox="0 0 301 322" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 fillRule="evenodd"
@@ -178,7 +177,7 @@ const Testimonial = ({
                 </div>
             )}
             <div className="container">
-                <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${showTitle ? '' : 'hidden'}`}>
+                <div className={`heading text-center lg:text-left  ${showTitle ? '' : 'hidden'}`}>
                     <h1>Testimonial</h1>
                     <h2 className="!text-white">Feedback from our clients</h2>
                 </div>
@@ -195,8 +194,8 @@ const Testimonial = ({
                                 nextEl: '.testimonial-button-next',
                                 prevEl: '.testimonial-button-prev',
                             }}
-                            dir={isRtl ? 'rtl' : 'ltr'}
-                            key={isRtl ? 'true' : 'false'}
+                            dir={ 'ltr'}
+                            key={ 'false'}
                         >
                             {type.toLowerCase() === 'common' &&
                                 feedbacks.map((feedback: any) => {
@@ -208,7 +207,7 @@ const Testimonial = ({
                                                         <img
                                                             src="/assets/images/blue-quote.png"
                                                             alt="blue-quote"
-                                                            className="absolute top-0 ltr:right-0 rtl:left-0 sm:-top-6 ltr:sm:-right-6 rtl:sm:-left-6"
+                                                            className="absolute top-0 right-0 sm:-top-6 ltr:sm:-right-6"
                                                         />
                                                         <div className="pb-8">
                                                             <svg role="presentation"  width="96" height="16" viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -263,7 +262,7 @@ const Testimonial = ({
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="mx-auto mt-4 h-20 w-20 max-w-[255px] overflow-hidden rounded-full bg-white ltr:ml-auto rtl:mr-auto dark:bg-gray-dark sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] ltr:sm:mr-0 rtl:sm:ml-0">
+                                                <div className="mx-auto mt-4 h-20 w-20 max-w-[255px] overflow-hidden rounded-full bg-white ml-auto dark:bg-gray-dark sm:mt-0 sm:h-auto sm:w-auto sm:rounded-[150px] sm:mr-0">
                                                     <img src={feedback.thumbnail} alt="testimonial" className="h-full w-full object-cover object-top" />
                                                 </div>
                                             </div>
@@ -330,15 +329,15 @@ const Testimonial = ({
                         </Swiper>
                         <div
                             className={`bottom-0 z-[1] mt-5 flex items-center justify-center gap-4 ${
-                                type.toLowerCase() === 'common' && 'ltr:right-1/3 rtl:left-1/3 sm:absolute sm:mt-0 sm:justify-end'
-                            } ${type.toLowerCase() === 'modern-saas' && 'ltr:left-0 rtl:right-0 md:absolute md:mt-0 md:justify-end'}`}
+                                type.toLowerCase() === 'common' && 'ltr:right-1/3 sm:absolute sm:mt-0 sm:justify-end'
+                            } ${type.toLowerCase() === 'modern-saas' && 'ltr:left-0 md:absolute md:mt-0 md:justify-end'}`}
                         >
                             <Link href="#" className="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary">
                                 View All
                             </Link>
                             <button
                                 type="button"
-                                className="testimonial-button-prev static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary rtl:rotate-180"
+                                className="testimonial-button-prev static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary"
                             >
                                 <svg role="presentation"  width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -351,7 +350,7 @@ const Testimonial = ({
                             </button>
                             <button
                                 type="button"
-                                className="testimonial-button-next static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary rtl:rotate-180"
+                                className="testimonial-button-next static mt-0 flex h-10 w-10 items-center justify-center rounded-full bg-white/5 transition after:hidden after:text-[0px] hover:bg-secondary"
                             >
                                 <svg role="presentation"  width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path

@@ -42,7 +42,7 @@ const ServiceCardOne = (
                 <Link
                     href={"/services/" + slug}
                     aria-label={"Link to service page: "+title}
-                    className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black rtl:rotate-180 dark:bg-gray-dark"
+                    className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black dark:bg-gray-dark"
                 >
                     <svg
                         width="20"

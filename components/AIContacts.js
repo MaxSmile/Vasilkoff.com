@@ -70,14 +70,9 @@ export default function AIContacts() {
                                         placeholder='Full name'
                                         id='name'
                                         ref={nameRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    {/* <label
-                                        htmlFor="name"
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Full Name
-                                    </label> */}
+                                 
                                     <Person className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
@@ -87,14 +82,8 @@ export default function AIContacts() {
                                         placeholder='Email'
                                         ref={emailRef}
                                         id='email'
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    {/* <label
-                                        htmlFor="email"
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Email Address
-                                    </label> */}
                                     <EnvelopeAt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
@@ -104,14 +93,8 @@ export default function AIContacts() {
                                         placeholder='Phone'
                                         id='mobile'
                                         ref={mobileRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    {/* <label
-                                        htmlFor="mobile"
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Mobile Number
-                                    </label> */}
                                     <Telephone className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
@@ -121,14 +104,9 @@ export default function AIContacts() {
                                         id='city'
                                         placeholder='Your City'
                                         ref={cityRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    {/* <label
-                                        htmlFor="city"
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        City
-                                    </label> */}
+
                                     <GeoAlt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                             </div>
@@ -143,11 +121,6 @@ export default function AIContacts() {
                                     ref={messageRef}
                                     className=" height-60 w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary pr-12"
                                 >{activeZone}</div>
-                                {/* {!activeZone && (
-                                    <label htmlFor="message" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        Message
-                                    </label>
-                                )} */}
 
                                 <ChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
                             </div>

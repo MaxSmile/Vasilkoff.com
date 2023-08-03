@@ -110,7 +110,7 @@ input:-webkit-autofill {
     /* Header */
 
     header .menus {
-        @apply fixed top-0 z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 ltr:-right-full rtl:-left-full dark:bg-gray-dark lg:static lg:h-auto lg:max-w-none;
+        @apply fixed top-0 z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 -right-full dark:bg-gray-dark lg:static lg:h-auto lg:max-w-none;
     }
     header .menus > ul {
         @apply relative flex  flex-col divide-y divide-gray/10  font-bold text-black  lg:flex-row lg:items-center lg:gap-11 lg:divide-y-0  lg:p-0;
@@ -200,8 +200,4 @@ input:-webkit-autofill {
 
 .dark .apexcharts-canvas .apexcharts-tooltip.apexcharts-theme-light {
     box-shadow: none;
-}
-
-[dir='rtl'] .apexcharts-tooltip-marker {
-    @apply mr-0 ml-2.5;
 }

@@ -8,7 +8,6 @@ import LogoSlider from '../components/LogoSlider';
 import Testimonial from '../components/Testimonial';
 
 const StartupOffer = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
     const faqs: any = [
         {
             id: 1,
@@ -92,7 +91,7 @@ const StartupOffer = () => {
                 <section className="bg-black bg-[url(/assets/images/modern-saas/banner-bg.png)] bg-cover bg-top bg-no-repeat pt-[82px] lg:pt-[106px]">
                     <div className="container lg:pt-7">
                         <div className="relative">
-                            <div className="pt-14 pb-8 text-center text-white lg:w-3/5 lg:py-20 ltr:lg:text-left rtl:lg:text-right">
+                            <div className="pt-14 pb-8 text-center text-white lg:w-3/5 lg:py-20 lg:text-left">
                                 <div className="mb-10 inline-flex items-center gap-3 rounded-xl bg-white/5 px-4 py-3.5">
                                     <div className="inline-flex items-center gap-1">
                                         <svg role="presentation"  width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,13 +136,13 @@ const StartupOffer = () => {
                                 <p className="my-8 text-lg lg:w-3/4">
                                     Plurk is fully equipped with everything you need to build a high performing website for your SaaS.
                                 </p>
-                                <Link href="" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0 lg:rtl:ml-auto">
+                                <Link href="" className="btn mx-auto mt-2 block w-fit bg-white lg:mx-0">
                                     Free trial
                                 </Link>
                             </div>
                             <div
-                                className="top-[70px] w-full pb-7 ltr:right-0 rtl:left-0 rtl:right-auto lg:absolute lg:max-w-[630px] lg:pb-0 xl:ltr:-right-52 xl:rtl:-left-52"
-                                data-aos={isRtl ? 'fade-right' : 'fade-left'}
+                                className="top-[70px] w-full pb-7 right-0 left-0 lg:absolute lg:max-w-[630px] lg:pb-0 xl:-right-52"
+                                data-aos={ 'fade-left'}
                                 data-aos-duration="1000"
                             >
                                 <img src="/assets/images/modern-saas/banner-img.png" alt="" />
@@ -162,7 +161,7 @@ const StartupOffer = () => {
                 <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:bg-none lg:py-20">
                     <div className="container">
                         <div className="lg:w-1/2">
-                            <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="heading mb-5 text-center lg:text-left">
                                 <h1 className="!text-secondary">OUR FEATURES</h1>
                                 <h2>A robust set of features</h2>
                                 <p className="mt-4 text-lg font-semibold">
@@ -328,14 +327,14 @@ const StartupOffer = () => {
 
                 <section className="bg-gradient-to-t from-white/[55%] to-transparent py-8 dark:bg-white/[0.03] dark:bg-none lg:py-20 px-5">
                     <div className="relative mx-auto max-w-[1440px] bg-black pt-14 rounded-[32px]">
-                        <img src="/assets/images/modern-saas/perfomance-design.svg" alt="" className="absolute bottom-0 ltr:right-0 rtl:left-0" />
-                        <img src="/assets/images/modern-saas/dollers-icon.svg" alt="" className="absolute top-0 ltr:right-14 rtl:left-14" />
+                        <img src="/assets/images/modern-saas/perfomance-design.svg" alt="" className="absolute bottom-0 right-0" />
+                        <img src="/assets/images/modern-saas/dollers-icon.svg" alt="" className="absolute top-0 right-14" />
                         <div className="container">
                             <div className="relative">
-                                <img src="/assets/images/modern-saas/perfomance-doller-icon.svg" alt="" className="absolute bottom-0 ltr:left-0 rtl:right-0" />
+                                <img src="/assets/images/modern-saas/perfomance-doller-icon.svg" alt="" className="absolute bottom-0 left-0" />
                                 <div className="grid gap-4 lg:grid-cols-2">
                                     <div className="pt-28 lg:pb-10 lg:pt-0">
-                                        <div className="heading mb-12 ltr:lg:text-left rtl:lg:text-right">
+                                        <div className="heading mb-12 lg:text-left">
                                             <h1 className="!text-secondary">WHAT WE DO</h1>
                                             <h2 className="pb-4 leading-normal !text-white lg:!leading-[50px]">Increase your performance</h2>
                                             <p className="text-lg font-semibold xl:w-11/12">
@@ -402,7 +401,7 @@ const StartupOffer = () => {
                     <div className="container">
                         <div className="relative">
                             <div className="lg:w-2/3">
-                                <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                                <div className="heading mb-5 text-center lg:text-left">
                                     <h1 className="!text-secondary">THOUSANDS OF BENIFITS</h1>
                                     <h2 className="">We make it easy to track all user analytics</h2>
                                     <p className="mt-4 text-lg font-semibold">
@@ -436,7 +435,7 @@ const StartupOffer = () => {
                             <img
                                 src="/assets/images/modern-saas/benifits-img.png"
                                 alt=""
-                                className="top-0 mx-auto mt-10 h-full ltr:-right-[125px] rtl:-left-[125px] lg:absolute lg:mt-0"
+                                className="top-0 mx-auto mt-10 h-full -right-[125px] lg:absolute lg:mt-0"
                             />
                         </div>
                     </div>
@@ -448,21 +447,21 @@ const StartupOffer = () => {
                             <img
                                 src="/assets/images/modern-saas/analysis-icon.svg"
                                 alt=""
-                                className="absolute top-0 block w-32 ltr:right-0 rtl:left-0 dark:hidden sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
+                                className="absolute top-0 block w-32 right-0 dark:hidden sm:w-72 lg:-top-16 lg:right-36"
                             />
                             <img
                                 src="/assets/images/modern-saas/analysis-icon-dark.svg"
                                 alt=""
-                                className="absolute top-0 hidden w-32 ltr:right-0 rtl:left-0 dark:block sm:w-72 lg:-top-16 lg:ltr:right-36 lg:rtl:left-36"
+                                className="absolute top-0 hidden w-32 right-0 dark:block sm:w-72 lg:-top-16 lg:right-36"
                             />
                             <div
-                                className="ltr:pr-24 rtl:pl-24 sm:ltr:pr-60 sm:rtl:pl-60 lg:ltr:pr-24 lg:rtl:pl-24"
+                                className="ltr:pr-24 sm:ltr:pr-60 lg:pr-24"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             >
                                 <img src="/assets/images/modern-saas/integration-img.png" alt="" />
                             </div>
-                            <div className="heading mb-5 text-center ltr:lg:text-right rtl:lg:text-left">
+                            <div className="heading mb-5 text-center lg:text-right">
                                 <h1 className="!text-secondary">INTEGRATIONS</h1>
                                 <h2 className="">Integrated with all tools you already know and love</h2>
                                 <p className="mt-4 text-lg font-semibold">
@@ -498,7 +497,7 @@ const StartupOffer = () => {
                                 background: 'radial-gradient(193.33% 779.99% at 81.67% -6.05%, rgba(71, 189, 255, 0.3) 0%, rgba(71, 189, 255, 0) 100%)',
                             }}
                         >
-                            <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="heading mb-5 text-center lg:text-left">
                                 <h2 className="">Tenancy Optimization</h2>
                                 <p className="mt-6 text-lg font-semibold">
                                     Optimize your SaaS solutions’ tenancy by leveraging our deep understanding of the unit economics of SaaS products. We can
@@ -517,7 +516,7 @@ const StartupOffer = () => {
                                     </svg>
                                 </Link>
                             </div>
-                            <div className="lg:ltr:pl-24 lg:rtl:pr-24">
+                            <div className="lg:pl-24">
                                 <img src="/assets/images/modern-saas/optimization.png" alt="" className="rounded-2xl" />
                             </div>
                         </div>
@@ -527,7 +526,7 @@ const StartupOffer = () => {
                                 background: 'radial-gradient(193.33% 779.99% at 81.67% -6.05%, rgba(180, 118, 229, 0.3) 0%, rgba(180, 118, 229, 0) 100%)',
                             }}
                         >
-                            <div className="heading mb-5 text-center ltr:lg:text-left rtl:lg:text-right">
+                            <div className="heading mb-5 text-center lg:text-left">
                                 <h2 className="">Migrate and Modernize</h2>
                                 <p className="mt-6 text-lg font-semibold">
                                     Migrating a legacy system involves taking your old infrastructure and transferring it to the cloud. This does provide
@@ -546,8 +545,8 @@ const StartupOffer = () => {
                                     </svg>
                                 </Link>
                             </div>
-                            <div className="lg:ltr:pl-24 lg:rtl:pr-24">
-                                <img src="/assets/images/modern-saas/migrate-modernize.png" alt="" className="rounded-2xl" />
+                            <div className="lg:pl-24">
+                                <img src="/assets/images/modern-saas/migrate-modernize.png" alt="migrate modernize" className="rounded-2xl" />
                             </div>
                         </div>
                     </div>
@@ -562,7 +561,7 @@ const StartupOffer = () => {
                         <div className="grid gap-14 sm:grid-cols-2 lg:grid-cols-3">
                             <div data-aos="fade-up" data-aos-duration="1000">
                                 <div className="mb-10">
-                                    <img src="/assets/images/modern-saas/modern-design.svg" alt="" className="mx-auto w-24" />
+                                    <img src="/assets/images/modern-saas/modern-design.svg" alt="modern design" className="mx-auto w-24" />
                                 </div>
                                 <h2 className="text-[22px] font-extrabold text-black dark:text-white">Modern Design</h2>
                                 <p className="mt-6 mb-8 text-lg font-semibold line-clamp-4">
@@ -626,7 +625,7 @@ const StartupOffer = () => {
                     <img src="/assets/images/modern-saas/email.svg" alt="" className="absolute left-40 bottom-0 hidden md:left-1/2 xl:inline-block" />
                     <div className="container">
                         <div className="flex flex-col justify-between gap-5 md:flex-row">
-                            <div className="relative text-center md:w-1/2 ltr:md:text-left rtl:md:text-right xl:pr-12">
+                            <div className="relative text-center md:w-1/2 md:text-left xl:pr-12">
                                 <img src="/assets/images/modern-saas/icon-1.svg" alt="" className="absolute -left-12 -top-12" />
                                 <h2 className="relative mb-3 text-3xl font-black text-white md:text-4xl xl:text-6xl">
                                     Email Newsletter
@@ -634,7 +633,7 @@ const StartupOffer = () => {
                                 </h2>
                                 <p className="text-2xl font-semibold">get updates & more</p>
                                 <form className="relative mt-14">
-                                    <div className="absolute top-1/2 -translate-y-1/2 ltr:pl-4 rtl:pr-4">
+                                    <div className="absolute top-1/2 -translate-y-1/2 pl-4">
                                         <svg role="presentation"  width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M24 10.4091C24 14.8446 24 17.0623 22.6527 18.4403C21.3054 19.8182 19.1369 19.8182 14.8 19.8182H10.2C5.86308 19.8182 3.69462 19.8182 2.34731 18.4403C1 17.0623 1 14.8446 1 10.4091C1 5.9736 1 3.75586 2.34731 2.37793C3.69462 1 5.86308 1 10.2 1H14.8C19.1369 1 21.3054 1 22.6527 2.37793C23.4038 3.14616 23.7362 4.17543 23.8833 5.70455"
@@ -653,18 +652,18 @@ const StartupOffer = () => {
                                     <input
                                         type="email"
                                         placeholder="your email"
-                                        className="w-full rounded-xl py-4 font-semibold outline-0 ltr:pl-14 ltr:pr-32 rtl:pr-14 rtl:pl-32 lg:py-6 lg:text-lg"
+                                        className="w-full rounded-xl py-4 font-semibold outline-0 ltr:pl-14 ltr:pr-32 lg:py-6 lg:text-lg"
                                     />
                                     <button
                                         type="button"
-                                        className="absolute top-1/2 -translate-y-1/2 rounded-md bg-secondary px-3 py-1.5 font-bold text-white transition hover:bg-primary ltr:right-4 rtl:left-4 lg:py-2 lg:text-lg"
+                                        className="absolute top-1/2 -translate-y-1/2 rounded-md bg-secondary px-3 py-1.5 font-bold text-white transition hover:bg-primary ltr:right-4 lg:py-2 lg:text-lg"
                                     >
                                         subscribe
                                     </button>
                                 </form>
                             </div>
-                            <div data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
-                                <img src="/assets/images/modern-saas/oc-target.svg" alt="" className="mx-auto w-52 rtl:rotate-y-180 lg:w-80" />
+                            <div data-aos={'fade-left'} data-aos-duration="1000">
+                                <img src="/assets/images/modern-saas/oc-target.svg" alt="Modern SaaS" className="mx-auto w-52 lg:w-80" />
                             </div>
                         </div>
                     </div>

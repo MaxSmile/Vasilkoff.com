@@ -55,7 +55,7 @@ const Portfoliodetail = ({pf}) => {
                         <div className="items-center py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 md:w-[725px]">
                                 <h2 className="!text-white">{pf.title}</h2>
-                                <p className="relative mt-7 font-medium text-[#BBC0D0] before:absolute before:top-0 before:h-full before:w-1 before:bg-primary ltr:pl-8 ltr:before:left-0 rtl:pr-8 rtl:before:right-0">
+                                <p className="relative mt-7 font-medium text-[#BBC0D0] before:absolute before:top-0 before:h-full before:w-1 before:bg-primary pl-8 before:left-0">
                                     {pf.description}
                                 </p>
                             </div>
@@ -280,12 +280,14 @@ const Portfoliodetail = ({pf}) => {
                             </ul>
                         </div>
                     </div>
-                    <div className="prose max-w-full mb-10">
+                    <div className="prose max-w-[740px] mb-10">
                         <ReactMarkdown remarkPlugins={[remarkGfm]}>{pf.article}</ReactMarkdown>
                     </div>
+
+
                     {/* <div className="py-14 md:py-20">
                         <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Features and Functionalities</h3>
-                        <ul className="list-disc space-y-4 font-semibold leading-6 ltr:ml-[18px] rtl:mr-[18px] md:text-lg ltr:md:pl-4 rtl:md:pr-4">
+                        <ul className="list-disc space-y-4 font-semibold leading-6 ltr:ml-[18px] md:text-lg ltr:md:pl-4">
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                             <li>Pellentesque sagittis risus sed accumsan efficitur.</li>
                             <li>Curabitur non tortor semper, tincidunt augue at, luctus diam.</li>
@@ -298,12 +300,12 @@ const Portfoliodetail = ({pf}) => {
                     </div> */}
                     {/* <div className="pb-14 md:pb-20">
                         <h3 className="mb-7 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Description</h3>
-                        <p className="relative font-semibold leading-[30px] before:absolute before:top-0 before:h-full before:w-1 before:rounded before:bg-primary ltr:pl-6 ltr:before:left-0 rtl:pr-6 rtl:before:right-0 md:text-lg">
+                        <p className="relative font-semibold leading-[30px] before:absolute before:top-0 before:h-full before:w-1 before:rounded before:bg-primary ltr:pl-6 ltr:before:left-0 md:text-lg">
                             Mosaic is a finance tool for making better business moves — automating data aggregation, analysis, and financial forecasting. In
                             late 2021, we partnered to help them take charge of the Strategic Finance category with a new brand, voice, and web experience. To
                             connect with their audience of finance leaders they needed to look and feel like a polished, confident, no-nonsense brand.
                         </p>
-                        <p className="relative mt-5 font-semibold leading-[30px] before:absolute before:top-0 before:h-full before:w-1 before:rounded before:bg-primary ltr:pl-6 ltr:before:left-0 rtl:pr-6 rtl:before:right-0 md:text-lg">
+                        <p className="relative mt-5 font-semibold leading-[30px] before:absolute before:top-0 before:h-full before:w-1 before:rounded before:bg-primary ltr:pl-6 ltr:before:left-0 md:text-lg">
                             Easily recognised by its expert tone of voice and chess-styled visuals, Mosaic takes after its ideal user: the less meetings, more
                             doing kinda folk. Tasked with bringing this new brand to life online, we built an experience to catch the eye of startups
                             everywhere.

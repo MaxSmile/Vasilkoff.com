@@ -119,7 +119,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
 
                 {/* Return to Top  */}
                 {showTopButton && (
-                    <button type="button" className="fixed bottom-5 z-10 animate-bounce ltr:right-5 rtl:left-5" onClick={goToTop}>
+                    <button type="button" className="fixed bottom-5 z-10 animate-bounce right-5" onClick={goToTop}>
                         <div className="group flex h-14 w-14 items-center justify-center rounded-full border border-black/20 text-white 
                         transition duration-500 bg-primary">
                             <svg

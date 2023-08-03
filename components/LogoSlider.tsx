@@ -2,12 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Autoplay } from 'swiper';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
 import  Link  from 'next/link';
 const LogoSlider = () => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
-
     return (
         <Swiper
             modules={[Autoplay]}
@@ -30,8 +26,8 @@ const LogoSlider = () => {
                     slidesPerView: 7,
                 },
             }}
-            dir={isRtl ? 'rtl' : 'ltr'}
-            key={isRtl ? 'true' : 'false'}
+            dir={ 'ltr'}
+            key={'false'}
         >
             <SwiperSlide>
                 <Link href="#">

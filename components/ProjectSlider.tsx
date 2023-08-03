@@ -7,13 +7,12 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 
 const ProjectSlider = (props: any) => {
-    const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
         <section className="py-15 lg:py-[100px]">
             <div className="container">
                 <div className="mb-7 flex flex-col items-center justify-center lg:mb-0 lg:flex-row lg:justify-between">
-                    <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
+                    <div className="heading text-center lg:text-left ">
                         <h1>{props.title1}</h1>
                         <h2>{props.title2}</h2>
                     </div>
@@ -35,7 +34,7 @@ const ProjectSlider = (props: any) => {
                                     viewBox="0 0 7 12"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="text-black rtl:rotate-180 dark:text-white"
+                                    className="text-black dark:text-white"
                                 >
                                     <path
                                         d="M5.95007 1.2002L1.48924 5.3424C1.06317 5.73803 1.06317 6.41236 1.48924 6.80799L5.95007 10.9502"
@@ -57,7 +56,7 @@ const ProjectSlider = (props: any) => {
                                     viewBox="0 0 7 12"
                                     fill="none"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="text-black rtl:rotate-180 dark:text-white"
+                                    className="text-black dark:text-white"
                                 >
                                     <path
                                         d="M1.05005 10.7998L5.51089 6.6576C5.93695 6.26197 5.93695 5.58764 5.51089 5.19201L1.05005 1.0498"
@@ -107,12 +106,12 @@ const ProjectSlider = (props: any) => {
                                 slidesPerView: 5,
                             },
                         }}
-                        dir={isRtl ? 'rtl' : 'ltr'}
-                        key={isRtl ? 'true' : 'false'}
+                        dir={ 'ltr'}
+                        key={'false'}
                     >
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full left-0"></Link>
                                 <img src="/assets/images/project-2.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Crypto Game - UX Interface</h1>
@@ -122,7 +121,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full left-0"></Link>
                                 <img src="/assets/images/project-3.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Looking for a quiet place</h1>
@@ -132,7 +131,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full left-0"></Link>
                                 <img src="/assets/images/project-4.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h1 className="mb-1 text-black line-clamp-1 dark:text-white">WeTour - Travel Hero Illustration</h1>
@@ -142,7 +141,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full left-0"></Link>
                                 <img src="/assets/images/project-5.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Digital Art Guide</h1>
@@ -152,7 +151,7 @@ const ProjectSlider = (props: any) => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="/portfolio/detail" className="absolute top-0 h-full w-full left-0"></Link>
                                 <img src="/assets/images/project-6.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
                                     <h1 className="mb-1 text-black line-clamp-1 dark:text-white">Frozeverse - 3D and motion design</h1>

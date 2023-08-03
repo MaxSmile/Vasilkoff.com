@@ -129,7 +129,7 @@ const Faq = ({
                                 <div key={faq.id} className="mt-6 border-0 border-b-2 border-gray/20 bg-transparent">
                                     <button
                                         type="button"
-                                        className="relative !flex w-full items-center justify-between gap-2 py-2.5 text-lg font-bold text-black ltr:text-left rtl:text-right dark:text-white"
+                                        className="relative !flex w-full items-center justify-between gap-2 py-2.5 text-lg font-bold text-black ltr:text-left dark:text-white"
                                         onClick={() => setActive(active === i ? null : i)}
                                     >
                                         <h3>{faq.question}</h3>
