@@ -4,7 +4,7 @@ const members = {
       "title": "Maxim Vasilkov: The Driving Force Behind Vasilkoff Ltd",
       "subtitle": "CBDO, System Architect",
       "description": "Explore Maxim Vasilkov's journey from seasoned programmer to founder of Vasilkoff Ltd, highlighting his technical prowess, leadership skills, and innovative projects.",
-      "picture": "/assets/team/maxim-vasylkov.webp",
+      "picture": "/assets/team/maxim-vasilkov.webp",
       "time": "1 min",
       "content":`In the dynamic landscape of information technology, few figures stand as testaments to both technical mastery and leadership acumen. One such individual is Maxim Vasilkov, the founder of Vasilkoff Ltd and Vasilkoff CY Ltd. With 15 years of experience in the IT field and a dedicated focus on IT management for the past 7 years, Vasilkov has consistently demonstrated his prowess in both technical and leadership domains.
 

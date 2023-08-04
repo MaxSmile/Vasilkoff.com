@@ -21,7 +21,7 @@ const TeamMembers = (
                 picture="/assets/team/nicol-papazova.webp" />
             <TeamMember name="Maxim Vasilkov" position="Systems Architect"
                 email="maxim@vasilkoff.com" link={"/team/maxim-vasilkov"}
-                picture="/assets/team/maxim-vasylkov.webp " />
+                picture="/assets/team/maxim-vasilkov.webp " />
         </div>
     );
 };
