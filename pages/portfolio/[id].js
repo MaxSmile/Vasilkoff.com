@@ -30,6 +30,11 @@ const Portfoliodetail = ({pf}) => {
             <Head>
                 <title>{pf.title} - Vasilkoff</title>
                 <meta name="description" content={pf.description} />
+                <meta name="og:description" content={pf.description} />
+                <meta property="og:image" content={pf.image} />
+                <meta property="og:url" content={"https://vasilkoff.com/portfolio/" + pf.slug} />
+                
+
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `

@@ -19,10 +19,11 @@ export const getServerSideProps = async ({ params }) => {
     return {
         props: {
             serv,
+            slug:params.id
         },
     }
 }
-const Servicesdetail = ({serv}) => {
+const Servicesdetail = ({serv,slug}) => {
 
     const color1 = '#990000';
     const color2 = '#666666'
@@ -32,6 +33,9 @@ const Servicesdetail = ({serv}) => {
             <Head>
                 <title>{serv.title} - Vasilkoff</title>
                 <meta name="description" content={serv.description} />
+                <meta name="og:description" content={serv.description} />
+                <meta property="og:url" content={"https://vasilkoff.com/services/" + slug} />
+
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -48,7 +52,7 @@ const Servicesdetail = ({serv}) => {
     "name": "${serv.subtitle}",
     "description": "${serv.description}",
     "areaServed": "Worldwide",
-    "url": "https://www.vasilkoff.com/services/${serv.slug}"
+    "url": "https://www.vasilkoff.com/services/${slug}"
 }`
 }} />
 

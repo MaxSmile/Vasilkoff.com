@@ -36,7 +36,7 @@ const Blogdetail = ({ blog, slug }) => {
                 <meta property="og:site_name" content="Vasilkoff Ltd" />
                 <meta property="og:url" content={"https://vasilkoff.com/blog/" + slug} />
                 <meta property="og:description" content={blog.description} />
-                <meta property="og:type" content="person" />
+                <meta property="og:article:published_time" content={blog.date}/>
                 <meta property="og:image" content={blog.picture} />
                 <meta content="origin" name="referrer" />
                 <meta content={blog.picture} itemProp="image" />

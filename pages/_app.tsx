@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta content="origin" name="referrer" />
             <meta content="https://vasilkoff.com/vasilkoff-cover.webp" itemProp="image" />
             <meta property="og:article:author" content="©Vasilkoff CY Ltd"/>
-            <meta property="og:article:published_time" content="2023-05-24T15:30:00Z"/>
+            <meta property="og:article:published_time" content="2023-08-04T15:30:00Z"/>
 
             
                   
