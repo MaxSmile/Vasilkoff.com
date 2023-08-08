@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowThroughHeart, Bookmark, BookmarkHeart } from "react-bootstrap-icons";
+import { Bookmark, BookmarkHeart } from "react-bootstrap-icons";
 
 
 const PortfolioCard = (

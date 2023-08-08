@@ -21,12 +21,17 @@ const Portfolio = () => {
             }
         }
     });
+    //Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!
+    //t="Explore our diverse portfolio at Vasilkoff. We've developed innovative web and mobile solutions for businesses across various sectors, demonstrating our commitment to excellence and client satisfaction.
     return (
         <div>
             <Head>
-                <title>Portfolio - Vasilkoff</title>
-                <meta name="description" content="Explore our diverse portfolio at Vasilkoff. We've developed innovative web and mobile solutions for businesses across various sectors, demonstrating our commitment to excellence and client satisfaction." />
-        
+                <title>Portfolio - Vasilkoff Ltd</title>
+                <meta property="og:title" content="Portfolio - Vasilkoff Ltd" />
+                <meta name="description" content="Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!" />
+                <meta name="og:description" content="Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!" />
+                <meta property="og:image" content="https://vasilkoff.com/portfolio/portfolio.webp" />
+
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `
