@@ -37,6 +37,7 @@ const MemberPage = ({ blog, slug }) => {
                 <meta property="og:image" content={blog.picture} />
                 <meta content="origin" name="referrer" />
                 <meta content={blog.picture} itemProp="image" />
+                <meta property="og:image:alt" content={blog.title} />
                 <meta name="description" content={blog.description} />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
