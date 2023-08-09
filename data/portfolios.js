@@ -29,15 +29,15 @@ SendCrypto serves as a testament to Vasilkoff Ltd.'s prowess in blockchain devel
         categories: [
             "ReactJS","Mobile App","Shopify","Stripe","Firebase"
         ],
-        title: "Libi & Daughters",
+        title: "Libi and Daughters",
         link: "Libi.com",
         image: "/assets/images/project-2.png",
         slug: "libi-n-daughters",
         url: "https://libi.com/",
         extra:"",
-        description:"Libi & Daughters is a luxury cosmetics company with full stack development services, including ReactJS and NodeJS front and back-end development, and native mobile applications for iOS and Android.",
+        description:"Libi and Daughters is a luxury cosmetics company with full stack development services, including ReactJS and NodeJS front and back-end development, and native mobile applications for iOS and Android.",
         article:`
-Libi & Daughters is a luxury cosmetics company that offers a range of premium skincare products to customers worldwide. As their full stack development partner, we were responsible for developing both their front-end and back-end systems, using ReactJS and NodeJS respectively. Additionally, we designed and developed their native mobile applications for both iOS and Android, ensuring a seamless user experience across all platforms. Our team worked closely with Libi & Daughters to ensure that their online presence reflects their brand values of sophistication, quality, and elegance. Thanks to our collaboration, customers can now easily browse and purchase their favorite skincare products from anywhere, on any device.
+Libi and Daughters is a luxury cosmetics company that offers a range of premium skincare products to customers worldwide. As their full stack development partner, we were responsible for developing both their front-end and back-end systems, using ReactJS and NodeJS respectively. Additionally, we designed and developed their native mobile applications for both iOS and Android, ensuring a seamless user experience across all platforms. Our team worked closely with Libi and Daughters to ensure that their online presence reflects their brand values of sophistication, quality, and elegance. Thanks to our collaboration, customers can now easily browse and purchase their favorite skincare products from anywhere, on any device.
         `,
     },
     {
@@ -155,21 +155,21 @@ Another advantage of Easy VPN Free is that it is open-source, which means that a
         categories: [
             "Website","WordPress"
         ],
-        title: "P. NEOFYTOU & ASSOCIATES LLC",
+        title: "P. NEOFYTOU and ASSOCIATES LLC",
         link: "neofytoullc.com",
         image: "/images/p-neofytou.png",
         slug: "p-neofytou",
         url: "https://www.neofytoullc.com",
         extra:"",
-        description:"P. NEOFYTOU & ASSOCIATES LLC is a law firm that provides legal services and solutions to clients in Cyprus and around the world. Their website, built with WordPress, offers easy access to their range of legal services, including corporate law, banking and finance, real estate, and more. If you're in need of legal assistance, P. NEOFYTOU & ASSOCIATES LLC is a trusted and reliable source of expertise and advice.",
+        description:"P. NEOFYTOU and ASSOCIATES LLC is a law firm that provides legal services and solutions to clients in Cyprus and around the world. Their website, built with WordPress, offers easy access to their range of legal services, including corporate law, banking and finance, real estate, and more. If you're in need of legal assistance, P. NEOFYTOU and ASSOCIATES LLC is a trusted and reliable source of expertise and advice.",
         article:`
-P. NEOFYTOU & ASSOCIATES LLC is a law firm based in Cyprus that offers a range of legal services to clients from various sectors. Their team of experienced lawyers provides legal advice and representation in various areas of law, including corporate law, commercial law, immigration law, property law, and more.
+P. NEOFYTOU and ASSOCIATES LLC is a law firm based in Cyprus that offers a range of legal services to clients from various sectors. Their team of experienced lawyers provides legal advice and representation in various areas of law, including corporate law, commercial law, immigration law, property law, and more.
 
-The website for P. NEOFYTOU & ASSOCIATES LLC is designed with a clean and professional layout that reflects the firm's reputation for excellence in the legal industry. The website features an easy-to-use navigation menu, providing visitors with quick access to the firm's services and contact information.
+The website for P. NEOFYTOU and ASSOCIATES LLC is designed with a clean and professional layout that reflects the firm's reputation for excellence in the legal industry. The website features an easy-to-use navigation menu, providing visitors with quick access to the firm's services and contact information.
 
 The homepage features a slideshow showcasing the firm's core values, achievements, and areas of expertise, giving visitors an insight into the firm's culture and capabilities. The website also includes a blog section where the firm's lawyers share their expertise and insights on various legal topics, providing valuable information to clients and potential clients.
 
-Overall, the P. NEOFYTOU & ASSOCIATES LLC website is an excellent representation of the firm's commitment to providing high-quality legal services to clients in Cyprus and beyond. The website's design and content provide visitors with a professional and trustworthy image of the firm, helping to establish the firm as a leader in the legal industry.`,
+Overall, the P. NEOFYTOU and ASSOCIATES LLC website is an excellent representation of the firm's commitment to providing high-quality legal services to clients in Cyprus and beyond. The website's design and content provide visitors with a professional and trustworthy image of the firm, helping to establish the firm as a leader in the legal industry.`,
     },
     {
         type:"projects",
@@ -278,15 +278,15 @@ Overall, ClarusApex's commitment to excellence, combined with their deep industr
         extra:"",
         description:"Kimfoot is a website built on WordPress, promoting holistic treatments for foot and ankle problems with a team of highly trained podiatric specialists using cutting edge technology and natural remedies. They offer Platelet Rich Plasma injections for safe and natural healing of chronic injuries.",
         article:`
-Kim Holistic Foot & Ankle Center is a leading podiatry clinic located in California. Their team of highly trained specialists use the latest technology, cutting-edge research, and natural treatments to provide comprehensive care for patients with foot or ankle problems.
+Kim Holistic Foot and Ankle Center is a leading podiatry clinic located in California. Their team of highly trained specialists use the latest technology, cutting-edge research, and natural treatments to provide comprehensive care for patients with foot or ankle problems.
 
-One of the things that sets Kim Holistic Foot & Ankle Center apart from other podiatry clinics is their commitment to holistic treatments. They believe in treating the whole person and not just the foot or ankle problem. They offer a wide range of holistic treatments, including homeopathic injection therapy, herbal medicines, and acupuncture.
+One of the things that sets Kim Holistic Foot and Ankle Center apart from other podiatry clinics is their commitment to holistic treatments. They believe in treating the whole person and not just the foot or ankle problem. They offer a wide range of holistic treatments, including homeopathic injection therapy, herbal medicines, and acupuncture.
 
 Their Platelet Rich Plasma (PRP) therapy is a popular holistic treatment for chronic injuries. PRP is a safe and proven way to improve natural growth and repair chronic injuries. The therapy involves extracting the patient's blood, processing it in a centrifuge to concentrate the platelets, and then injecting the concentrated platelets into the site of the injury.
 
-In addition to their holistic treatments, Kim Holistic Foot & Ankle Center provides a range of traditional podiatry services, including foot and ankle surgery, diabetic foot care, and sports medicine. They also offer custom orthotics and shoe fittings to help patients find the right shoes to support their feet and alleviate pain.
+In addition to their holistic treatments, Kim Holistic Foot and Ankle Center provides a range of traditional podiatry services, including foot and ankle surgery, diabetic foot care, and sports medicine. They also offer custom orthotics and shoe fittings to help patients find the right shoes to support their feet and alleviate pain.
 
-Overall, Kim Holistic Foot & Ankle Center is committed to providing the best possible care for their patients. With their holistic approach and state-of-the-art technology, they are able to help patients achieve optimal foot and ankle health and improve their overall well-being.`,
+Overall, Kim Holistic Foot and Ankle Center is committed to providing the best possible care for their patients. With their holistic approach and state-of-the-art technology, they are able to help patients achieve optimal foot and ankle health and improve their overall well-being.`,
     },
     {
         type:"projects",
@@ -498,17 +498,17 @@ Overall, the Garantex Exchange platform is a testament to the power and flexibil
         extra:"",
         description:"This is a custom iOS app created by Vasilkoff for a Manhattan-based company. It simplifies the process of getting pricing for custom-sized boxes and enables salespeople to get up-to-date pricing quickly and easily. The app is available for delivery in Brooklyn, New Jersey, and Manhattan.",
         article:`
-When B&C IND. approached us to create a custom iOS app that would simplify their pricing process for custom-sized boxes, we were eager to take on the challenge. Our team worked closely with the company to understand their requirements and developed an app that would provide salespeople with up-to-date pricing quickly and easily.
+When BandC IND. approached us to create a custom iOS app that would simplify their pricing process for custom-sized boxes, we were eager to take on the challenge. Our team worked closely with the company to understand their requirements and developed an app that would provide salespeople with up-to-date pricing quickly and easily.
 
 The app was built using Objective-C and designed to be simple and user-friendly. Salespeople can now fill out the required information for each custom-sized box and get an instant price quote. The app can generate pricing for almost any size box that a customer may need, making it a powerful tool for sales teams.
 
-One of the key features of the app is the ability to provide up-to-date pricing for custom-sized boxes. Salespeople can be confident that they are getting accurate pricing information, which helps them to close deals more effectively. This feature also ensures that B&C IND. remains competitive in a crowded marketplace.
+One of the key features of the app is the ability to provide up-to-date pricing for custom-sized boxes. Salespeople can be confident that they are getting accurate pricing information, which helps them to close deals more effectively. This feature also ensures that BandC IND. remains competitive in a crowded marketplace.
 
 The app has been designed to be flexible and adaptable to different customer needs. It can handle a wide variety of box sizes and shapes, and can even accommodate custom printing requirements. This makes it a valuable tool for sales teams who need to respond quickly to changing customer needs.
 
-The app is currently available for delivery in Brooklyn, New Jersey, and Manhattan. Our team worked closely with B&C IND. to ensure that the app was fully integrated with their existing systems and processes. We also provided training and support to ensure that sales teams were able to use the app effectively.
+The app is currently available for delivery in Brooklyn, New Jersey, and Manhattan. Our team worked closely with BandC IND. to ensure that the app was fully integrated with their existing systems and processes. We also provided training and support to ensure that sales teams were able to use the app effectively.
 
-Overall, the custom iOS app that we developed for B&C IND. has been a great success. Salespeople are now able to get up-to-date pricing for custom-sized boxes quickly and easily, which has helped them to close deals more effectively. The app has also enabled B&C IND. to stay competitive in a crowded marketplace by providing a streamlined pricing process.`,
+Overall, the custom iOS app that we developed for BandC IND. has been a great success. Salespeople are now able to get up-to-date pricing for custom-sized boxes quickly and easily, which has helped them to close deals more effectively. The app has also enabled BandC IND. to stay competitive in a crowded marketplace by providing a streamlined pricing process.`,
     },
     {
         type:"projects",
@@ -559,7 +559,7 @@ One of the strengths of the Inter-Euro Investments website lies in its adaptabil
 
 Our collaboration with Inter-Euro Investments is another example of Vasilkoff's ability to tailor a website's design and functionality to a client's unique needs and industry requirements. This project joins a portfolio of successful WordPress collaborations, each reflecting our dedication to excellence and client satisfaction.
 
-One such project is the [P. NEOFYTOU & ASSOCIATES LLC](http://vasilkoff.com/portfolio/p-neofytou) website. This law firm's site offers easy access to a range of legal services and stands as a trusted source of expertise and advice.
+One such project is the [P. NEOFYTOU and ASSOCIATES LLC](http://vasilkoff.com/portfolio/p-neofytou) website. This law firm's site offers easy access to a range of legal services and stands as a trusted source of expertise and advice.
 
 Another example is the [KIMFOOT](http://vasilkoff.com/portfolio/kimfoot) website, which promotes holistic treatments for foot and ankle problems. With a clean and intuitive interface, it successfully connects clients with expert podiatric specialists.
 

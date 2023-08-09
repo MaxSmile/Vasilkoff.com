@@ -96,7 +96,7 @@ const Header = (props: any) => {
                         </div>
                         
                         <button
-                            type="button"
+                            type="button" aria-label="Menu"
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
                             onClick={() => toggleMenu()}
                         >

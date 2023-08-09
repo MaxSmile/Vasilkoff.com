@@ -30,8 +30,9 @@ const Portfoliodetail = ({pf}) => {
             <Head>
                 <title>{pf.title} - Vasilkoff</title>
                 <meta name="description" content={pf.description} />
+                <meta name="og:title" content={pf.title} />
                 <meta name="og:description" content={pf.description} />
-                <meta property="og:image" content={pf.image} />
+                <meta property="og:image" content={"https://vasilkoff.com/" +pf.image} />
                 <meta property="og:url" content={"https://vasilkoff.com/portfolio/" + pf.slug} />
                 <meta property="og:image:alt" content={pf.title} />
 

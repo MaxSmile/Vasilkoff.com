@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:title" content="Vasilkoff Ltd - Software Development Services" />
             <meta property="og:site_name" content="Vasilkoff Ltd" />
             <meta property="og:url" content="https://vasilkoff.com" />
-            <meta property="og:description" content="Vasilkoff: Crafting web & mobile apps with a focus on blockchain and ML. Dive into our full-stack expertise today!" />
+            <meta property="og:description" content="Crafting cutting-edge web and mobile apps with a focus on the latest technologies. Explore our full-stack expertise and elevate your digital presence today!" />
             <meta property="og:type" content="website" />
             <meta property="og:image" content="https://vasilkoff.com/vasilkoff-cover.webp" />
             <meta content="origin" name="referrer" />
@@ -47,6 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:article:author" content="©Vasilkoff CY Ltd"/>
             <meta property="og:article:published_time" content="2023-08-04T15:30:00Z"/>
             <meta property="og:image:alt" content="Vasilkoff Ltd" />
+            <meta name="twitter:card" content="summary_large_image" />
             
                   
                     

@@ -33,6 +33,7 @@ const Servicesdetail = ({serv,slug}) => {
             <Head>
                 <title>{serv.title} - Vasilkoff</title>
                 <meta name="description" content={serv.description} />
+                <meta name="og:title" content={serv.title} />
                 <meta name="og:description" content={serv.description} />
                 <meta property="og:url" content={"https://vasilkoff.com/services/" + slug} />
                 <meta property="og:image:alt" content={blog.title} />
