@@ -203,7 +203,7 @@ const Index = (props: any) => {
                 />
                 <title>Vasilkoff Ltd - Full-stack Software Development Services</title>
                 <meta name="description" content="Full-stack software development company specializing in blockchain technology. We offer outsourcing and outstaffing services for the development of web & mobile apps, handling projects from simple to complex." />
-                <link rel="canonical" href="https://vasilkoff.com" />
+                {/* <link rel="canonical" href="https://vasilkoff.com" /> */}
             </Head>
         </div>
     );
