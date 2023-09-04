@@ -28,8 +28,11 @@ const Blog = () => {
                 <title>Blog - Vasilkoff</title>
                 <meta
                     name="description"
-                    content="Discover valuable insights and industry trends in software development, blockchain technology, AI and more from Vasilkoff's blog. Stay informed and enlightened with our diverse range of blog articles."
+                    content="Explore the latest in software development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles."
                 />
+                <meta property="og:url" content="https://vasilkoff.com/blog" />
+                <meta property="og:image" content="https://vasilkoff.com/assets/blog/blog.webp" />
+                <meta property="og:description" content="Explore the latest in software development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles." />
 
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{

@@ -31,6 +31,7 @@ const Portfolio = () => {
                 <meta name="description" content="Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!" />
                 <meta name="og:description" content="Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!" />
                 <meta property="og:image" content="https://vasilkoff.com/portfolio/portfolio.webp" />
+                <meta property="og:url" content="https://vasilkoff.com/portfolio" />
 
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
