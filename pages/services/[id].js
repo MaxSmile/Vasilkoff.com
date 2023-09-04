@@ -36,7 +36,7 @@ const Servicesdetail = ({serv,slug}) => {
                 <meta name="og:title" content={serv.title} />
                 <meta name="og:description" content={serv.description} />
                 <meta property="og:url" content={"https://vasilkoff.com/services/" + slug} />
-                <meta property="og:image:alt" content={blog.title} />
+                <meta property="og:image:alt" content={serv.title} />
                 <meta property="og:image" content="https://vasilkoff.com/portfolio/portfolio.webp" />
 
                 <script type="application/ld+json"
