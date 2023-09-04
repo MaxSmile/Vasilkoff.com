@@ -6,6 +6,8 @@ import DefaultLayout from '../components/Layouts/DefaultLayout';
 import { Provider } from 'react-redux';
 import store from '../store/index';
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react'
+
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -37,18 +39,24 @@ export default function App({ Component, pageProps }: AppProps) {
             <meta property="og:title" content="Vasilkoff Ltd - Software Development Services" />
             <meta property="og:site_name" content="Vasilkoff Ltd" />
             <meta property="og:url" content="https://vasilkoff.com" />
-            <meta property="og:description" content="Full-stack software development company offering outsourcing and outstaffing web & mobile apps development of simple and complex projects. Can use blockchain, AI and machine learning" />
-            <meta property="og:type" content="product" />
-            <meta property="og:image" content="/vasilkoff-cover-1024x583.jpg" />
+            <meta property="og:description" content="Crafting cutting-edge web and mobile apps with a focus on the latest technologies. Explore our full-stack expertise and elevate your digital presence today!" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image" content="https://vasilkoff.com/vasilkoff-cover.webp" />
             <meta content="origin" name="referrer" />
-            <meta content="/images/cover.png" itemProp="image" />
-                    
+            <meta content="https://vasilkoff.com/vasilkoff-cover.webp" itemProp="image" />
+            <meta property="og:article:author" content="©Vasilkoff CY Ltd"/>
+            <meta property="og:article:published_time" content="2023-08-04T15:30:00Z"/>
+            <meta property="og:image:alt" content="Vasilkoff Ltd" />
+            <meta name="twitter:card" content="summary_large_image" />
+            
+                  
                     
                 </Head>
                 <DefaultLayout>
                     <Component {...pageProps} />
                 </DefaultLayout>
             </Suspense>
+            <Analytics />
         </Provider>
     );
 }

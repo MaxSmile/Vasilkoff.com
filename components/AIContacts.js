@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
@@ -53,10 +53,10 @@ export default function AIContacts() {
     return (
         <NoSSR>
 
-            <section className="bg-white my-20">
+            <section className="bg-white my-10">
                 <Container>
                     <h2 className="text-center text-3xl font-bold text-primary">Please, try our assistant manager chat</h2>
-                    <h4 className="text-center text-xl font-bold text-secondary mb-20">- AI powered -</h4>
+                    <h2 className="text-center text-xl font-bold text-secondary mb-20">- AI powered -</h2>
                     <div className="relative z-10 lg:flex ">
 
                         <form onSubmit={e => { e.preventDefault(); submitMessage() }} className="rounded-3xl bg-white px-4 mb-12 lg:w-1/2 lg:px-8">
@@ -64,63 +64,49 @@ export default function AIContacts() {
                             <div id="aichead" className="grid gap-10 sm:grid-cols-2" ref={aicheadRef}>
 
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="name"
+                                        placeholder='Full name'
+                                        id='name'
                                         ref={nameRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    <label
-                                        htmlFor=""
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Full Name
-                                    </label>
+                                 
                                     <Person className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="email"
                                         name="email"
+                                        placeholder='Email'
                                         ref={emailRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        id='email'
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    <label
-                                        htmlFor=""
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Email Address
-                                    </label>
                                     <EnvelopeAt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="mobile"
+                                        placeholder='Phone'
+                                        id='mobile'
                                         ref={mobileRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    <label
-                                        htmlFor=""
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        Mobile Number
-                                    </label>
                                     <Telephone className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="relative">
-                                    <input required
+                                    <input required="true" aria-required="true" 
                                         type="text"
                                         name="city"
+                                        id='city'
+                                        placeholder='Your City'
                                         ref={cityRef}
-                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
+                                        className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                     />
-                                    <label
-                                        htmlFor=""
-                                        className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white"
-                                    >
-                                        City
-                                    </label>
+
                                     <GeoAlt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                             </div>
@@ -129,16 +115,12 @@ export default function AIContacts() {
                                     onFocus={() => { messageRef.current.classList.remove("border-red"); setError(false) }}
                                     contentEditable="true"
                                     name="message"
+                                    placeholder='Message'
                                     id="messageContainer"
                                     style={activeZone ? { padding: 0, overflow: "hidden" } : {}}
                                     ref={messageRef}
                                     className=" height-60 w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary pr-12"
                                 >{activeZone}</div>
-                                {!activeZone && (
-                                    <label htmlFor="message" className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        Message
-                                    </label>
-                                )}
 
                                 <ChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
                             </div>

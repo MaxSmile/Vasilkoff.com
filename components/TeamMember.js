@@ -1,22 +1,30 @@
+import Image from "next/image";
+import Link from "next/link";
+import { EnvelopeAt, Mailbox, Mailbox2 } from "react-bootstrap-icons";
 
 
 const TeamMember = (
     {
         name,
         position,
-        picture
+        picture,
+        email,
+        link
     }
 ) => {
 
     return (
-        <div className="group cursor-pointer text-center">
-            <div className="relative h-[180px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                <img src={picture} alt="team-member-1" className="h-full w-full rounded-3xl object-cover object-top" />
+        <div className="group text-center"><Link href={link}>
+            <div className="relative md:h-[180px] h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
+                <Image loading="lazy" width={200} height={180} src={picture} alt={name} className="h-full w-full rounded-3xl object-cover object-top" />
             </div>
-            <h4 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary dark:text-white">
+            <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary">
                 {name}
-            </h4>
-            <h6 className="text-sm font-bold">{position}</h6>
+            </h2>
+            <p className="text-sm font-bold">{position}</p>
+            </Link> 
+            <p className="text-sm font-bold">Click to message: <Link href={"mailto:"+email}><EnvelopeAt className="inline-block" /></Link></p>
+            
         </div>
     );
 };

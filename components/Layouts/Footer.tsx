@@ -2,19 +2,13 @@ import Link from 'next/link';
 import { Container } from "react-bootstrap";
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
+import WhosAmungUs from "../WhosAmungUs";
+
 
 const Footer = () => {
+
     return (
         <>
-            {/* <section  className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 py-12">
-                <div className="items-center justify-center lg:flex">
-                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="/assets/images/contact-text.png" alt="contact-text" className="mx-auto sm:pt-4 xl:mx-0" />
-                    </div>
-                </div>
-            </section> */}
-
-
             <footer className="py-14 bg-black lg:py-[100px] text-light text-base">
                 <Container>
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -25,8 +19,8 @@ const Footer = () => {
                             <ul className="flex flex-col gap-3 font-bold">
 
                                 <li>
-                                    <Link href="/business-offer" className="inline-block transition hover:scale-110">
-                                        Business Offer
+                                    <Link href="/crypto" className="inline-block transition hover:scale-110">
+                                        Crypto Offer
                                     </Link>
                                 </li>
                                 <li>
@@ -39,11 +33,8 @@ const Footer = () => {
                                         FAQs
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/blog" className="inline-block transition hover:scale-110">
-                                        Blog
-                                    </Link>
-                                </li>
+                               
+
                                 {/* <li>
                                     <Link href="/career" className="inline-block transition hover:scale-110">
                                         Career
@@ -64,10 +55,10 @@ const Footer = () => {
 
 
                                 <li><CardText className="inline-block" />&nbsp;<span className="text-sm">VAT #CY10344792Y TIC 12344792A</span></li>
-                                <li className="transition hover:text-light hover:scale-110"><Whatsapp className="inline-block" />&nbsp;<a className="text-sm" href="https://wa.link/drf9vm" target="_blank">+35796253566</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+35799169229" target="_blank">+35799169229</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:sp@vasilkoff.com" target="_blank">sp@vasilkoff.com</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
+                                <li className="transition hover:text-light hover:scale-110"><Whatsapp className="inline-block" />&nbsp;<a className="text-sm" href="https://wa.link/drf9vm" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp for +35796253566 (opens in a new tab)">+35796253566</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+35799169229" target="_blank" rel="noopener noreferrer" aria-label="Call by phone +35799169229 (opens in a new tab)">+35799169229</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:sp@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="sp@vasilkoff.com (opens in a new tab)">sp@vasilkoff.com</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank" rel="noopener noreferrer" aria-label="Address (opens in a new tab)"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
 
                             </ul>
                             <p className="text-xs my-2">
@@ -84,10 +75,10 @@ const Footer = () => {
                             <ul >
                                 <li>Vasilkoff Ltd Reg. 07976437</li>
                                 <li>207 Regent Street, London W1B 3HH</li>
-                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460" target="_blank">+1-888-2614460</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478" target="_blank">+442045772478</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank">maxim@vasilkoff.com</a></li>
-                                <li className="transition hover:text-light hover:scale-110"><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank">Vasilkoff</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460">+1-888-2614460</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478">+442045772478</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
+                                <li className="transition hover:text-light hover:scale-110"><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank"rel="noopener noreferrer" aria-label="Telegram (opens in a new tab)">Vasilkoff</a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,16 +99,19 @@ const Footer = () => {
                         <div className="my-8">
                             <ul className="flex items-center gap-4 text-shadow">
                                 <li className="transition hover:text-light hover:scale-110">
-                                    <Link href="https://www.facebook.com/vasilkoff.software" target="_blank">
+                                    <Link href="https://www.facebook.com/vasilkoff.software" target="_blank" rel="noopener noreferrer" aria-label="Facebook page (opens in a new tab)">
                                         <Facebook />
                                     </Link>
                                 </li>
                                 <li className="transition hover:text-light hover:scale-110">
-                                    <Link href="https://www.instagram.com/vasilkoff/" target="_blank">
+                                    <Link href="https://www.instagram.com/vasilkoff/" target="_blank" rel="noopener noreferrer" aria-label="Instagram page (opens in a new tab)">
                                         <Instagram />
                                     </Link>
                                 </li>
-                                <li className="text-gray text-xs">v.{version}</li>
+                                <li className="text-xs">v.{version}</li>
+                                <li className="text-xs">
+                                    &copy; 2012-{new Date().getFullYear()} Vasilkoff Ltd
+                                </li>
                             </ul>
                         </div>
                     </div>

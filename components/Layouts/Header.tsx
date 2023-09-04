@@ -1,15 +1,9 @@
 import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
-import { IRootState } from '../../store';
-import { toggleTheme, toggleDirection } from '../../store/themeConfigSlice';
 import { useRouter } from 'next/router';
 
 const Header = (props: any) => {
     const router = useRouter();
-
-    const themeConfig = useSelector((state: IRootState) => state.themeConfig);
-    const dispatch = useDispatch();
 
     const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
@@ -30,13 +24,13 @@ const Header = (props: any) => {
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/images/logo-vasilkoff.png" alt="plurk" className="h-12" />
+                        <img src="/images/logo-vasilkoff.webp" alt="plurk" className="h-12" width={"104px"} height={"48px"} />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
-                        <div className={`menus ${showMenu ? 'overflow-y-auto ltr:!right-0 rtl:!left-0' : ''}`}>
-                            <div className="border-b border-gray/10 ltr:text-right rtl:text-left lg:hidden">
-                                <button onClick={() => toggleMenu()} type="button" className="p-4">
+                        <div className={`menus ${showMenu ? 'overflow-y-auto ltr:!right-0' : ''}`}>
+                            <div className="border-b border-gray/10 text-right lg:hidden">
+                                <button onClick={() => toggleMenu()} type="button" aria-label="Menu" className="p-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
@@ -49,40 +43,48 @@ const Header = (props: any) => {
                                     </svg>
                                 </button>
                             </div>
-                            <ul onClick={() => toggleMenu()}>
-                                <li>
+                            <ul onClick={() => toggleMenu()} role='menu'>
+                                <li role='menuitem'>
                                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
                                         Home
                                     </Link>
                                 </li>
-                                {/* <li>
+                                {/* <li role='menuitem'>
                                     <Link href="/services" className={router.pathname === '/services' ? 'active' : ''}>
                                         Services
                                     </Link>
-                                </li> */}
-                                <li>
+                                </li> 
+                                <li role='menuitem'>
                                     <Link href="/crypto" className={router.pathname === '/crypto' ? 'active' : ''}>
                                         Crypto
                                     </Link>
-                                </li>
-                                <li>
+                                </li>*/}
+                                <li  role='menuitem'>
                                     <Link
                                         href="/portfolio"
-                                        className={router.pathname === '/portfolio' || router.pathname === '/portfolio/detail' ? 'active' : ''}
+                                        className={router.pathname === '/portfolio' || router.pathname.startsWith('/portfolio/') ? 'active' : ''}
                                     >
                                         Portfolio
                                     </Link>
                                 </li>
-                                {/* <li>
+                                <li role='menuitem'>
                                     <Link
-                                        href="/services"
-                                        className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
+                                        href="/#team"
+                                        className={router.pathname === '/#team' || router.pathname.startsWith('/team/')  ? 'active' : ''}
                                     >
-                                        Service
+                                        Team
                                     </Link>
-                                </li> */}
+                                </li>
+                                <li role='menuitem'>
+                                    <Link
+                                        href="/blog"
+                                        className={router.pathname === '/blog' || router.pathname.startsWith('/blog/')  ? 'active' : ''}
+                                    >
+                                        Blog
+                                    </Link>
+                                </li>
            
-                                <li>
+                                <li role='menuitem'>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         About Us
                                     </Link>
@@ -92,13 +94,13 @@ const Header = (props: any) => {
                      
                             </ul>
                         </div>
-
+                        
                         <button
-                            type="button"
+                            type="button" aria-label="Menu"
                             className="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
                             onClick={() => toggleMenu()}
                         >
-                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                            <svg role="presentation"  width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
                                 <path
                                     d="M2 15H11C11.552 15 12 15.447 12 16C12 16.553 11.552 17 11 17H2C1.448 17 1 16.553 1 16C1 15.447 1.448 15 2 15Z"
                                     fill="currentColor"
@@ -116,6 +118,7 @@ const Header = (props: any) => {
                     </div>
                 </div>
             </div>
+             
         </header>
     );
 };

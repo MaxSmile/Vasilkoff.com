@@ -1,4 +1,4 @@
-<svg width="92" height="124" viewBox="0 0 92 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg role="presentation"  width="92" height="124" viewBox="0 0 92 124" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 20C0 8.9543 8.95431 0 20 0H72C83.0457 0 92 8.95431 92 20V102H0V20Z" fill="url(#paint0_linear_815_12529)" fill-opacity="0.24"/>
 <path d="M59.8765 105.265V116.074C59.8765 116.893 59.5511 117.679 58.9719 118.258C58.3928 118.837 57.6073 119.162 56.7882 119.162H25.9059C25.0868 119.162 24.3013 118.837 23.7222 118.258C23.143 117.679 22.8176 116.893 22.8176 116.074V85.1918C22.823 84.3744 23.1501 83.592 23.7281 83.014C24.3061 82.436 25.0885 82.1089 25.9059 82.1035H36.7353" stroke="#47BDFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M39.8029 102.175L53.7617 88.1953" stroke="url(#paint1_linear_815_12529)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>

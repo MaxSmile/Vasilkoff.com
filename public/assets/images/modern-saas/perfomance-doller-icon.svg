@@ -1,4 +1,4 @@
-<svg width="135" height="140" viewBox="0 0 135 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg role="presentation"  width="135" height="140" viewBox="0 0 135 140" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.5">
 <path opacity="0.1" d="M1.45504 39.5679L66.4911 77.9319C66.591 77.9869 66.701 77.9879 66.801 77.9329L132.651 39.5639C132.851 39.4479 132.851 39.1609 132.651 39.0439L67.981 1.04187C67.881 0.986874 67.771 0.985891 67.671 1.03989L1.45803 39.0469C1.25703 39.1619 1.25504 39.4499 1.45504 39.5679Z" fill="#B476E5" stroke="#181A3D" stroke-width="1.50674"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M68.991 21.834L75.251 25.885L58.751 35.559L52.301 31.542L68.991 21.834Z" fill="#47BDFF"/>

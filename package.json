@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "0.2.1",
+    "version": "1.2.0",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -9,19 +9,25 @@
         "build-minor": "yarn version --minor && genversion version.js && next build",
         "build-major": "yarn version --major && genversion version.js && next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "postbuild": "next-sitemap"
     },
     "dependencies": {
+        "@minimal-analytics/ga4": "^1.8.7",
         "@reduxjs/toolkit": "^1.9.0",
         "@tailwindcss/line-clamp": "^0.4.2",
         "@types/node": "18.15.3",
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.9",
+        "@vercel/analytics": "^1.0.0",
         "aos": "^3.0.0-beta.6",
         "apexcharts": "^3.37.1",
         "eslint": "8.28.0",
         "eslint-config-next": "13.0.5",
+        "genversion": "^3.1.1",
+        "jsx-schema": "^1.0.3",
         "next": "13.0.5",
+        "next-sitemap": "^4.1.3",
         "react": "18.2.0",
         "react-18-image-lightbox": "^5.1.4",
         "react-animate-height": "^3.1.0",
@@ -30,6 +36,7 @@
         "react-bootstrap-icons": "^1.10.2",
         "react-countup": "^6.4.0",
         "react-dom": "18.2.0",
+        "react-ga4": "^2.1.0",
         "react-markdown": "^8.0.5",
         "react-no-ssr": "^1.1.0",
         "react-redux": "^8.0.5",

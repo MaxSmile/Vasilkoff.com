@@ -4,8 +4,8 @@ const CounterComponent = (props: any) => {
     return (
         <div className="container">
             <div className="heading text-center">
-                <h6>{props.title}</h6>
-                <h4>We are proud of our team</h4>
+                <h1>{props.title}</h1>
+                <h2>We are proud of our team</h2>
             </div>
             <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
@@ -37,10 +37,10 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
-                            <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                        <div className="pl-4">
+                            <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={10} duration={4} suffix="+"></CountUp>
-                            </h4>
+                            </h2>
 
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Year in Business</span>
                         </div>
@@ -75,10 +75,10 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
-                            <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                        <div className="pl-4">
+                            <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={120} duration={4} suffix="+"></CountUp>
-                            </h4>
+                            </h2>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Team Members</span>
                         </div>
                     </div>
@@ -112,10 +112,10 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
-                            <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                        <div className="pl-4">
+                            <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={350} duration={4} suffix="+"></CountUp>{' '}
-                            </h4>
+                            </h2>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Happy Clients</span>
                         </div>
                     </div>
@@ -149,10 +149,10 @@ const CounterComponent = (props: any) => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="ltr:pl-4 rtl:pr-4">
-                            <h4 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
+                        <div className="pl-4">
+                            <h2 className="pb-2.5 text-4xl font-black leading-none transition dark:text-white dark:group-hover:text-black">
                                 <CountUp start={0} end={1254} duration={4} suffix="+"></CountUp>{' '}
-                            </h4>
+                            </h2>
                             <span className="font-bold text-black transition dark:text-gray dark:group-hover:text-black">Project Done</span>
                         </div>
                     </div>

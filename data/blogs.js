@@ -1,9 +1,247 @@
-export const blogs = {
+const blogs = {
+  "7-essential-ui-design-tips-for-better-typography-and-spacing":{
+        "date": "August 3, 2023",
+        "title": "7 Essential UI Design Tips for Better Typography and Spacing",
+        "subtitle": "A comprehensive guide to refining your User Interface design skills with proven techniques.",
+        "description":"Unlock the potential of your UI design with our seven essential tips. Learn the importance of line height, letter spacing, text alignment, text width, hierarchy, spacing, and consistency.",
+        "picture": "/assets/blog/7-ui-rules.webp",
+        "time": "2 min",
+        "content":`
+User Interface (UI) design is a subtle craft. The difference between a good and a bad design may seem apparent at first glance, but discerning why one design looks better than another can be elusive. The secret often lies in how we handle text and use space in our layouts. Here are six practical tips that will help improve your UI design with regards to typography and spacing:
+
+## 1. Adjust Your Line Height
+
+One of the fastest ways to go from poor to professional design is by adjusting line height—the space between lines of text. As a rule of thumb, headings typically have a line height of 1.1 to 1.3 times the text size, while body text has a line height of 1.3 to 1.5 times the text size.
+
+## 2. Play with Letter Spacing
+
+The distance between characters in your text—letter spacing—can greatly influence the design. For headings, consider using negative letter spacing for a sleek, crisp look. However, avoid using it excessively for body text as it could decrease readability.
+
+## 3. Be Wise with Text Alignment
+
+Avoid long, center-aligned paragraphs as they slow down reading speed. For text that spans more than three lines, stick to left alignment. Also, it's crucial not to mix alignment types between headings and body text.
+
+## 4. Maintain a Suitable Text Width
+
+According to a UX study by the Baymard Institute, long lines of text can intimidate users and discourage them from reading. This can negatively impact conversions. Aim for a text width that accommodates around 50 to 75 characters for body text, which is roughly 600 pixels on a desktop screen.
+
+## 5. Create Clear Text Hierarchy
+
+Overuse of text sizes to indicate hierarchy can make designs look chaotic. Try sticking to two different font sizes and use font weight and subtle color changes to indicate hierarchy.
+
+## 6. Consider Spacing Between Text Elements
+
+White space—or simply 'space'—is an active element in design that should be carefully considered. Applying a relationship rule to UI design can help; if elements have a closer relationship, they should be positioned closer to each other.
+
+
+
+In the competitive world of UI design, these tips can give your layouts a noticeable lift, making them not only aesthetically pleasing but also more user-friendly. If you're considering scaling up your software development team to take your UI design to the next level, explore the benefits of outsourcing in our recent blog post ["Why Outsourcing Software Development Can Benefit Your Business"](https://www.vasilkoff.com/blog/Why-Outsourcing).
+        `
+    },
+    "seo-rich-snippets-google": {
+      "date": "May 30, 2023",
+      "title": "Step-by-Step: Implementing Structured Data for Better SEO",
+      "subtitle": "SEO Rich Snippets for Google",
+      "description": "While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort",
+      "picture": "/assets/blog/seo-2.webp",
+      "time": "3 min",
+      "content":`
+In the vast landscape of SEO, staying ahead means not just keeping up with the trends, but leveraging every available tool at your disposal. One such powerful yet often overlooked tool is structured data. By understanding and implementing structured data, you can boost your SEO and significantly enhance your visibility on search engine results pages.
+
+So, what exactly is structured data? In simple terms, it's a specific format of HTML code that helps search engines understand your website's content. But its real power lies in its ability to create "rich snippets" — search results that include additional features or information, such as reviews, images, or site links. These rich snippets can make your site stand out in the search results, potentially leading to higher click-through rates and increased web traffic.
+
+In this article, we'll take a deep dive into the world of structured data. We'll explore what it is, why it's crucial for your SEO strategy, and most importantly, provide a step-by-step guide on how to implement structured data on your website for better SEO. Whether you're an SEO newbie or a seasoned webmaster, understanding and using structured data can provide a significant boost to your website's performance.
+
+By the end of this article, you'll have a clear understanding of structured data and the tools you need to implement it. Not only that, but you'll be well-equipped to start reaping the benefits of richer search results and improved SEO. So, let's get started on the path to unlocking the true potential of your website's SEO with structured data.      
+
+## Understanding Structured Data 
+
+Before we dive into the implementation of structured data, it's crucial to first understand what it is and how it works. In essence, structured data is a standardized format for providing information about a page and classifying its content. This classification allows search engines like Google to better understand what's on the page, enabling them to display more detailed and useful search results in the form of rich snippets.
+
+Structured data is implemented by using specific markup schemas, essentially a kind of dictionary or vocabulary that search engines understand. The most commonly used vocabulary for structured data is Schema.org, a collaborative effort by Google, Bing, Yahoo, and Yandex. Schema.org provides a collection of shared vocabularies that webmasters can use to markup their pages in ways that can be understood by the major search engines.
+
+Structured data can be encoded using various formats, but the three most common are Microdata, RDFa, and JSON-LD. Without going into too much technical detail:
+
+1. **Microdata**: An open-community HTML specification used to nest structured data within HTML content.
+2. **RDFa**: Resource Descriptive Framework in Attributes, another HTML5 extension that supports linked data.
+3. **JSON-LD**: JavaScript Object Notation for Linked Data, a method of encoding Linked Data using JSON. 
+
+Out of these, JSON-LD is currently the most recommended format due to its ease of implementation and its separation from the body content. However, Google supports all three formats, and any can be used to implement structured data.
+
+## How to Choose the Right Schema and Implement It
+
+Choosing the right schema for your content is a crucial part of implementing structured data. Schema.org provides a vast library of schemas that range from broad categories like 'Article', 'Book', and 'Product' to more niche categories like 'AutoDealer', 'Diet', or 'TVSeries'. The schema you choose should accurately reflect the main content of your page.
+
+So how do you determine the right schema? Thankfully, there are several tools available to make this process easier.
+
+**Google’s Structured Data Markup Helper** is a great tool designed to help newcomers get started with structured data. It guides you through the process of generating structured data markup by asking you to tag elements on your webpage. You simply select a data type that fits your content, enter your webpage URL, and start tagging elements on the page. This interactive process can make it easier to understand what each schema represents. You can find it here: [Google's Structured Data Markup Helper](https://www.google.com/webmasters/markup-helper/u/0/)
+
+Alternatively, you can use **Merkle’s Schema Markup Generator**. This tool offers a step-by-step form to fill out that generates the correct JSON-LD markup. While you need to have a basic understanding of the types of information each schema requires, this tool simplifies the creation of the markup itself. You can find it here: [Merkle’s Schema Markup Generator](https://technicalseo.com/tools/schema-markup-generator/)
+
+Remember, the purpose of structured data is to help search engines understand your content. Choose the most specific schema that accurately describes your content, but don't overcomplicate things. It's better to implement a simpler, broader schema correctly than a specific schema incorrectly.
+
+Once you've created your structured data markup and added it to your website, it's essential to test it. You can use **Google’s Rich Results Test** for this. Simply enter your URL into the tool, and it will check if your page is eligible for rich results. You can find it here: [Google's Rich Results Test](https://search.google.com/test/rich-results)
+
+These tools make it easier to choose the right schema, generate the correct markup, and test your implementation. However, it’s still essential to have an understanding of what structured data is and how it works to ensure you’re using it effectively.
+
+## Implementing Structured Data on Your Website
+
+To enhance your visibility on search engine results pages and potentially improve your SEO performance, you'll want to implement structured data on your website. For businesses, two particularly relevant types of schema are "Organization" and "LocalBusiness". Here's a step-by-step guide to adding these schemas to your website:
+
+**1. Understand the Structure of "Organization" and "LocalBusiness" Schemas**
+
+Before you start implementing these schemas, it's important to understand their structure. You can view the details for [Organization](https://schema.org/Organization) and [LocalBusiness](https://schema.org/LocalBusiness) on Schema.org. You'll see a list of properties that you can include for each schema. Some of these are required, while others are optional but recommended.
+
+**2. Generate Your Structured Data Markup**
+
+You can use online tools to help generate your structured data markup, such as Google’s Structured Data Markup Helper or Merkle’s Schema Markup Generator. They guide you through a step-by-step process to generate the correct JSON-LD or Microdata markup for your chosen schema.
+
+**3. Add the Markup to Your Website's HTML**
+
+Once you have your structured data markup, you need to add it to your website. If you're using a CMS like WordPress, you may be able to use a plugin to add structured data. Otherwise, you'll need to add the markup directly to the HTML of your website. This typically involves adding the markup to the &lt;head&gt; section of your website's HTML.
+
+**4. Test Your Markup**
+
+After implementing the structured data, use Google's Rich Results Test to check if your page is eligible for rich results. This tool will show any errors in your markup that might prevent it from being recognized by search engines.
+
+Remember, implementing structured data can significantly improve your SEO performance, but it's not a one-time task. You should regularly review and update your structured data to ensure it remains accurate and relevant.
+
+Implementing structured data can seem complex at first, but with practice, you'll find it becomes a standard part of your SEO strategy. Happy structuring!
+
+---
+
+While implementing structured data is something you can definitely do on your own, it might be helpful to have professionals on your side, especially if your website is complex or if you have specific SEO goals in mind. At [Vasilkoff Ltd](https://vasilkoff.com/), we have a team of experts who can help you implement structured data effectively to boost your search engine visibility and performance. Feel free to reach out to us for a consultation!
+
+## Common Mistakes to Avoid When Implementing Structured Data
+
+While implementing structured data is an effective way to enhance your SEO strategy, there are some common mistakes that you should avoid:
+
+**1. Incorrect or Incomplete Implementation**
+
+The most common mistake is incorrect or incomplete implementation of the markup. For example, using the wrong type of schema or not including all required properties can lead to your structured data not being recognized or used by search engines. Be sure to carefully review the documentation for your chosen schema and follow the guidelines closely.
+
+**2. Overuse of Structured Data**
+
+While structured data is helpful, it's important not to overdo it. Adding unnecessary or irrelevant structured data can be seen as spammy by search engines and could lead to your site being penalized. Use structured data where it's relevant and provides value to the user.
+
+**3. Ignoring Errors and Warnings**
+
+After adding structured data to your website, it's crucial to use a tool like Google's Rich Results Test to check for errors or warnings. Ignoring these can lead to your structured data not being used by search engines and could result in missed opportunities for enhanced SEO.
+
+**4. Not Keeping Up With Changes**
+
+Structured data is not a set-it-and-forget-it kind of thing. Search engines frequently update their guidelines and the types of structured data they support. It's essential to stay up-to-date with these changes to ensure your structured data continues to provide value.
+
+## Conclusion
+
+Implementing structured data on your website can significantly enhance your SEO and improve your visibility on search engine results pages. It's a vital tool in your digital marketing toolkit, enabling you to communicate effectively with search engines and help them understand your content. Remember, choosing the correct schema, avoiding common mistakes, and keeping up with changes are essential for successful implementation.
+
+While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort. Don't hesitate to reach out to SEO professionals like us at [Vasilkoff Ltd](https://www.vasilkoff.com/contact-us) for help. We're here to ensure your structured data strategy is robust, relevant, and effective. Happy structuring!
+
+`
+    },
+
+    "introducing-smrtAI-top": {
+        "date": "May 4, 2023",
+        "title": "Introducing smrtAI.top: Empowering Businesses with Intelligent Live Chat and Customizable Chatbots",
+        "subtitle": "Revolutionizing Customer Engagement: Introducing **smrtAI.top** - Your Intelligent Live Chat and Customizable Chatbot Solution",
+        "description": "Introducing smrtAI.top: The game-changing solution that empowers businesses to automate customer interactions, provide personalized support, and reach customers across multiple channels.",
+        "picture": "/assets/images/ofc.png",
+        "time": "1 min",
+        "content": 
+`We are thrilled to announce that Vasilkoff Cy Ltd, a trusted provider of software development services, is embarking on an exciting new project - [smrtAI.top](https://smrtAI.top)
+
+As part of our commitment to delivering innovative solutions, we are developing **smrtAI.top**, a comprehensive platform that revolutionizes the way businesses engage with their customers through live chat and chatbot technology. With smrtAI.top, we aim to empower businesses with intelligent, easy-to-use, and customizable chatbots that enhance customer interactions and drive growth.
+
+## What is smrtAI.top?
+**smrtAI.top** is a SaaS platform that offers businesses a user-friendly and efficient solution for incorporating live chat and chatbot capabilities into their websites and messaging channels. Our platform leverages the power of OpenAI APIs to deliver sophisticated conversational capabilities, enabling businesses to automate customer interactions while maintaining a personalized touch. With **smrtAI.top**, businesses can engage with customers in real-time, streamline communication across multiple channels, and provide exceptional customer support.
+
+## Key Features and Benefits:
+
+### Ease-of-Use: 
+
+**smrtAI.top** is designed with a focus on simplicity, ensuring that even non-technical users can easily set up and deploy the live chat widget without complex coding requirements.
+
+### No Registration Required: 
+
+Unlike many other services, **smrtAI.top** eliminates the need for initial registration, allowing businesses to start engaging with their customers in real-time immediately.
+
+### Powered by OpenAI APIs: 
+
+Our chatbot is backed by the powerful OpenAI APIs, enabling it to understand and respond to a wide range of customer inquiries effectively and accurately.
+
+### Affordable Freemium Model: 
+
+We offer a freemium business model, providing businesses with the opportunity to use our Live Chat widget for free. Businesses can choose to upgrade to access additional features and integrations, making our platform an affordable option for businesses of all sizes.
+
+### Multichannel Integration: 
+
+**smrtAI.top** seamlessly integrates with popular messaging platforms, including email, Facebook Messenger, Instagram, WhatsApp, and Telegram. This ensures businesses can reach their customers across various channels, enhancing engagement and customer satisfaction.
+
+### Customizable Chatbot: 
+
+With **smrtAI.top**, businesses can create a fully customized chatbot tailored to their specific needs. From defining custom bot scripts to configuring conversational flows and incorporating industry-specific terminology, businesses can provide a personalized and engaging chatbot experience.
+
+## Upcoming Launch:
+We are excited to share that the development of **smrtAI.top** is well underway, and we are committed to launching the platform in September 2023. Our team of experienced developers and AI specialists is dedicated to crafting a robust and reliable solution that will exceed the expectations of our customers.
+
+
+`
+    },
+
+
+    "Tools-Services-and-Tips": {
+        "date": "May 3, 2023",
+        "title": "Building a High-Quality Website: Tools, Services, and Tips",
+        "subtitle": "Crafting an Outstanding Online Presence",
+        "description": "Featuring essential tools, services, and tips for a seamless user experience, engaging content, and efficient functionality.",
+        "picture": "/images/b2p1.png",
+        "time": "1 min",
+        "content": 
+`Creating a top-notch website is essential for the success of your business in the digital era. At Vasilkoff Ltd, we believe that a great website goes beyond aesthetics and encompasses a seamless user experience, valuable content, and efficient functionality. To help you achieve your goals, we've prepared a comprehensive checklist, including tools, services, and tips for creating a high-quality website.
+
+## 1. Clear objectives and target audience:
+Identify your website's purpose and target audience to create tailored content and design elements. Use tools like Google Analytics (https://analytics.google.com/) and Facebook Audience Insights (https://www.facebook.com/business/insights/tools/audience-insights) to gather demographic data and understand your audience's preferences.
+
+## 2. Responsive design:
+Ensure your website displays correctly across devices and screen sizes. Use frameworks like Bootstrap (https://getbootstrap.com/) for responsive design and Google's Mobile-Friendly Test (https://search.google.com/test/mobile-friendly) to verify mobile compatibility.
+
+## 3. User-friendly navigation:
+Create a well-structured, intuitive navigation system using descriptive menu labels, breadcrumbs, and search functionality. Try usability testing tools like Hotjar (https://www.hotjar.com/) to identify areas for improvement and optimize your site's navigation.
+
+## 4. Fast-loading pages:
+Optimize your website's performance with tools like Google PageSpeed Insights (https://developers.google.com/speed/pagespeed/insights/) and GTmetrix (https://gtmetrix.com/). Compress images using TinyPNG (https://tinypng.com/) and minify code with Minify (https://www.minifier.org/). Choose a reliable hosting service, such as SiteGround (https://www.siteground.com/) or Bluehost (https://www.bluehost.com/).
+
+## 5. High-quality content:
+Craft engaging, informative content with proper keyword optimization. Use tools like Google's Keyword Planner (https://ads.google.com/home/tools/keyword-planner/) and Yoast SEO (https://yoast.com/wordpress/plugins/seo/) to improve search engine visibility.
+
+## 6. Compelling visuals:
+Enhance user engagement with high-quality images, videos, and infographics. Source visuals from stock photo websites like Unsplash (https://unsplash.com/) and Pexels (https://www.pexels.com/), and create custom graphics with Canva (https://www.canva.com/).
+
+## 7. Strong call-to-action (CTA) elements:
+Guide users towards desired actions with clear CTAs. Use design tools like Adobe XD (https://www.adobe.com/products/xd.html) or Sketch (https://www.sketch.com/) to create visually appealing buttons, banners, and links.
+
+## 8. Security measures:
+Implement security features, such as SSL certificates from Let's Encrypt (https://letsencrypt.org/) and secure logins with two-factor authentication tools like Google Authenticator (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&gl=US). Keep software up to date and monitor for vulnerabilities using services like Sucuri (https://sucuri.net/).
+
+## 9. Usability testing:
+Regularly test your website's usability with tools like UserTesting (https://www.usertesting.com/) and BrowserStack (https://www.browserstack.com/), checking for broken links, browser compatibility, and navigation issues.
+
+## 10. Analytics and tracking:
+Use Google Analytics (https://analytics.google.com/) to monitor your website's performance and gain insights into user behavior. Implement tracking codes and set up conversion goals to make data-driven decisions for ongoing improvement.
+
+### Conclusion:
+
+By following this comprehensive checklist and leveraging the recommended tools and services, you can create a high-quality website`
+    },
+
     "Why-Outsourcing": {
+        "date": "March 16, 2023",
         "title": "Why Outsourcing Software Development Can Benefit Your Business",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
-        "picture": "/assets/images/blog-3.png",
+        "subtitle": "Rewards of Outsourced Software Development",
+        "description": "How Your Business Can Reap the Rewards of Outsourced Software Development.",
+        "picture": "/assets/images/project-9.png",
+        "time": "5 min",
         "content":
 `In today's digital age, software development has become a crucial part of business operations. Whether you're looking to develop a new web or mobile application or need to upgrade your existing software, it can be a time-consuming and resource-intensive process. This is where outsourcing software development can be beneficial for your business.
 
@@ -28,10 +266,12 @@ In conclusion, outsourcing software development can be a valuable strategy for b
 `,
     },
     "Pros-and-Cons-of-Outstaffing": {
+        "date": "March 16, 2023",
         "title": "The Pros and Cons of Outstaffing Software Development",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "externalizing software development",
+        "description": "Evaluating the advantages and drawbacks of externalizing software development.",
         "picture": "/images/b1p1.jpg",
+        "time": "1 min",
         "content":
 `Outstaffing software development is the process of hiring remote developers who work exclusively for your organization but are employed by a third-party company. In this model, the outstaffing company takes care of administrative tasks related to employment, such as payroll and benefits. Here are some of the key pros and cons of outstaffing software development:
 
@@ -71,10 +311,12 @@ In conclusion, outstaffing software development can be a viable solution for bus
 
 
     "Right-Outsourcing-Company": {
+        "date": "March 16, 2023",
         "title": "How to Choose the Right Outsourcing Company for Your Software Development Needs",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "outsourcing partner for your requirements",
+        "description": "Selecting the ideal software development outsourcing partner for your requirements.",
         "picture": "/images/b1p2.jpg",
+        "time": "1 min",
         "content": 
 `Outsourcing software development has become a popular option for businesses looking to develop software solutions without having to hire and manage an in-house development team. However, choosing the right outsourcing company can be a daunting task. Here are some key factors to consider when selecting an outsourcing company for your software development needs:
 
@@ -101,12 +343,11 @@ In conclusion, choosing the right outsourcing company for your software developm
 },
 
 
-
-
     "Communication-and-Collaboration": {
+        "date": "March 16, 2023",
         "title": "Maximizing Communication and Collaboration with Outsourced Development Teams",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "enhancing interaction and teamwork",
+        "description": "Enhancing interaction and teamwork in outsourced software development projects.",
         "picture": "/images/b1p3.jpg",
         "content": 
 `Outsourcing software development can provide many benefits, such as cost savings and access to a larger talent pool. However, effective communication and collaboration are critical for successful outsourcing. Here are some tips for maximizing communication and collaboration with outsourced development teams:
@@ -136,10 +377,12 @@ Fostering a sense of teamwork is important for creating a collaborative and prod
 
 
     "Data-Security": {
+        "date": "March 16, 2023",
         "title": "The Importance of Data Security in Outsourcing and Outstaffing Software Development",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "prioritizing data protection",
+        "description": "Prioritizing data protection in outsourced and outstaffed software development processes.",
         "picture": "/images/b1p4.jpg",
+        "time": "1 min",
         "content": 
 `Data security is a critical concern in the world of software development, particularly when it comes to outsourcing and outstaffing. When you entrust a third-party with your sensitive data, you want to ensure that it remains safe and secure. Here are some reasons why data security is so important when outsourcing and outstaffing software development, along with some real-life examples that highlight the importance of this issue.
 ## Protecting sensitive data
@@ -165,10 +408,12 @@ In conclusion, data security is a critical concern when outsourcing and outstaff
 
 
     "Outsourcing-vs-Outstaffing": {
+        "date": "March 16, 2023",
         "title": "Outsourcing vs. Outstaffing: Which is the Best Fit for Your Business?",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
-        "picture": "/images/b2p1.png",
+        "subtitle": "outsourcing or outstaffing",
+        "description": "Which option is most suitable for your business: outsourcing or outstaffing?",
+        "picture": "/assets/images/creative-agency.png",
+        "time": "1 min",
         "content": 
 `Outsourcing and outstaffing are two popular models for accessing talent outside of your organization. Both options can provide businesses with access to specialized skills, cost savings, and flexibility. However, they differ in their approach and may be better suited to certain business needs. Here are some creative examples to help you determine which model is the best fit for your business.
 
@@ -194,10 +439,12 @@ In conclusion, both outsourcing and outstaffing can be beneficial for businesses
 
 
     "Nearshore-Outsourcing": {
+        "date": "March 16, 2023",
         "title": "The Benefits of Nearshore Outsourcing for Software Development",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "nearshore outsourcing",
+        "description": "Advantages of nearshore outsourcing in software development.",
         "picture": "/images/hero-768x768.jpg",
+        "time": "1 min",
         "content": 
 `Nearshore outsourcing is the practice of hiring a third-party company located in a nearby country or region to handle software development projects. This model has become increasingly popular in recent years, and for good reason. Here are some of the key benefits of nearshore outsourcing for software development:
 
@@ -225,11 +472,13 @@ In conclusion, nearshore outsourcing can provide many benefits for businesses lo
 
 
 
-    "Challenges-and-Solutions ": {
+    "challenges-and-solutions": {
+        "date": "March 16, 2023",
         "title": "Common Challenges and Solutions for Outsourcing Software Development Projects",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "outsourcing software development projects",
+        "description": "Typical difficulties and remedies for outsourcing software development projects.",
         "picture": "/images/b1p1.jpg",
+        "time": "2 min",
         "content": 
 `Outsourcing software development has become increasingly popular as businesses look to access specialized skills and cost savings. However, outsourcing also presents unique challenges that can impact project success. Here are some common challenges and solutions for outsourcing software development projects.
 
@@ -259,10 +508,12 @@ In conclusion, outsourcing software development presents unique challenges that 
 
 
     "Ensure-Quality": {
+        "date": "March 16, 2023",
         "title": "How to Ensure Quality When Outsourcing or Outstaffing Software Development",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
-        "picture": "/assets/images/blog-1.png",
+        "subtitle": "guarantee quality when outsourcing",
+        "description": "Ways to guarantee quality when outsourcing or outstaffing software development.",
+        "picture": "/assets/images/gallery-1.png",
+        "time": "2 min",
         "content": 
 `Outsourcing or outstaffing software development can provide many benefits, including access to specialized skills, cost savings, and flexibility. However, maintaining quality can be a challenge, particularly when working with a third-party team. Here are some tips on how to ensure quality when outsourcing or outstaffing software development.
 
@@ -291,10 +542,12 @@ In conclusion, maintaining quality when outsourcing or outstaffing software deve
 
 
     "Navigating-Cultural-Differences": {
+        "date": "March 16, 2023",
         "title": "Navigating Cultural Differences in Outsourcing and Outstaffing Software Development",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "cultural distinctions in outsourcing",
+        "description": "Managing cultural distinctions in outsourcing and outstaffing software development.",
         "picture": "/assets/images/blog-2.png",
+        "time": "2 min",
         "content": 
 `Outsourcing and outstaffing software development can provide many benefits, including access to specialized skills, cost savings, and flexibility. However, navigating cultural differences can be a challenge, particularly when working with a team located in a different region or country. Here are some tips on how to navigate cultural differences in outsourcing and outstaffing software development.
 
@@ -319,10 +572,12 @@ In conclusion, navigating cultural differences in outsourcing and outstaffing so
 
 
     "Measuring-the-Success": {
+        "date": "March 16, 2023",
         "title": "Key Metrics for Measuring the Success of Outsourced Software Development Projects",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "indicators to measure the success of software development",
+        "description": "Important indicators to measure the success of software development projects that are outsourced.",
         "picture": "/assets/images/blog-1.png",
+        "time": "2 min",
         "content": 
 `Measuring the success of outsourced software development projects can be challenging, particularly when working with a third-party team. However, there are several key metrics that businesses can use to evaluate the success of these projects. Here are some key metrics for measuring the success of outsourced software development projects:
 
@@ -350,11 +605,13 @@ In conclusion, measuring the success of outsourced software development projects
 
 
 
-    "Future-Outsourcing-and-Outstaffing": {
+"Future-Outsourcing-and-Outstaffing": {
+        "date": "March 17, 2023",
         "title": "The Future of Software Development Outsourcing and Outstaffing: Trends to Watch",
-        "subtitle": "our four step process",
-        "description": "Our digital strategy ensures a well maintained digital system for your business.",
+        "subtitle": "trends to observe in outsourcing",
+        "description": "Upcoming trends to observe in outsourcing and outstaffing for software development.",
         "picture": "/images/b1p1.jpg",
+        "time": "2 min",
         "content": 
 `Software development outsourcing and outstaffing have become increasingly popular in recent years, and the industry is constantly evolving. Here are some trends to watch for the future of software development outsourcing and outstaffing:
 
@@ -378,7 +635,36 @@ Cloud computing is becoming increasingly popular in software development, and ou
 
 In conclusion, the future of software development outsourcing and outstaffing is likely to be shaped by trends such as increased adoption of AI, emergence of new outsourcing destinations, focus on agile development, increased focus on cybersecurity, rise of remote work, and increased use of cloud computing. By staying on top of these trends, businesses can take advantage of the benefits of outsourcing and outstaffing and stay ahead of the competition.
 `
-    }
+    },
+    "boc-hackathon-fintech-3-0":{
+        "date": "May 30, 2020",
+        "title": "A Remarkable Achievement: Vasilkoff at BOC Hackathon Fintech 3.0",
+        "subtitle": "BOC Hackathon Fintech 3.0: 2nd prise for Team Vasilkoff",
+        "description": "Team Vasilkoff's innovative solution, SmartWallet, secures the 2nd prize at the prestigious BOC Hackathon Fintech 3.0 event in Cyprus.",
+        "picture": "/images/boc-hackathon3.jpg",
+        "time": "2 min",
+        "content":`
+When it comes to cutting-edge Fintech solutions, Vasilkoff has always been at the forefront, as our latest accomplishment at the BOC Hackathon Fintech 3.0 proves. This event, hosted from October 18th to 20th at the IDEA Innovation Center in Nicosia, brought together coders and startups to develop Minimum Viable Products (MVPs) for Fintech innovation.
 
+Dr. Demetris Antoniades, the leader of the Digitally Enhanced Urban Environments (DARE) MRG, participated as a mentor at the hackathon and shared his extensive expertise. The Bank of Cyprus facilitated the teams by offering its upgraded open banking APIs and SDK, enabling integration of innovative features such as secure payment processing or data utilization services.
+
+In preparation for this event, two open API days were held in Limassol and Nicosia on October 9 and 10. Participants were given insights into the latest Fintech trends and the Bank of Cyprus's advanced APIs.
+
+Vasilkoff, represented by a dedicated team of three professionals, [Maxim Vasilkov](/team/maxim-vasilkov), [Anastasia Sarlidou](/team/anastasia-sarlidou), and [Simon Papazov](/team/simon-papazov), made an impressive showing. Their ingenuity shone through when they developed the 'SmartWallet', an inventive system bridging the gap between traditional banking and electronic contracts.
+
+SmartWallet provides a fast, cost-effective means for businesses and individuals to access a wide range of financial services, all while complying with the existing laws of Cyprus. This innovation was so well-received that it won the team the second prize, an award of €4,000!
+
+For more information about the event and Vasilkoff's achievement, check out this [article in Greek](https://inbusinessnews.reporter.com.cy/article/2019/10/24/393375/me-epitukhia-kai-phetos-to-boc-hackathon-fintech-30-tes-trapezas-kuprou/).
+
+As a company dedicated to pushing boundaries in the Fintech sector, this achievement is a testament to our commitment and passion. We remain eager to continue creating disruptive solutions and leave our mark in the fast-paced world of financial technology.
+
+        `
+
+    }
     
 };
+
+const getBlogIds = () => Object.keys(blogs);
+
+exports.getBlogIds = getBlogIds;
+exports.blogs = blogs;
