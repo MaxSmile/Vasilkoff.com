@@ -240,7 +240,7 @@ By following this comprehensive checklist and leveraging the recommended tools a
         "title": "Why Outsourcing Software Development Can Benefit Your Business",
         "subtitle": "Rewards of Outsourced Software Development",
         "description": "How Your Business Can Reap the Rewards of Outsourced Software Development.",
-        "picture": "/assets/images/project-9.png",
+        "picture": "/assets/blog/project-9.png",
         "time": "5 min",
         "content":
 `In today's digital age, software development has become a crucial part of business operations. Whether you're looking to develop a new web or mobile application or need to upgrade your existing software, it can be a time-consuming and resource-intensive process. This is where outsourcing software development can be beneficial for your business.
