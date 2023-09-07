@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const Header = (props: any) => {
     const router = useRouter();
@@ -14,17 +15,12 @@ const Header = (props: any) => {
         }
     };
 
-    const [showSearch, setShowSearch] = useState(false);
-    const toggleSearch = () => {
-        setShowSearch(!showSearch);
-    };
-
     return (
-        <header className={`sticky top-0 z-50 transition bg-white duration-300 ${props.className}`}>
+        <header className='sticky top-0 z-50 transition bg-white duration-300'>
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/images/logo-vasilkoff.webp" alt="plurk" className="h-12" width={"104px"} height={"48px"} />
+                        <Image src="/images/logo-vasilkoff.webp" alt="Vasilkoff logo" className="h-12" width={104} height={48} />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
@@ -49,16 +45,6 @@ const Header = (props: any) => {
                                         Home
                                     </Link>
                                 </li>
-                                {/* <li role='menuitem'>
-                                    <Link href="/services" className={router.pathname === '/services' ? 'active' : ''}>
-                                        Services
-                                    </Link>
-                                </li> 
-                                <li role='menuitem'>
-                                    <Link href="/crypto" className={router.pathname === '/crypto' ? 'active' : ''}>
-                                        Crypto
-                                    </Link>
-                                </li>*/}
                                 <li  role='menuitem'>
                                     <Link
                                         href="/portfolio"
@@ -89,9 +75,6 @@ const Header = (props: any) => {
                                         About Us
                                     </Link>
                                 </li>
-                                
-
-                     
                             </ul>
                         </div>
                         

@@ -26,7 +26,7 @@ const Index = (props: any) => {
                                     style={{ maxWidth: "840px", margin: "19px auto" }}>
                                     We offer bespoke web and mobile development tailored to your business needs, with cutting-edge Blockchain and AI solutions that drive growth and unlock opportunities.
                                 </div>
-                                <Link href="/#talkToUs" className="btn mx-auto mt-2 block w-fit text-primary"
+                                <Link href="/contact-us" className="btn mx-auto mt-2 block w-fit text-primary"
                                 >
                                     talk to us
                                 </Link>
