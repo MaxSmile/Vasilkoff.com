@@ -1,11 +1,11 @@
 const blogs = {
-    "7-essential-ui-design-tips-for-better-typography-and-spacing":{
+    "ai-in-business":{
         "date": "September 7, 2023",
         "title": "AI in Business: How SmartAIChats & AI-Driven Apps Boost ROI",
         "subtitle": "Unveil the power of AI-driven applications. Learn how AI-powered business solutions elevate ROI and efficiency.",
         "description":"Discover the transformative power of AI with SmartAIChats – a leading AI-powered LiveChat widget. Dive into AI-driven mobile apps, business applications, and understand their unparalleled potential for startups and SMEs.",
         "picture": "/assets/blog/7-ui-rules.webp",
-        "time": "2 min",
+        "time": "3 min",
         "content":`**Economic Potential of AI for Startups and SMEs**
 
 In the fast-evolving landscape of the digital world, AI has taken a central role, promising not just innovation but also tangible economic benefits. For startups and SMEs that are often constrained by resources and are in dire need of ways to optimize and scale, understanding the economic potential of AI is not just beneficial – it's essential.
