@@ -4,7 +4,7 @@ const blogs = {
         "title": "AI in Business: How SmartAIChats & AI-Driven Apps Boost ROI",
         "subtitle": "Unveil the power of AI-driven applications. Learn how AI-powered business solutions elevate ROI and efficiency.",
         "description":"Discover the transformative power of AI with SmartAIChats – a leading AI-powered LiveChat widget. Dive into AI-driven mobile apps, business applications, and understand their unparalleled potential for startups and SMEs.",
-        "picture": "/assets/blog/7-ui-rules.webp",
+        "picture": "/assets/blog/ai-mobile.webp",
         "time": "3 min",
         "content":`**Economic Potential of AI for Startups and SMEs**
 
@@ -27,8 +27,6 @@ But it's not just about saving time. AI's impact on the bottom line is tangible.
 **User Engagement and Retention**
 
 In the realm of digital services and apps, user engagement is paramount. AI-driven applications cater to personalized user experiences. For example, AI-powered chatbots can provide instant, tailored responses to user queries, enhancing user satisfaction. This not only increases the time spent on a platform but also ensures users come back, improving retention rates.
-
-![Deciphering AI-Driven Apps](https://vasilkoff.com/assets/blog/ai-mobile.webp)
 
 **Deciphering AI-Driven Apps**
 
