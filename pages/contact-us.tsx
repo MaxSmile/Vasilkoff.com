@@ -49,27 +49,22 @@ const Contactus = () => {
 
             </Head>
 
-
-            {/* <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent py-14 dark:from-white/[0.03] lg:py-[100px]">
+            <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
-                        <div className="heading mb-6">
-                            <h2>Start working with us</h2>
-                        </div>
-                        <p className="text-lg font-bold">
-                        We provide outsourcing and outstaffing software development services
-                        </p>
-                        <div className="mt-12 flex items-center justify-between gap-4 font-extrabold sm:gap-7">
-                            <Link href="#outsourcing" className="btn w-full bg-secondary text-base capitalize text-white hover:bg-gray/10 hover:text-gray sm:text-lg">
-                                Outsourcing
-                            </Link>
-                            <Link href="#outstaffing" className="btn w-full bg-gray/10 text-base capitalize text-gray sm:text-lg">
-                                Outstaffing
-                            </Link>
+                        <div className="mb-6">
+                            <h1 className="blackheading">Contact Us Today</h1>
                         </div>
                     </div>
+                    <AIContacts />
                 </div>
-            </section> */}
+            </section>
+
+            
+
+            <OfficeSwiper />
+
+            
 
             {/* <section className="relative py-14 lg:py-[100px] xl:-mt-[100px]">
                 <div className="absolute top-0 z-[1] h-full w-full bg-white ltr:left-0 dark:bg-black xl:w-[85%] xl:rounded-r-[32px]"></div>
@@ -137,7 +132,7 @@ const Contactus = () => {
                 </div>
             </section> */}
 
-            <OfficeSwiper />
+            
 
 
             {/* <section className="py-14 lg:py-[100px]">
@@ -721,7 +716,7 @@ const Contactus = () => {
 
 
 
-            <AIContacts />
+           
 
         </div>
     );

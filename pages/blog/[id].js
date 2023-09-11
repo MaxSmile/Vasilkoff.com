@@ -30,7 +30,7 @@ const Blogdetail = ({ blog, slug }) => {
     return (
         <div>
             <Head>
-                <title>Blog: {blog.title} - Vasilkoff</title>
+                <title>{blog.title}</title>
                 <meta name="description" content={blog.description} />
                 <meta property="og:title" content={blog.title} />
                 <meta property="og:site_name" content="Vasilkoff Ltd" />

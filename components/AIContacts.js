@@ -55,8 +55,8 @@ export default function AIContacts() {
 
             <section className="bg-white my-10">
                 <Container>
-                    <h2 className="text-center text-3xl font-bold text-primary">Please, try our assistant manager chat</h2>
-                    <h2 className="text-center text-xl font-bold text-secondary mb-20">- AI powered -</h2>
+                    {/* <h2 className="text-center text-3xl font-bold text-primary">Please, try our assistant manager chat</h2> */}
+                    <h2 className="text-center text-xl font-bold text-secondary mb-20">Tell us more about your case</h2> 
                     <div className="relative z-10 lg:flex ">
 
                         <form onSubmit={e => { e.preventDefault(); submitMessage() }} className="rounded-3xl bg-white px-4 mb-12 lg:w-1/2 lg:px-8">
