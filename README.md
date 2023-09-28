@@ -9,30 +9,8 @@ NextJS repository of our company website
 `
 yarn create next-app
 `
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## SEO
-
 
 HIGH
 To improve the website experience for your visitors, it is recommended to eliminate any render-blocking resources on this webpage.
@@ -56,7 +34,7 @@ Consider moving inline CSS styles to an external stylesheet to improve site perf
 1. From the main page, you can click on the Price button to open the AI chat which suggests to make an estimation of the project and calculate the price, then we can sign an agreement, start the order and make prepaiments.
 2. Add smrtAI widget.
 3. Improve visuals of Portfolio: especially BellaChess and Calculator lock
-4. Add smrtAI to the portfolio
+4. Add smartAIChats.com and smrtAI.top to the portfolio
 5. Make a simialr page to https://lookmy.info/index.php?id=15862&show=58935
 6. Add more pages like lookmy.info
 7. Let's make http://preview.codecanyon.net/item/manager-resume-app/full_screen_preview/46341465?_ga=2.41351974.569631678.1688384657-633491467.1643048083 from https://codecanyon.net/item/manager-resume-app/46341465 
@@ -75,6 +53,11 @@ Consider moving inline CSS styles to an external stylesheet to improve site perf
 20. https://www.npmjs.com/package/react-vertical-timeline-component 
 21. Learn from https://combonetwork.io  and https://cocosbcx.io - where they show partners, other services usage etc
 22. Interesting how contact us done here https://nodereal.io/contact-us 
+23. DBML diagram to HTML - foliant slate
+24. HTML to MD and back
+25. JSON validate
+26. base64, md5, URL, sha256 encoding/decoding
+27. Strong password generator https://stackoverflow.com/a/64767873/2496986 https://stackoverflow.com/a/70262799/2496986 https://codepen.io/dev_loop/pen/vYYxvbz 
 
 ## Deployed on Vercel
 
