@@ -3,8 +3,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation, Autoplay } from 'swiper';
 import Link from 'next/link';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
 
 const ProjectSlider = (props: any) => {
 

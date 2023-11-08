@@ -1,8 +1,4 @@
-import Faq from '../components/Faq';
 import OfficeSwiper from '../components/OfficeSwiper';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
-import Link from 'next/link';
 import Head from 'next/head';
 import AIContacts from '../components/AIContacts';
 

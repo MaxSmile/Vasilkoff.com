@@ -1,16 +1,13 @@
-import Testimonial from '../components/Testimonial';
-import Faq from '../components/Faq';
+//import Testimonial from '../components/Testimonial';
+//import Faq from '../components/Faq';
 import CountUp from 'react-countup';
-import dynamic from 'next/dynamic';
-const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
+//import dynamic from 'next/dynamic';
+//const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 import Link from 'next/link';
 import Head from 'next/head';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
-import { Check, CheckCircle } from 'react-bootstrap-icons';
-import Contactus from './contact-us';
+
+import { CheckCircle } from 'react-bootstrap-icons';
 import AIContacts from '../components/AIContacts';
-import CounterComponent from '../components/CounterComponent';
 
 const Crypto = (props: any) => {
     // success chart
