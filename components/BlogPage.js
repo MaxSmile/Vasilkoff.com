@@ -1,3 +1,9 @@
+import Head from "next/head";
+import Link from "next/link";
+import { ArrowLeftCircle, Link45deg } from "react-bootstrap-icons";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import remarkGfm from "remark-gfm";
+
 const BlogPage = ({ blog, slug }) => {
     return (
         <div>
@@ -47,7 +53,7 @@ const BlogPage = ({ blog, slug }) => {
                     <div className="container">
                         <div className="relative w-full py-14 md:my-14 md:inline-block md:py-0 lg:my-[128px]">
                             <div className="heading relative mb-8 text-center lg:mb-0 lg:w-1/2 lg:text-left">
-                                <p className="!text-white py-4"><a href="/blog"><ArrowLeftCircle className="text-2xl" /></a></p>
+                                <p className="!text-white py-4"><a href="javascript:history.back()"><ArrowLeftCircle className="text-2xl" /></a></p>
                                 <h1 className="!text-white">{blog.title}</h1>
                                 <p className="!text-white py-4">
                                     <Link href="/team/maxim-vasilkov">
