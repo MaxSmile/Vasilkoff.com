@@ -75,7 +75,7 @@ const Footer = () => {
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460">+1-888-2614460</a></li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478">+442045772478</a></li>
                                 <li className="transition hover:text-shadow "><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
-                                <li className="transition hover:text-shadow "><Telegram className="inline-block" />&nbsp;<a class="text-sm" href="https://t.me/Vasilkoff" target="_blank" rel="noopener noreferrer" aria-label="Join Vasilkoff on Telegram (opens in a new tab)">
+                                <li className="transition hover:text-shadow "><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank" rel="noopener noreferrer" aria-label="Join Vasilkoff on Telegram (opens in a new tab)">
                                     Vasilkoff
                                 </a></li>
                             </ul>

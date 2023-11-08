@@ -1,12 +1,15 @@
-import Testimonial from '../components/Testimonial';
-import { useState } from 'react';
+
 import Link from 'next/link';
 import { Container } from 'react-bootstrap';
-import TeamMembers from "../components/TeamMembers";
-import Services from '../components/Services';
-import PricingCard from '../components/PricingCard';
-import AIContacts from '../components/AIContacts';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
+
+
+//const Testimonial = dynamic(() => import('../components/Testimonial'));
+const TeamMembers = dynamic(() => import('../components/TeamMembers'));
+const Services = dynamic(() => import('../components/Services'));
+const PricingCard = dynamic(() => import('../components/PricingCard'));
+const AIContacts = dynamic(() => import('../components/AIContacts'));
 
 const Index = (props: any) => {
     return (
