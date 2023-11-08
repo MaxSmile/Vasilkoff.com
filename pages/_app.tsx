@@ -2,16 +2,12 @@ import '../styles/tailwind.css';
 import type { AppProps } from 'next/app';
 import { Suspense } from 'react';
 import DefaultLayout from '../components/Layouts/DefaultLayout';
-
-import { Provider } from 'react-redux';
-import store from '../store/index';
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react'
 
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
-        <Provider store={store}>
             <Suspense>
                 <Head>
                 <meta charSet="UTF-8" />
@@ -55,8 +51,8 @@ export default function App({ Component, pageProps }: AppProps) {
                 <DefaultLayout>
                     <Component {...pageProps} />
                 </DefaultLayout>
+                <Analytics />
             </Suspense>
-            <Analytics />
-        </Provider>
+            
     );
 }

@@ -1,13 +1,14 @@
+
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: true,
+});
+
 /** @type {import('next').NextConfig} */
-//const withSitemap = require('next-sitemap') // require the next-sitemap package
 
-
-const nextConfig = {
+module.exports = withBundleAnalyzer({
     reactStrictMode: true,
     swcMinify: true,
     eslint: {
         ignoreDuringBuilds: true,
-    },
-};
-
-module.exports = nextConfig;
+    }
+});
