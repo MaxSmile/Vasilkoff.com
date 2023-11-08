@@ -45,6 +45,7 @@ const Contactus = () => {
 
             </Head>
 
+            <div id="talkToUs" className="relative -top-20">&nbsp;</div>
             <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">

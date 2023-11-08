@@ -1,8 +1,6 @@
 import Link from 'next/link';
-import { Container } from "react-bootstrap";
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
-import WhosAmungUs from "../WhosAmungUs";
 
 
 const Footer = () => {
@@ -10,7 +8,7 @@ const Footer = () => {
     return (
         <>
             <footer className="py-14 bg-black lg:py-[100px] text-light text-base">
-                <Container>
+                <div className="container">
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
                             <p className="py-4">
@@ -81,11 +79,11 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                </Container>
+                </div>
             </footer>
             <hr />
             <div className="py-5 bg-black">
-                <Container>
+                <div className="container">
                     <div className="items-center justify-between text-center text-shadow md:flex">
                         <div className="flex items-center gap-8">
                             <Link href="/terms-conditions" className="transition hover:text-light">
@@ -114,7 +112,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                </Container>
+                </div>
             </div>
         </>
     );

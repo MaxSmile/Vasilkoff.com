@@ -12,7 +12,7 @@ const Pagination = ({ limit, baseLink, current }) => {
                 return <>{current}</>
             } else return <>
                 &nbsp;
-                <Link className="text-primary bold" key={index} href={`${baseLink}/${item}`}>{item}</Link>
+                <Link className="text-primary bold" key={index} href={`${baseLink}/${item}`} aria-label={"Go to page "+item}>{item}</Link>
                 &nbsp;
             </>
         })}

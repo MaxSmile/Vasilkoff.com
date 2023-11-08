@@ -1,5 +1,4 @@
 import { useRef, useState } from 'react';
-import { Container } from 'react-bootstrap';
 import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
 import NoSSR from 'react-no-ssr';
@@ -52,9 +51,16 @@ export default function AIContacts() {
 
     return (
         <NoSSR>
-
+<section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
+                <div className="items-center justify-center lg:flex">
+                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="/assets/images/contact-text.webp" alt="Contact us" width={"393px"} height={"90px"} className="mx-auto sm:pt-4 xl:mx-0" />
+                    </div>
+                </div>
+            </section>
             <section className="bg-white my-10">
-                <Container>
+                <div className="container">
+
                     {/* <h2 className="text-center text-3xl font-bold text-primary">Please, try our assistant manager chat</h2> */}
                     <h2 className="text-center text-xl font-bold text-secondary mb-20">Tell us more about your case</h2> 
                     <div className="relative z-10 lg:flex ">
@@ -153,7 +159,7 @@ export default function AIContacts() {
 
                         </div>
                     </div>
-                </Container>
+                </div>
             </section>
         </NoSSR>
 
