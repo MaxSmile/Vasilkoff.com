@@ -23,7 +23,7 @@ const TeamMember = (
             </h2>
             <p className="text-sm font-bold">{position}</p>
             </Link> 
-            <p className="text-sm font-bold">Click to message: <Link href={"mailto:"+email}><EnvelopeAt className="inline-block" /></Link></p>
+            <p className="text-sm font-bold">Click to message: <Link href={"mailto:"+email} aria-label={`Email us at ${email}`}><EnvelopeAt className="inline-block" /></Link></p>
             
         </div>
     );

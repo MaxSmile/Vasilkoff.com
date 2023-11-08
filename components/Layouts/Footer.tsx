@@ -33,7 +33,7 @@ const Footer = () => {
                                         FAQs
                                     </Link>
                                 </li>
-                               
+
                             </ul>
                         </div>
 
@@ -52,7 +52,10 @@ const Footer = () => {
                                 <li className="transition hover:text-shadow "><Whatsapp className="inline-block" />&nbsp;<a className="text-sm" href="https://wa.link/drf9vm" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp for +35796253566 (opens in a new tab)">+35796253566</a></li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+35799169229" target="_blank" rel="noopener noreferrer" aria-label="Call by phone +35799169229 (opens in a new tab)">+35799169229</a></li>
                                 <li className="transition hover:text-shadow "><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:sp@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="sp@vasilkoff.com (opens in a new tab)">sp@vasilkoff.com</a></li>
-                                <li className="transition hover:text-shadow "><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank" rel="noopener noreferrer" aria-label="Address (opens in a new tab)"><span>Glastonos 12-14, 2nd Floor, Paphos&nbsp;8046</span></a></li>
+
+                                <li className="transition hover:text-shadow "><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank" rel="noopener noreferrer" aria-label="Visit Glastonos 12-14, 2nd Floor, Paphos 8046 on Google Maps (opens in a new tab)">
+                                    Glastonos 12-14, 2nd Floor, Paphos 8046
+                                </a></li>
 
                             </ul>
                             <p className="text-xs my-2">
@@ -72,7 +75,9 @@ const Footer = () => {
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460">+1-888-2614460</a></li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478">+442045772478</a></li>
                                 <li className="transition hover:text-shadow "><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
-                                <li className="transition hover:text-shadow "><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank"rel="noopener noreferrer" aria-label="Telegram (opens in a new tab)">Vasilkoff</a></li>
+                                <li className="transition hover:text-shadow "><Telegram className="inline-block" />&nbsp;<a class="text-sm" href="https://t.me/Vasilkoff" target="_blank" rel="noopener noreferrer" aria-label="Join Vasilkoff on Telegram (opens in a new tab)">
+                                    Vasilkoff
+                                </a></li>
                             </ul>
                         </div>
                     </div>
