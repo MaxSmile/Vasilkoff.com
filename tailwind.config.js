@@ -32,6 +32,7 @@ module.exports = {
             dark: '#1F0808',
             primary: '#990000',
             secondary: '#660000',
+            projects: '#525f7f',
             red: '#FF0000',
             gray: {
                 DEFAULT: '#333',

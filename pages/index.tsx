@@ -1,5 +1,4 @@
-import Testimonial from '../components/Testimonial';
-import { useState } from 'react';
+
 import Link from 'next/link';
 import { Container } from 'react-bootstrap';
 import TeamMembers from "../components/TeamMembers";
@@ -8,9 +7,11 @@ import PricingCard from '../components/PricingCard';
 import AIContacts from '../components/AIContacts';
 import Head from 'next/head';
 
+
 const Index = (props: any) => {
     return (
         <div className="overflow-x-hidden" id="bg">
+             
             <div className="overflow-hidden pt-[82px] sm:-mx-[250px] lg:-mx-[150px] lg:pt-[106px]" id="over">
                 <div className="relative" >
                     <div className="container" >
@@ -205,6 +206,7 @@ const Index = (props: any) => {
                 <meta name="description" content="Full-stack software development company. We offer outsourcing and outstaffing services for the development of web & mobile apps, handling projects from simple to complex." />
                 <link rel="canonical" href="https://vasilkoff.com" />
             </Head>
+            
         </div>
     );
 };

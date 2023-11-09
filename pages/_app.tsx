@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 import store from '../store/index';
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react'
-
+import SupportUkraineBanner from 'react-support-ukraine-banner';
+import 'react-support-ukraine-banner/dist/SupportUkraineBanner.css';
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -57,6 +58,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 </DefaultLayout>
             </Suspense>
             <Analytics />
+            <SupportUkraineBanner />
         </Provider>
     );
 }
