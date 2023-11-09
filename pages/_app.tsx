@@ -53,13 +53,8 @@ export default function App({ Component, pageProps }: AppProps) {
                     <Component {...pageProps} />
                 </DefaultLayout>
                 <Analytics />
+                <SupportUkraineBanner />
             </Suspense>
-<<<<<<< HEAD
-            <Analytics />
-            <SupportUkraineBanner />
-        </Provider>
-=======
             
->>>>>>> 2d1edc97b14c99d46cdacec18c810f2fcc46b2bf
     );
 }
