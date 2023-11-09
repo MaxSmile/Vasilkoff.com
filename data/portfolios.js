@@ -5,7 +5,7 @@ const portfolios = [
         ],
         title: "SmartAIChats",
         link: "SmartAIChats.com",
-        image: "/assets/portfolio/portfolio.webp",
+        image: "/assets/portfolio/smartaichats-screenshot.webp",
         slug: "smartaichats-com",
         url: "https://smartAIchats.com/",
         extra:"",
