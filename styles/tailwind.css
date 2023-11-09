@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #over {
     background-image: url(/images/over.svg);
     background-repeat: no-repeat;
@@ -52,7 +53,8 @@ input:-webkit-autofill {
     /* active items */
     button:focus, a:focus, input:focus {
         border: 1px dotted silver;
-        box-shadow: 1px 1px 12px -3px rgba(97,0,0,0.75);
+        border-radius: 4px;
+        /* box-shadow: 1px 1px 12px -3px rgba(97,0,0,0.75); */
     }
     [placeholder]:empty::before {
         content: attr(placeholder);

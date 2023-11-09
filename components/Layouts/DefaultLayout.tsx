@@ -5,6 +5,7 @@ import App from '../../App';
 import Footer from './Footer';
 import Header from './Header';
 
+
 const DefaultLayout = ({ children }: PropsWithChildren) => {
     const [showLoader, setShowLoader] = useState(true);
     const [showTopButton, setShowTopButton] = useState(false);

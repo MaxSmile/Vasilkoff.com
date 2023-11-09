@@ -1,11 +1,15 @@
 
 import Link from 'next/link';
-import { Container } from 'react-bootstrap';
-import TeamMembers from "../components/TeamMembers";
-import Services from '../components/Services';
-import PricingCard from '../components/PricingCard';
-import AIContacts from '../components/AIContacts';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
+
+
+//const Testimonial = dynamic(() => import('../components/Testimonial'));
+const TeamMembers = dynamic(() => import('../components/TeamMembers'));
+const Services = dynamic(() => import('../components/Services'));
+const PricingCard = dynamic(() => import('../components/PricingCard'));
+const AIContacts = dynamic(() => import('../components/AIContacts'));
+const ExpertAnswerKeyQuestions = dynamic(() => import('../components/ExpertAnswerKeyQuestions'));
 
 
 const Index = (props: any) => {
@@ -38,7 +42,7 @@ const Index = (props: any) => {
             </div>
             <div id="services" className="relative -top-10">&nbsp;</div>
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
-                <Container className="space-y-8">
+                <div className="container space-y-8">
                     <div className="heading text-center">
                     <h1>Welcome to Vasilkoff Ltd - Your Partner for Full-Stack Blockchain Software Development</h1>
                         <h2>Achieve Your Goals with Our High-Impact Services</h2>
@@ -50,7 +54,7 @@ const Index = (props: any) => {
 
                     <Services />
 
-                </Container>
+                </div>
             </section>
 
             {/* Prices */}
@@ -105,23 +109,18 @@ const Index = (props: any) => {
                 <div className="container">
                     <div className="heading text-center">
                         <h2>Meet Our Team</h2>
-                        <h3>Ingenious Problem-Solvers</h3>
+                        <p>Ingenious Problem-Solvers</p>
                     </div>
                     <TeamMembers />
                 </div>
             </section>
 
-            <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
-                <div className="items-center justify-center lg:flex">
-                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="/assets/images/contact-text.webp" alt="Contact us" width={"393px"} height={"90px"} className="mx-auto sm:pt-4 xl:mx-0" />
-                    </div>
-                </div>
-            </section>
-            <div id="talkToUs" className="relative -top-20">&nbsp;</div>
+            
+            
 
             {/* <Testimonial /> */}
-            <AIContacts />
+            {/* <AIContacts /> */}
+            <ExpertAnswerKeyQuestions />
             <Head>
                 <script
                     type="application/ld+json"

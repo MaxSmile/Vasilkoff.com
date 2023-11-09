@@ -1,8 +1,4 @@
-import Faq from '../components/Faq';
 import OfficeSwiper from '../components/OfficeSwiper';
-import { useSelector } from 'react-redux';
-import { IRootState } from '../store';
-import Link from 'next/link';
 import Head from 'next/head';
 import AIContacts from '../components/AIContacts';
 
@@ -49,6 +45,7 @@ const Contactus = () => {
 
             </Head>
 
+            <div id="talkToUs" className="relative -top-20">&nbsp;</div>
             <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent dark:from-white/[0.03] lg:py-[100px]">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
