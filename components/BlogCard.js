@@ -17,12 +17,13 @@ const BlogCard = (
                 <Link href={"/blog/"+slug} className="absolute top-0 h-full w-full left-0"></Link>
                 <img src={blog.picture} alt={blog.title} className="h-52 w-full rounded-t-3xl object-cover" />
                 <div className="p-5 text-sm font-bold">
-                    <h1 className="font-extrabold text-secondary dark:text-secondary">
+                    <p className="font-extrabold text-secondary dark:text-secondary">
                         Maxim Vasilkov
-                    </h1>
-                    <h5 className="my-[10px] block text-lg font-extrabold leading-[23px] text-black line-clamp-2">
+                    </p>
+                    <h2 className="my-[10px] text-lg font-extrabold leading-[23px] text-black 
+                    line-clamp-2">
                         {blog.title}
-                    </h5>
+                    </h2>
                     <p className="line-clamp-4">
                         {blog.description}
                     </p>
