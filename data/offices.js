@@ -4,7 +4,7 @@ const offices = [
         "address": "Office 402 Charalambou Mouskou & Grigori Afxentiou 20 (ATHINODOROU BUSINESS CENTER), Paphos, Cyprus, 8010",
         "phones": [ "USA: +1-888-2614460", "CY: +35799169229" ],
         "emails": [ "dev@vasilkoff.com" ],
-        "image": "/images/athinodorou.jpeg",
+        "image": "/images/athinodorou.jpg",
 
     },
     {

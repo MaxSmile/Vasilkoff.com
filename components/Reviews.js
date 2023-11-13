@@ -6,7 +6,7 @@ export default function Reviews() {
           </div>
           <div class="review_detail review_detail1">
             <div class="review_ppic">
-              <img src="images/photo_2020-09-25-13.42.31-150x150.jpeg" />
+              <img src="images/photo_2020-09-25-13.42.31-150x150.jpg" />
             </div>
             <div class="review_right">
               <div class="review_right_quote">
@@ -19,7 +19,7 @@ export default function Reviews() {
 
           <div class="review_detail review_detail2">
             <div class="review_ppic">
-              <img src="images/photo_2020-10-07-10.01.38-150x150.jpeg" />
+              <img src="images/photo_2020-10-07-10.01.38-150x150.jpg" />
             </div>
             <div class="review_right">
               <div class="review_right_quote">
