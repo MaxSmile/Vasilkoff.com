@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeftCircle, Link45deg } from "react-bootstrap-icons";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
@@ -14,12 +15,12 @@ const BlogPage = ({ blog, slug }) => {
                 <meta property="og:site_name" content="Vasilkoff Ltd" />
                 <meta property="og:url" content={"https://vasilkoff.com/blog/" + slug} />
                 <meta property="og:description" content={blog.description} />
-                <meta property="og:article:published_time" content={blog.date}/>
+                <meta property="og:article:published_time" content={blog.date} />
                 <meta property="og:image" content={blog.picture} />
                 <meta content="origin" name="referrer" />
                 <meta content={blog.picture} itemProp="image" />
                 <meta property="og:image:alt" content={blog.title} />
-                
+
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `
@@ -57,13 +58,13 @@ const BlogPage = ({ blog, slug }) => {
                                 <h1 className="!text-white">{blog.title}</h1>
                                 <p className="!text-white py-4">
                                     <Link href="/team/maxim-vasilkov">
-                                        
+
                                         Author: <span className="px-4 font-semibold sm:text-lg"><Link45deg className='inline-block' />Maxim Vasilkov</span>
                                     </Link>
                                 </p>
                                 <p className="!text-white py-4">
                                     Date:&nbsp;{blog.date}&nbsp;
-                                    <br/>Time&nbsp;to&nbsp;read:&nbsp;{blog.time}
+                                    <br />Time&nbsp;to&nbsp;read:&nbsp;{blog.time}
                                 </p>
                             </div>
                             <div
@@ -71,9 +72,11 @@ const BlogPage = ({ blog, slug }) => {
                                 data-aos='fade-left'
                                 data-aos-duration="1000"
                             >
-                                <img
+                                <Image
+                                    width={445}
+                                    height={400}
                                     src={blog.picture}
-                                    alt="blog-detail-hero"
+                                    alt={blog.title}
                                     className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px] border border-gray"
                                 />
                             </div>

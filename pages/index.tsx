@@ -202,7 +202,7 @@ const Index = (props: any) => {
                     }}
                 />
                 <title>Vasilkoff Ltd - Full-stack Software Development Services</title>
-                <meta name="description" content="Full-stack software development company. We offer outsourcing and outstaffing services for the development of web & mobile apps, handling projects from simple to complex." />
+                <meta name="description" content="Vasilkoff (CY) Ltd: Full-stack software development with a focus on AI-enhanced web/mobile apps, DApps, and Smart Contracts." />
                 <link rel="canonical" href="https://vasilkoff.com" />
             </Head>
             

@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
                             <p className="py-4">
-                                <strong>Vasilkoff (CY) Ltd</strong> provides comprehensive development services for websites and mobile applications, as well as cutting-edge blockchain technology solutions such as DApps and smart contracts.
+                            <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
 

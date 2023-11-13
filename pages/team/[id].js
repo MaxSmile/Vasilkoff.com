@@ -80,7 +80,7 @@ const MemberPage = ({ blog, slug }) => {
                                         Date: {blog.date}
                                     </li>
                                     <li className="relative px-4 before:absolute before:top-1/2 before:-translate-y-1/2 before:rounded-full before:bg-gray before:left-0 sm:text-lg sm:before:h-1 sm:before:w-1">
-                                        Time to read: {blog.time}
+                                        Contacts: {blog.time}
                                     </li>
                                 </ul>
                                 <p className='text-light p-4'>
@@ -94,11 +94,12 @@ const MemberPage = ({ blog, slug }) => {
                             >
                                 <Image
                                     src={blog.picture}
-                                    width={160}
-                                    height={160}
+                                    width={445}
+                                    height={400}
                                     loading='lazy'
                                     alt={blog.subtitle}
-                                    className="mx-auto rounded-[16px] border border-gray"
+                                    className="mx-auto h-80 rounded-[32px] object-cover sm:h-[400px] sm:w-[445px] border border-gray"
+                                
                                 />
                             </div>
                         </div>
