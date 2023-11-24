@@ -32,6 +32,7 @@
         "react-ga4": "^2.1.0",
         "react-markdown": "^8.0.5",
         "react-no-ssr": "^1.1.0",
+        "react-smartaichats-livechat": "^1.0.1",
         "react-support-ukraine-banner": "^1.0.2",
         "remark-gfm": "^3.0.1",
         "swiper": "^8.4.5",

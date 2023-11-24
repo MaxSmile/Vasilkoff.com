@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react'
 import SupportUkraineBanner from 'react-support-ukraine-banner';
 import 'react-support-ukraine-banner/dist/SupportUkraineBanner.css';
+import SmartAiChatsLiveChat from 'react-smartaichats-livechat';
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
@@ -54,6 +55,8 @@ export default function App({ Component, pageProps }: AppProps) {
                 </DefaultLayout>
                 <Analytics />
                 <SupportUkraineBanner />
+                <SmartAiChatsLiveChat chatId="ZTVhNWJlMzQ0ODc4M2FjZTM0OTQ2MDlkMjcwYTkxZDN8ZGVmYXVsdA==" />
+    
             </Suspense>
             
     );
