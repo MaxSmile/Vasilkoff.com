@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="py-14 bg-black lg:py-[100px] text-light text-base">
+            <footer className="py-14 bg-black mt-20 lg:py-[100px] text-light text-base">
                 <div className="container">
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
@@ -61,6 +61,7 @@ const Footer = () => {
                                 Charalambou Mouskou & Grigori Afxentiou 20
                                 Paphos 8010
                             </p>
+                            <p className='text-xs my-2 text-shadow'>DUNS number: 534508024</p>
 
                         </div>
                         <div>
@@ -77,6 +78,7 @@ const Footer = () => {
                                     Vasilkoff
                                 </a></li>
                             </ul>
+                            <p className='text-xs my-2 text-shadow'>DUNS number: 218272992</p>
                         </div>
                     </div>
                 </div>
