@@ -1571,10 +1571,10 @@ react-no-ssr@^1.1.0:
   dependencies:
     babel-runtime "6.x.x"
 
-react-smartaichats-livechat@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-smartaichats-livechat/-/react-smartaichats-livechat-1.0.1.tgz#b165e51f4059c1a00bf47da211457bd6a6db4e52"
-  integrity sha512-wnmApWUAx2HllEHuEw0eshi6mVYU50JNZ++sDoh5ANMr+acxA99HZb2thujy+Iwhg3kFu/ZVcHF4LIL81V5IeQ==
+react-smartaichats-livechat@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-smartaichats-livechat/-/react-smartaichats-livechat-1.0.4.tgz#a6242abf65a3e76ef694c842e7ecaf2a9c4fe35c"
+  integrity sha512-/D/ZIdGQh1jYyB2u7h39aLxAFusg4aSq6U+D5gx2VaocgQbTwR2jpqn4TVau/gMwP95vtcwXTzhRT9jwrz/6ww==
 
 react-support-ukraine-banner@^1.0.2:
   version "1.0.2"

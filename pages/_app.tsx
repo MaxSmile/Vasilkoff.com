@@ -9,6 +9,9 @@ import 'react-support-ukraine-banner/dist/SupportUkraineBanner.css';
 import SmartAiChatsLiveChat from 'react-smartaichats-livechat';
 
 export default function App({ Component, pageProps }: AppProps) {
+    const chatBaseAPIurl = process.env.ENV != 'dev'
+        ? "https://smrtaichats.com"
+        : "http://127.0.0.1:5001/smrtai/us-central1/s";
     return (
             <Suspense>
                 <Head>
@@ -55,7 +58,11 @@ export default function App({ Component, pageProps }: AppProps) {
                 </DefaultLayout>
                 <Analytics />
                 <SupportUkraineBanner />
-                <SmartAiChatsLiveChat chatId="ZTVhNWJlMzQ0ODc4M2FjZTM0OTQ2MDlkMjcwYTkxZDN8ZGVmYXVsdA==" />
+
+
+                <SmartAiChatsLiveChat 
+                    chatId="ZTVhNWJlMzQ0ODc4M2FjZTM0OTQ2MDlkMjcwYTkxZDN8ZGVmYXVsdA=="
+                    base_url={chatBaseAPIurl} />
     
             </Suspense>
             

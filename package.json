@@ -3,7 +3,7 @@
     "version": "1.4.1",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev": "export ENV=dev && next dev",
         "build": "next build",
         "build-patch": "yarn version --patch && genversion version.js && next build",
         "build-minor": "yarn version --minor && genversion version.js && next build",
@@ -32,7 +32,7 @@
         "react-ga4": "^2.1.0",
         "react-markdown": "^8.0.5",
         "react-no-ssr": "^1.1.0",
-        "react-smartaichats-livechat": "^1.0.1",
+        "react-smartaichats-livechat": "^1.0.4",
         "react-support-ukraine-banner": "^1.0.2",
         "remark-gfm": "^3.0.1",
         "swiper": "^8.4.5",
