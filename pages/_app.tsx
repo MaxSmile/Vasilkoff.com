@@ -60,9 +60,11 @@ export default function App({ Component, pageProps }: AppProps) {
                 <SupportUkraineBanner />
 
 
-                <SmartAiChatsLiveChat 
+                {/* e5a5be3448783ace3494609d270a91d3|default */}
+                
+                {/* <SmartAiChatsLiveChat 
                     chatId="ZTVhNWJlMzQ0ODc4M2FjZTM0OTQ2MDlkMjcwYTkxZDN8ZGVmYXVsdA=="
-                    base_url={chatBaseAPIurl} />
+                    base_url={chatBaseAPIurl} />   */}
     
             </Suspense>
             
