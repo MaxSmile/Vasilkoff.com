@@ -13,7 +13,7 @@ const Privacypolicy = () => {
             </Head>
             
             <div className="container py-20">
-                <h2 className="mb-5 mt-12 text-2xl font-bold">Privacy Policy</h2>
+                <h1 className="mb-5 mt-12 text-2xl font-bold">Privacy Policy</h1>
                 <p className="mb-5">Last updated: September 15, 2023</p>
 
                 <div className="prose space-y-4">
