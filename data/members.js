@@ -6,7 +6,11 @@ const members = {
       "description": "Explore Maxim Vasilkov's journey from seasoned programmer to founder of Vasilkoff Ltd, highlighting his technical prowess, leadership skills, and innovative projects.",
       "picture": "/assets/team/maxim-vasilkov.webp",
       "time": "1 min",
-      "content":`In the dynamic landscape of information technology, few figures stand as testaments to both technical mastery and leadership acumen. One such individual is Maxim Vasilkov, the founder of Vasilkoff Ltd and Vasilkoff CY Ltd. With 15 years of experience in the IT field and a dedicated focus on IT management for the past 7 years, Vasilkov has consistently demonstrated his prowess in both technical and leadership domains.
+      "content":`IT expert with 15+ years, leading and coding in tech with a flair for open-source. Skilled in blockchain, Solidity contracts, plus mobile and web app development.
+
+In Darwin since 2024, I'm now immersed in AI, celebrated for "AI Chat Bridge," which placed 2nd at Hackadtech23. Eager to push AI boundaries and welcome collaborative ventures.
+      
+---
 
 Despite his managerial role, Vasilkov's commitment to technical excellence remains unwavering. He diligently hones his programming skills through regular practice, ensuring that his knowledge remains at the cutting edge of the ever-evolving IT industry. His influence extends beyond his day-to-day work, as evidenced by his co-authorship of a notable programming book. This accomplishment not only underscores his deep understanding of programming principles but also his dedication to sharing knowledge with the broader tech community.
 
@@ -16,9 +20,8 @@ Delving into specialized domains, Vasilkov has established himself as an authori
 
 Beyond his technical achievements, Vasilkov's entrepreneurial spirit has led him to found several startup projects. His regtech startup, [smrtsgn.com](https://vasilkoff.com/portfolio/smrtsgn), showcases his ability to identify gaps in the market and develop solutions that leverage technology to streamline regulatory processes. The startup's innovative approach has garnered attention and respect within both the tech and business communities.
 
-Currently based in Cyprus, Vasilkov offers his insights and expertise through consultation services. His extensive experience across various IT domains positions him as a sought-after consultant for businesses and individuals seeking guidance on navigating the complex IT landscape.
-
 Engaging with Maxim Vasilkov is made easy through his various social media channels, where he warmly welcomes connections and interactions. Whether you're intrigued by his programming prowess, his blockchain acumen, or his entrepreneurial journey, reaching out to Maxim promises to be a rewarding experience.
+
 `
     },
 
