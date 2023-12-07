@@ -152,7 +152,7 @@ const Index = (props: any) => {
                                 "streetAddress": "Glastonos 12-14",
                                 "addressLocality": "Paphos",
                                 "addressRegion": "Paphos",
-                                "addressCountry": "Cyprus",
+                                "addressCountry": "CY",
                                 "postalCode": "8046"
                             },
                             "contactPoint": [

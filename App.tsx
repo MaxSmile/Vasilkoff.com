@@ -10,16 +10,12 @@ ReactGA.initialize([{
 
 
 function App({ children }: PropsWithChildren) {
-    // const themeConfig = useSelector((state: IRootState) => state.themeConfig);
-    // const dispatch = useDispatch();
     
     const router = useRouter();
 
 
-
     useEffect(() => {
-        // dispatch(toggleTheme(themeConfig.theme));
-        // dispatch(toggleDirection(themeConfig.direction));
+
         //track('G-9WSLDWGM8P');
         const handleRouteChange = (url: any) => {
             ReactGA.send({ hitType: "pageview", page: url});
