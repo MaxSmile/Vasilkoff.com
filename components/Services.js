@@ -25,10 +25,9 @@ export default function Services() {
                             message="Our team specializes in both native app development and Flutter, delivering customized solutions that are tailored to your unique business needs."
                             icon={<Braces className="text-light"/>} 
                             slug="mobile-apps-development" />
-                    </div>
-                    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    
                         <ServiceCardOne 
-                            title="Smart Contracts Development" 
+                            title="Smart Contracts & DApps" 
                             message="Maximize the power of your smart contracts with our expert team. We specialize in Solidity and Hardhat, delivering customized solutions that enhance functionality and efficiency."
                             icon={<FileEarmarkBinary className="text-light"/>} 
                             slug="smart-contracts-development"/>

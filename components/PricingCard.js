@@ -72,7 +72,7 @@ const PricingCard = (
                                             before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-primary pl-5 before:left-0 sm:mb-0">
                             {period}
                         </div>
-                        <Link href={"contact-us#"+id} className="btn text-xl  group-hover:bg-white group-hover:text-primary xl:w-44">
+                        <Link href={"contact-us#"+id} className="btn text-xl  group-hover:bg-white group-hover:text-primary w-44">
                             {price}
                             <small className="text-xs lowercase">/{per}</small>
                         </Link>

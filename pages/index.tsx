@@ -85,7 +85,7 @@ const Index = (props: any) => {
                                 "Flexibility to scale resources up or down as needed",
                                 "Lower management overhead"
                             ]} minusArray={[
-                                "Limited control over project management and team dynamics",
+                                "Limited control over project management",
                                 "May have less transparency into the development process",
                                 "Communication and collaboration may be more challenging",
                                 "May have less ownership of the project and deliverables",
@@ -95,9 +95,9 @@ const Index = (props: any) => {
                             period="Monthly static payment"
                             price="from $2000" per="month"
                             plusArray={[
-                                "High level of control over project management and team dynamics",
+                                "High level of control over project management",
                                 "Clear communication and collaboration with the team",
-                                "Access to highly skilled talent without long-term hiring commitments",
+                                "Access to highly skilled talent without long-term hiring",
                                 "High level of ownership over the project and deliverables",
                                 "Lower overall cost compared to outsourcing"
                             ]} minusArray={[
@@ -209,7 +209,7 @@ const Index = (props: any) => {
                         }),
                     }}
                 />
-                <title>Vasilkoff Ltd - Full-stack Software Development Services</title>
+                <title>Vasilkoff Ltd - Full-stack Web & Mobile Software Development Services</title>
                 <meta name="description" content="Vasilkoff (CY) Ltd: Full-stack software development with a focus on AI-enhanced web/mobile apps, DApps, and Smart Contracts." />
                 <link rel="canonical" href="https://vasilkoff.com" />
             </Head>

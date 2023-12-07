@@ -117,7 +117,7 @@ const Servicesdetail = ({serv,slug}) => {
                             <div className="lg:w-4/6">
                                 <h2 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">End-to-End Full Stack Development</h2>
                                 <p className="text-lg font-semibold">
-                                Take advantage of our comprehensive full-stack development services. From ideation to execution, we are your reliable partner. We kick-start the process with strategic consulting, continue with meticulous architecture planning and UI/UX design, and finalize with seamless coding and development.
+                                Take advantage of our comprehensive full-stack web and mobile development services. From ideation to execution, we are your reliable partner. We kick-start the process with strategic consulting, continue with meticulous architecture planning and UI/UX design, and finalize with seamless coding and development.
                                 </p>
                             </div>
                         </li>
