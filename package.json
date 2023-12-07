@@ -1,9 +1,9 @@
 {
     "name": "my-app",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "private": true,
     "scripts": {
-        "dev": "export ENV=dev && next dev",
+        "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
         "build": "next build",
         "build-patch": "yarn version --patch && genversion version.js && next build",
         "build-minor": "yarn version --minor && genversion version.js && next build",
