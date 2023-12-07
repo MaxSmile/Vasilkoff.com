@@ -125,7 +125,8 @@ input:-webkit-autofill {
     /* Header */
 
     header .menus {
-        @apply fixed top-0 z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 -right-full dark:bg-gray-dark lg:static lg:h-auto lg:max-w-none;
+        @apply fixed z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 
+        -right-full  lg:static lg:h-auto lg:max-w-none;
     }
 
     header .menus>ul {

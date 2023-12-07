@@ -52,5 +52,5 @@ module.exports = {
             }),
         },
     },
-    plugins:[ rotateX, require('@tailwindcss/typography'), require('@tailwindcss/line-clamp')],
+    plugins:[ rotateX, require('@tailwindcss/typography')],
 };

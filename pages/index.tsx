@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 
 //const Testimonial = dynamic(() => import('../components/Testimonial'));
@@ -13,9 +14,10 @@ const ExpertAnswerKeyQuestions = dynamic(() => import('../components/ExpertAnswe
 
 
 const Index = (props: any) => {
+    const [openDetails, setOpenDetails] = useState(false);
     return (
         <div className="overflow-x-hidden" id="bg">
-             
+
             <div className="overflow-hidden pt-[82px] sm:-mx-[250px] lg:-mx-[150px] lg:pt-[106px]" id="over">
                 <div className="relative" >
                     <div className="container" >
@@ -44,16 +46,22 @@ const Index = (props: any) => {
             <section className="bg-[url(/assets/images/service-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-none lg:py-[100px]">
                 <div className="container space-y-8">
                     <div className="heading text-center">
-                    <h1>Welcome to Vasilkoff Ltd - Your Partner for Full-Stack Blockchain Software Development</h1>
-                        <h2>Achieve Your Goals with Our High-Impact Services</h2>
-                        <h2>We help with</h2>
-                        <p className="my-10">
+                        <h1>Vasilkoff Ltd Empowers Your Success with Expert Web & Mobile App Development</h1>
+                        <h2>Partner with Us for High-Impact Outsourcing Solutions</h2>
+                        <p id="details" className={ `cursor-pointer my-8 text-md ${openDetails ? '' : 'line-clamp-2'}`} onClick={() => { setOpenDetails(!openDetails) }}>
                             These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
+                            
+                            At Vasilkoff Ltd, we specialize in crafting state-of-the-art web and mobile applications, focusing on delivering high-quality outsourcing solutions that cater to your unique needs. Our team of experts is dedicated to bringing your ideas to life, ensuring each project is handled with utmost precision and professionalism. From initial concept to final implementation, we blend innovative development techniques with effective project management to create digital solutions that not only meet but exceed your expectations. Let us be your trusted partner in navigating the complexities of modern software development, and together, we'll create impactful digital experiences that drive your business forward.
+                           
+                            Partnering with us means more than just outsourcing your software development; it’s about embarking on a journey towards digital innovation and growth. With Vasilkoff Ltd, you gain a collaborator who understands the pulse of modern technology and is dedicated to propelling your business forward. Let’s work together to create digital solutions that resonate with your audience and deliver lasting impact.
+
                         </p>
+                        
+                        
                     </div>
 
                     <Services />
-
+                    
                 </div>
             </section>
 
@@ -103,7 +111,7 @@ const Index = (props: any) => {
                 </div>
             </section>
 
-            
+
 
             <section id="team" className="bg-[url(/assets/images/team-bg.png)] bg-cover bg-center bg-no-repeat py-14 dark:bg-black/50 lg:py-[100px]">
                 <div className="container">
@@ -115,8 +123,8 @@ const Index = (props: any) => {
                 </div>
             </section>
 
-            
-            
+
+
 
             {/* <Testimonial /> */}
             {/* <AIContacts /> */}
@@ -205,7 +213,7 @@ const Index = (props: any) => {
                 <meta name="description" content="Vasilkoff (CY) Ltd: Full-stack software development with a focus on AI-enhanced web/mobile apps, DApps, and Smart Contracts." />
                 <link rel="canonical" href="https://vasilkoff.com" />
             </Head>
-            
+
         </div>
     );
 };
