@@ -9,7 +9,27 @@ const portfolios = [
         slug: "smartaichats-com",
         url: "https://smartAIchats.com/",
         extra:"",
-        description:"StyleTribute Seller web app, a trusted marketplace for pre-loved luxury fashion where users can buy and sell items from top brands like Hermes and Chanel. Our in-house quality control team guarantees authenticity and quality.",
+        description:"SmartAIChats is a digital conversationalist that’s transforming the way businesses connect with their audiences. With its intuitive interface and state-of-the-art technology, it’s perfect for businesses of all sizes.",
+        technologies: [
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Netlify",
+            "Figma"],
         article:`
 
 In an era where time is of the essence and immediate response is paramount, having an intelligent tool to interact with your customers is a game-changer. Enter SmartAIChats – a digital conversationalist that’s transforming the way businesses connect with their audiences.
@@ -655,8 +675,45 @@ But Camera Mirrors doesn't stop at creating mirror effects. The app also include
 Camera Mirrors is more than just a photo editing app; it's a creative tool that can help you express yourself in new ways. Whether you're looking to create stunning images for social media, or just want to experiment with a new form of photography, Camera Mirrors is the perfect app for you. So why not download it today and start elevating your photography game?`,
     },
 
+    {
+        type:"our-projects",
+        categories: [
+            "NextJS","ReactJS","AI","Machine Learning","Website","Web App",
+        ],
+        title: "Vasilkoff.info",
+        link: "Vasilkoff.info",
+        image: "/assets/portfolio/vasilkoff.info.webp",
+        slug: "vasilkoff-info",
+        url: "https://vasilkoff.info/",
+        extra:"",
+        description:"A web app with AI support chat bot for our vasilkoff.com website, provides accurate, prompt, and intelligent user support. It's a part of our research efforts in the field of AI.",
+    article: `
+[Vasilkoff.info](https://vasilkoff.info/) is not just another web application; it's a benchmark in AI-enhanced web and app development, crafted meticulously by the innovative minds at Vasilkoff Ltd.
 
+## Harnessing NextJS and ReactJS for Dynamic Web Solutions
 
+Utilizing the robust frameworks of NextJS and ReactJS, Vasilkoff.info exemplifies a seamless, responsive, and user-centric web experience. These technologies empower the platform to deliver high-performance functionality, making it a paragon of modern web development practices.
+
+### AI and Machine Learning: The Heart of Our Innovation
+
+At the core of Vasilkoff.info lies our AI support chat bot. This feature is a leap in interactive web technology, employing Machine Learning algorithms to provide accurate, prompt, and intelligent user support. It signifies our commitment to integrating AI into practical, everyday web solutions.
+
+### What Vasilkoff.info demonstrates?
+
+- **Advanced AI Integration**: Elevating user interaction with intelligent responses.
+- **State-of-the-art Technology**: Built with NextJS and ReactJS for top-tier performance.
+- **Optimized User Experience**: Prioritizing ease of use without compromising on functionality.
+
+## Beyond Development: A Commitment to Excellence
+
+Vasilkoff.info is more than a project; it's a testimony to our expertise in AI and web application development. It showcases our dedication to pushing the boundaries of technology and delivering solutions that not only meet but anticipate user needs.
+
+### Explore Vasilkoff.info
+
+We invite you to explore the innovative world of [Vasilkoff.info](https://vasilkoff.info/). Experience firsthand how AI can transform the web experience and stay tuned for more trailblazing projects from Vasilkoff Ltd."
+`
+
+    },
 
     {
         type:"our-projects",
@@ -755,45 +812,6 @@ This project is a classic board chess game that offers a range of features inclu
         article:`
 The Calculator Lock app is a privacy protection application for Android devices that allows users to easily hide their photos, videos, apps and files. With an inbuilt private browser, users can safely browse private websites and download photos to instantly lock them inside the photo vault. The app also includes a shake close feature for quick app closure and an intruder selfie feature that takes a picture of anyone who tries to break into the app. Additionally, users can create a fake vault with a different password for storing fake photos and videos. The app also provides fingerprint unlock for faster and more secure access. With a colourful theme and icon disguise, the app offers a variety of fashionable colours to create an exclusive theme. Users can effectively sort and organize their encrypted private files and easily locate, rename, and delete photos, pictures, and videos in the secret gallery vault. Finally, the app includes a break-in alert feature that snaps anyone who tries to break into the user's privacy.
         `,
-    },
-    {
-        type:"our-projects",
-        categories: [
-            "NextJS","ReactJS","AI","Machine Learning","Website","Web App",
-        ],
-        title: "Vasilkoff.info",
-        link: "Vasilkoff.info",
-        image: "/assets/images/cases-6.png",
-        slug: "vasilkoff-info",
-        url: "https://vasilkoff.info/",
-        extra:"",
-        description:"A web app with AI support chat bot for our vasilkoff.com website.",
-    article: `
-[Vasilkoff.info](https://vasilkoff.info/) is not just another web application; it's a benchmark in AI-enhanced web and app development, crafted meticulously by the innovative minds at Vasilkoff Ltd.
-
-## Harnessing NextJS and ReactJS for Dynamic Web Solutions
-
-Utilizing the robust frameworks of NextJS and ReactJS, Vasilkoff.info exemplifies a seamless, responsive, and user-centric web experience. These technologies empower the platform to deliver high-performance functionality, making it a paragon of modern web development practices.
-
-### AI and Machine Learning: The Heart of Our Innovation
-
-At the core of Vasilkoff.info lies our groundbreaking AI support chat bot. This feature is a leap in interactive web technology, employing Machine Learning algorithms to provide accurate, prompt, and intelligent user support. It signifies our commitment to integrating AI into practical, everyday web solutions.
-
-### What Vasilkoff.info demonstrates?
-
-- **Advanced AI Integration**: Elevating user interaction with intelligent responses.
-- **State-of-the-art Technology**: Built with NextJS and ReactJS for top-tier performance.
-- **Optimized User Experience**: Prioritizing ease of use without compromising on functionality.
-
-## Beyond Development: A Commitment to Excellence
-
-Vasilkoff.info is more than a project; it's a testimony to our expertise in AI and web application development. It showcases our dedication to pushing the boundaries of technology and delivering solutions that not only meet but anticipate user needs.
-
-### Explore Vasilkoff.info
-
-We invite you to explore the innovative world of [Vasilkoff.info](https://vasilkoff.info/). Experience firsthand how AI can transform the web experience and stay tuned for more trailblazing projects from Vasilkoff Ltd."
-`
-
     },
     {
         type:"projects",
