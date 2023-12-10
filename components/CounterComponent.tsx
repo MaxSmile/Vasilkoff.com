@@ -4,8 +4,8 @@ const CounterComponent = (props: any) => {
     return (
         <div className="container">
             <div className="heading text-center">
-                <h1>{props.title}</h1>
-                <h2>We are proud of our team</h2>
+                <h2>{props.title}</h2>
+                <p>We are proud of our team</p>
             </div>
             <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
