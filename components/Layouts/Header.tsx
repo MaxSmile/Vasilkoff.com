@@ -33,7 +33,7 @@ const Header = (props: any) => {
                             className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
 
                         {/* Menu */}
-                        <div id='menu' className={`menus top-0 pt-10 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
+                        <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
                             <div className="border-b border-gray/10 text-right lg:hidden">
                                 <button id='close-menu'
                                 onClick={() => toggleMenu()} type="button" aria-label="Menu" 
