@@ -88,8 +88,8 @@ const Servicesdetail = ({serv,slug}) => {
             <section className="py-14 lg:py-[140px]">
                 <div className="container">
                     <div className="heading text-left">
-                        <h1><a href="/#services"><ArrowLeftCircle className="text-2xl inline-block" />&nbsp;Back to Services</a></h1>
-                        <h2>{serv.subtitle}</h2>
+                        <p><a href="/#services"><ArrowLeftCircle className="text-2xl inline-block" />&nbsp;Back to Services</a></p>
+                        <p>{serv.subtitle}</p>
                     </div>
 
                     <div className="prose max-w-[740px]">

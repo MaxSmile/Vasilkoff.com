@@ -134,7 +134,7 @@ input:-webkit-autofill {
     }
 
     header .menus>ul li {
-        @apply flex items-center justify-between py-4 px-4 transition hover:text-secondary dark:text-white dark:hover:text-secondary lg:px-0 lg:py-10 hover:lg:scale-110;
+        @apply flex items-center justify-between py-4 px-4 transition hover:text-secondary lg:px-0 lg:py-6 hover:lg:scale-110;
     }
 
     header .menus>ul li>a {

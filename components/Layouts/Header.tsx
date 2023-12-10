@@ -10,18 +10,12 @@ const Header = (props: any) => {
 
     const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
-        console.log("toggleMenu",window.innerWidth);
-        if (window.innerWidth < 1024) {
             console.log("switch toggleMenu",showMenu);
             setShowMenu(!showMenu);
-        } else {
-            console.log("dont switch toggleMenu",showMenu);
-            setShowMenu(false);
-        }
     };
 
     return (
-        <header className='sticky top-0 z-50 transition bg-white duration-300'>
+        <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl'>
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
@@ -30,26 +24,24 @@ const Header = (props: any) => {
                     <div className="flex items-center">
                         {/* Overlay */}
                         <div id='overlay' onClick={() => toggleMenu()} 
-                            className={`overlay fixed inset-0 z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
+                            className={`overlay fixed inset-0 h-screen w-full z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
 
                         {/* Menu */}
                         <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
-                            <div className="border-b border-gray/10 text-right lg:hidden">
-                                <button id='close-menu'
+                            
+                            <button id='close-menu'
                                 onClick={() => toggleMenu()} type="button" aria-label="Menu" 
-                                className="absolute top-12 right-5 p-2 rounded-full bg-primary items-center justify-center"
+                                className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"
                                 role='button'>
-
                                     <MenuIconClose />
                                 </button>
-                            </div>
-                            <ul onClick={() => toggleMenu()} role='menu' >
+                            <ul role='menu' onClick={() => setShowMenu(false)} >
                                 <li role='menuitem'>
                                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
                                         Home
                                     </Link>
                                 </li>
-                                <li  role='menuitem'>
+                                <li role='menuitem'>
                                     <Link
                                         href="/portfolio"
                                         className={router.pathname === '/portfolio' || router.pathname.startsWith('/portfolio/') ? 'active' : ''}

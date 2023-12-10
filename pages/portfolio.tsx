@@ -50,6 +50,9 @@ const Portfolio = () => {
 
             <section className="pt-12 mt-40 pb-14 md:pb-[100px]">
                 <div className="container">
+                <div className="heading text-center">
+                        <h1>Our Portfolio</h1>
+                    </div>
                     <div className="overflow-x-auto">
                         <ul className="filters portfolio-filter mx-auto flex w-max gap-7 whitespace-nowrap pb-2.5 font-bold dark:text-white">
                             <li className={`filter ${activeTab === 'all' ? 'active' : ''}`}>

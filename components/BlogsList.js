@@ -9,7 +9,7 @@ const BlogsList = ({ page }) => {
     const end = page * blogsPerPage;
     const totalPages = Math.ceil(Object.keys(blogs).length / blogsPerPage);
     const keys = Object.keys(blogs).slice(start, end);
-    
+
     const pagination = <Pagination limit={totalPages} baseLink="/blog" current={page} />;
 
     let hasPart = keys.map((key) => {
@@ -52,8 +52,12 @@ const BlogsList = ({ page }) => {
 }`
                     }} />
             </Head>
+            
             <section className="bg-gradient-to-t mt-20 from-white/70 to-transparent py-14 md:py-[100px]">
                 <div className="container">
+                    <div className="heading text-center">
+                        <h1>Our Blog</h1>
+                    </div>
                     {pagination}
                     <div className="grid gap-x-[30px] gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
 

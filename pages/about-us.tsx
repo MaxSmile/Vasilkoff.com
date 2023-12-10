@@ -23,8 +23,8 @@ const Aboutus = () => {
                 <div className="container relative z-[1]">
                     <div className="text-center lg:w-1/2 lg:text-left">
                         <div className="heading mb-5 text-center lg:text-left xl:w-[95%]">
-                            <h1>Who are we?</h1>
-                            <h2>Your Trusted IT Partners</h2>
+                            <h1>About Us</h1>
+                            <h2>Your Trusted IT Partner</h2>
                         </div>
                         <div className="font-medium pb-10 text-lg leading-[30px]">
                             <p >
