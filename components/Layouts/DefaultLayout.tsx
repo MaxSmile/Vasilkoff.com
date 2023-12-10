@@ -31,7 +31,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
             // screenLoader[0].classList.add("animate__fadeOut");
             setTimeout(() => {
                 setShowLoader(false);
-            }, 200);
+            }, 100);
         }
 
         return () => {
@@ -111,11 +111,10 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
                 <div className="bg-white font-mulish text-base text-gray antialiased dark:bg-[#261010]">
                     <Header className={showTopButton ? 'sticky-header' : ''}/>
 
-                    <div id="maincontent" role="main" className="-mt-[82px] bg-white lg:-mt-[106px]">
+                    <main id="maincontent" role="main" className="-mt-[82px] bg-white lg:-mt-[106px]">
                         {children}
-
-                        <Footer />
-                    </div>
+                    </main>
+                    <Footer />
                 </div>
 
                 {/* Return to Top  */}
