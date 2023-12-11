@@ -1,3 +1,4 @@
+// components/Layouts/DefaultLayout.js
 import { PropsWithChildren, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,11 +32,11 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
             // screenLoader[0].classList.add("animate__fadeOut");
             setTimeout(() => {
                 setShowLoader(false);
-            }, 100);
+            }, 200);
         }
 
         return () => {
-            window.removeEventListener('onscroll', onScrollHandler);
+            window.removeEventListener('scroll', onScrollHandler);
         };
     });
 
