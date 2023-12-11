@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "private": true,
     "scripts": {
         "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
@@ -19,6 +19,7 @@
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.9",
         "@vercel/analytics": "^1.0.0",
+        "@vercel/speed-insights": "^1.0.1",
         "aos": "^3.0.0-beta.6",
         "genversion": "^3.1.1",
         "jsx-schema": "^1.0.3",
