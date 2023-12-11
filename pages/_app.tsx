@@ -5,7 +5,7 @@ import type { AppProps } from 'next/app';
 import DefaultLayout from '../components/Layouts/DefaultLayout';
 
 import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App({ Component, pageProps }: AppProps) {
 
