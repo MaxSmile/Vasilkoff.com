@@ -3,6 +3,825 @@ const portfolios = [
         categories: [
             "Website","AI", "Web App"
         ],
+        title: "CAS",
+        link: "cas.ai",
+        image: "/assets/portfolio/cas.webp",
+        slug: "cas-ai",
+        url: "https://cas.ai/",
+        extra:"",
+        description:"CAS.AI: Vasilkoff LTD's web development prowess. Crafting the digital experience for CAS.AI with innovation and expertise. Elevate your online presence seamlessly.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Maximize Ad Revenue with CAS.AI: Vasilkoff LTD Unleashes Cutting-Edge Ad Mediation Solutions**
+
+Elevate your digital advertising strategy with CAS.AI, a Vasilkoff LTD project meticulously developed to revolutionize ad mediation solutions. Designed to deliver higher eCPM and total revenue, this platform empowers businesses with advanced technology for superior ad performance.
+
+**Innovative Features for Ad Mediation Excellence:**
+
+1. **Optimized eCPM:** CAS.AI prioritizes optimized eCPM, ensuring businesses achieve higher earnings through efficient ad mediation.
+2. **Total Revenue Enhancement:** The platform focuses on maximizing total revenue, providing businesses with a comprehensive solution for their digital advertising needs.
+3. **Cutting-Edge Technology:** CAS.AI is crafted with cutting-edge technology, setting a new standard in the field of ad mediation solutions for superior performance.
+
+**Crafted with Expertise in Ad Mediation Technology:**
+
+Vasilkoff LTD leverages its expertise in web development to create CAS.AI. The platform not only meets the diverse needs of businesses but also exceeds expectations in providing a transformative solution for ad mediation.
+
+**Revenue-Driven Ad Operations:**
+
+CAS.AI, driven by advanced web development, empowers businesses to maximize their ad revenue. The platform's features facilitate efficient ad mediation, optimizing the digital advertising experience for businesses and advertisers.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+CAS.AI stands as a testament to Vasilkoff LTD's commitment to excellence in web development and ad mediation technology. The platform offers a transformative solution for businesses seeking to enhance their digital advertising performance.
+
+**Conclusion:**
+
+Maximize your ad revenue potential with CAS.AI. Vasilkoff LTD's dedication to cutting-edge technology and ad mediation expertise sets a new standard for businesses looking to achieve superior eCPM and total revenue. Elevate your digital advertising strategy with CAS.AI today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "Paymentz",
+        link: "paymentz.com",
+        image: "/assets/portfolio/paymentz.webp",
+        slug: "paymentz-com",
+        url: "https://paymentz.co.uk/",
+        extra:"",
+        description:"Paymentz: Vasilkoff LTD's fintech prowess in web, AI, and app development. Elevate your digital finance experience with innovation",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Transforming Global Transactions: Vasilkoff LTD Introduces PAYMENTZ in Laravel + React.js Brilliance**
+
+In the ever-evolving landscape of global finance, Vasilkoff LTD proudly presents PAYMENTZ, a cutting-edge fintech solution developed with the power of Laravel and React.js. Explore seamless cross-border transactions with features like efficient mass pay-ins, local IBANs, and white-label solutions.
+
+**Innovative Features for Effortless Transactions:**
+
+1. **Efficient Mass Pay-Ins/Pay-Outs:** PAYMENTZ prioritizes transaction efficiency, allowing businesses to effortlessly manage large payment volumes and optimize cash flow.
+2. **Local IBANs for Global Reach:** Bid farewell to the complexities of managing accounts in multiple countries. PAYMENTZ offers local International Bank Account Numbers (IBANs), simplifying financial operations on a global scale.
+3. **White-Label Solutions:** PAYMENTZ recognizes diverse business needs, providing white-label solutions for customization and branding, enhancing the user experience and reinforcing unique identities.
+
+**Crafted with Laravel + React.js Expertise:**
+
+As a leader in web development, Vasilkoff LTD leverages Laravel and React.js to create PAYMENTZ. This powerful combination ensures a robust and efficient platform, transforming the way businesses engage in international transactions.
+
+**Consolidated Cash Flow with Ease:**
+
+PAYMENTZ empowers businesses to streamline financial activities in one centralized hub. By eliminating the need for unnecessary accounts in various countries, companies achieve a more efficient and consolidated approach to managing funds.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+PAYMENTZ stands as a testament to Vasilkoff LTD's commitment to innovation, efficiency, and excellence in the global fintech landscape. The platform is more than a fintech solution; it's a catalyst for positive change in cross-border finance.
+
+**Conclusion:**
+
+Experience the future of global finance with PAYMENTZ. Vasilkoff LTD's commitment to groundbreaking solutions, coupled with the power of Laravel and React.js, is set to redefine international transactions. Elevate your business with PAYMENTZ today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "Erabanq",
+        link: "erabanq.com",
+        image: "/assets/portfolio/erabanq.webp",
+        slug: "erabanq-com",
+        url: "https://erabanq.com/",
+        extra:"",
+        description:"Erabanq: Vasilkoff LTD's innovative solution on React.js, HTML, and CSS. Revolutionize business transactions with cost-effective account-to-account payments, gaining a competitive edge.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Revolutionize Your Payments: Vasilkoff LTD Presents ERABANQ with React.js Brilliance**
+
+Explore the future of account-to-account payments with ERABANQ, a Vasilkoff LTD project thoughtfully developed on React.js, HTML, and CSS. Discover how this innovative solution empowers businesses to bypass expensive card schemes, significantly reducing payment processing costs and providing a competitive edge.
+
+**Innovative Features for Efficient Payments:**
+
+1. **React.js Powerhouse:** ERABANQ leverages the dynamic capabilities of React.js, providing a responsive and seamless user experience for account-to-account payments.
+2. **Streamlined HTML and CSS:** The platform is built on a foundation of clean HTML and CSS, ensuring a visually appealing and user-friendly interface for businesses and users alike.
+3. **Competitive Edge:** ERABANQ enables businesses to bypass costly card schemes, resulting in substantially smaller payment processing costs. This allows merchants to retain more profits, gaining a competitive advantage in the market.
+
+**Crafted with React.js, HTML, and CSS Expertise:**
+
+Vasilkoff LTD harnesses the power of React.js, HTML, and CSS to create ERABANQ. This ensures a dynamic, responsive, and visually appealing platform that sets a new standard for account-to-account payments.
+
+**Consolidated Payment Operations:**
+
+ERABANQ, driven by advanced React.js development, streamlines payment operations, providing businesses with an efficient and cost-effective solution. The platform's features facilitate seamless account-to-account transactions, giving businesses greater control over their financial processes.
+
+**Vasilkoff LTD's Commitment to Excellence in Web Development:**
+
+ERABANQ stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web development. The platform not only meets industry needs but exceeds expectations, providing a transformative solution for account-to-account payments.
+
+**Conclusion:**
+
+Experience the future of efficient payments with ERABANQ. Vasilkoff LTD's dedication to cutting-edge React.js development, combined with HTML and CSS expertise, sets a new standard for account-to-account payment platforms. Elevate your financial processes with ERABANQ today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "Paykolo",
+        link: "paykolo.com",
+        image: "/assets/portfolio/paykolo.webp",
+        slug: "paykolo-com",
+        url: "https://paykolo.com/",
+        extra:"",
+        description:"Discover Paykolo: Fintech innovation. Global online banking, powered by top-notch front-end development. Your financial future, redefined.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Revolutionizing Cross-Border Finance: Vasilkoff LTD's PAYKOLO Unveiled in Ruby + SLIM Brilliance**
+
+In the fast-paced world of global finance, Vasilkoff LTD introduces PAYKOLO, a fintech masterpiece built on Ruby + SLIM. This innovative platform reshapes cross-border transactions for businesses worldwide.
+
+**Innovative Features for Seamless Transactions:**
+
+1. **Efficient Mass Pay-Ins/Pay-Outs:** PAYKOLO prioritizes transaction efficiency, allowing businesses to effortlessly manage large payment volumes, optimizing cash flow.
+2. **Local IBANs for Simplified Operations:** Bid farewell to the complexities of managing accounts in multiple countries. PAYKOLO offers local International Bank Account Numbers (IBANs), consolidating financial activities in a user-friendly platform.
+3. **Streamlined Cross-Border Transactions:** PAYKOLO facilitates cross-border payments seamlessly, providing businesses with local IBANs, simplifying financial operations and reducing administrative burdens.
+
+**Crafted with Ruby + SLIM Expertise:**
+
+Vasilkoff LTD, known for its expertise in web development, leverages Ruby + SLIM to create PAYKOLO. This powerful combination ensures a robust and efficient platform, transforming the way businesses engage in international transactions.
+
+**Consolidated Cash Flow with Ease:**
+
+PAYKOLO empowers businesses to streamline financial activities in one centralized hub. By eliminating the need for unnecessary accounts in various countries, companies achieve a more efficient and consolidated approach to managing funds.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+As a leader in web development, Vasilkoff LTD has seamlessly integrated Ruby + SLIM to craft PAYKOLO. The platform stands as a testament to the company's commitment to innovation, efficiency, and excellence in the global fintech landscape.
+
+**Conclusion:**
+
+PAYKOLO is more than a fintech platform; it's a catalyst for positive change in cross-border finance. With its innovative features, commitment to efficiency, and the power of Ruby + SLIM, PAYKOLO is poised to revolutionize international transactions. Experience the future of global finance with Vasilkoff LTD's PAYKOLO.`,
+    },
+     {type:"projects",
+        categories: [
+            "Website", "Web App", "Mobile App"
+        ],
+        title: "Nubisreservation",
+        link: "nubisreservation.com",
+        image: "/assets/portfolio/nubis.webp",
+        slug: "nubisreservation-com",
+        url: "https://nubisreservation.com/",
+        extra:"",
+        description:"Elevate bookings with Nubis by Vasilkoff LTD: Expert in web and app development using Laravel, React.js, MySQL, and Stripe for seamless experiences.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Netlify",
+            "Figma"],
+        article:`**Revolutionizing Reservation Management: Vasilkoff LTD Introduces NUBIS in React + Laravel Brilliance**
+
+In the realm of efficient reservation systems, Vasilkoff LTD proudly presents NUBIS, an innovative solution crafted with React, Laravel, and MySQL. Explore seamless table reservations with features designed to simplify daily tasks and enhance the guest experience.
+
+**Innovative Features for Effortless Reservation:**
+
+1. **Online Table Reservations:** NUBIS simplifies reservation management with easy online bookings, saving time on daily tasks such as email replies, social media chats, or phone calls.
+2. **Cross-Platform Development:** The power of React + Laravel ensures a robust web-based reservation system, while mobile apps, developed on React Native, extend the seamless experience to both iOS and Android platforms.
+3. **Efficient Implementation:** NUBIS can be easily implemented into your website with no startup fees or extra costs, providing businesses with a hassle-free solution for enhancing their reservation processes.
+
+**Crafted with React + Laravel Expertise:**
+
+As a leader in web and app development, Vasilkoff LTD leverages React, Laravel, and MySQL to create NUBIS. This powerful combination ensures a user-friendly reservation system, transforming the way businesses manage their bookings.
+
+**Consolidated Reservation Operations:**
+
+NUBIS empowers businesses to streamline reservation activities seamlessly. By leveraging the efficiency of React, Laravel, and MySQL, companies achieve a consolidated approach to managing table bookings.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+NUBIS stands as a testament to Vasilkoff LTD's commitment to innovation, efficiency, and excellence in the realm of reservation systems. The platform is more than a reservation solution; it's a catalyst for positive change in the hospitality industry.
+
+**Conclusion:**
+
+Experience the future of reservation management with NUBIS. Vasilkoff LTD's commitment to groundbreaking solutions, coupled with the power of React, Laravel, and MySQL, is set to redefine how businesses handle table reservations. Elevate your hospitality experience with NUBIS today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "Simetria",
+        link: "simetriapay.com",
+        image: "/assets/portfolio/simetria.webp",
+        slug: "simetriapay-com",
+        url: "https://simetriapay.com/",
+        extra:"",
+        description:"Simetria: Vasilkoff LTD's expertise in web development. We've crafted a seamless website page for Simetria's cross-border payment platform, ensuring efficiency and user engagement.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Simplify Cross-Border Payments: Vasilkoff LTD Introduces SIMETRIA with Cutting-Edge Solutions**
+
+Discover the future of cross-border payments with SIMETRIA, a Vasilkoff LTD project designed to streamline international transactions. Built with innovation in mind, SIMETRIA allows businesses to receive payments on local IBANs, eliminating the need for maintaining accounts in multiple countries and providing a consolidated cash flow solution.
+
+**Innovative Features for Seamless Cross-Border Payments:**
+
+1. **Efficient Local IBANs:** SIMETRIA leverages the power of local IBANs, ensuring businesses can receive payments internationally without the complexity of managing multiple accounts.
+2. **Consolidated Cash Flow:** The platform allows businesses to consolidate their cash flow conveniently in one place, avoiding the hassle of unnecessary account management.
+3. **Cutting-Edge Payment Solutions:** SIMETRIA is crafted with cutting-edge payment solutions, providing businesses with a user-friendly and efficient cross-border payment platform.
+
+**Crafted with Expertise in Payment Solutions:**
+
+Vasilkoff LTD utilizes its expertise in payment solutions to create SIMETRIA. This ensures a platform that not only meets the diverse needs of businesses but also exceeds expectations in simplifying cross-border transactions.
+
+**Consolidated Financial Operations:**
+
+SIMETRIA, driven by advanced payment solution development, empowers businesses by consolidating cross-border financial operations. The platform's features facilitate seamless international transactions, providing businesses with greater control over their global financial activities.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+SIMETRIA stands as a testament to Vasilkoff LTD's commitment to excellence in web development and payment solutions. The platform offers a transformative solution for businesses looking to simplify their cross-border payment processes.
+
+**Conclusion:**
+
+Experience the future of cross-border payments with SIMETRIA. Vasilkoff LTD's dedication to cutting-edge payment solutions sets a new standard for international transaction platforms. Streamline your global financial activities with SIMETRIA today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "BGSF",
+        link: "bgsf.com",
+        image: "/assets/portfolio/bgsf.webp",
+        slug: "bgsf-com",
+        url: "https://bgsf.com/",
+        extra:"",
+        description:"BGSF: Vasilkoff LTD's outsourcing excellence. We enhance BGSF's online presence with cutting-edge web development. Elevate your brand, engage audiences effectively.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Empowering Workforce Solutions: Vasilkoff LTD Delivers Excellence with BG Staffing**
+
+Explore the synergy of technology and staffing expertise with BG Staffing, a Vasilkoff LTD outsourced project designed to elevate workforce solutions. Crafted with precision, the platform provides businesses with a powerful tool to manage staffing needs, recruitment, and employee engagement seamlessly.
+
+**Innovative Features for Workforce Management:**
+
+1. **Efficient Recruitment:** BG Staffing streamlines the recruitment process, leveraging advanced technology to connect businesses with the right talent.
+2. **Dynamic Staffing Solutions:** The platform offers dynamic staffing solutions, providing businesses with the flexibility to meet evolving workforce demands.
+3. **User-Friendly Interface:** With a user-friendly interface, BG Staffing ensures a seamless experience for both employers and job seekers, optimizing the hiring process.
+
+**Crafted with Expertise in Workforce Solutions:**
+
+Vasilkoff LTD utilizes its expertise in workforce solutions to create BG Staffing. This ensures a platform that not only meets the diverse needs of businesses but also exceeds expectations in enhancing workforce management.
+
+**Consolidated Staffing Operations:**
+
+BG Staffing, driven by advanced workforce solution development, empowers businesses by consolidating staffing operations. The platform's features facilitate efficient recruitment, optimizing the hiring journey for employers and job seekers alike.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+BG Staffing stands as a testament to Vasilkoff LTD's commitment to excellence in web development and workforce solutions. The platform offers a transformative solution for businesses aiming to streamline their staffing processes.
+
+**Conclusion:**
+
+Experience the future of workforce solutions with BG Staffing. Vasilkoff LTD's dedication to cutting-edge technology and staffing expertise sets a new standard for the staffing and recruitment industry. Elevate your workforce management with BG Staffing today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Fintech", "Web App"
+        ],
+        title: "Print my photos",
+        link: "printmyphotos.com",
+        image: "/assets/portfolio/printmyphotos.webp",
+        slug: "printmyphotos-com",
+        url: "https://printmyphotos.com.cy/",
+        extra:"",
+        description:"Print My Photos: Vasilkoff LTD's web development mastery. Transforming the online presence of Print My Photos for a seamless and visually captivating experience.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Capture Memories, Print Moments: Vasilkoff LTD Unveils PRINT MY PHOTOS with Seamless Photo Solutions**
+
+Embark on a journey of preserving memories with PRINT MY PHOTOS, a Vasilkoff LTD project meticulously crafted to bring your photos to life. Designed for simplicity and convenience, this platform offers users an intuitive way to print and cherish their cherished moments.
+
+**Innovative Features for Photo Printing:**
+
+1. **User-Friendly Printing:** PRINT MY PHOTOS provides a user-friendly interface, allowing individuals to easily select, customize, and print their favorite photos.
+2. **High-Quality Printing:** The platform ensures high-quality printing, delivering vibrant and detailed prints that capture the essence of each moment.
+3. **Convenient Photo Solutions:** With seamless navigation and ordering, PRINT MY PHOTOS offers a convenient way for users to transform digital memories into tangible prints.
+
+**Crafted with Expertise in Photo Printing Solutions:**
+
+Vasilkoff LTD leverages its expertise in web development to create PRINT MY PHOTOS. The platform not only meets the diverse needs of users but also exceeds expectations in providing a transformative solution for photo printing.
+
+**Memorable Printing Operations:**
+
+PRINT MY PHOTOS, driven by advanced web development, empowers users to transform digital memories into tangible prints. The platform's features facilitate a seamless and enjoyable photo printing experience.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+PRINT MY PHOTOS stands as a testament to Vasilkoff LTD's commitment to excellence in web development and photo printing solutions. The platform offers a transformative solution for individuals looking to turn their digital memories into cherished prints.
+
+**Conclusion:**
+
+Experience the joy of preserving memories with PRINT MY PHOTOS. Vasilkoff LTD's dedication to cutting-edge technology and photo printing expertise sets a new standard for turning digital moments into timeless keepsakes. Print your memories with PRINT MY PHOTOS today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "OKOK",
+        link: "okokagency.eu",
+        image: "/assets/portfolio/okok.webp",
+        slug: "okokagency-eu",
+        url: "https://okokagency.eu/",
+        extra:"",
+        description:"Okok Agency: actor-agency platform. Elevate your casting experience with our tailored web development solutions. Connect seamlessly, stand out effortlessly.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Elevating Casting Experiences: Vasilkoff LTD Introduces OKOK Agency with Custom Web Development**
+
+In the dynamic world of casting and talent management, Vasilkoff LTD proudly presents OKOK Agency. Crafted with precision using custom web development, OKOK Agency revolutionizes the way actors and agencies connect and collaborate.
+
+**Innovative Features for Seamless Casting:**
+
+1. **Personalized Profiles:** OKOK Agency provides actors and agencies with personalized profiles, creating a tailored experience for both talent and casting professionals.
+2. **Effortless Connection:** The platform ensures seamless interaction between actors and agencies, streamlining the casting process and enhancing collaboration.
+3. **Visual Appeal:** With a visually appealing and user-friendly interface, OKOK Agency stands out as a platform that not only functions seamlessly but also delights users with its design.
+
+**Crafted with Custom Web Development Expertise:**
+
+Vasilkoff LTD, a leader in web development, utilizes custom solutions to create OKOK Agency. This approach ensures a unique and efficient platform, tailored to the specific needs of the casting industry.
+
+**Consolidated Casting Operations:**
+
+OKOK Agency empowers both actors and agencies by consolidating casting operations. The platform's features facilitate efficient communication, reducing the complexities traditionally associated with casting processes.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+OKOK Agency stands as a testament to Vasilkoff LTD's commitment to innovation and excellence in web development. The platform not only meets industry needs but exceeds expectations, providing a transformative solution for the casting world.
+
+**Conclusion:**
+
+Experience the future of casting with OKOK Agency. Vasilkoff LTD's dedication to cutting-edge solutions, coupled with custom web development expertise, sets a new standard for how actors and agencies collaborate. Elevate your casting experiences with OKOK Agency today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "Vikentilia",
+        link: "vikentilia.eu",
+        image: "/assets/portfolio/vikentilia.webp",
+        slug: "vikentilia-eu",
+        url: "https://vikentilia.eu/",
+        extra:"",
+        description:"Vikentilia: Cyprus real estate excellence by Vasilkoff LTD. 6+ years of success on WordPress. Elevate your property ventures with our expert web development solutions.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Revolutionizing Cyprus Real Estate: Vasilkoff LTD Unveils VIKENTILIA with WordPress Brilliance**
+
+Explore the pinnacle of real estate excellence in Cyprus with VIKENTILIA, a Vasilkoff LTD project meticulously crafted on the WordPress platform. Discover how this innovative solution, driven by top-notch web development and app development expertise, redefines the real estate market, offering unmatched experiences for both buyers and developers.
+
+**Innovative Features for Effortless Real Estate Transactions:**
+
+1. **Dynamic Property Search:** VIKENTILIA offers a dynamic property search, leveraging advanced web development to ensure a seamless and responsive user experience.
+2. **Efficient Listing Management:** Developers benefit from efficient listing management powered by WordPress, streamlining the process of showcasing properties and attracting potential buyers.
+3. **Visual Appeal and Intuitive Interface:** The platform boasts a visually appealing design and an intuitive user interface, a testament to Vasilkoff LTD's commitment to cutting-edge web development.
+
+**Crafted with WordPress, Web, and App Development Expertise:**
+
+Vasilkoff LTD harnesses the power of WordPress, complemented by top-tier web and app development, to create VIKENTILIA. This ensures not just a website but a dynamic, responsive real estate platform that sets a new standard in the industry.
+
+**Consolidated Real Estate Operations:**
+
+VIKENTILIA, driven by advanced web and app development, empowers both buyers and developers by consolidating real estate operations. The platform's features facilitate efficient communication and seamless transactions, reducing complexities in the property market.
+
+**Vasilkoff LTD's Commitment to Excellence in Web and App Development:**
+
+VIKENTILIA stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web and app development. The platform exceeds expectations, providing a transformative solution for the Cyprus real estate market.
+
+**Conclusion:**
+
+Experience the future of Cyprus real estate with VIKENTILIA. Vasilkoff LTD's dedication to cutting-edge web and app development, combined with WordPress expertise, sets a new standard for real estate platforms. Elevate your property ventures with VIKENTILIA today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "Summ",
+        link: "summ.ee",
+        image: "/assets/portfolio/summ.webp",
+        slug: "summ-ee",
+        url: "https://summ.ee/",
+        extra:"",
+        description:"Summ.ee: Vasilkoff LTD's e-commerce brilliance on WordPress and WooCommerce. Elevate your online store with our expert web development solutions.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Elevate Your Gift Shopping: Vasilkoff LTD Introduces SUMM.EE - Your Ultimate E-Shop with WordPress + WooCommerce**
+
+Embark on a seamless online gifting journey with SUMM.EE, a Vasilkoff LTD project meticulously crafted on the WordPress and WooCommerce platforms. Discover how this innovative e-shop, driven by top-notch web development and e-commerce expertise, transforms the online gift shopping experience.
+
+**Innovative Features for Effortless E-Commerce Gifting:**
+
+1. **Intuitive E-Shop Interface:** SUMM.EE offers an intuitive e-shop interface, utilizing advanced WordPress + WooCommerce integration for a seamless and responsive user experience.
+2. **Efficient Checkout Process:** With WooCommerce at its core, SUMM.EE streamlines the checkout process, providing a secure and efficient online shopping experience for users.
+3. **Visual Appeal and Shopify Excellence:** The platform boasts a visually appealing design and Shopify-like excellence, showcasing Vasilkoff LTD's commitment to cutting-edge web development and online retail.
+
+**Crafted with WordPress, WooCommerce, and E-Commerce Expertise:**
+
+Vasilkoff LTD harnesses the power of WordPress and WooCommerce, complemented by top-tier e-commerce expertise, to create SUMM.EE. This ensures a dynamic, responsive e-shop that sets a new standard in the online gifting industry.
+
+**Consolidated Gifting Operations:**
+
+SUMM.EE, driven by advanced WordPress and WooCommerce development, empowers both senders and recipients by consolidating online gifting operations. The platform's features facilitate efficient gift selection, secure transactions, and a delightful overall experience.
+
+**Vasilkoff LTD's Commitment to Excellence in Web Development and E-Commerce:**
+
+SUMM.EE stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web development and e-commerce. The platform exceeds expectations, providing a transformative solution for the online gifting landscape.
+
+**Conclusion:**
+
+Experience the future of online gifting with SUMM.EE. Vasilkoff LTD's dedication to cutting-edge web development and e-commerce expertise, combined with WordPress and WooCommerce integration, sets a new standard for e-shop platforms. Elevate your gift-giving experience with SUMM.EE today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "Morrow Hill",
+        link: "morrowhillvisionworks.com",
+        image: "/assets/portfolio/morrowhill.webp",
+        slug: "morrowhillvisionworks-com",
+        url: "https://morrowhillvisionworks.com/",
+        extra:"",
+        description:"Morrow Hill VisionWorks: Vasilkoff LTD's cutting-edge web development. Powered by Vue.js and WordPress, we create seamless online experiences for premier global organizations.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Transforming Corporate Real Estate: Vasilkoff LTD Introduces MORROW HILL VISIONWORKS with Vue.js + WordPress Brilliance**
+
+Embark on a journey of streamlined corporate real estate solutions with MORROW HILL VISIONWORKS, a Vasilkoff LTD project thoughtfully crafted on the Vue.js and WordPress platforms. Discover how this innovative solution, driven by top-notch web development and Vue.js expertise, reshapes the corporate real estate landscape, offering unparalleled efficiency for global organizations.
+
+**Innovative Features for Effortless Corporate Real Estate Management:**
+
+1. **Dynamic Property Search:** MORROW HILL VISIONWORKS offers a dynamic property search, leveraging advanced Vue.js integration to ensure a seamless and responsive user experience.
+2. **Efficient Lease Negotiations:** The platform streamlines tenant lease negotiations, providing a hassle-free process for both corporate tenants and property owners.
+3. **Visual Appeal and WordPress Excellence:** With a visually appealing design and WordPress excellence, MORROW HILL VISIONWORKS showcases Vasilkoff LTD's commitment to cutting-edge web development in the corporate real estate sector.
+
+**Crafted with Vue.js, WordPress, and Web Development Expertise:**
+
+Vasilkoff LTD harnesses the power of Vue.js and WordPress, complemented by top-tier web development expertise, to create MORROW HILL VISIONWORKS. This ensures not just a website but a dynamic, responsive real estate platform that sets a new standard in corporate property management.
+
+**Consolidated Real Estate Operations:**
+
+MORROW HILL VISIONWORKS, driven by advanced Vue.js and WordPress development, empowers global organizations by consolidating corporate real estate operations. The platform's features facilitate efficient lease negotiations, reducing complexities for both tenants and property owners.
+
+**Vasilkoff LTD's Commitment to Excellence in Web Development:**
+
+MORROW HILL VISIONWORKS stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web development. The platform not only meets industry needs but exceeds expectations, providing a transformative solution for the corporate real estate landscape.
+
+**Conclusion:**
+
+Experience the future of corporate real estate with MORROW HILL VISIONWORKS. Vasilkoff LTD's dedication to cutting-edge web development and Vue.js expertise, combined with WordPress integration, sets a new standard for real estate platforms. Elevate your corporate property management with MORROW HILL VISIONWORKS today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "The Multifamily Group",
+        link: "multifamilygrp.com",
+        image: "/assets/portfolio/multifamilygrp.webp",
+        slug: "multifamilygrp-com",
+        url: "https://multifamilygrp.com/",
+        extra:"",
+        description:"Unlock success with The Multifamily Group: Vasilkoff LTD's expert real estate web development in Dallas, Texas. Specializing in multi-housing asset transactions for impactful results.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Revolutionizing Multi-Housing Transactions: Vasilkoff LTD Introduces THE MULTIFAMILY GROUP with Vue.js + WordPress Brilliance**
+
+Embark on a journey of efficiency in multi-housing transactions with THE MULTIFAMILY GROUP, a Vasilkoff LTD project thoughtfully crafted on the Vue.js and WordPress platforms. Discover how this innovative solution, driven by top-notch web development and Vue.js expertise, reshapes the commercial real estate landscape, offering unparalleled results for clients seeking multi-housing assets.
+
+**Innovative Features for Seamless Multi-Housing Transactions:**
+
+1. **Dynamic Property Search:** THE MULTIFAMILY GROUP offers a dynamic property search, leveraging advanced Vue.js integration for a seamless and responsive user experience.
+2. **Capital Market Knowledge:** The platform combines capital market knowledge with market and submarket expertise, ensuring clients access valuable insights for multi-housing asset transactions.
+3. **Visual Appeal and WordPress Excellence:** With a visually appealing design and WordPress excellence, THE MULTIFAMILY GROUP showcases Vasilkoff LTD's commitment to cutting-edge web development in the commercial real estate sector.
+
+**Crafted with Vue.js, WordPress, and Web Development Expertise:**
+
+Vasilkoff LTD harnesses the power of Vue.js and WordPress, complemented by top-tier web development expertise, to create THE MULTIFAMILY GROUP. This ensures not just a website but a dynamic, responsive real estate platform that sets a new standard in multi-housing asset transactions.
+
+**Consolidated Real Estate Operations:**
+
+THE MULTIFAMILY GROUP, driven by advanced Vue.js and WordPress development, empowers clients by consolidating multi-housing transactions. The platform's features facilitate efficient marketing, sales, and acquisition processes, delivering impactful results.
+
+**Vasilkoff LTD's Commitment to Excellence in Web Development:**
+
+THE MULTIFAMILY GROUP stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in web development. The platform not only meets industry needs but exceeds expectations, providing a transformative solution for the commercial real estate landscape.
+
+**Conclusion:**
+
+Experience the future of multi-housing transactions with THE MULTIFAMILY GROUP. Vasilkoff LTD's dedication to cutting-edge web development and Vue.js expertise, combined with WordPress integration, sets a new standard for real estate platforms. Elevate your commercial property ventures with THE MULTIFAMILY GROUP today.`,
+    },{type:"projects",
+        categories: [
+            "Website","Wordpress", "Web App"
+        ],
+        title: "Big Mail Project",
+        link: "bigmail.io",
+        image: "/assets/portfolio/bigmail.webp",
+        slug: "bigmail-io",
+        url: "https://bigmail.io/",
+        extra:"",
+        description:"Big Mail Project: Vasilkoff LTD's innovative web solution for easy online postcard sending. Streamlined service, global reach. Send postcards hassle-free, anytime, anywhere.",
+        technologies: [
+            "Laravel",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "OpenAI",
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Wordpress",
+            "PHP",
+            "MySQL",
+            "Git",
+            "Github",
+            "Heroku",
+            "Ruby",
+            "Slim",
+            "Figma"],
+        article:`**Elevate Mail-Sending: Vasilkoff LTD Unveils BIG MAIL PROJECT with Laravel + Blade Brilliance**
+
+Simplify postcard sending effortlessly with BIG MAIL PROJECT, a Vasilkoff LTD custom solution meticulously crafted on the Laravel + Blade framework. Discover how this innovative platform, driven by top-notch web development using PHP templates and jQuery, transforms traditional mail-sending experiences, making it as intuitive as sending an email.
+
+**Innovative Features for Seamless Postcard Sending:**
+
+1. **Dynamic PHP Templates:** BIG MAIL PROJECT utilizes Laravel + Blade's dynamic PHP templates for a personalized and responsive mail-sending experience.
+2. **Effortless Customization:** The platform allows users to customize postcards easily, thanks to the intuitive features of Laravel + Blade and jQuery.
+3. **Visual Appeal and Custom Development Excellence:** With a visually appealing design and custom development excellence, BIG MAIL PROJECT showcases Vasilkoff LTD's commitment to cutting-edge web development in the online mail-sending domain.
+
+**Crafted with Laravel + Blade, jQuery, and Custom Development Expertise:**
+
+Vasilkoff LTD leverages the power of Laravel + Blade, complemented by custom jQuery development, to create BIG MAIL PROJECT. This ensures a dynamic, responsive, and personalized platform that sets a new standard in simplifying postcard sending.
+
+**Consolidated Mail-Sending Operations:**
+
+BIG MAIL PROJECT, driven by advanced Laravel + Blade and jQuery development, empowers users by consolidating mail-sending operations. The platform's features facilitate efficient customization, rendering, and delivery of personalized postcards, revolutionizing the traditional mail experience.
+
+**Vasilkoff LTD's Commitment to Excellence in Custom Web Development:**
+
+BIG MAIL PROJECT stands as a testament to Vasilkoff LTD's unwavering commitment to innovation and excellence in custom web development. The platform not only meets industry needs but exceeds expectations, providing a transformative solution for online mail-sending.
+
+**Conclusion:**
+
+Experience the future of postcard sending with BIG MAIL PROJECT. Vasilkoff LTD's dedication to cutting-edge custom web development, leveraging Laravel + Blade and jQuery, sets a new standard for personalized mail-sending platforms. Elevate your postcard experience with BIG MAIL PROJECT today.`,
+    },
+    {type:"projects",
+        categories: [
+            "Website","AI", "Web App"
+        ],
         title: "SmartAIChats",
         link: "SmartAIChats.com",
         image: "/assets/portfolio/smartaichats-screenshot.webp",
