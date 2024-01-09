@@ -1187,6 +1187,202 @@ The web app provides a simple and efficient way for sellers to monetize their pr
     {
         type:"projects",
         categories: [
+            "Mobile App"
+        ],
+        title: "CalculatorX",
+        link: "iOS and Android apps",
+        image: "/images/calculatorx.webp",
+        slug: "calculatorx",
+        url: "https://apps.apple.com/us/app/hidex-hide-photo-video-vault/id1577144445",
+        extra:"",
+        description:`"HideX: Swift app by Vasilkoff LTD. Securely hide photos, videos, and contacts. Advanced features for ultimate privacy in an elegant design."`,
+        article:`**Enhance Privacy with HideX: Your Ultimate Photo & Video Vault on Swift**
+
+Elevate your privacy with HideX, a native app meticulously crafted on Swift. This Photo & Video Vault ensures optimal confidentiality, seamlessly concealing your media from prying eyes and providing advanced features for a secure and delightful user experience.
+
+**Innovative Features for Privacy Excellence:**
+
+1. **Swift Language Expertise:** HideX is built on Swift, showcasing Vasilkoff LTD's commitment to cutting-edge app development for optimal privacy.
+2. **Secure Vault Creation:** Generate a password-protected vault for both genuine and deceptive photos and videos, ensuring maximum privacy.
+3. **Icon Concealment:** HideX offers the most secure private gallery with discreet app icon concealment, fortifying your privacy.
+4. **Photo & Video Lock:** Safeguard your visual content with a dedicated vault, accessible only through the correct numeric PIN set by you.
+5. **Contact Protection:** Beyond media, HideX discreetly secures your contacts, ensuring a confidential contact list accessible only to you.
+
+**Seamless Gallery Vault Experience:**
+
+HideX not only conceals your photos and videos but also provides an elegantly crafted design for a seamless and delightful interface in your gallery vault.
+
+**Noteworthy Features:**
+
+- **Deceptive Vault:** Create a vault with a distinct password for storing counterfeit photos and videos.
+- **Icon Concealment:** Ensure the utmost security for your private gallery with discreet app icon concealment.
+- **Media Vault:** Safeguard private videos, movies, and files within a secure video vault.
+- **Contact Protection:** Import and safeguard sensitive contacts within the app.
+
+**FAQ: How to Access?**
+
+Enter your password and press the '=' button to unlock.
+
+**What If I Forget My Password?**
+
+Input '11223344' on the pin screen and press '=' to retrieve your password by answering your security question.
+
+**How to Restore an Encrypted File?**
+
+Long-press on the encrypted file, enter edit mode, and restore it using the restore button.
+
+**Are Hidden Files Stored Online?**
+
+No, your files are exclusively stored on your device. Remember to back up hidden files before transferring to a new device or factory reset.
+
+**Subscription Details:**
+
+Prices may vary. Subscriptions will be charged to your credit card through your iTunes account, auto-renewing unless canceled 24 hours before the current period ends. Once activated, subscriptions cannot be canceled.
+
+**Conclusion:**
+
+Experience ultimate privacy with HideX. Vasilkoff LTD's dedication to Swift development sets a new standard for secure photo and video vaults. Safeguard your visual content and contacts with HideX today.`
+    },
+    {
+        type:"projects",
+        categories: [
+            "Mobile App"
+        ],
+        title: "Living Cyprus",
+        link: "iOS and Android apps",
+        image: "/images/living_cyprus.webp",
+        slug: "living_cyprus",
+        url: "https://play.google.com/store/apps/details?id=com.thelivingapp.livingcyprus",
+        extra:"",
+        description:`"Living Cyprus: Vasilkoff LTD's React Native app, Nest.js backend, and Rect.js website. Your mobile passport to Cyprus's lifestyle. News, events, property listings. Stay connected for more features!"`,
+        article:`**Experience Cyprus with Living Cyprus: Your Comprehensive Lifestyle Companion**
+
+Discover the essence of Cyprus with "Living Cyprus," a Vasilkoff LTD app seamlessly crafted on React Native, backed by a Nest.js backend, and complemented by a dynamic website on React.js. This innovative application provides a gateway to the best of Cyprus, offering news updates, event exploration, and a comprehensive platform for property listings, catering to both buying and renting needs.
+
+**Innovative Features for a Cyprus Lifestyle:**
+
+1. **React Native Expertise:** "Living Cyprus" is built on React Native, showcasing Vasilkoff LTD's commitment to cutting-edge mobile app development for an immersive Cyprus experience.
+2. **Nest.js Backend Brilliance:** The app's backend is powered by Nest.js, ensuring robust functionality and seamless integration for a smooth user experience.
+3. **Dynamic React.js Website:** The accompanying website, developed on React.js, enhances the overall user interface and provides a versatile platform for accessing Cyprus lifestyle features.
+
+**Comprehensive Lifestyle Exploration:**
+
+"Living Cyprus" goes beyond being a property app; it's your mobile passport to the island's lifestyle. Stay informed with the latest news, discover exciting events, and explore a diverse range of property listings.
+
+**Noteworthy Features:**
+
+- **News Updates:** Stay connected with the latest happenings in Cyprus through curated news updates.
+- **Event Exploration:** Find and engage in exciting events happening across the island.
+- **Property Listings:** Whether buying or renting, "Living Cyprus" offers a comprehensive platform for property exploration.
+
+**Future Features:**
+
+As we continue to evolve, "Living Cyprus" will keep adding more features to enhance your experience, making it your go-to mobile companion for all things Cyprus.
+
+**Conclusion:**
+
+Immerse yourself in the Cyprus lifestyle with "Living Cyprus." Vasilkoff LTD's dedication to React Native, Nest.js, and React.js development sets a new standard for a comprehensive and dynamic mobile app experience. Explore Cyprus with "Living Cyprus" today!`
+    },
+    {
+        type:"projects",
+        categories: [
+            "Mobile App"
+        ],
+        title: "Black Box Control",
+        link: "iOS and Android apps",
+        image: "/images/black_box.webp",
+        slug: "black_box",
+        url: "https://apps.apple.com/us/app/black-box-control/id1636259832",
+        extra:"",
+        description:`"Black Box Control: Vasilkoff LTD's React Native app for Rainwater Harvesting. UK's leading specialists, offering products and complete packages. Dive into sustainability with our innovative mobile solution."`,
+        article:`**Optimize Rainwater Harvesting: Vasilkoff LTD Presents Black Box Control App on React Native**
+
+Explore efficient rainwater harvesting with the Black Box Control app, a Vasilkoff LTD project developed on React Native. As a leading Rainwater Harvesting Specialist in the UK, our app provides a user-friendly interface for monitoring, controlling, and optimizing systems, ensuring sustainable water solutions.
+
+**Innovative Features for Rainwater Harvesting Excellence:**
+
+1. **React Native Expertise:** Black Box Control is crafted with React Native, showcasing Vasilkoff LTD's commitment to cutting-edge app development for rainwater harvesting solutions.
+2. **Comprehensive System Monitoring:** Our app enables users to monitor and control rainwater harvesting systems effortlessly, promoting sustainability and efficient water management.
+3. **Market-Leading Solutions:** As a leading Rainwater Harvesting Specialist, Black Box Control offers market-leading solutions, providing a comprehensive app for domestic and commercial users.
+
+**Crafted with React Native Excellence:**
+
+Vasilkoff LTD leverages React Native expertise to create Black Box Control, ensuring a responsive and feature-rich app for optimal rainwater harvesting.
+
+**Streamlined Water Management Operations:**
+
+Black Box Control, driven by advanced React Native development, empowers users to streamline water management operations, making rainwater harvesting accessible and efficient.
+
+**Vasilkoff LTD's Commitment to Excellence:**
+
+Black Box Control stands as a testament to Vasilkoff LTD's commitment to excellence in app development, providing a transformative solution for Rainwater Harvesting Specialists.
+
+**Conclusion:**
+
+Optimize your rainwater harvesting experience with Black Box Control. Vasilkoff LTD's dedication to cutting-edge React Native development sets a new standard for efficient water solutions. Embrace sustainability with Black Box Control today.`
+    },
+    {
+        type:"projects",
+        categories: [
+            "Mobile App"
+        ],
+        title: "Aquatopper",
+        link: "iOS and Android apps",
+        image: "/images/aquatopper.webp",
+        slug: "aquatopper",
+        url: "https://apps.apple.com/us/app/aquatopper/id6446026946",
+        extra:"",
+        description:`"Aquatopper App: Vasilkoff LTD's React Native masterpiece. Control your Automatic Pool Top-Up Device seamlessly. Dive into innovation with our cutting-edge mobile application."`,
+        article:`**Elevate Pool Management with Aquatopper: Vasilkoff LTD's Outsourced App Development Expertise**
+
+Discover seamless pool maintenance with Aquatopper, a Vasilkoff LTD project developed on React Native. Our outsourced app development team ensures a user-friendly interface, automating the pool top-up process for effortless water level control.
+
+**Innovative Features for Efficient Pool Maintenance:**
+
+1. **Outsourced App Development:** Aquatopper is a testament to Vasilkoff LTD's expertise in outsourced app development, ensuring cutting-edge solutions for pool management.
+2. **Automated Pool Top-Up:** Experience hassle-free water level control with our app, developed by an outsourced team dedicated to excellence in application development.
+3. **Outstaff Solutions:** Vasilkoff LTD provides outstaff solutions, delivering a skilled and dedicated team for outsourced app development projects like Aquatopper.
+
+**Crafted with React Native Excellence:**
+
+Our outsourced app development team leverages React Native to create Aquatopper, exceeding expectations in functionality and user experience.
+
+**Automate Pool Operations with Outsourced Expertise:**
+
+Aquatopper, driven by outsourced app development using React Native, empowers users to automate pool maintenance with a dedicated outstaff team.
+
+**Vasilkoff LTD's Commitment to Excellence in Outsourcing:**
+
+Aquatopper reflects Vasilkoff LTD's commitment to excellence in outsourced app development, showcasing the advantages of outsourcing for innovative solutions.
+
+**Conclusion:**
+
+Dive into the future of pool maintenance with Aquatopper, backed by Vasilkoff LTD's outsourced app development expertise. Experience the benefits of outsourcing, outstaff solutions, and cutting-edge application development for simplified pool ownership. Simplify your pool maintenance with Aquatopper today.`
+    },
+    {
+        type:"projects",
+        categories: [
+            "Crypto","Website"
+        ],
+        title: "COINAGE WALLET",
+        link: "Coingage Wallet",
+        image: "/images/coinage-wallet.png",
+        slug: "coinage-wallet",
+        url: "#",
+        extra:"",
+        description:"CoingageWallet.com is a cryptocurrency exchange platform created by Vasilkoff to showcase their framework and capabilities. The platform can be customized and branded for potential customers who are interested in launching their own cryptocurrency exchange.",
+        article:`
+CoingageWallet.com was developed by Vasilkoff using Peatio, an open-source cryptocurrency exchange platform, as the base framework. This allowed us to leverage the robust features of Peatio while customizing and adding unique features to meet the specific needs of our clients.
+
+The platform provides a seamless and secure trading experience for users, with support for multiple cryptocurrencies and fiat currencies. Users can easily deposit and withdraw funds, view their trading history and account balances, and place buy and sell orders with just a few clicks.
+
+One of the key advantages of CoingageWallet.com is its scalability. It is built with the ability to handle high volumes of traffic and trading activity, making it suitable for both small and large exchanges. Additionally, the platform can be customized with unique branding, logos, and color schemes to create a fully unique and branded exchange for our clients.
+
+Overall, CoingageWallet.com demonstrates Vasilkoff's expertise in developing custom cryptocurrency exchange platforms using Peatio as the base framework. Our team of experienced developers can customize and tailor the platform to meet the unique needs of our clients, providing them with a secure, reliable, and scalable cryptocurrency exchange solution.`,
+    },
+    {
+        type:"projects",
+        categories: [
             "Game","Mobile App"
         ],
         title: "BUBBLE PIRATE QUEST",
