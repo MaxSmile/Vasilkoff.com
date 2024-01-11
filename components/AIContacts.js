@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
 import NoSSR from 'react-no-ssr';
+import { trackEvent } from '@phntms/next-gtm';
 
 export default function AIContacts() {
     const [activeZone, setActiveZone] = useState(false);
@@ -46,6 +47,10 @@ export default function AIContacts() {
         submitMessageBtnRef.current?.classList.add("shrink-away");
         containerRef.current.contentEditable = false;
 
+        trackEvents({
+            event: "contactFormSubmitted",
+            data: { hitType: "contactFormSubmitted", name: nameRef.current.value, email: emailRef.current.value, mobile: mobileRef.current.value, message: message, city: cityRef.current.value},
+          });
     }
 
 
