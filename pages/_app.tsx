@@ -7,12 +7,14 @@ import DefaultLayout from '../components/Layouts/DefaultLayout';
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Head from 'next/head';
+import { TrackingHeadScript } from '@phntms/next-gtm';
 
 export default function App({ Component, pageProps }: AppProps) {
 
     return (
         <DefaultLayout>
             <Head>
+            <TrackingHeadScript id={"GTM-KQHMWKC"} />
                 <meta charSet="UTF-8" />
                 <title>Mobile and Web apps development services</title>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -35,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                 <meta name="theme-color" content="#ffffff"></meta>
 
-                <meta property="og:title" content="Vasilkoff Ltd - Software Development Services" />
+                <meta property="og:title" content="Vasilkoff Ltd - mobile apps and web-development Services" />
                 <meta property="og:site_name" content="Vasilkoff Ltd" />
                 <meta property="og:url" content="https://vasilkoff.com" />
                 <meta property="og:description" content="Crafting cutting-edge web and mobile apps with a focus on the latest technologies. Explore our full-stack expertise and elevate your digital presence today!" />

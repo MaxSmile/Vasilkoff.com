@@ -52,7 +52,7 @@ index - Organization
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Vasilkoff",
-    "headline": "Vasilkoff Ltd - Software Development Company",
+    "headline": "Mobile apps and Web-Development Company",
     "legalName": "Vasilkoff Ltd",
     "url": "https://vasilkoff.com",
     "logo": "https://vasilkoff.com/images/logo-vasilkoff.png",

@@ -34,11 +34,11 @@ const BlogsList = ({ page }) => {
                 <title>Vasilkoff Blogs {page}</title>
                 <meta
                     name="description"
-                    content="Explore the latest in software development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles."
+                    content="Explore the latest in mobile apps and web-development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles."
                 />
                 <meta property="og:url" content="https://vasilkoff.com/blog" />
                 <meta property="og:image" content="https://vasilkoff.com/assets/blog/blog.webp" />
-                <meta property="og:description" content="Explore the latest in software development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles." />
+                <meta property="og:description" content="Explore the latest in mobile apps and web-development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles." />
 
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{

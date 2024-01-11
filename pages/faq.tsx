@@ -7,7 +7,7 @@ const FAQs = () => {
         <>
             <Head>
                 <title>FAQs - Vasilkoff Ltd</title>
-                <meta name="description" content="Get answers to common questions about Vasilkoff's full-stack software development services, blockchain technology, outsourcing, and outstaffing in our comprehensive FAQ." />
+                <meta name="description" content="Get answers to common questions about Vasilkoff's full-stack mobile apps and web-development services, blockchain technology, outsourcing, and outstaffing in our comprehensive FAQ." />
             </Head>
 
 

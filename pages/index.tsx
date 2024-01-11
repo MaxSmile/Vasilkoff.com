@@ -49,11 +49,11 @@ const Index = (props: any) => {
                         <h1>Vasilkoff Ltd Empowers Your Success with Expert Web & Mobile App Development</h1>
                         <h2>Partner with Us for High-Impact Outsourcing Solutions</h2>
                         <p id="details" className={ `cursor-pointer my-8 text-md ${openDetails ? '' : 'line-clamp-2'}`} onClick={() => { setOpenDetails(!openDetails) }}>
-                            These services may include software development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
+                            These services may include mobile apps and web-development, project management, consulting, and other related services that aim to deliver tangible results and provide a competitive advantage to clients.
                             
-                            At Vasilkoff Ltd, we specialize in crafting state-of-the-art web and mobile applications, focusing on delivering high-quality outsourcing solutions that cater to your unique needs. Our team of experts is dedicated to bringing your ideas to life, ensuring each project is handled with utmost precision and professionalism. From initial concept to final implementation, we blend innovative development techniques with effective project management to create digital solutions that not only meet but exceed your expectations. Let us be your trusted partner in navigating the complexities of modern software development, and together, we'll create impactful digital experiences that drive your business forward.
+                            At Vasilkoff Ltd, we specialize in crafting state-of-the-art web and mobile applications, focusing on delivering high-quality outsourcing solutions that cater to your unique needs. Our team of experts is dedicated to bringing your ideas to life, ensuring each project is handled with utmost precision and professionalism. From initial concept to final implementation, we blend innovative development techniques with effective project management to create digital solutions that not only meet but exceed your expectations. Let us be your trusted partner in navigating the complexities of modern mobile apps and web-development, and together, we'll create impactful digital experiences that drive your business forward.
                            
-                            Partnering with us means more than just outsourcing your software development; it’s about embarking on a journey towards digital innovation and growth. With Vasilkoff Ltd, you gain a collaborator who understands the pulse of modern technology and is dedicated to propelling your business forward. Let’s work together to create digital solutions that resonate with your audience and deliver lasting impact.
+                            Partnering with us means more than just outsourcing your mobile apps and web-development; it’s about embarking on a journey towards digital innovation and growth. With Vasilkoff Ltd, you gain a collaborator who understands the pulse of modern technology and is dedicated to propelling your business forward. Let’s work together to create digital solutions that resonate with your audience and deliver lasting impact.
 
                         </p>
                         
@@ -72,7 +72,7 @@ const Index = (props: any) => {
                         <h3>Competitive rates and pricing for superior service</h3>
                         <h2>Our expertise spans both outsourcing and outstaffing</h2>
                         <p className="my-10">
-                            For software development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
+                            For mobile apps and web-development services, outsourcing and outstaffing are two common business strategies used to hire external companies or individuals to perform certain tasks, rather than having an in-house team.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-2">
@@ -138,7 +138,7 @@ const Index = (props: any) => {
                             "@context": "https://schema.org",
                             "@type": "Organization",
                             "name": "Vasilkoff",
-                            "headline": "Vasilkoff Ltd - Software Development Company",
+                            "headline": "Vasilkoff Ltd - mobile apps and web-development Company",
                             "legalName": "Vasilkoff Ltd",
                             "url": "https://vasilkoff.com",
                             "logo": "https://vasilkoff.com/images/logo-vasilkoff.webp",
@@ -209,8 +209,8 @@ const Index = (props: any) => {
                         }),
                     }}
                 />
-                <title>Vasilkoff Ltd - Full-stack Web & Mobile Software Development Services</title>
-                <meta name="description" content="Vasilkoff (CY) Ltd: Full-stack software development with a focus on AI-enhanced web/mobile apps, DApps, and Smart Contracts." />
+                <title>Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services</title>
+                <meta name="description" content="Vasilkoff (CY) Ltd: Full-stack mobile apps and web-development with a focus on AI-enhanced web/mobile apps, DApps, and Smart Contracts." />
                 <link rel="canonical" href="https://vasilkoff.com" />
             </Head>
 

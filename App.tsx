@@ -1,11 +1,14 @@
 import { PropsWithChildren, useEffect } from 'react';
-import ReactGA from 'react-ga4';
+
 
 import { useRouter } from 'next/router';
+import { trackEvent } from '@phntms/next-gtm';
 
-ReactGA.initialize([{
-  "trackingId":"G-9WSLDWGM8P",
-}]);
+//import ReactGA from 'react-ga4';
+// ReactGA.initialize([{
+//   "trackingId":"G-9WSLDWGM8P",
+// }]);
+
 
 
 
@@ -15,11 +18,12 @@ function App({ children }: PropsWithChildren) {
 
 
     useEffect(() => {
-
-        //track('G-9WSLDWGM8P');
         const handleRouteChange = (url: any) => {
-            ReactGA.send({ hitType: "pageview", page: url});
-            //track('G-9WSLDWGM8P');
+            //ReactGA.send({ hitType: "pageview", page: url});
+            trackEvent({
+              event: "pageview",
+              data: { hitType: "pageview", page: url},
+            });
           };
       
           // When the component is mounted, subscribe to router changes

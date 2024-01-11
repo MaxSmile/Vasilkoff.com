@@ -46,11 +46,11 @@ Founder, Systems Architect
 Contacts: maxim@vasilkoff.com, +35796253566
 
 
-# Vasilkoff Ltd: Software Development Services
+# Vasilkoff Ltd: Web and Apps Development Services
 
 ## Competitive Rates and Pricing for Superior Service
 
-At Vasilkoff Ltd, we offer competitive rates and pricing models tailored to provide superior service in software development. Our expertise spans both outsourcing and outstaffing, offering flexible solutions to meet your unique needs.
+At Vasilkoff Ltd, we offer competitive rates and pricing models tailored to provide superior service in mobile apps and web-development. Our expertise spans both outsourcing and outstaffing, offering flexible solutions to meet your unique needs.
 
 ### Outsourcing Services
 
@@ -98,7 +98,7 @@ Outstaffing allows you to maintain high control over project management and team
 
 # Vasilkoff Ltd: Services
 
-At Vasilkoff Ltd, we offer a range of technology services designed to provide tangible results and a competitive advantage to our clients. Our services span various domains including software development, project management, consulting, and more.
+At Vasilkoff Ltd, we offer a range of technology services designed to provide tangible results and a competitive advantage to our clients. Our services span various domains including mobile apps and web-development, project management, consulting, and more.
 
 ## UI/UX Design
 

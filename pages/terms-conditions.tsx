@@ -9,7 +9,7 @@ const Termsandcondition = () => {
                 <title>Terms and Conditions - Vasilkoff</title>
                 <meta
                     name="description"
-                    content="Read the terms and conditions that govern your use of Vasilkoff's services. Understand your rights and obligations when engaging with our software development solutions."
+                    content="Read the terms and conditions that govern your use of Vasilkoff's services. Understand your rights and obligations when engaging with our mobile apps and web-development solutions."
                 />
             </Head>
 

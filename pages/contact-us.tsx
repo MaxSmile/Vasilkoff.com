@@ -10,7 +10,7 @@ const Contactus = () => {
                 <title>Contact Us - Vasilkoff</title>
                 <meta
                     name="description"
-                    content="Get in touch with Vasilkoff. Contact us for any inquiries related to our software development services, partnerships, career opportunities, and more."
+                    content="Get in touch with Vasilkoff. Contact us for any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more."
                 />
                 <script type="application/ld+json"
                     dangerouslySetInnerHTML={{

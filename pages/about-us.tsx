@@ -15,7 +15,7 @@ const Aboutus = () => {
             <title>About Us - Vasilkoff</title>
                 <meta 
                     name="description" 
-                    content="Learn more about Vasilkoff, a full-stack software development company. Discover our mission, vision, team, and why we're the right choice for your software development needs." 
+                    content="Learn more about Vasilkoff, a full-stack mobile apps and web-development company. Discover our mission, vision, team, and why we're the right choice for your mobile apps and web-development needs." 
                 />
             </Head>
 

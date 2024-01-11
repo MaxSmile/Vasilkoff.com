@@ -53,13 +53,13 @@ Irina Vasilkova's innovative design work has played an instrumental role in Vasi
 
 "simon-papazov": {
         "date": "May 3, 2023",
-        "title": "Simon Papazov: A Leading Figure in Cyprus's Software Development Industry",
+        "title": "Simon Papazov: A Leading Figure in Cyprus's mobile apps and web-development Industry",
         "subtitle": "Managing Director of Vasilkoff CY Ltd",
         "description": "Explore the journey of Simon Papazov, Managing Director of Vasilkoff CY Ltd. Discover his influence in the Cypriot tech industry and successful projects.",
         "picture": "/assets/team/simon-papazov.webp",
         "time": "1 min",
         "content": 
-`Simon Papazov is the Managing Director of [Vasilkoff CY Ltd](https://vasilkoff.com), a full-stack software development company based in Cyprus. Simon is a seasoned programmer with a special interest in Android Mobile Application Development. His influence in the Cypriot tech industry extends beyond his managerial role at Vasilkoff, with his notable successes in competitive platforms such as the [BOC HACKATHON FINTECH 3.0](/blog/boc-hackathon-fintech-3-0) and impressive contributions to various projects.
+`Simon Papazov is the Managing Director of [Vasilkoff CY Ltd](https://vasilkoff.com), a full-stack mobile apps and web-development company based in Cyprus. Simon is a seasoned programmer with a special interest in Android Mobile Application Development. His influence in the Cypriot tech industry extends beyond his managerial role at Vasilkoff, with his notable successes in competitive platforms such as the [BOC HACKATHON FINTECH 3.0](/blog/boc-hackathon-fintech-3-0) and impressive contributions to various projects.
 
 > "Leadership and learning are indispensable to each other." - John F. Kennedy
 
@@ -79,9 +79,9 @@ Simon's leadership, paired with his technical expertise, was instrumental in sec
 
 > "The strength of the team is each individual member. The strength of each member is the team." - Phil Jackson
 
-Simon's story underscores the value of teamwork, persistence, and innovation. His journey serves as an inspiration to young developers and entrepreneurs striving to make their mark in the world of software development. 
+Simon's story underscores the value of teamwork, persistence, and innovation. His journey serves as an inspiration to young developers and entrepreneurs striving to make their mark in the world of mobile apps and web-development. 
 
-Indeed, [Simon Papazov](/team/simon-papazov) is not just a programmer, a manager, or a team leader. He is a pivotal figure in the software development industry in Cyprus, contributing to the growth and development of the sector with every line of code, every project, and every leadership decision.`
+Indeed, [Simon Papazov](/team/simon-papazov) is not just a programmer, a manager, or a team leader. He is a pivotal figure in the mobile apps and web-development industry in Cyprus, contributing to the growth and development of the sector with every line of code, every project, and every leadership decision.`
 },
 
 "nikol-todorova": {

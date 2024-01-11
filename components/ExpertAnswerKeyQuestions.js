@@ -39,7 +39,7 @@ const ExpertAnswerKeyQuestions = () => {
             "answer": [
                 "At Vasilkoff, we prioritize the privacy and security of our clients' data as an integral part of our AI solution development process. We adhere to strict data handling protocols that align with industry standards such as GDPR, HIPAA, and other relevant frameworks. Our team regularly undergoes training to stay updated on the latest data protection regulations and best practices.",
         
-                "We implement comprehensive security measures, including data encryption, secure access controls, and regular security audits, to ensure that all AI solutions are fortified against unauthorized access and breaches. Our solutions are designed with 'privacy by design' principles, ensuring that data privacy is an integral part of the software development lifecycle, not an afterthought.",
+                "We implement comprehensive security measures, including data encryption, secure access controls, and regular security audits, to ensure that all AI solutions are fortified against unauthorized access and breaches. Our solutions are designed with 'privacy by design' principles, ensuring that data privacy is an integral part of the mobile apps and web-development lifecycle, not an afterthought.",
         
                 "Furthermore, Vasilkoff engages in transparent data governance policies, making sure that our clients are fully informed about how their data is being used. By working with reliable AI technologies and maintaining open communication with our clients, we strive to build AI solutions that not only enhance business operations but also safeguard sensitive information and maintain user trust."
             ]
