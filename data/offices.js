@@ -23,7 +23,7 @@ const offices = [
     },
     {
         "country": "🇬🇧 London, United Kingdom",
-        "address": "207 Regent Street, London W1B 3HH",
+        "address": "20 Wenlock Road, London  N1 7GU, United Kingdom",
         "phones": [ "+442045772478" ],
         "emails": [ "developer@vasilkoff.com" ],
         "image": "/images/regent-street.webp",

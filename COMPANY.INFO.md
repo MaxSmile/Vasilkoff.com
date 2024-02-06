@@ -19,6 +19,8 @@ Vasilkoff (CY) Ltd Reg. HE 344792
 ## Registration in UK:
 Vasilkoff Ltd Reg. 07976437
 207 Regent Street, London W1B 3HH
+20 Wenlock Road, London  N1 7GU
+United Kingdom
  +1-888-2614460
  +442045772478
  maxim@vasilkoff.com

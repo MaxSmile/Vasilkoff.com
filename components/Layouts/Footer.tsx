@@ -70,7 +70,7 @@ const Footer = () => {
                             </ul>
                             <ul >
                                 <li>Vasilkoff Ltd Reg. 07976437</li>
-                                <li>207 Regent Street, London W1B 3HH</li>
+                                <li>20 Wenlock Road, London  N1 7GU</li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+18882614460">+1-888-2614460</a></li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478">+442045772478</a></li>
                                 <li className="transition hover:text-shadow "><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
