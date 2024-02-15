@@ -2,7 +2,7 @@ const offices = [
     {
         "country": "🇨🇾 Paphos, Cyprus - International Guests Office",
         "address": "Office 402 Charalambou Mouskou & Grigori Afxentiou 20 (ATHINODOROU BUSINESS CENTER), Paphos, Cyprus, 8010",
-        "phones": [ "USA: +1-888-2614460", "CY: +35799169229" ],
+        "phones": [ "USA: +19295909246", "CY: +35799169229" ],
         "emails": [ "dev@vasilkoff.com" ],
         "image": "/images/athinodorou.jpg",
 
