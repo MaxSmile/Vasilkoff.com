@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://vasilkoff.com
+
+# Sitemaps
 Sitemap: https://vasilkoff.com/sitemap.xml

@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
-import NoSSR from 'react-no-ssr';
+import { noSSR } from 'next/dynamic';
 import { trackEvent } from '@phntms/next-gtm';
 
 export default function AIContacts() {
@@ -55,7 +55,7 @@ export default function AIContacts() {
 
 
     return (
-        <NoSSR>
+        <noSSR>
 <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
                 <div className="items-center justify-center lg:flex">
                     <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
@@ -166,7 +166,7 @@ export default function AIContacts() {
                     </div>
                 </div>
             </section>
-        </NoSSR>
+        </noSSR>
 
     )
 }
