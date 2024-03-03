@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
-
+import NoSSR from "../helpers/NoSSR";
 
 const Footer = () => {
 
@@ -81,7 +81,13 @@ const Footer = () => {
                             <p className='text-xs my-2 text-shadow'>DUNS number: 218272992</p>
                         </div>
                     </div>
+                    <div id='extra_line'>
+                        <NoSSR>
+
+                        </NoSSR>
+                    </div>
                 </div>
+
             </footer>
             <hr />
             <div className="py-5 bg-black">
