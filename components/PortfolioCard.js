@@ -11,7 +11,7 @@ const PortfolioCard = (
 ) => {
 
     return (
-        <div className={`project ${activeTab === 'all' || obj.categories?.includes(activeTab) ? 'block' : 'hidden'}`}>
+        <card className={`project ${activeTab === 'all' || obj.categories?.includes(activeTab) ? 'block' : 'hidden'}`}>
             <Link href={"/portfolio/" + obj.slug} aria-label={obj.title} className="grayscale hover:grayscale-0">
                 <div className="relative rounded-3xl border border-transparent bg-white drop-shadow-[5px_10px_80px_rgba(119,128,161,0.15)] transition duration-200 hover:border-secondary hover:bg-primary/20 ">
                     <Image src={obj.image} alt={obj.description} width={350} height={208} loading="lazy" 
@@ -22,7 +22,7 @@ const PortfolioCard = (
                     </div>
                 </div>
             </Link>
-        </div>
+        </card>
     );
 };
 
