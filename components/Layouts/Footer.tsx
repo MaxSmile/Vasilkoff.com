@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
-import NoSSR from "../helpers/NoSSR";
+import Image from 'next/image.js';
+
 
 const Footer = () => {
 
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                         <div>
                             <p className="py-4">
-                            <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
+                                <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
 
