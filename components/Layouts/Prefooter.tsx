@@ -15,13 +15,13 @@ const Prefooter = () => {
                             </a>
                         </div>
                         <div className="text-center">
-                            <h2><strong>Free</strong><small> consultation about how to start your Website or App</small></h2>
+                            <h2><strong>Free</strong> consultation about how to start your Website or App</h2>
                             <p className="pt-6"><a href="/contact-us" type="button" className="btn btn-danger btn-lg btn-block" >Contact Us Now</a></p>
                             <p className="pt-6">Free reasearch for complex cases with in <strong>12 hours</strong></p>
                         </div>
-                        <div className="text-center justify-center items-center">
-                            <p><a href="/payment"><Image src="/images/stripe-powered-payments.webp" className="m-auto" 
-                            alt="Stripe" width={600 / 2} height={290 / 2} /></a></p>
+                        <div className="text-center">
+                            <a href="/payment"><Image src="/images/stripe-powered-payments.webp" className="m-auto" 
+                            alt="Stripe" width={600 / 2} height={290 / 2} /></a>
                             <p className="text-center py-4"><a href="/payment"><strong>Request an invoice</strong></a></p>
                         </div>
                     </div>

@@ -1,10 +1,7 @@
-
-import Link from 'next/link';
+// pages/payment.tsx
 import Head from 'next/head';
-import { portfolios } from '../data/portfolios';
 
 export default function Payment() {
-    const ourprojects = portfolios.filter(portfolio => portfolio.type === 'our-projects');
     return (
         <div>
             <Head>
