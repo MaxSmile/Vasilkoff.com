@@ -1,6 +1,7 @@
 import OfficeSwiper from '../components/OfficeSwiper';
 import Head from 'next/head';
 import AIContacts from '../components/AIContacts';
+import Calendly from '../components/helpers/Calendly';
 
 const Contactus = () => {
 
@@ -46,17 +47,22 @@ const Contactus = () => {
             </Head>
 
             <div id="talkToUs" className="relative -top-20">&nbsp;</div>
-            <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent dark:from-white/[0.03] lg:py-[100px]">
+            <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent dark:from-white/[0.03] ">
                 <div className="container">
                     <div className="mx-auto text-center sm:w-[430px]">
                         <div className="mb-6">
-                            <h1 className="blackheading">Contact Us Today</h1>
+                            <h1 className="blackheading">Contact Us Now</h1>
                         </div>
                     </div>
                     <AIContacts />
+                    <div className="mx-auto text-center sm:w-[430px]">
+                        <div className="mb-6">
+                            <h2 className="blackheading">Or Book your initial 30 minute online consultation</h2>
+                        </div>
+                    </div>
+                    <Calendly />
                 </div>
             </section>
-
             
 
             <OfficeSwiper />

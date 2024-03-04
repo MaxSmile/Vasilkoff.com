@@ -27,7 +27,7 @@ export default function Services() {
                             slug="mobile-apps-development" />
                     
                         <ServiceCardOne 
-                            title="Smart Contracts & DApps" 
+                            title="Blockchain, Smart Contracts & DApps" 
                             message="Maximize the power of your smart contracts with our expert team. We specialize in Solidity and Hardhat, delivering customized solutions that enhance functionality and efficiency."
                             icon={<FileEarmarkBinary className="text-light"/>} 
                             slug="smart-contracts-development"/>
