@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../version.js";
-import Image from 'next/image.js';
+import CSE from '../helpers/CSE.js';
 
 
 const Footer = () => {
@@ -16,15 +16,9 @@ const Footer = () => {
                                 <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
-
                                 <li>
-                                    <Link href="/crypto" className="inline-block transition hover:text-shadow ">
-                                        Crypto Offer
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/contact-us" className="inline-block transition hover:text-shadow ">
-                                        Contact Us
+                                    <Link href="/search" className="inline-block transition hover:text-shadow ">
+                                        Search
                                     </Link>
                                 </li>
                                 <li>
@@ -32,7 +26,11 @@ const Footer = () => {
                                         FAQs
                                     </Link>
                                 </li>
-
+                                <li>
+                                    <Link href="/contact-us" className="inline-block transition hover:text-shadow ">
+                                        Contact Us
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
@@ -125,6 +123,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <CSE />
         </>
     );
 };
