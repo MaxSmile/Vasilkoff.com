@@ -1,5 +1,10 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
+import NoSSR from "./NoSSR";
 export default function Calendly() {
-    return <InlineWidget url="https://calendly.com/your_scheduling_page" />;
+    return (
+    <NoSSR>
+    <InlineWidget url="https://calendly.com/dev-vasilkoff-ltd/30min" />
+    </NoSSR>
+    );
 }
