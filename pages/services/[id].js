@@ -49,13 +49,13 @@ const Servicesdetail = ({serv,slug}) => {
     "provider": {
         "@type": "Organization",
         "name": "Vasilkoff Ltd",
-        "url": "https://www.vasilkoff.com"
+        "url": "https://vasilkoff.com"
     },
     "serviceType": "${serv.title}",
     "name": "${serv.subtitle}",
     "description": "${serv.description}",
     "areaServed": "Worldwide",
-    "url": "https://www.vasilkoff.com/services/${slug}"
+    "url": "https://vasilkoff.com/services/${slug}"
 }`
 }} />
 

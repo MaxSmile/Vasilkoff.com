@@ -164,7 +164,7 @@ const Index = (props: any) => {
                                         "email": "sp@vasilkoff.com",
                                         "telephone": "+35799169229",
                                         "jobTitle": "Managing Director",
-                                        "image": "https://www.vasilkoff.com/images/simon-papazov.png",
+                                        "image": "/images/simon-papazov.png",
                                         "contactType": "customer service"
                                     },
                                     {
@@ -172,7 +172,7 @@ const Index = (props: any) => {
                                         "name": "Anastasia Sarlidou",
                                         "email": "anastasia@vasilkoff.com",
                                         "jobTitle": "Human Centered AI engineer",
-                                        "image": "https://www.vasilkoff.com/images/anastasia-sarlidou.png",
+                                        "image": "/images/anastasia-sarlidou.png",
                                         "contactType": "AI related questions"
                                     },
                                     {
@@ -180,7 +180,7 @@ const Index = (props: any) => {
                                         "name": "Irina Vasilkova",
                                         "email": "omorfi@vasilkoff.com",
                                         "jobTitle": "Design Director",
-                                        "image": "https://www.vasilkoff.com/images/irina-vasilkova.png",
+                                        "image": "/images/irina-vasilkova.png",
                                         "contactType": "design related questions"
                                     },
                                     {
@@ -188,7 +188,7 @@ const Index = (props: any) => {
                                         "name": "Nikol Todorova",
                                         "email": "nikol@vasilkoff.com",
                                         "jobTitle": "UI/UX Designer",
-                                        "image": "https://www.vasilkoff.com/images/nikol.jpg",
+                                        "image": "/images/nikol.jpg",
                                         "contactType": "customer service"
                                     },
                                     {
@@ -196,7 +196,7 @@ const Index = (props: any) => {
                                         "name": "Maxim Vasilkov",
                                         "email": "maxim@vasilkoff.com",
                                         "jobTitle": "Systems Architect",
-                                        "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+                                        "image": "/images/maxim-vasilkov.png",
                                         "contactType": "founder, business related questions"
                                     }
 
@@ -204,7 +204,7 @@ const Index = (props: any) => {
                                 "founder": {
                                     "@type": "Person",
                                     "name": "Maxim Vasilkov",
-                                    "image": "https://www.vasilkoff.com/images/maxim-vasilkov.png",
+                                    "image": "/images/maxim-vasilkov.png",
                                     "jobTitle": "CBDO"
                                 }
 

@@ -359,7 +359,7 @@ White space—or simply 'space'—is an active element in design that should be 
 
 
 
-In the competitive world of UI design, these tips can give your layouts a noticeable lift, making them not only aesthetically pleasing but also more user-friendly. If you're considering scaling up your mobile apps and web-development team to take your UI design to the next level, explore the benefits of outsourcing in our recent blog post ["Why Outsourcing mobile apps and web-development Can Benefit Your Business"](https://www.vasilkoff.com/blog/Why-Outsourcing).
+In the competitive world of UI design, these tips can give your layouts a noticeable lift, making them not only aesthetically pleasing but also more user-friendly. If you're considering scaling up your mobile apps and web-development team to take your UI design to the next level, explore the benefits of outsourcing in our recent blog post ["Why Outsourcing mobile apps and web-development Can Benefit Your Business"](/blog/Why-Outsourcing).
         `
     },
     "seo-rich-snippets-google": {
@@ -460,7 +460,7 @@ Structured data is not a set-it-and-forget-it kind of thing. Search engines freq
 
 Implementing structured data on your website can significantly enhance your SEO and improve your visibility on search engine results pages. It's a vital tool in your digital marketing toolkit, enabling you to communicate effectively with search engines and help them understand your content. Remember, choosing the correct schema, avoiding common mistakes, and keeping up with changes are essential for successful implementation.
 
-While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort. Don't hesitate to reach out to SEO professionals like us at [Vasilkoff Ltd](https://www.vasilkoff.com/contact-us) for help. We're here to ensure your structured data strategy is robust, relevant, and effective. Happy structuring!
+While structured data can seem daunting at first, the benefits it brings to your SEO strategy are well worth the effort. Don't hesitate to reach out to SEO professionals like us at [Vasilkoff Ltd](/contact-us) for help. We're here to ensure your structured data strategy is robust, relevant, and effective. Happy structuring!
 
 `
     },

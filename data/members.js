@@ -12,15 +12,45 @@ In Darwin since 2024, I'm now immersed in AI, celebrated for "AI Chat Bridge," w
       
 ---
 
-Despite his managerial role, Vasilkov's commitment to technical excellence remains unwavering. He diligently hones his programming skills through regular practice, ensuring that his knowledge remains at the cutting edge of the ever-evolving IT industry. His influence extends beyond his day-to-day work, as evidenced by his co-authorship of a notable programming book. This accomplishment not only underscores his deep understanding of programming principles but also his dedication to sharing knowledge with the broader tech community.
+Maksym Vasylkov (Maxim Vasilkov), alongside his talented team at Vasilkoff, consistently pushes the boundaries of technology, marrying deep technical expertise with a humble approach to innovation. With a keen focus on blockchain and artificial intelligence, Vasilkov has emerged as a quiet force in the tech industry, contributing significantly to its advancement.
 
-One of Vasilkov's distinctive passions is his advocacy for open-source technology. His fervent belief in the power of open-source solutions to drive innovation and collaboration has led him to actively contribute to various open-source projects, further solidifying his status as a respected figure in the IT realm.
+**A Testament to Blockchain Mastery**
 
-Delving into specialized domains, Vasilkov has established himself as an authority in blockchain technology. His expertise shines particularly in the realm of developing EVM (Ethereum Virtual Machine) smart contracts using Solidity, a programming language tailored for creating secure and efficient blockchain applications. Projects like [NFTTRX](https://vasilkoff.com/portfolio/nfttrx), [SMRT16](https://vasilkoff.com/portfolio/smrt16), [SMRTSGN](https://vasilkoff.com/portfolio/smrtsgn), and [smrtAI](https://vasilkoff.com/portfolio/smrtAI) are testament to his proficiency and innovation.
+Delving into specialized domains, Vasilkov has established himself as an authority in blockchain technology. His expertise shines particularly in the realm of developing EVM (Ethereum Virtual Machine) smart contracts using Solidity, a programming language tailored for creating secure and efficient blockchain applications. Projects like [NFTTRX](https://vasilkoff.com/portfolio/nfttrx), [SMRT16](https://vasilkoff.com/portfolio/smrt16), [SMRTSGN](https://vasilkoff.com/portfolio/smrtsgn), and [smrtAI](https://vasilkoff.com/portfolio/smrtAI) stand as a testament to his proficiency and innovation, quietly revolutionizing the way we think about digital ownership, transaction security, and AI integration.
 
-Beyond his technical achievements, Vasilkov's entrepreneurial spirit has led him to found several startup projects. His regtech startup, [smrtsgn.com](https://vasilkoff.com/portfolio/smrtsgn), showcases his ability to identify gaps in the market and develop solutions that leverage technology to streamline regulatory processes. The startup's innovative approach has garnered attention and respect within both the tech and business communities.
+**Sharing Knowledge and Inspiring Others**
 
-Engaging with Maxim Vasilkov is made easy through his various social media channels, where he warmly welcomes connections and interactions. Whether you're intrigued by his programming prowess, his blockchain acumen, or his entrepreneurial journey, reaching out to Maxim promises to be a rewarding experience.
+Maxim's dedication to the tech community extends beyond project work; his contributions to literature, such as the programming book ["Objective-C Memory Management Essentials"](https://vasilkoff.com/book), reflect a commitment to sharing knowledge and fostering a culture of continuous learning and improvement within the tech sphere.
+
+**Recognition Through Collaboration and Competition**
+
+While modesty remains a core value, it's important to acknowledge the recognition the Vasilkoff team has earned through participation in prestigious technology hackathons. Our quiet dedication to innovation was highlighted when we secured 2nd place at the Fintech Hackathon 3.0 ([read more](https://vasilkoff.com/blog/boc-hackathon-fintech-3-0)) with a blockchain project, demonstrating our capability to develop cutting-edge financial technology solutions. Further participation in tech competitions, such as the BOC Hackathon 4.0 ([learn about our participation](https://vasilkoff.com/blog/boc-hackathon-4-0)) with an AI project, underscores our commitment to advancing technology across sectors.
+
+**AI-Bridge: Bridging Communication Gaps**
+
+Our recent achievement during the HackAdTech‘23 Hackathon in Limassol, Cyprus, where we developed AI-Bridge and earned 2nd prize ([discover more](https://vasilkoff.com/blog/hackadtech)), exemplifies our innovative approach to solving real-world challenges. AI-Bridge stands as a game changer in digital communication, seamlessly integrating AI Language Models or custom GPTs with popular social media chats like Facebook Messenger and Instagram DMs. This breakthrough tool serves as a crucial link, enhancing the way businesses interact with their clients through intelligent, efficient communication platforms.
+
+
+**Loving Open-Source**
+
+A fervent advocate for open-source technology, Maxim Vasilkov's contributions have significantly impacted the open-source community. His work emphasizes innovation, collaboration, and accessibility, making him a respected figure in the IT realm. The VPN project, EasyVPN-Free, available at https://github.com/MaxSmile/EasyVPN-Free, stands as a testament to his dedication, garnering 288 stars and 152 forks under the GPL-3.0 license. This project highlights his expertise in providing secure, accessible technology solutions.
+
+Further demonstrating his commitment, the Vasilkoff.com website itself is an open-source initiative (https://github.com/MaxSmile/Vasilkoff.com), reflecting the company's dedication to transparency and community engagement in web development.
+
+**Leveraging Technology for Social Good**
+
+Maxim extends his influence beyond technology to address social causes. The React component, react-support-ukraine-banner (https://www.npmjs.com/package/react-support-ukraine-banner), exemplifies how technology can support humanitarian efforts. This component aids in raising awareness and support for Ukraine, showcasing Maxim's profound commitment to using tech for global solidarity.
+
+The react-smartaichats-livechat package (https://www.npmjs.com/package/react-smartaichats-livechat) further exemplifies Maxim's vision for improving digital interactions and customer support, making advanced AI solutions more accessible and enhancing user engagement across web platforms.
+
+
+**Entrepreneurial Spirit and Vision**
+
+Maxim's entrepreneurial journey, highlighted by his regtech startup smrtsgn.com, showcases his ability to innovate solutions that address market needs. His approach has earned him respect within both the technology and business communities, underscoring his role as a visionary in tech entrepreneurship.
+
+**Engage with Maxim Vasilkov**
+
+Connect with Maxim Vasilkov through his social media channels to explore his programming prowess, blockchain expertise, open-source contributions, and entrepreneurial ventures. Engaging with Maxim promises insights into the forefront of technology and innovation.
 
 `
     },
@@ -37,15 +67,15 @@ Engaging with Maxim Vasilkov is made easy through his various social media chann
 
 Before joining Vasilkoff, Irina worked in the field of large format advertising printing. She further honed her skills while studying at the National Academy of Managerial Personnel of Culture and Arts in Kyiv, where she earned a bachelor's degree in design. This combination of practical experience and formal education has served her well in her career.
 
-Irina's portfolio at Vasilkoff is as diverse as it is impressive. One of her notable projects includes the [Easy VPN Free](https://vasilkoff.com/portfolio/vpn-free), a user-friendly Android app that provides secure and private internet connections. She also designed the sophisticated WordPress website and booking system for [Cbay Rent a Car](https://vasilkoff.com/portfolio/cbay), a premier rental company based in Cyprus.
+Irina's portfolio at Vasilkoff is as diverse as it is impressive. One of her notable projects includes the [Easy VPN Free](/portfolio/vpn-free), a user-friendly Android app that provides secure and private internet connections. She also designed the sophisticated WordPress website and booking system for [Cbay Rent a Car](/portfolio/cbay), a premier rental company based in Cyprus.
 
-Irina also played a major role in the [Heptapolis](https://vasilkoff.com/portfolio/heptapolis) project, a comprehensive all-in-one solution for a crypto ICO project that included smart contract development, DApp creation, landing page design, and more.
+Irina also played a major role in the [Heptapolis](/portfolio/heptapolis) project, a comprehensive all-in-one solution for a crypto ICO project that included smart contract development, DApp creation, landing page design, and more.
 
-Her creative touch is evident in projects like [Kimfoot](https://vasilkoff.com/portfolio/kimfoot), a WordPress website that promotes holistic treatments for foot and ankle problems, and [Camera Filters](https://vasilkoff.com/portfolio/camera-filters), a native iOS app offering a variety of filters to enhance user photos.
+Her creative touch is evident in projects like [Kimfoot](/portfolio/kimfoot), a WordPress website that promotes holistic treatments for foot and ankle problems, and [Camera Filters](/portfolio/camera-filters), a native iOS app offering a variety of filters to enhance user photos.
 
-Another notable project is the [Coinage Wallet](https://vasilkoff.com/portfolio/coinage-wallet), a cryptocurrency exchange platform that showcases Vasilkoff's framework and capabilities.
+Another notable project is the [Coinage Wallet](/portfolio/coinage-wallet), a cryptocurrency exchange platform that showcases Vasilkoff's framework and capabilities.
 
-Whether it's an app like [Camera Mirrors](https://vasilkoff.com/portfolio/camera-mirrors), which lets users create stunning mirrored effects with their photos, or the website for [Inter-Euro Investments](https://vasilkoff.com/portfolio/inter-euro), a trusted corporate services provider, Irina's designs are consistently intuitive, user-friendly, and visually striking.
+Whether it's an app like [Camera Mirrors](/portfolio/camera-mirrors), which lets users create stunning mirrored effects with their photos, or the website for [Inter-Euro Investments](/portfolio/inter-euro), a trusted corporate services provider, Irina's designs are consistently intuitive, user-friendly, and visually striking.
 
 Irina Vasilkova's innovative design work has played an instrumental role in Vasilkoff CY Ltd's success. Her designs not only provide a visually pleasing experience for users, but also contribute to the overall functionality and success of the projects she works on. Her work at Vasilkoff serves as a testament to her talent and dedication as a designer.
 `
@@ -94,17 +124,17 @@ Indeed, [Simon Papazov](/team/simon-papazov) is not just a programmer, a manager
         "content":
 `Nikol Todorova, the gifted UI/UX Designer at Vasilkoff CY Ltd, is renowned for her ability to seamlessly blend user needs, technical constraints, and business objectives into visually stunning and intuitive designs. 
 
-She played a significant role in bringing [Libi & Daughters](https://vasilkoff.com/portfolio/libi-n-daughters) to the digital space. The luxury cosmetics company boasts of an elegantly designed website and native mobile applications for iOS and Android, thanks to her aesthetic insights and design acumen. 
+She played a significant role in bringing [Libi & Daughters](/portfolio/libi-n-daughters) to the digital space. The luxury cosmetics company boasts of an elegantly designed website and native mobile applications for iOS and Android, thanks to her aesthetic insights and design acumen. 
 
-Nikol's flair for creating user-friendly interfaces is further exemplified in [smrtAI](https://vasilkoff.com/portfolio/smrtAI). She contributed to creating an easy-to-install live chat widget for seamless, AI-powered customer support on websites. 
+Nikol's flair for creating user-friendly interfaces is further exemplified in [smrtAI](/portfolio/smrtAI). She contributed to creating an easy-to-install live chat widget for seamless, AI-powered customer support on websites. 
 
-Her work on [SMRT16](https://vasilkoff.com/portfolio/smrt16) brought DApp technology to the forefront. SMRT16 is an open-sourced DApp on the Polygon blockchain, featuring a multi-level referral affiliate program.
+Her work on [SMRT16](/portfolio/smrt16) brought DApp technology to the forefront. SMRT16 is an open-sourced DApp on the Polygon blockchain, featuring a multi-level referral affiliate program.
 
-Nikol’s skills have also helped creators and businesses protect their intellectual property with [NFTTRX](https://vasilkoff.com/portfolio/nfttrx). This platform leverages an NFT smart contract to ensure transparent and secure rights protection.
+Nikol’s skills have also helped creators and businesses protect their intellectual property with [NFTTRX](/portfolio/nfttrx). This platform leverages an NFT smart contract to ensure transparent and secure rights protection.
 
-She lent her talents to the [Calculator Lock](https://vasilkoff.com/portfolio/calculator-lock) Android app, which cleverly disguises itself as a calculator while enabling users to hide photos, videos, apps, and files. 
+She lent her talents to the [Calculator Lock](/portfolio/calculator-lock) Android app, which cleverly disguises itself as a calculator while enabling users to hide photos, videos, apps, and files. 
 
-Nikol’s contribution to [Bella Chess](https://vasilkoff.com/portfolio/bellachess), a classic board game, stands as a testament to her versatility. She managed to combine various technologies like Flutter, Web3, DApp, blockchain, smart contract, NFT, and AI into a visually pleasing and engaging game for both iOS and Android.
+Nikol’s contribution to [Bella Chess](/portfolio/bellachess), a classic board game, stands as a testament to her versatility. She managed to combine various technologies like Flutter, Web3, DApp, blockchain, smart contract, NFT, and AI into a visually pleasing and engaging game for both iOS and Android.
 
 Nikol Todorova is truly a crucial piece of the Vasilkoff CY Ltd team, leveraging her UI/UX expertise to bring innovative digital solutions to life.
 
@@ -124,11 +154,11 @@ This quote aptly sums up Nikol's design philosophy. She not only focuses on the 
         "content":
 `Anastasia Sarlidou's story is one of genuine passion for artificial intelligence (AI) and machine learning (ML). A dedicated programmer and a Bachelor of "Human Centered AI Engineering" from the Denmark University of Technology, Sarlidou is a driving force behind some of the most exciting AI initiatives at Vasilkoff Ltd.
 
-You can find Sarlidou's touch in projects such as [vasilkoff.info](https://vasilkoff.com/portfolio/vasilkoff-info) and [vasilkoff.com](https://vasilkoff.com), where she's the voice behind the AI chatbot and support form. Her ability to integrate AI and ML into various software applications adds a unique value to the projects she's involved in.
+You can find Sarlidou's touch in projects such as [vasilkoff.info](/portfolio/vasilkoff-info) and [vasilkoff.com](https://vasilkoff.com), where she's the voice behind the AI chatbot and support form. Her ability to integrate AI and ML into various software applications adds a unique value to the projects she's involved in.
 
-The [VoteMe App](https://vasilkoff.com/portfolio/voteme) is one such project. As a free, cross-platform Xamarin app, VoteMe allows users to upload their photos and participate in a fun and entertaining voting game. Sarlidou's contribution to this project showcases her adeptness at applying AI and ML algorithms to create engaging and dynamic experiences for users.
+The [VoteMe App](/portfolio/voteme) is one such project. As a free, cross-platform Xamarin app, VoteMe allows users to upload their photos and participate in a fun and entertaining voting game. Sarlidou's contribution to this project showcases her adeptness at applying AI and ML algorithms to create engaging and dynamic experiences for users.
 
-Another impressive project in Sarlidou's portfolio is [smrtAI](https://vasilkoff.com/portfolio/smrtAI). Offering seamless, AI-powered customer support for websites, smrtAI is a testament to Sarlidou's mastery of integrating AI with user experience design. The easy-to-install live chat widget has been lauded for its capacity to provide real-time customer assistance with a personalized touch.
+Another impressive project in Sarlidou's portfolio is [smrtAI](/portfolio/smrtAI). Offering seamless, AI-powered customer support for websites, smrtAI is a testament to Sarlidou's mastery of integrating AI with user experience design. The easy-to-install live chat widget has been lauded for its capacity to provide real-time customer assistance with a personalized touch.
 
 At the core of Sarlidou's work is a keen understanding of the intersection between technology and humanity. She uses her knowledge in AI engineering to develop solutions that not only solve complex technical challenges but also deliver engaging and intuitive experiences for users. 
 
