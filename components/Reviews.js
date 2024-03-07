@@ -1,35 +1,63 @@
+// components/Reviews.js
 export default function Reviews() {
-    return (
-        <section class="review">
-          <div class="review_heading heading ">
-            What our customers say about us
+  return (
+    <section className="bg-gray-50 py-12">
+      <div className="text-center text-2xl font-bold text-gray-800 mb-10">
+        What our customers say about us
+      </div>
+      <div className="max-w-4xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/assets/reviews/neofytos-siakos.webp"
+              alt="Neofytos Siakos"
+              className="rounded-full w-32 h-32 object-cover"
+            />
           </div>
-          <div class="review_detail review_detail1">
-            <div class="review_ppic">
-              <img src="images/photo_2020-09-25-13.42.31-150x150.jpg" />
+          <div className="flex-grow">
+            <div className="text-lg text-gray-600 italic mb-4">
+              “I have been working with Vasilkoff Ltd for a long time now and I am very happy with the professionalism and experience their team has. I strongly recommend them as we build a long lasting relationship based on trust”
             </div>
-            <div class="review_right">
-              <div class="review_right_quote">
-                “I have been working with Vasilkoff LTD for a long time now and I am very happy with the professionalism and experience their team has. I strongly recommend them as we build a long lasting relationship based on trust”
-              </div>
-              <div class="review_right_name">Neofytos Siakos</div>
-              <div class="review_right_desig"><a href="https://www.spindealsapp.com/">CEO of Spindeals App</a></div>
+            <div className="font-semibold text-gray-800">Neofytos Siakos</div>
+            <div>
+              <a
+                href="https://www.spindealsapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-primary hover:text-blue-700 transition-colors"
+              >
+                CEO of Spindeals App
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="review_detail review_detail2">
-            <div class="review_ppic">
-              <img src="images/photo_2020-10-07-10.01.38-150x150.jpg" />
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex-shrink-0">
+            <img
+              src="/assets/reviews/justin-farrell.webp"
+              alt="Justin Farrell"
+              className="rounded-full w-32 h-32 object-cover"
+            />
+          </div>
+          <div className="flex-grow">
+            <div className="text-lg text-gray-600 italic mb-4">
+              I’ve challenged Vasilkoff several times over the past couple of years with a variety of projects. They have always pulled through for me and gone above and beyond to get the project done. It’s hard to find consistent quality work, Vasilkoff hits the nail on the head, every time. I wish I had found them a couple of years earlier.
             </div>
-            <div class="review_right">
-              <div class="review_right_quote">
-                I’ve challenged Vasilkoff several times over the past couple of years with a variety of projects. They have always pulled through for me and gone above and beyond to get the project done. It’s hard to find consistent quality work, Vasilkoff hits the nail on the head, every time. I wish I had found them a couple of years earlier.
-              </div>
-              <div class="review_right_name">Justin Farrell​</div>
-              <div class="review_right_desig"><a href="">CEO of Cowts</a></div>
+            <div className="font-semibold text-gray-800">Justin Farrell</div>
+            <div>
+              <a
+                href="https://cowts.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-primary hover:text-blue-700 transition-colors"
+              >
+                CEO of Cowts
+              </a>
             </div>
           </div>
-        </section>
-    )
-    
+        </div>
+      </div>
+    </section>
+  );
 }

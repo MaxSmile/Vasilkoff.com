@@ -3,6 +3,7 @@ import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots, Send } from 'react
 import ActiveZone from './ActiveZone';
 import NoSSR from "./helpers/NoSSR";
 import { trackEvent } from '@phntms/next-gtm';
+import Reviews from './Reviews';
 
 export default function AIContacts() {
     const [activeZone, setActiveZone] = useState(false);
@@ -55,6 +56,7 @@ export default function AIContacts() {
 
 
     return (
+        <>
         <NoSSR>
 <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
                 <div className="items-center justify-center lg:flex">
@@ -167,6 +169,8 @@ export default function AIContacts() {
                 </div>
             </section>
         </NoSSR>
+        <Reviews />
+        </>
 
     )
 }

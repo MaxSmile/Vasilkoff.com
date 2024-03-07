@@ -20,7 +20,7 @@ const Crypto = (props: any) => {
     ];
 
     return (
-        <div>
+        <>
             <Head>
                 <title>Drive Your Crypto Startup Forward with Tailored Blockchain Solutions - Vasilkoff</title>
             </Head>
@@ -611,9 +611,10 @@ const Crypto = (props: any) => {
                     </div>
                 </div>
             </section>
+
             <AIContacts />
             
-        </div>
+        </>
     );
 };
 

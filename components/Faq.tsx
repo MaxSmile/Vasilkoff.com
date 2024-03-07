@@ -118,7 +118,7 @@ const Faq = ({
                 <meta name="description" content="Get answers to common questions about Vasilkoff's full-stack mobile apps and web-development services, blockchain technology, outsourcing, and outstaffing in our comprehensive FAQ." />
             </Head>
 
-            <section className="py-14 lg:py-[100px]">
+            <section className="py-20 lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h1>FAQs</h1>

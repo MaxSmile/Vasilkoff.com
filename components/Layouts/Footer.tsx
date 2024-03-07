@@ -8,6 +8,8 @@ const Footer = () => {
 
     return (
         <>
+
+            <CSE />
             <footer className="py-14 bg-black mt-20 lg:py-[100px] text-light text-base">
                 <div className="container">
                     <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -76,14 +78,14 @@ const Footer = () => {
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+19295909246">+19295909246</a></li>
                                 <li className="transition hover:text-shadow "><TelephoneFill className="inline-block" />&nbsp;<a className="text-sm" href="tel:+442045772478">+442045772478</a></li>
                                 <li className="transition hover:text-shadow "><EnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
-                                
+
                                 <li className="transition hover:text-shadow "><GeoAltFill className="inline-block" />&nbsp;<a className="text-sm" href="https://g.page/Vasilkoff-com?share" target="_blank" rel="noopener noreferrer" aria-label="Visit Glastonos 12-14, 2nd Floor, Paphos 8046 on Google Maps (opens in a new tab)">
-                                20 Wenlock Road, London  N1 7GU
+                                    20 Wenlock Road, London  N1 7GU
                                 </a></li>
                                 <p className="text-xs my-2">
-                                <GeoAlt className="inline-block" />&nbsp;4 Ah Mat St., Woolner NT
-                                Australia 0820
-                            </p>
+                                    <GeoAlt className="inline-block" />&nbsp;4 Ah Mat St., Woolner NT
+                                    Australia 0820
+                                </p>
                             </ul>
                             <p className='text-xs my-2 text-shadow'>DUNS number: 218272992</p>
                         </div>
@@ -123,7 +125,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <CSE />
         </>
     );
 };

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Faq from '../components/Faq';
 import AIContacts from '../components/AIContacts';
+import Prefooter from '../components/Layouts/Prefooter';
 
 const FAQs = () => {
     return (
@@ -11,11 +12,12 @@ const FAQs = () => {
             </Head>
 
 
-
+            <div className='mt-12'>
             <Faq showTitle={true} />
-
+            </div>
             
-            <AIContacts />
+            
+            <Prefooter />
         </>
     );
 };
