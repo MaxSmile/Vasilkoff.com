@@ -95,7 +95,7 @@ const Portfoliodetail = ({pf}) => {
 
                                 {/* <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="25" height="30" viewBox="0 0 25 30" fill="none"  >
                                             <path
                                                 fillRule="evenodd"
                                                 clipRule="evenodd"
@@ -120,7 +120,7 @@ const Portfoliodetail = ({pf}) => {
                                 </li>
                                 <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="134" height="130" viewBox="0 0 134 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="134" height="130" viewBox="0 0 134 130" fill="none"  >
                                             <g opacity="0.3" filter="url(#filter0_f_866_3412)">
                                                 <path
                                                     fillRule="evenodd"
@@ -229,7 +229,7 @@ const Portfoliodetail = ({pf}) => {
                                 </li>
                                 <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="27" height="30" viewBox="0 0 27 30" fill="none"  >
                                             <path
                                                 d="M23.1054 5.84111C23.0847 5.69033 22.9526 5.60689 22.8434 5.5977C22.7345 5.58861 20.4287 5.4177 20.4287 5.4177C20.4287 5.4177 18.8272 3.82784 18.6515 3.65187C18.4756 3.476 18.1321 3.52949 17.9988 3.56873C17.9792 3.57452 17.6489 3.67645 17.1026 3.8455C16.5677 2.30614 15.6236 0.891538 13.9627 0.891538C13.9168 0.891538 13.8696 0.893397 13.8224 0.896082C13.3501 0.271396 12.7649 0 12.2595 0C8.39046 0 6.54201 4.83669 5.96246 7.29454C4.45904 7.7604 3.39101 8.09159 3.25459 8.13444C2.41541 8.39768 2.38887 8.42412 2.27868 9.21486C2.19575 9.81353 0 26.7943 0 26.7943L17.1097 30L26.3804 27.9945C26.3804 27.9945 23.126 5.99188 23.1056 5.84111H23.1054ZM16.157 4.13796L14.7092 4.58606C14.7097 4.48402 14.7102 4.38364 14.7102 4.27387C14.7102 3.31717 14.5774 2.54687 14.3644 1.93623C15.2202 2.04363 15.7901 3.01737 16.157 4.13796ZM13.3028 2.12594C13.5407 2.72212 13.6954 3.57772 13.6954 4.73229C13.6954 4.79136 13.6949 4.84537 13.6944 4.9C12.7528 5.19164 11.7297 5.50827 10.7044 5.82593C11.2801 3.60395 12.3593 2.53076 13.3028 2.12594ZM12.1532 1.03777C12.3202 1.03777 12.4885 1.09447 12.6495 1.20527C11.4095 1.78876 10.0804 3.2583 9.51911 6.19295L7.15565 6.92494C7.81307 4.68654 9.37412 1.03777 12.1531 1.03777H12.1532Z"
                                                 fill="#95BF46"
@@ -247,7 +247,7 @@ const Portfoliodetail = ({pf}) => {
                                 </li>
                                 <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="21" height="30" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="21" height="30" viewBox="0 0 21 30" fill="none"  >
                                             <path
                                                 d="M5 30C7.75999 30 9.99999 27.76 9.99999 25V20H5C2.24 20 0 22.24 0 25C0 27.76 2.24 30 5 30Z"
                                                 fill="#0ACF83"
@@ -267,7 +267,7 @@ const Portfoliodetail = ({pf}) => {
                                 </li>
                                 <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="27" height="30" viewBox="0 0 27 30" fill="none"  >
                                             <path d="M2.20085 26.8972L0 0L26.2838 0.0540514L23.9567 26.8972L13.2411 30L2.20085 26.8972Z" fill="#E34F26" />
                                             <path d="M13.2388 27.4023V2.56152L24.0626 2.59756L22.1325 24.8225L13.2388 27.4023Z" fill="#EF652A" />
                                             <path
@@ -279,7 +279,7 @@ const Portfoliodetail = ({pf}) => {
                                 </li>
                                 <li className="flex h-16 w-16 items-center justify-center rounded-2xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark md:h-20 md:w-20 md:rounded-[32px]">
                                     <div>
-                                        <svg role="presentation"  width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg role="presentation"  width="35" height="30" viewBox="0 0 35 30" fill="none"  >
                                             <path d="M27.8261 0H34.7826L17.3913 30L0 0H13.3043L17.3913 6.95652L21.3913 0H27.8261Z" fill="#41B883" />
                                             <path d="M0 0L17.3913 30L34.7826 0H27.8261L17.3913 18L6.86957 0H0Z" fill="#41B883" />
                                             <path d="M6.86926 0L17.391 18.087L27.8258 0H21.391L17.391 6.95652L13.304 0H6.86926Z" fill="#35495E" />

@@ -1632,11 +1632,11 @@ One of the strengths of the Inter-Euro Investments website lies in its adaptabil
 
 Our collaboration with Inter-Euro Investments is another example of Vasilkoff's ability to tailor a website's design and functionality to a client's unique needs and industry requirements. This project joins a portfolio of successful WordPress collaborations, each reflecting our dedication to excellence and client satisfaction.
 
-One such project is the [P. NEOFYTOU and ASSOCIATES LLC](http://vasilkoff.com/portfolio/p-neofytou) website. This law firm's site offers easy access to a range of legal services and stands as a trusted source of expertise and advice.
+One such project is the [P. NEOFYTOU and ASSOCIATES LLC](https://vasilkoff.com/portfolio/p-neofytou) website. This law firm's site offers easy access to a range of legal services and stands as a trusted source of expertise and advice.
 
-Another example is the [KIMFOOT](http://vasilkoff.com/portfolio/kimfoot) website, which promotes holistic treatments for foot and ankle problems. With a clean and intuitive interface, it successfully connects clients with expert podiatric specialists.
+Another example is the [KIMFOOT](https://vasilkoff.com/portfolio/kimfoot) website, which promotes holistic treatments for foot and ankle problems. With a clean and intuitive interface, it successfully connects clients with expert podiatric specialists.
 
-Finally, the [DONKIM](http://vasilkoff.com/portfolio/donkim) website highlights our ability to create platforms that cater to diverse needs. This site promotes the walking cure program of podiatrist Dr. Kim, offering a solution for leg pain and showcasing his books on healthy living.
+Finally, the [DONKIM](https://vasilkoff.com/portfolio/donkim) website highlights our ability to create platforms that cater to diverse needs. This site promotes the walking cure program of podiatrist Dr. Kim, offering a solution for leg pain and showcasing his books on healthy living.
 
 At Vasilkoff, we understand that a website is more than just a digital platform – it's an essential tool for communicating a company's values, services, and commitment to excellence. We're proud to collaborate with clients like Inter-Euro Investments to create online experiences that meet these vital needs.
 `,

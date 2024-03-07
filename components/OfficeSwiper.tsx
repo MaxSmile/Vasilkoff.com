@@ -30,7 +30,7 @@ const OfficeSwiper = () => {
                                 height="12"
                                 viewBox="0 0 7 12"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-black dark:text-white"
                             >
                                 <path
@@ -50,7 +50,7 @@ const OfficeSwiper = () => {
                                 height="12"
                                 viewBox="0 0 7 12"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-black dark:text-white"
                             >
                                 <path

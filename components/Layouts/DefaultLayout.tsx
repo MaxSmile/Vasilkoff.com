@@ -54,8 +54,6 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
                 {showLoader && (
                     <div className="screen_loader fixed inset-0 z-[60] grid place-content-center bg-[#fafafa] dark:bg-[#060818]">
                         <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
                             width="200px"
                             height="200px"
                             viewBox="0 0 100 100"
@@ -124,7 +122,6 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
                         <div className="group flex h-14 w-14 items-center justify-center rounded-full border border-black/20 text-white 
                         transition duration-500 bg-primary">
                             <svg
-                                xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"

@@ -16,7 +16,7 @@ const CounterComponent = (props: any) => {
                                 height="26"
                                 viewBox="0 0 26 26"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-secondary transition dark:group-hover:text-black"
                             >
                                 <g clipPath="url(#clip0_6_2530)">
@@ -54,7 +54,7 @@ const CounterComponent = (props: any) => {
                                 height="26"
                                 viewBox="0 0 26 26"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-secondary transition dark:group-hover:text-black"
                             >
                                 <g clipPath="url(#clip0_6_2631)">
@@ -91,7 +91,7 @@ const CounterComponent = (props: any) => {
                                 height="26"
                                 viewBox="0 0 26 26"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-secondary transition dark:group-hover:text-black"
                             >
                                 <g clipPath="url(#clip0_6_2641)">
@@ -128,7 +128,7 @@ const CounterComponent = (props: any) => {
                                 height="26"
                                 viewBox="0 0 26 26"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="https://www.w3.org/2000/svg"
                                 className="text-secondary transition dark:group-hover:text-black"
                             >
                                 <g clipPath="url(#clip0_6_2651)">

@@ -27,7 +27,7 @@ const PricingCard = (
                     {plusArray.map((item, index) => (
                         <li key={'p'+index} className="flex items-center">
                             <div>
-                                <svg role="presentation"  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg role="presentation"  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="https://www.w3.org/2000/svg">
                                     <circle cx="8" cy="8" r="8" fill="#45B649" />
                                     <path
                                         d="M5.11438 8.11438L7 10L10.7712 6.22876"
@@ -46,7 +46,7 @@ const PricingCard = (
                     {minusArray.map((item, index) => (
                         <li key={'m'+index} className="flex items-center">
                             <div>
-                            <svg role="presentation"  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg role="presentation"  width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <g opacity="0.3">
                                     <circle cx="8" cy="8" r="8" fill="#7780A1" />
                                 </g>

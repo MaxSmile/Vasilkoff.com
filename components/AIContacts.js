@@ -47,7 +47,7 @@ export default function AIContacts() {
         submitMessageBtnRef.current?.classList.add("shrink-away");
         containerRef.current.contentEditable = false;
 
-        trackEvents({
+        trackEvent({
             event: "contactFormSubmitted",
             data: { hitType: "contactFormSubmitted", name: nameRef.current.value, email: emailRef.current.value, mobile: mobileRef.current.value, message: message, city: cityRef.current.value},
           });

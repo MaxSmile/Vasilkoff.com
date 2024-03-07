@@ -22,7 +22,7 @@ export default function EasyVpnPrivacyPolicy() {
 
                     <h2>About Easy VPN Free</h2>
                     <p>
-                        Easy VPN Free is an Android application that allows users to easily connect to a multitude of free VPN servers around the world with just a single tap. The list of servers the application connects to is sourced from <a href="http://www.vpngate.net/">VPN Gate Academic Experiment Project</a>, an academic research initiative at the Graduate School of the University of Tsukuba, Japan. This project aims to expand knowledge of "Global Distributed Public VPN Relay Servers".
+                        Easy VPN Free is an Android application that allows users to easily connect to a multitude of free VPN servers around the world with just a single tap. The list of servers the application connects to is sourced from <a href="https://www.vpngate.net/" target="_blank" rel="noopener noreferrer">VPN Gate Academic Experiment Project</a>, an academic research initiative at the Graduate School of the University of Tsukuba, Japan. This project aims to expand knowledge of "Global Distributed Public VPN Relay Servers".
                     </p>
                     <ul>
                         <li>Access to approximately 8531 Public VPN Relay Servers by volunteers worldwide.</li>
