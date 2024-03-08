@@ -142,12 +142,20 @@ export default function ReadFast() {
             </section>
             <section className="pb-20 bg-white">
                 <div className="container mx-auto px-4">
-                    <div className="mb-16">
+                <div className="text-center mb-16">
+                        <Image
+                            src="/images/read-fast-logo.svg"
+                            alt="Read Fast Logo"
+                            width={150}
+                            height={150}
+                            className="mx-auto mb-4"
+                        />
                         <h2 className="text-3xl font-semibold">Visual Innovation: Reading Speed Adjustment Meets Chunking</h2>
                         <p className="text-xl mt-4 text-gray-600">
-                            Elevating speed reading through the synergy of cutting-edge techniques.
+                        Elevating speed reading through the synergy of cutting-edge techniques.
                         </p>
                     </div>
+                    
 
                     <div className="mb-12">
                         <h3 className="text-3xl font-semibold mb-4">The Concept of Chunking in Speed Reading</h3>
@@ -175,21 +183,22 @@ export default function ReadFast() {
             <section className="pb-20">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap items-center">
-                        <div className="w-full lg:w-1/2 lg:text-left px-4 mb-10 lg:mb-0">
+                    <div className="w-full lg:w-1/4 px-4 mb-8 lg:mb-0 flex justify-center lg:justify-end">
+                            <Image
+                                src="/images/read-fast-mockup.webp"
+                                alt="Read Fast App Mockup"
+                                width={200}
+                                height={200}
+                                className="rounded-lg shadow-xl"
+                            />
+                        </div>
+                        <div className="w-full lg:w-3/4 lg:text-left px-4 mb-10 lg:mb-0">
                             <h2 className="text-3xl font-semibold">Open Source and AI-Enhanced Reading</h2>
                             <p className="text-xl mt-4 text-gray-600">
                                 Leveraging the power of AI and the open-source community to transform reading into a more efficient, enjoyable, and insightful experience.
                             </p>
                         </div>
-                        <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 flex justify-center lg:justify-end">
-                            <Image
-                                src="/images/read-fast-mockup.webp"
-                                alt="Read Fast App Mockup"
-                                width={300}
-                                height={300}
-                                className="rounded-lg shadow-xl"
-                            />
-                        </div>
+                        
                     </div>
 
                     <div className="mt-12 lg:text-left">
@@ -216,6 +225,49 @@ export default function ReadFast() {
                     </div>
                 </div>
             </section>
+
+            <section className="pb-10">
+    <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold mb-10">Enhance Your Reading Journey with Read Fast</h2>
+        
+        <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                <div className="h-full py-6 rounded-lg transition ease-in-out duration-300">
+                    <h3 className="text-2xl font-semibold mb-5">Join the Community</h3>
+                    <p className="text-gray-700 mb-4">
+                        Read Fast thrives on the vibrant energy and creativity of its community. From developers to designers, from scholars to casual readers, everyone's input is valued. Your insights and contributions can help guide the development of Read Fast, making it a tool that truly resonates with the needs of its users.
+                    </p>
+                    <a href="https://github.com/MaxSmile/Read-Fast-Android-Book-Reader" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                        Start Contributing
+                    </a>
+                </div>
+            </div>
+
+            <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                <div className="h-full p-6 rounded-lg  transition ease-in-out duration-300">
+                    <h3 className="text-2xl font-semibold mb-5">AI-Powered Features</h3>
+                    <p className="text-gray-700 mb-4">
+                        Explore how Read Fast employs AI to enhance your reading experience. From analyzing text to recommend the best reading strategies, to compressing content into digestible summaries, AI is at the core of making Read Fast an indispensable companion for anyone looking to improve their reading efficiency.
+                    </p>
+                    {/* <a href="#AI-Features" className="text-blue-500 underline">
+                        Learn More
+                    </a> */}
+                </div>
+            </div>
+
+            <div className="w-full lg:w-1/3 px-4 mb-8">
+                <div className="h-full p-6 hover:border-blue-500 transition ease-in-out duration-300">
+                    <h3 className="text-2xl font-semibold mb-5">The Future of Reading</h3>
+                    <p className="text-gray-700">
+                        The journey of Read Fast is just beginning. With plans to integrate further innovative features and continuously refine its user experience, Read Fast is poised to lead the charge in the evolution of reading technology. Be part of this transformative movement and shape the future of how we read.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
             <Prefooter />
