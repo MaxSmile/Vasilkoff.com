@@ -613,7 +613,7 @@ const Crypto = (props: any) => {
             </section>
 
             <AIContacts />
-            
+
         </>
     );
 };

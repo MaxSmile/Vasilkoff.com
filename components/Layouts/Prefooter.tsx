@@ -8,9 +8,9 @@ const Prefooter = () => {
         <>
             <div className="container pt-12">
                 <div className="grid gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
-                    <div>
+                    <div className="text-center">
                         <a href='https://www.appfutura.com/app-developers/cyprus' target='_blank'>
-                            <Image src="/images/appfutura-badge.webp" alt="AppFutura Top 10 in Cyprus" width={382 / 2} height={344 / 2} />
+                            <Image loading="lazy" className='m-auto' src="/images/appfutura-badge.webp" alt="AppFutura Top 10 in Cyprus" width={382 / 2} height={344 / 2} />
                         </a>
                     </div>
                     <div className="text-center">
