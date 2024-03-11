@@ -18,14 +18,20 @@ const Footer = () => {
                                 <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
+                                
                                 <li>
-                                    <Link href="/search" className="inline-block transition hover:text-shadow ">
-                                        Search
+                                    <Link href="/read-fast" className="inline-block transition hover:text-shadow ">
+                                        Read Fast
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/faq" className="inline-block transition hover:text-shadow ">
                                         FAQs
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/search" className="inline-block transition hover:text-shadow ">
+                                        Search
                                     </Link>
                                 </li>
                                 <li>
