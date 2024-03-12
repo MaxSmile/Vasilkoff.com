@@ -17,7 +17,7 @@ export default function ReadFast() {
             <section className="relative overflow-hidden pt-14 mt-40 lg:pt-[100px] bg-white">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12 heading">
-                        <h1 className="text-5xl font-bold leading-tight">Read Fast with the "Read Fast" app from Vasilkoff</h1>
+                        <h1 className="text-5xl font-bold leading-tight">Read Fast with the "Read Fast" app</h1>
                         <div className="max-w-2xl mx-auto mt-4">
                             <p className="text-lg text-gray-600">
                                 In an age where the flow of information is as vital as the air we breathe, the ability to read quickly and
@@ -50,11 +50,7 @@ export default function ReadFast() {
                             </p>
                             <p className="text-lg text-gray-600 mb-4">
                                 The journey to Read Fast began with a vision to transform the traditional open-source Android Book Reader into
-                                something extraordinary. At Vasilkoff Ltd, we recognized the potential for a platform that not only provided
-                                a gateway to the world's literature but also taught its users how to traverse these vast landscapes swiftly
-                                and with purpose. The motivation behind Read Fast was clear: to create a haven for book enthusiasts and
-                                knowledge seekers—a place where speed reading isn't just taught but is brought to life through an intuitive
-                                and engaging user experience.
+                                something extraordinary. 
                             </p>
                         </div>
                     </div>
