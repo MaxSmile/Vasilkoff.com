@@ -1,7 +1,6 @@
 import Head from 'next/head';
 // import ProjectSlider from '../../components/ProjectSlider';
 import { portfolios } from '../../data/portfolios.js';
-import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
 
@@ -290,7 +289,7 @@ const Portfoliodetail = ({pf}) => {
                         </div>
                     </div>
                     <div className="prose max-w-[740px] mb-10">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{pf.article}</ReactMarkdown>
+                        <Markdown remarkPlugins={[remarkGfm]}>{pf.article}</Markdown>
                     </div>
 
 

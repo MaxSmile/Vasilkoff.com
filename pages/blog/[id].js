@@ -1,12 +1,5 @@
-
-import { useRouter } from 'next/router';
+// pages/blog/[id].js
 import { blogs } from '../../data/blogs';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import Error404 from '../404';
-import { ArrowLeftCircle, Link45deg, ProjectorFill, Clock } from 'react-bootstrap-icons';
-import Head from 'next/head';
-import Link from 'next/link';
 import BlogsList from '../../components/BlogsList';
 import BlogPage from '../../components/BlogPage';
 

@@ -1,7 +1,5 @@
 
 
-
-
 ## TODO
 
 1. From the main page, you can click on the Price button to open the AI chat which suggests to make an estimation of the project and calculate the price, then we can sign an agreement, start the order and make prepaiments.
@@ -33,18 +31,47 @@
 27. base64, md5, URL, sha256 encoding/decoding
 28. Strong password generator https://stackoverflow.com/a/64767873/2496986 https://stackoverflow.com/a/70262799/2496986 https://codepen.io/dev_loop/pen/vYYxvbz 
 
-## Deployed on Vercel
+## Migrate NextJS 13 -> 14
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Update Dependencies
+
+- [ ] Update Next.js package to version 14 in `package.json`.
+
+```bash
+npm install next@latest
+```
+or
+```bash
+yarn add next@latest
+```
+
+### Review Release Notes
+
+- [ ] Read the release notes for Next.js 14 to understand changes, new features, and improvements.
+
+### Check for Breaking Changes
+
+- [ ] Identify any breaking changes or deprecated features in Next.js 14 compared to version 13.
+- [ ] Update code to use new APIs or patterns introduced in Next.js 14.
+
+### Update Configuration
+
+- [ ] Review Next.js configuration files (e.g., `next.config.js`) and ensure compatibility with Next.js 14.
+- [ ] Make necessary adjustments based on changes introduced in the new version.
+
+### Test Your Application
+
+- [ ] Thoroughly test your Next.js application after updating dependencies and making code changes.
+- [ ] Pay attention to areas impacted by breaking changes or updates.
+
+### Address Compatibility Issues
+
+- [ ] Investigate and address any compatibility issues or unexpected behavior encountered during testing.
+- [ ] Make further code adjustments or seek assistance from the Next.js community or support channels if needed.
 
 
-# Starting with NextJS
- https://nextjs.org/docs/getting-started
 
-##  Create Next App can be installed via yarn:
-`
-yarn create next-app
-`
+
 ## Schemas
 
 index - Organization

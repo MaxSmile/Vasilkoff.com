@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeftCircle, Link45deg } from "react-bootstrap-icons";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Markdown from 'react-markdown'
 import remarkGfm from "remark-gfm";
 
 const BlogPage = ({ blog, slug }) => {
@@ -88,7 +88,7 @@ const BlogPage = ({ blog, slug }) => {
             <section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
                 <div className="container">
                     <div className="prose max-w-[740px]">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown>
+                        <Markdown remarkPlugins={[remarkGfm]}>{blog.content}</Markdown>
                     </div>
                 </div>
             </section>

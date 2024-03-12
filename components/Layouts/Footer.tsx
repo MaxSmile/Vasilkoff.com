@@ -8,7 +8,6 @@ const Footer = () => {
 
     return (
         <>
-
             <CSE />
             <footer className="py-14 bg-black mt-20 lg:py-[100px] text-light text-base">
                 <div className="container">
@@ -18,7 +17,7 @@ const Footer = () => {
                                 <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
                             </p>
                             <ul className="flex flex-col gap-3 font-bold">
-                                
+
                                 <li>
                                     <Link href="/read-fast" className="inline-block transition hover:text-shadow ">
                                         Read Fast
@@ -37,6 +36,16 @@ const Footer = () => {
                                 <li>
                                     <Link href="/contact-us" className="inline-block transition hover:text-shadow ">
                                         Contact Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/html2md" className="inline-block transition hover:text-shadow ">
+                                        HTML to Markdown Converter
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/md2html" className="inline-block transition hover:text-shadow ">
+                                        Markdown to HTML Converter
                                     </Link>
                                 </li>
                             </ul>

@@ -15,7 +15,7 @@ const Prefooter = () => {
                     </div>
                     <div className="text-center">
                         <h2><strong>Free</strong> consultation about how to start your Website or App</h2>
-                        <p className="pt-6"><a href="/contact-us" type="button" className="btn btn-danger btn-lg btn-block" >Contact Us Now</a></p>
+                        <p className="pt-6"><a href="/contact-us" type="button" className="btn" >Contact Us Now</a></p>
                         <p className="pt-6">Free reasearch for complex cases with in <strong>12 hours</strong></p>
                     </div>
                     <div className="text-center">

@@ -1,4 +1,4 @@
-import ReactMarkdown from 'react-markdown';
+// pages/team/[id].js
 import remarkGfm from 'remark-gfm';
 import Head from 'next/head';
 import { members } from '../../data/members';
@@ -110,7 +110,7 @@ const MemberPage = ({ blog, slug }) => {
             <section className="bg-gradient-to-t from-white to-transparent py-14 dark:bg-none md:py-[100px]">
                 <div className="container">
                     <div className="prose max-w-[740px]">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{blog.content}</ReactMarkdown>
+                        <Markdown remarkPlugins={[remarkGfm]}>{blog.content}</Markdown>
                     </div>
                 </div>
             </section>

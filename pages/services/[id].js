@@ -1,8 +1,7 @@
+// pages/services/[id].js
 import Link from 'next/link';
-//import BlogSlider from '../../components/BlogSlider';
 import { services } from '../../data/services.js';
 import Head from 'next/head';
-import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
 
@@ -93,7 +92,7 @@ const Servicesdetail = ({serv,slug}) => {
                     </div>
 
                     <div className="prose max-w-[740px]">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{serv.article}</ReactMarkdown>
+                        <Markdown remarkPlugins={[remarkGfm]}>{serv.article}</Markdown>
                     </div>
 
                 </div>
