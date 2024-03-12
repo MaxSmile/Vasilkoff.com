@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "1.9.9",
+    "version": "1.9.10",
     "private": true,
     "scripts": {
         "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
@@ -15,7 +15,6 @@
     "dependencies": {
         "@minimal-analytics/ga4": "^1.8.7",
         "@phntms/next-gtm": "^0.3.0",
-        "@phntms/react-gtm": "^0.1.1",
         "@tailwindcss/line-clamp": "^0.4.2",
         "@types/node": "18.15.3",
         "@types/react": "18.0.25",
