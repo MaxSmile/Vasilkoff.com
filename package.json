@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "1.9.13",
+    "version": "1.10.0",
     "private": true,
     "scripts": {
         "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
@@ -33,10 +33,11 @@
         "react-countup": "^6.4.0",
         "react-dom": "18.2.0",
         "react-ga4": "^2.1.0",
-        "react-markdown": "^8.0.5",
+        "react-markdown": "^9.0.1",
         "react-smartaichats-livechat": "^1.0.4",
         "react-support-ukraine-banner": "^1.0.2",
         "remark": "^15.0.1",
+        "remark-gfm": "^4.0.0",
         "remark-html": "^16.0.1",
         "swiper": "^8.4.5",
         "typescript": "4.9.5"
