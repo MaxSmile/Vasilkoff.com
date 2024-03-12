@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "1.9.11",
+    "version": "1.9.12",
     "private": true,
     "scripts": {
         "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
@@ -25,6 +25,7 @@
         "genversion": "^3.1.1",
         "html-to-md": "^0.8.5",
         "jsx-schema": "^1.0.3",
+        "marked": "^12.0.1",
         "next": "13.0.5",
         "next-sitemap": "^4.1.3",
         "react": "18.2.0",
