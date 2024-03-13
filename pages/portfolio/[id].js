@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { portfolios } from '../../data/portfolios.js';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
+import Markdown from 'react-markdown';
 
 
 export const getServerSideProps = async ({ params }) => {

@@ -5,6 +5,7 @@ import { members } from '../../data/members';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
+import Markdown from 'react-markdown';
 
 
 export const getServerSideProps = async ({ params }) => {
