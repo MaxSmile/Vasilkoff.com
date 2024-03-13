@@ -1,6 +1,6 @@
 {
     "name": "my-app",
-    "version": "1.16.3",
+    "version": "1.16.4",
     "private": true,
     "scripts": {
         "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
@@ -22,7 +22,8 @@
         "@vercel/analytics": "^1.0.0",
         "@vercel/speed-insights": "^1.0.1",
         "aos": "^3.0.0-beta.6",
-        "fs": "^0.0.1-security",
+        "classnames": "^2.5.1",
+        "date-fns": "^3.3.1",
         "genversion": "^3.1.1",
         "gray-matter": "^4.0.3",
         "html-to-md": "^0.8.5",
