@@ -50,7 +50,7 @@ export default function ReadFast() {
                             </p>
                             <p className="text-lg text-gray-600 mb-4">
                                 The journey to Read Fast began with a vision to transform the traditional open-source Android Book Reader into
-                                something extraordinary. 
+                                something extraordinary.
                             </p>
                         </div>
                     </div>
@@ -182,45 +182,42 @@ export default function ReadFast() {
                         <div className="w-full lg:w-1/4 px-4 mb-8 lg:mb-0 flex justify-center lg:justify-end">
                             <Image
                                 src="/images/read-fast-mockup1.webp"
-                                alt="Read Fast App Mockup"
+                                alt="Read Fast App Prototype"
                                 width={200}
                                 height={200}
                                 className="rounded-lg shadow-xl"
                             />
                         </div>
                         <div className="w-full lg:w-3/4 lg:text-left px-4 mb-10 lg:mb-0">
-                            <h2 className="text-3xl font-semibold">Open Source and AI-Enhanced Reading</h2>
+                            <h2 className="text-3xl font-semibold">A New Chapter in Open Source Reading</h2>
                             <p className="text-xl mt-4 text-gray-600">
-                                Leveraging the power of AI and the open-source community to transform reading into a more efficient, enjoyable, and insightful experience.
+                                Inspired by our success with <a href="/portfolio/vpn-free">Easy VPN Free</a>, Read Fast embarks on blending AI with open-source innovation to redefine reading.
                             </p>
                         </div>
-
                     </div>
 
                     <div className="mt-12 lg:text-left">
-                        <h3 className="text-3xl font-semibold mb-4">Advanced AI Reading Assistance</h3>
+                        <h3 className="text-3xl font-semibold mb-4">Tailoring AI to Your Reading Experience</h3>
                         <p className="text-lg text-gray-600 mb-4">
-                            At the heart of Read Fast lies an advanced AI engine capable of analyzing the text you open in the app. This smart system assesses the complexity, structure, and theme of the text to recommend the most effective speed reading techniques specifically suited to the material. Whether it’s suggesting chunking for dense academic papers or skimming for lighter articles, the AI ensures you employ the right strategy for maximum efficiency and comprehension.
-                        </p>
-                        <p className="text-lg text-gray-600 mb-4">
-                            Beyond technique suggestions, the AI also offers text compression, creating succinct summaries without losing essential content. This feature is invaluable for readers looking to quickly digest large volumes of information or review key points before exams, meetings, or presentations.
+                            Imagine an AI that not only guides you through your reading journey but also adapts to your style. Read Fast is in its infancy, aiming to evolve with your contributions and insights.
                         </p>
 
-                        <h3 className="text-3xl font-semibold mb-4">Collaborate and Contribute</h3>
+                        <h3 className="text-3xl font-semibold mb-4">Let's Create Together</h3>
                         <p className="text-lg text-gray-600 mb-4">
-                            The development of Read Fast is driven by an international community of passionate contributors. From seasoned developers enhancing the AI's capabilities to language experts refining reading techniques, every contribution helps shape Read Fast into a tool that revolutionizes reading. We encourage you to join our GitHub repository, submit features, report bugs, or even suggest new reading materials. Together, we can make Read Fast the ultimate reading assistant.
+                            Join us in shaping Read Fast into a tool that stands out for its simplicity and effectiveness. Your code and ideas could lead to the next breakthrough in digital reading.
                         </p>
 
-                        <h3 className="text-3xl font-semibold mb-4">The Road Ahead</h3>
-                        <p className="text-lg text-gray-600 mb-4">
-                            The future roadmap of Read Fast is ambitious, with plans to integrate more AI-driven features that personalize the reading experience even further. From adaptive learning that tailors reading strategies based on individual progress, to real-time feedback on reading effectiveness, the possibilities are endless. Our vision is to make Read Fast not just an app but a companion for anyone looking to enhance their reading skills and discover the joy in every page.
-                        </p>
+                        <h3 className="text-3xl font-semibold mb-4">Exploring AI's Role</h3>
                         <p className="text-lg text-gray-600">
-                            As we continue to innovate, the core of Read Fast remains its community. Whether you’re a user providing feedback or a developer writing code, you are an integral part of this journey. Together, we’ll redefine reading for the digital age, making it faster, more accessible, and more rewarding for everyone.
+                            From generating concise summaries to offering interactive reading strategies, the possibilities with AI are just beginning to unfold. <a href="https://github.com/MaxSmile/Openlib">Consider the foundation laid by Openlib</a>, a project that's already taking steps toward integrating advanced technology in reading.
+                        </p>
+                        <p className="text-lg text-gray-600 mt-4">
+                            With the vision and expertise of <a href="/team/maxim-vasilkov">Maxim Vasilkov</a>, we're eager to merge these innovations to enhance your reading habits. Your engagement and feedback will be crucial on this journey.
                         </p>
                     </div>
                 </div>
             </section>
+
 
             <section className="pb-10">
                 <div className="container mx-auto px-4">

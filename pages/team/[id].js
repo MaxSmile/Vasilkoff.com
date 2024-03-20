@@ -1,7 +1,7 @@
 // pages/team/[id].js
 import remarkGfm from 'remark-gfm';
 import Head from 'next/head';
-import { members } from '../../data/members';
+import { members } from '../../lib/members';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';

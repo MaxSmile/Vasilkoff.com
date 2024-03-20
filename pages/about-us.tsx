@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import Head from 'next/head';
-import { portfolios } from '../data/portfolios';
+import { portfolios } from '../lib/portfolios';
 import TeamMembers from '../components/TeamMembers';
 import { OurProjectCard } from '../components/OurProjectCard';
 import CounterComponent from '../components/CounterComponent';

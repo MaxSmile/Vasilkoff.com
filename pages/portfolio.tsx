@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { portfolios } from "../data/portfolios";
+import { portfolios } from "../lib/portfolios";
 import Link from 'next/link';
 import Head from 'next/head';
 import PortfolioCard from '../components/PortfolioCard';

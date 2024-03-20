@@ -1,6 +1,6 @@
 import Head from 'next/head';
 // import ProjectSlider from '../../components/ProjectSlider';
-import { portfolios } from '../../data/portfolios.js';
+import { portfolios } from '../../lib/portfolios.js';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
 import Markdown from 'react-markdown';

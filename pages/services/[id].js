@@ -1,6 +1,6 @@
 // pages/services/[id].js
 import Link from 'next/link';
-import { services } from '../../data/services.js';
+import { services } from '../../lib/services.js';
 import Head from 'next/head';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';

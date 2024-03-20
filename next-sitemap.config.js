@@ -1,5 +1,5 @@
 
-const { getBlogIds } = require('./data/blogs');
+// const { getBlogIds } = require('./data/blogs');
 const { getPortfoliosIds } = require('./data/portfolios');
 const { getServicesIds } = require('./data/services');
 
@@ -10,15 +10,15 @@ module.exports = {
   generateIndexSitemap: false,
   additionalPaths: async (config) => {
 
-    const blogIds = getBlogIds().map(id => {
-      return {
-        "loc": `/blog/${id}`,
-        changefreq: config.changefreq,
-        priority: config.priority,
-        lastmod: config.autoLastmod ? new Date().toISOString() : undefined
+    // const blogIds = getBlogIds().map(id => {
+    //   return {
+    //     "loc": `/blog/${id}`,
+    //     changefreq: config.changefreq,
+    //     priority: config.priority,
+    //     lastmod: config.autoLastmod ? new Date().toISOString() : undefined
 
-      }
-    });
+    //   }
+    // });
     const portfoliosIds = getPortfoliosIds().map(id => {
       return {
         "loc": `/portfolio/${id}`,
@@ -38,6 +38,8 @@ module.exports = {
       }
     });
 
-    return [...servicesIds, ...blogIds, ...portfoliosIds]; 
+    return [...servicesIds, 
+      // ...blogIds, 
+      ...portfoliosIds]; 
   },
 }
