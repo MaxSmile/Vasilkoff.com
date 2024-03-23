@@ -4,6 +4,7 @@ import { services } from '../../lib/services.js';
 import Head from 'next/head';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeftCircle } from 'react-bootstrap-icons';
+import Markdown from 'react-markdown';
 
 
 export const getServerSideProps = async ({ params }) => {
