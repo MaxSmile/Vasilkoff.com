@@ -1,3 +1,4 @@
+// tailwind.config.js
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,11 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      safelist: [
+        // This regex matches any color like bg-{color}-{100-900}
+        /bg-(red|green|yellow|gray)-[1-9]00/,
+      ],
       colors: {
         primary: '#990000',
         secondary: '#660000',

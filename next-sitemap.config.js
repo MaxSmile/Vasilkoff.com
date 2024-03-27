@@ -15,7 +15,7 @@ module.exports = {
     const staticPages = [
       { url: '/', priority: 1.0 },
       { url: '/about-us', priority: 0.5 },
-      { url: '/contact-us', priority: 0.5 },
+      { url: '/contact-us', priority: 0.9 },
       { url: '/about-us', priority: 0.9 },
       { url: '/faq', priority: 0.5 },
       { url: '/terms-conditions', priority: 0.9 },

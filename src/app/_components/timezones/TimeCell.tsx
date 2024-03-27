@@ -1,13 +1,20 @@
 import React from 'react';
 import { ITimezoneOption } from "react-timezone-select";
 import {
-    workingHoursColorClass, 
-    sleepingHoursColorClass,
-    lateEveningHoursColorClass,
+    // workingHoursColorClass, 
+    // sleepingHoursColorClass,
+    // lateEveningHoursColorClass,
     hourSettings,
-    defaultHoursColorClass
+    // defaultHoursColorClass
 
 } from "@/lib/constants";
+
+
+export const sleepingHoursColorClass = ' bg-red-400 ';
+export const workingHoursColorClass = ' bg-green-400 ';
+export const lateEveningHoursColorClass = "bg-yellow-500";
+export const earlyMorningHoursColorClass = "bg-yellow-500";
+export const defaultHoursColorClass = "bg-gray-200";
 
 interface TimeCellProps {
     hour: number;
@@ -47,8 +54,10 @@ const TimeCell: React.FC<TimeCellProps> = ({ hour, timezone }) => {
         `${currentTime.getHours()}:${formatMinutes(currentTime.getMinutes())}`
     );
 
+    const styles = currentTimeClass + " text-xs text-gray-700 text-center p-1 " + getColorForHour();
+
     return (
-        <td className={`${getColorForHour()} ${currentTimeClass} text-xs text-gray-700 text-center p-1`}>
+        <td className={styles}>
             {timeValue}
         </td>
     );

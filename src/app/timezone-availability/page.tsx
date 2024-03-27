@@ -5,13 +5,14 @@ import OtherServicesAndTools from '../_components/OtherServicesAndTools';
 import TimeTable from '../_components/timezones/TimeTable';
 
 import {
-    workingHoursColorClass,
-    sleepingHoursColorClass,
-    lateEveningHoursColorClass,
-    earlyMorningHoursColorClass,
-    defaultHoursColorClass,
+    // workingHoursColorClass,
+    // sleepingHoursColorClass,
+    // lateEveningHoursColorClass,
+    // earlyMorningHoursColorClass,
+    // defaultHoursColorClass,
     hourSettings
 } from "@/lib/constants";
+import { defaultHoursColorClass, earlyMorningHoursColorClass, lateEveningHoursColorClass, sleepingHoursColorClass, workingHoursColorClass } from '../_components/timezones/TimeCell';
 
 const TimezoneAvailabilityPage = () => {
     return (
@@ -32,7 +33,7 @@ const TimezoneAvailabilityPage = () => {
                 {/* Legend Section */}
                 <div id="legend-container" className="mt-8">
                     <h2 className="text-lg font-semibold">Legend</h2>
-                    <div className={`flex items-center mt-2 ${workingHoursColorClass}`}>
+                    <div className={`flex items-center mt-2 bg-green-400 ${workingHoursColorClass}`}>
                         <div className="w-4 h-4 mr-2"></div>
                         <span className="text-sm">Working Hours ({hourSettings.workingHours.start}:00 - {hourSettings.workingHours.end}:00)</span>
                     </div>

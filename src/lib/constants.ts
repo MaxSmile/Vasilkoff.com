@@ -7,13 +7,33 @@ export const MAIN_MENU = [
   { title: "Contact Us", link: "/contact-us" },
 ];
 
+
+export const TOOLS_LINKS = [
+  
+  {
+    title: 'Rich Text to Markdown',
+    link: '/rich-text2md',
+  },
+  {
+    title: 'HTML to Markdown',
+    link: '/html2md',
+  },
+  {
+    title: 'Markdown to HTML',
+    link: '/md2html',
+  },
+  {
+    title: 'Timezones Availability Viewer',
+    link: '/timezone-availability',
+  }
+];
+
 export const FOOTER_MENU = [
   { title: "About Us", link: "/about-us" },
   { title: "Read Fast", link: "/read-fast" },
-  { title: "HTML to Markdown Converter", link: "/html2md" },
-  { title: "Markdown to HTML Converter", link: "/md2html" },
+...TOOLS_LINKS,
   { title: "FAQ", link: "/faq" },
-  { title: "Search", link: "/search" },
+  { title: "Search", link: "/search" }
 
 ];
 
@@ -36,11 +56,7 @@ As an example, here's a link to [Example Site](https://example.com).
 * Item Three
 `;
 
-export const workingHoursColorClass = "bg-green-500";
-export const sleepingHoursColorClass = "bg-red-500";
-export const lateEveningHoursColorClass = "bg-yellow-500";
-export const earlyMorningHoursColorClass = "bg-yellow-500";
-export const defaultHoursColorClass = "bg-gray-200";
+
 
 export const hourSettings = {
   workingHours: { start: 9, end: 18 },
