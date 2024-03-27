@@ -21,13 +21,13 @@ export function getBlogBySlug(slug: string) {
 }
 
 export function getPortfolioBySlug(slug: string) {
-  // const realSlug = slug.replace(/\.md$/, "");
+  const realSlug = slug.replace(/\.md$/, "");
   //console.log("realSlug", realSlug);
   const fullPath = join(portfolioDirectory, slug);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  return { ...data, slug, content } as Portfolio;
+  return { ...data, slug: realSlug, content } as Portfolio;
 }
 
 export function getServiceBySlug(slug: string) {
