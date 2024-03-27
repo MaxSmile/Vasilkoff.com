@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*:focus {
+    border: 1px dotted silver;
+}
+
+card {
+    @apply bg-white shadow-md rounded-3xl;
+    @apply overflow-hidden transition-all duration-500 hover:shadow-[0_0_25px_#979797];
+}
+
+card img {
+    @apply object-cover object-top grayscale transition duration-200 hover:grayscale-0;
+}
+
+.btn {
+    border-width: 1px; 
+    @apply inline-block rounded-2xl bg-white border-solid border-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition hover:scale-105 hover:bg-secondary hover:text-white;
+}
+
+.btn-132 {
+    @apply btn;
+    min-width: 132px;
+}
+
+html {
+    background: #000;/*linear-gradient(to bottom, #fff, #000);*/
+}
+body {
+    background: #fff;
+}
+
+h1, h2, h3 {
+    @apply font-extrabold text-secondary ;
+}
+
+.heading {
+    @apply mb-10 lg:mb-14 sm:mb-4 text-center;
+}
+
+.heading h1 {
+    @apply mb-3 text-3xl;
+}
+
+.heading h2 {
+    @apply text-2xl;
+}
+
+.heading h3 {
+    @apply text-xl;
+}
+
+.heading p {
+    @apply text-xl text-gray-600;
+}
+
+article a {
+    @apply text-primary hover:underline hover:text-secondary;
+}
+
+
+
+
+.blackheading {
+    @apply text-xl text-black text-left; 
+}
+
+ /* Header */
+
+ header .menus {
+    @apply fixed z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 
+    -right-full  lg:static lg:h-auto lg:max-w-none;
+}
+
+header .menus>ul {
+    @apply relative flex flex-col divide-y divide-gray/10 font-bold text-black lg:flex-row lg:items-center lg:gap-11 lg:divide-y-0 lg:p-0;
+}
+
+header .menus>ul li {
+    @apply flex items-center justify-between py-4 px-4 transition hover:text-secondary lg:px-0 lg:py-6 hover:lg:scale-110;
+}
+
+header .menus>ul li>a {
+    @apply px-4 rounded
+}
+
+header .menus>ul li>a.active {
+    @apply text-secondary lg:scale-110;
+}

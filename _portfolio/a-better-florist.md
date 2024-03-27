@@ -1,0 +1,136 @@
+---
+type: "projects"
+date: "2022-03-20T00:00:00Z"
+categories: 
+    - "Magento"
+    - "eCommerce"
+    - "PHP"
+    - "AI"
+    - "Machine Learning"
+    - "Website"
+
+title: "A Better Florist"
+link: "ABetterFlorist.com"
+picture: "/assets/portfolio/a-better-florist.webp"
+url: "https://www.facebook.com/ABetterFlorist/"
+extra: "Project closed in 2022"
+description: "A Better Florist is a global network of online flower shops that offers a range of websites and a user-friendly experience for customers around the world."
+---
+A Better Florist is a vivid illustration of Vasilkoff Ltd's capability to handle substantial AWS infrastructure for managing a multitude of WordPress and Magento websites under high load. Here's a comprehensive list showcasing the scope of our project, emphasizing the scale and diversity of the infrastructure we adeptly manage:
+
+- abetterflorist.com
+- brisbaneblooms.com
+- goldcoastblooms.com
+- adelaideflowers.co
+- sydneyblooms.com
+- maltafreshflowers.com
+- melbourneflowers.co
+- netherlandblooms.com
+- montrealbloom.com
+- cowtownflower.com
+- bloomsvancouver.com
+- flowerstoluxembourg.com
+- ottawalovesflowers.com
+- capetownblooms.com
+- bestcakesjapan.com
+- happyflowers.sg
+- abetterflorist.com
+- herflowers.sg
+- singaporebestcakes.com
+- bestcakesuk.com
+- bestcakesjakarta.com
+- bestcakesthailand.com
+- malaysiabestcakes.com
+- justperfectcakes.com
+- bestcakeshk.com
+- oscarscakes.com
+- thailandflowers.co
+- abetterfloristjapan.com
+- swissflowers.co
+- herflowerscz.com
+- herflowersbelgium.com
+- egyptblooms.com
+- happyflowersmacau.com
+- happyflowerschina.com
+- flowersandco.co.uk
+- herflowershu.com
+- happyflowersmy.com
+- happyflowersvietnam.com
+- herflowersindo.com
+- happyflowersph.com
+- happyflowersjapan.com
+- herflowersbangkok.com
+- abetterfloristbangkok.com
+- herflowers.com.hk
+- abetterflorist.com.hk
+- nzblooms.com
+- myanmarblooms.com
+- balovesblooms.com
+- edinburghblooms.com
+- newcastleblooms.com
+- ukraineblooms.com
+- lisbonlovesflowers.com
+- finishflowers.com
+- israeliflowers.com
+- osloblooms.com
+- beirutblooms.com
+- romanflowers.com
+- webloomcanada.com
+- milanoblooms.com
+- calgarycakedelivery.com
+- srilankabloom.com
+- happyflowers.es
+- happyflowersuae.com
+- happyflowerstw.com
+- bloomsto.com
+- abetterfloristvn.com
+- abetterfloristtw.com
+- abetterfloristkorea.com
+- abetterflorist.com.ph
+- abetterfloristpk.com
+- jordanblooms.com
+- qatarblooms.com
+- germanblooms.com
+- floralfrench.com
+- abetterfloristturkey.com
+- abetterfloristau.com
+- canberrablooms.com
+- swedishflowers.com
+- perthflowers.co
+- bendigoblooms.com
+- ballaratblooms.com
+- darwinblooms.com
+- toowoombablooms.com
+- hobartblooms.com
+- bestcakestaiwan.com
+- testserver.abetterflorist.com
+- flowerstotoowoomba.com
+- flowerstoballarat.com
+- flowerstodarwin.com
+- cairnsblooms.com
+- townsvilleblooms.com
+- bestcakevancouver.com
+- wollongonglovesflowers.com
+- bloomedmonton.com
+- hongkongbesthamper.com
+- almatyblooms.com
+- bloomcentralcoast.com
+- bestinireland.com
+- mississaugaflower.com
+- romanianblooms.com
+- mauritiuslovesflowers.com
+- polishblooms.com
+- bloomswellington.com
+- greekblooms.com
+- saudicakes.com
+- flowerstonorwich.com
+- sunshinecoastflorals.com
+- australiablooms.com
+- perthcakedelivery.com
+- capetowncakes.com
+- colombocakes.com
+- nottinghamblooms.com
+- happyflowersfr.com
+- srilankablooms.com
+
+This project, now closed in 2022, showcased our technical strength in managing a significant number of websites on a large scale, primarily on AWS, with a smaller segment on Digital Ocean. The successful execution of this vast network stands as evidence of Vasilkoff Ltd's excellence in delivering complex web solutions and handling extensive digital ecosystems with high efficiency and reliability.
