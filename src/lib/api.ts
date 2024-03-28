@@ -23,7 +23,7 @@ export function getBlogBySlug(slug: string) {
 export function getPortfolioBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
   //console.log("realSlug", realSlug);
-  const fullPath = join(portfolioDirectory, slug);
+  const fullPath = join(portfolioDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 

@@ -9,7 +9,7 @@ categories:
 
 title: "POLLCART"
 link: "pollcart.com"
-picture: "/portfolio/pollcart.webp"
+picture: "/assets/portfolio/pollcart.webp"
 url: "https://pollcart.com/"
 extra: ""
 description: "PollCart is a social commerce app for Shopify that lets undecided shoppers ask friends and family for approval of a purchase. This innovative approach increases the likelihood of completing a sale and provides retailers with valuable customer insights. With PollCart, shopping becomes a social experience that empowers consumers to make informed purchases based on trusted opinions."
