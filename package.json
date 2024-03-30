@@ -18,6 +18,7 @@
     "genversion": "^3.2.0",
     "gray-matter": "^4.0.3",
     "html-to-md": "^0.8.5",
+    "lodash": "^4.17.21",
     "next": "^14.1.4",
     "next-sitemap": "^4.2.3",
     "react": "^18",
@@ -36,6 +37,7 @@
     "swiper": "^8.4.5"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -44,5 +46,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "version": "2.0.6"
+  "version": "2.0.7"
 }
