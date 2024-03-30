@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@phntms/next-gtm": "^0.3.0",
+    "city-timezones": "^1.2.1",
     "classnames": "^2.5.1",
     "date-fns": "^3.3.1",
     "genversion": "^3.2.0",
@@ -43,5 +44,5 @@
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
-  "version": "2.0.5"
+  "version": "2.0.6"
 }
