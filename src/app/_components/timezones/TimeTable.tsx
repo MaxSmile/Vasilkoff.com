@@ -1,61 +1,71 @@
 "use client";
-import { useState } from "react";
-import TimezoneSelect, { ITimezone, ITimezoneOption } from 'react-timezone-select';
+import { useEffect, useState } from "react";
+import { ITimezone, ITimezoneOption } from 'react-timezone-select';
 import TimeCell from "./TimeCell";
+import TimeSelectControls from "./TimeSelectControls";
+import IconMinus from "../IconMinus";
+import { myTimezoneOption } from "./TimzoneOptions";
+import { useRouter } from "next/router";
 
-const getTimeZoneAbbreviated = (date: Date): string => {
-    const match = date.toString().match(/\((.+)\)/);
-    const timeZoneString = match ? match[1] : "";
-    return timeZoneString.includes(" ")
-        ? timeZoneString.split(" ").map((word) => word[0]).join("")
-        : timeZoneString;
-};
 
 export default function TimeTable() {
-    const myTime = new Date();
-    
-    const myTimezoneOption: ITimezoneOption = {
-        value: Intl.DateTimeFormat().resolvedOptions().timeZone,
-        label: Intl.DateTimeFormat().resolvedOptions().timeZone,
-        abbrev: getTimeZoneAbbreviated(myTime),
-        // Use 'timeZoneName' option from 'resolvedOptions'
-        altName: Intl.DateTimeFormat(undefined, { timeZoneName: 'long' }).resolvedOptions().timeZoneName,
-        offset: -myTime.getTimezoneOffset() / 60
-    };
-    
+
     // Define the state with the correct type
     const [selectedTimezones, setSelectedTimezones] = useState<ITimezone[]>([myTimezoneOption]);
-    const [selectedTimezone, setSelectedTimezone] = useState<ITimezone>(myTimezoneOption);
+
     const hoursTitles = Array.from({ length: 24 }, (_, i) => i);
 
-    const addTimezone = () => {
-        if (selectedTimezone && !selectedTimezones.includes(selectedTimezone)) {
-            setSelectedTimezones((prev) => [...prev, selectedTimezone]);
+    const addTimezone = (selectedTimezone: ITimezone) => {
+        const isDuplicate = selectedTimezones.some(tz => {
+            if (typeof tz === 'string' && typeof selectedTimezone === 'string') {
+                return tz === selectedTimezone;
+            } else if (typeof tz !== 'string' && typeof selectedTimezone !== 'string') {
+                return tz.value === selectedTimezone.value;
+            }
+            return false;
+        });
+
+        if (!isDuplicate) {
+            setSelectedTimezones(prev => [...prev, selectedTimezone]);
+        } else {
+            alert('Time zone already included');
         }
     };
+
 
     const removeTimezone = (index: number) => {
         setSelectedTimezones((current) => current.filter((_, i) => i !== index));
     };
 
-    const MinusIcon = () => (
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-        </svg>
+    const shareTimezones = () => {
+        let newUrl = "";
+        if (typeof window !== "undefined") {
+            const timezonesString = encodeURIComponent(JSON.stringify(selectedTimezones));
+            newUrl = `${window.location.origin}${window.location.pathname}?timezones=${timezonesString}`;
+        }
+        return newUrl;
+    };
 
-    )
+
+    // Effect to parse URL on load
+    useEffect(() => {
+        const queryParams = new URLSearchParams(window.location.search);
+        const timezonesParam = queryParams.get("timezones");
+
+        if (timezonesParam) {
+            try {
+                const timezonesFromUrl = JSON.parse(decodeURIComponent(timezonesParam));
+                setSelectedTimezones(timezonesFromUrl);
+            } catch (error) {
+                console.error("Error parsing timezones from URL", error);
+            }
+        }
+    }, []);
 
     return (
         <div className="max-w-6xl mx-auto mb-8 border-b border-gray-200 py-4">
-            <TimezoneSelect
-                value={selectedTimezone}
-                onChange={setSelectedTimezone}
-            />
-            <div className="mt-4 flex gap-4 w-fit justify-center mx-auto">
-            <button onClick={addTimezone} className="btn-132 mt-4">Add Timezone</button>
-            <button onClick={() => setSelectedTimezones([])} className="btn-132 mt-4">Clear All</button>
-            </div>
-            
+            <TimeSelectControls addTimezone={addTimezone} setSelectedTimezones={setSelectedTimezones} />
+
             <table className="table-auto w-full mt-4">
                 <thead className="border-b border-gray-800">
                     <tr>
@@ -68,19 +78,20 @@ export default function TimeTable() {
                     {
                         // Map over selectedTimezones
                         selectedTimezones.map((timezone, tzIndex) => {
-                            if (typeof timezone === 'object') {
+                            if (typeof timezone === 'object' && timezone.offset != undefined) {
+                                const gmtString = timezone.offset < 0 ? "GMT" + timezone.offset : "GMT+" + timezone.offset;
                                 return (
                                     <tr key={tzIndex}>
-                                        <td className="font-bold text-gray-700 text-center text-sm border-r border-gray-800"
-                                            title={timezone.label}
-                                        >{timezone.abbrev}&nbsp;-&nbsp;{(+(timezone.offset || 0) < 0) ? "GMT" + timezone.offset : "GMT+" + timezone.offset}</td>
+                                        <td className="font-bold text-gray-700 text-center text-sm border-r border-b border-gray-800"
+                                            title={timezone.abbrev}
+                                        >{gmtString}<div className="text-gray-600 text-xs truncate font-normal max-w-[150px] overflow-hidden">{timezone.label}</div></td>
                                         {hoursTitles.map(hour => (
                                             <TimeCell key={`${tzIndex}-${hour}`} hour={hour} timezone={timezone} />
                                         ))}
                                         <td className="border-l border-gray-800 text-center">
                                             <button onClick={() => removeTimezone(tzIndex)}
                                                 className="text-primary"
-                                            ><MinusIcon /></button>
+                                            ><IconMinus /></button>
                                         </td>
                                     </tr>
                                 );
@@ -88,7 +99,7 @@ export default function TimeTable() {
                                 // This branch wouldn't be executed if we correctly ensure timezone is always an ITimezoneOption
                                 return (
                                     <tr key={`invalid-${tzIndex}`}>
-                                        <td colSpan={hoursTitles.length + 2}>{timezone} is invalid</td>
+                                        <td colSpan={hoursTitles.length + 2}>{timezone as string} is invalid</td>
                                     </tr>
                                 );
                             }
@@ -97,6 +108,16 @@ export default function TimeTable() {
                 </tbody>
 
             </table>
+            <button onClick={() => {
+                navigator.clipboard.writeText(shareTimezones()).then(() => {
+                    alert("Timezone URL copied to clipboard");
+                }).catch((err) => {
+                    alert("Could not copy the URL to clipboard");
+                });
+
+            }} className="text-primary mt-4">Copy to Share time zones link</button>
+            <div className="text-xs text-gray-400 break-all">{shareTimezones() as string}</div>
+
         </div>
     );
 }

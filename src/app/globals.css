@@ -18,7 +18,7 @@ card img {
 
 .btn {
     border-width: 1px; 
-    @apply inline-block rounded-2xl bg-white border-solid border-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition hover:scale-105 hover:bg-secondary hover:text-white;
+    @apply inline-block rounded-2xl bg-white border-solid border-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition hover:bg-secondary hover:text-white;
 }
 
 .btn-132 {

@@ -1,13 +1,6 @@
 import React from 'react';
 import { ITimezoneOption } from "react-timezone-select";
-import {
-    // workingHoursColorClass, 
-    // sleepingHoursColorClass,
-    // lateEveningHoursColorClass,
-    hourSettings,
-    // defaultHoursColorClass
-
-} from "@/lib/constants";
+import { hourSettings } from "@/lib/constants";
 
 
 export const sleepingHoursColorClass = ' bg-red-400 ';
@@ -25,8 +18,17 @@ const TimeCell: React.FC<TimeCellProps> = ({ hour, timezone }) => {
     const localHour = (24 + hour + (timezone.offset || 0)) % 24;
     const currentTime = new Date(new Date().toLocaleString("en-US", {timeZone: timezone.value}));
     const currentHour = currentTime.getHours();
-    const isCurrentTime = Math.floor(localHour) === currentHour;
+    const currentMinutes = currentTime.getMinutes();
+    let hourPlace = currentHour
+    if(localHour>Math.floor(localHour)) {
+        if(currentMinutes < 30) {
+            hourPlace = (currentHour+23)%24;
+        }
+    }
+    //console.log("localHour [currentHour hourPlace] currentMinutes timezone.offset", localHour, '[',currentHour, hourPlace,']', currentMinutes, timezone.offset);
 
+    const isCurrentTime = Math.floor(localHour) === hourPlace;
+    // console.log("isCurrentTime", isCurrentTime);
     
 
     const getColorForHour = (): string => {
