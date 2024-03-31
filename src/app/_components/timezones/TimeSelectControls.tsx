@@ -24,7 +24,7 @@ export default function TimeSelectControls({
     for (let city of cities) {
       if (city.label.toLowerCase().includes(inputValue.toLowerCase())) {
         filteredOptions.push(city);
-        if (filteredOptions.length === 8) break; // Stop after finding 8 matches
+        if (filteredOptions.length === 20) break; 
       }
     }
     callback(filteredOptions);
@@ -53,7 +53,7 @@ export default function TimeSelectControls({
       <div className="flex items-center gap-4">
         <div className='w-fit'>OR</div>
         <div className="w-full ml-1">
-        Select the city:<br />
+        Start typing city name:<br />
         <AsyncSelect
           loadOptions={debouncedLoadOptions}
           defaultOptions
