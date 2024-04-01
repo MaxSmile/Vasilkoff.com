@@ -5,10 +5,16 @@ import TimeCell from "./TimeCell";
 import TimeSelectControls from "./TimeSelectControls";
 import IconMinus from "../IconMinus";
 import { myTimezoneOption } from "./TimzoneOptions";
-import { useRouter } from "next/router";
+
+declare global {
+    interface Window {
+        interval?: number;
+    }
+}
 
 
 export default function TimeTable() {
+    const [currentTime, setCurrentTime] = useState(new Date());
 
     // Define the state with the correct type
     const [selectedTimezones, setSelectedTimezones] = useState<ITimezone[]>([myTimezoneOption]);
@@ -26,11 +32,18 @@ export default function TimeTable() {
         });
 
         if (!isDuplicate) {
-            setSelectedTimezones(prev => [...prev, selectedTimezone]);
+            setSelectedTimezones(prev => {
+                const updatedTimezones = [...prev, selectedTimezone];
+                // Update localStorage right after updating the state
+                localStorage.setItem("selectedTimezones", JSON.stringify(updatedTimezones));
+                return updatedTimezones;
+            });
         } else {
             alert('Time zone already included');
         }
     };
+
+
 
 
     const removeTimezone = (index: number) => {
@@ -51,15 +64,33 @@ export default function TimeTable() {
     useEffect(() => {
         const queryParams = new URLSearchParams(window.location.search);
         const timezonesParam = queryParams.get("timezones");
-
+        
         if (timezonesParam) {
+            
             try {
                 const timezonesFromUrl = JSON.parse(decodeURIComponent(timezonesParam));
                 setSelectedTimezones(timezonesFromUrl);
             } catch (error) {
                 console.error("Error parsing timezones from URL", error);
             }
+        } else {
+            const storedTimezones = localStorage.getItem("selectedTimezones");
+            if (storedTimezones) {
+                setSelectedTimezones(JSON.parse(storedTimezones));
+            }
         }
+
+        // Initialize interval if it doesn't exist
+        if (!window.interval) {
+            window.interval = window.setInterval(() => {
+                setCurrentTime(new Date());
+            }, 60 * 1000);
+        }
+
+        // Cleanup interval on component unmount
+        return () => {
+            if (window.interval) clearInterval(window.interval);
+        };
     }, []);
 
     return (
@@ -115,9 +146,9 @@ export default function TimeTable() {
                     alert("Could not copy the URL to clipboard");
                 });
 
-            }} className="text-primary mt-4">Copy to Share time zones link</button>
+            }} className="text-primary mt-4 underline">Click to Copy the time zones table Share link</button>
             <div className="text-xs text-gray-400 break-all">{shareTimezones() as string}</div>
-
+            <div className="text-xs">Current Local Time and Date: {currentTime.toLocaleTimeString()} {currentTime.toLocaleDateString()}</div>
         </div>
     );
 }
