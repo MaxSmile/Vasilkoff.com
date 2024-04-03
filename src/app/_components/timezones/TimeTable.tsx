@@ -64,9 +64,9 @@ export default function TimeTable() {
     useEffect(() => {
         const queryParams = new URLSearchParams(window.location.search);
         const timezonesParam = queryParams.get("timezones");
-        
+
         if (timezonesParam) {
-            
+
             try {
                 const timezonesFromUrl = JSON.parse(decodeURIComponent(timezonesParam));
                 setSelectedTimezones(timezonesFromUrl);
@@ -94,51 +94,52 @@ export default function TimeTable() {
     }, []);
 
     return (
-        <div className="max-w-6xl mx-auto mb-8 border-b border-gray-200 py-4">
+        <div className="max-w-6xl mx-auto mb-8 border-b border-gray-200 py-4 overflow-x-auto">
             <TimeSelectControls addTimezone={addTimezone} setSelectedTimezones={setSelectedTimezones} />
+            <div className="max-w-full overflow-x-auto p-2">
+                <table className="table-auto w-full mt-4">
+                    <thead className="border-b border-gray-800">
+                        <tr>
+                            <th>Time Zone</th>
+                            <th colSpan={hoursTitles.length}>Hours</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            // Map over selectedTimezones
+                            selectedTimezones.map((timezone, tzIndex) => {
+                                if (typeof timezone === 'object' && timezone.offset != undefined) {
+                                    const gmtString = timezone.offset < 0 ? "GMT" + timezone.offset : "GMT+" + timezone.offset;
+                                    return (
+                                        <tr key={tzIndex}>
+                                            <td className="font-bold text-gray-700 text-center text-sm border-r border-b border-gray-800"
+                                                title={timezone.abbrev}
+                                            >{gmtString}<div className="text-gray-600 text-xs truncate font-normal max-w-[150px] overflow-hidden">{timezone.label}</div></td>
+                                            {hoursTitles.map(hour => (
+                                                <TimeCell key={`${tzIndex}-${hour}`} hour={hour} timezone={timezone} />
+                                            ))}
+                                            <td className="border-l border-gray-800 text-center">
+                                                <button onClick={() => removeTimezone(tzIndex)}
+                                                    className="text-primary"
+                                                ><IconMinus /></button>
+                                            </td>
+                                        </tr>
+                                    );
+                                } else {
+                                    // This branch wouldn't be executed if we correctly ensure timezone is always an ITimezoneOption
+                                    return (
+                                        <tr key={`invalid-${tzIndex}`}>
+                                            <td colSpan={hoursTitles.length + 2}>{timezone as string} is invalid</td>
+                                        </tr>
+                                    );
+                                }
+                            })
+                        }
+                    </tbody>
 
-            <table className="table-auto w-full mt-4">
-                <thead className="border-b border-gray-800">
-                    <tr>
-                        <th>Time Zone</th>
-                        <th colSpan={hoursTitles.length}>Hours</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        // Map over selectedTimezones
-                        selectedTimezones.map((timezone, tzIndex) => {
-                            if (typeof timezone === 'object' && timezone.offset != undefined) {
-                                const gmtString = timezone.offset < 0 ? "GMT" + timezone.offset : "GMT+" + timezone.offset;
-                                return (
-                                    <tr key={tzIndex}>
-                                        <td className="font-bold text-gray-700 text-center text-sm border-r border-b border-gray-800"
-                                            title={timezone.abbrev}
-                                        >{gmtString}<div className="text-gray-600 text-xs truncate font-normal max-w-[150px] overflow-hidden">{timezone.label}</div></td>
-                                        {hoursTitles.map(hour => (
-                                            <TimeCell key={`${tzIndex}-${hour}`} hour={hour} timezone={timezone} />
-                                        ))}
-                                        <td className="border-l border-gray-800 text-center">
-                                            <button onClick={() => removeTimezone(tzIndex)}
-                                                className="text-primary"
-                                            ><IconMinus /></button>
-                                        </td>
-                                    </tr>
-                                );
-                            } else {
-                                // This branch wouldn't be executed if we correctly ensure timezone is always an ITimezoneOption
-                                return (
-                                    <tr key={`invalid-${tzIndex}`}>
-                                        <td colSpan={hoursTitles.length + 2}>{timezone as string} is invalid</td>
-                                    </tr>
-                                );
-                            }
-                        })
-                    }
-                </tbody>
-
-            </table>
+                </table>
+            </div>
             <button onClick={() => {
                 navigator.clipboard.writeText(shareTimezones()).then(() => {
                     alert("Timezone URL copied to clipboard");
