@@ -62,7 +62,7 @@ export default function middleware(request: NextRequest) {
 
     const { pathname, origin } = request.nextUrl;
     const redirectUrl = redirects.get(pathname.toLocaleLowerCase());
-    console.log("redirectUrl", redirectUrl, pathname);
+    //console.log("redirectUrl", redirectUrl, pathname);
     if (redirectUrl) { 
       return NextResponse.redirect(new URL(redirectUrl, origin).toString(), 301);
     }
