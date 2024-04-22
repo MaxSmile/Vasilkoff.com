@@ -22,7 +22,7 @@ export type Portfolio = {
   url: string;
   extra: string;
   description: string;
-  content?: string;
+  content: string;
 
 };
 
