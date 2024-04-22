@@ -44,7 +44,7 @@ export function generateMetadata({ params }: Params): Metadata {
 
   return {
     openGraph: {
-      title:blog.title,
+      title: blog.title,
       images: [blog.picture],
     },
   };
