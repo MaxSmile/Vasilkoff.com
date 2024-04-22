@@ -60,13 +60,12 @@ export function getAllBlogs(): Blog[] {
     .sort((Blog1: Blog, Blog2: Blog) => (Blog1.date > Blog2.date ? -1 : 1));
   return Blogs;
 }
-
 export function getAllPortfolios(): Portfolio[] {
   const slugs = getPortfolioSlugs();
   const portfolios = slugs
     .map((slug: string) => getPortfolioBySlug(slug))
-    // sort portfolios by date in descending order
-    .sort((Port1: Portfolio, Port2: Portfolio) => (Port1.date > Port2.date ? -1 : 1));
+    .filter((portfolio): portfolio is Portfolio => portfolio !== null) // Filter out nulls
+    .sort((Port1: Portfolio, Port2: Portfolio) => Port1.date > Port2.date ? -1 : 1); // Sort non-null portfolios
   return portfolios;
 }
 

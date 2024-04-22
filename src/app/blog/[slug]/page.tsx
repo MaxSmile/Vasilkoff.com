@@ -6,6 +6,7 @@ import Container from "@/app/_components/Container";
 import { PostHeader } from "@/app/_components/posts/PostHeader";
 import { PostBody } from "@/app/_components/posts/PostBody";
 import Head from "next/head";
+import { Blog } from "@/interfaces/docTypes";
 
 
 
@@ -75,7 +76,7 @@ export async function generateStaticParams() {
 }
 
 
-function generateBlogJsonLd(blog) {
+function generateBlogJsonLd(blog:Blog) {
   return {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
@@ -83,7 +84,7 @@ function generateBlogJsonLd(blog) {
     image: blog.picture,
     url: `https://vasilkoff.com/blog/${blog.slug}`,
     datePublished: blog.date,
-    dateModified: blog.dateModified || blog.date,
+    dateModified: blog.date,
     author: {
       "@type": "Person",
       name: "Maxim Vasilkov",
