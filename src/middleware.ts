@@ -21,7 +21,7 @@ const redirects = new Map<string, string>([
   ['/portfolio/donkim.com', '/portfolio/donkim'],
   ['/portfolio/multifamilygrp.com', '/portfolio/multifamilygrp-com'],
   ['/portfolio/erabanq.com', '/portfolio/erabanq-com'],
-  ['/portfolio/clarusapex.com', '/portfolio/clarusapex-com'],
+  ['/portfolio/clarusapex.com', '/portfolio/clarus-apex'],
   ['/portfolio/ios%20game', '/portfolio/bubble-pirate-quest'],
   ['/portfolio/play%20market,%20admin%20panel,%20chat', '/portfolio/kokomix'],
   ['/portfolio/cas.ai', '/portfolio/cas-ai'],
