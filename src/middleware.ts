@@ -32,11 +32,11 @@ const redirects = new Map<string, string>([
   ['/portfolio/github', '/portfolio/vpn-free'],
   ['/portfolio/cbay.com.cy', '/portfolio/cbay'],
   ['/portfolio/heptapolis.com%20crypto%20ico', '/portfolio/heptapolis'],
-  ['/portfolio//smrtai%20-%20livechat%20ai%20powered%20chatbot', '/portfolio/smrtai'],
+  ['/portfolio//smrtai%20-%20livechat%20ai%20powered%20chatbot', '/portfolio/smrtAI'],
   ['/blog/timezone-tool', '/blog/1'],
   ['/portfolio/play%20market:%20calculator%20lock%20hide%20app%20photo', '/portfolio/calculator-lock'],
   ['/portfolio/printmyphotos.com', '/portfolio/printmyphotos-com'],
-  ['/portfolio/vikentilia.com', '/portfolio/vikentilia-com'],
+  ['/portfolio/vikentilia.eu', '/portfolio/vikentilia-eu'],
   ['/portfolio/nfttrx.com', '/portfolio/nfttrx'],
   ['/portfolio/nutribar.com', '/portfolio/nutribar'],
   ['/portfolio/naviaddress.com', '/portfolio/naviaddress'],
@@ -56,6 +56,11 @@ const redirects = new Map<string, string>([
   ['/easy-vpn-privacy-policy', '/privacy-policy'],
   ['/easy-vpn-free', '/vpn-free'],
   ['/book', '/team/maxim-vasilkov'],
+  ['/portfolio/playmarket%20and%20appstore', '/portfolio/vpn-free'],
+  ['/portfolio/mobile%20app', '/portfolio/vpn-free'],
+  ['/portfolio/ios%20app', '/portfolio/calculatorx'],
+  ['/portfolio/smrtai', '/portfolio/smrtAI'],
+  ['/portfolio/smartaichats.com', '/portfolio/smartaichats-com'],
 ]);
 
 export default function middleware(request: NextRequest) {
