@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <head>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -49,7 +49,7 @@ export default function RootLayout({
         <a href="#maincontent" className="skip-link">Skip to main content</a>
         <SupportUkraineBanner />
         <Header />
-        <div className="min-h-screen" id="maincontent">{children}</div>
+        <div className="min-h-screen overflow-x-hidden" id="maincontent">{children}</div>
         <Footer />
       </body>
     </html>
