@@ -31,7 +31,7 @@ const IndexPage: NextPage = () => {
       <Hero />
 
       <Container className="heading">
-        <h1>Your Partner in Web & Mobile Application Development: Vasilkoff Ltd</h1>
+        <h1 className="mt-4">Your Partner in Web & Mobile Application Development: Vasilkoff Ltd</h1>
       </Container>
 
       <TeamMembers />

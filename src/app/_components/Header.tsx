@@ -34,14 +34,14 @@ const Header = (props: any) => {
               className={`overlay fixed inset-0 h-screen w-full z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
 
             {/* Menu */}
-            <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
+            {showMenu && <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
               <button id='close-menu'
                 onClick={() => toggleMenu()} type="button" aria-label="Menu"
                 className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"
                 role='button'>
                 <MenuIconClose />
               </button>
-              {showMenu && <ul role='menu' onClick={() => setShowMenu(false)} >
+              <ul role='menu' onClick={() => setShowMenu(false)} >
                 {MAIN_MENU.map((item, index) => (
                   <li role='menuitem' key={index}>
                     <Link href={item.link} className={router.includes(item.link) ? 'active' : ''}>
@@ -49,9 +49,9 @@ const Header = (props: any) => {
                     </Link>
                   </li>
                 ))}
-              </ul>}
+              </ul>
             </div>
-
+            }
             <button
               id='menu-toggle'
               type="button" aria-label="Menu"
