@@ -22,7 +22,7 @@ const Header = (props: any) => {
   }, []);
 
   return (
-    <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl'>
+    <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl overflow-x-hidden'>
       <Container className='h-20'>
         <div className="flex items-center justify-between py-5 lg:py-0">
           <Link href="/">
@@ -41,7 +41,7 @@ const Header = (props: any) => {
                 role='button'>
                 <MenuIconClose />
               </button>
-              {showMenu && <ul role='menu' onClick={() => setShowMenu(false)} >
+              <ul role='menu' onClick={() => setShowMenu(false)} >
                 {MAIN_MENU.map((item, index) => (
                   <li role='menuitem' key={index}>
                     <Link href={item.link} className={router.includes(item.link) ? 'active' : ''}>
@@ -49,7 +49,7 @@ const Header = (props: any) => {
                     </Link>
                   </li>
                 ))}
-              </ul>}
+              </ul>
             </div>
 
             <button
