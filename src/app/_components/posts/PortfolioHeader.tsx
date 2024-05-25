@@ -11,11 +11,13 @@ export function PortfolioHeader({ article }: { article: Portfolio }) {
 
   return (
     <Container>
-      <div className='flex flex-col md:flex-row md:items-center pt-8 md:mt-14 lg:mt-[128px]'>
-        <div className='heading flex-1 text-center lg:text-left '>
+      <div className='flex flex-col md:flex-row pt-8 md:mt-14 lg:mt-[128px]'>
+        <div className='heading flex-1 text-left'>
+          <div className='flex items-center space-x-2'>
           <BackHistoryButton />
-          <h1 className='text-secondary'>{article.title}</h1>
-          <div className='text-secondary py-4'>
+          <h1 className='text-secondary pt-1'>{article.title}</h1>
+          </div>
+          <div className='text-secondary py-4 text-left'>
             <p>{article.description}</p>
             <br />
             <p className='text-secondary'>Categories:&nbsp;</p>

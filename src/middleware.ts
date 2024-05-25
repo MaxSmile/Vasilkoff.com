@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const redirects = new Map<string, string>([
   ['/portfolio/smrt16.com', '/portfolio/smrt16'],
-  ['/portfolio/morrowhillvisionworks.com ', '/portfolio/morrowhillvisionworks-com'],
+  ['/portfolio/morrowhillvisionworks.com', '/portfolio/morrowhillvisionworks-com'],
   ['/portfolio/bgsf.com', '/portfolio/bgsf-com'],
   ['/portfolio/abetterflorist.com', '/portfolio/a-better-florist'],
   ['/portfolio/okokagency.eu', '/portfolio/okokagency-eu'],
@@ -26,7 +26,7 @@ const redirects = new Map<string, string>([
   ['/portfolio/play%20market,%20admin%20panel,%20chat', '/portfolio/kokomix'],
   ['/portfolio/cas.ai', '/portfolio/cas-ai'],
   ['/portfolio/inter-euro.com', '/portfolio/inter-euro'],
-  ['/portfolio/smartAI', '/portfolio/smrtAI'],
+  ['/portfolio/smartai', '/portfolio/smrtAI'],
   ['/portfolio/vasilkoff.info', '/portfolio/vasilkoff-info'],
   ['/portfolio/libi.com', '/portfolio/libi-n-daughters'],
   ['/portfolio/github', '/portfolio/vpn-free'],
@@ -59,7 +59,7 @@ const redirects = new Map<string, string>([
   ['/portfolio/playmarket%20and%20appstore', '/portfolio/vpn-free'],
   ['/portfolio/mobile%20app', '/portfolio/vpn-free'],
   ['/portfolio/ios%20app', '/portfolio/calculatorx'],
-  ['/portfolio/smrtai', '/portfolio/smrtAI'],
+  //['/portfolio/smrtai', '/portfolio/smrtAI'],
   ['/portfolio/smartaichats.com', '/portfolio/smartaichats-com'],
 ]);
 
@@ -67,7 +67,7 @@ export default function middleware(request: NextRequest) {
 
     const { pathname, origin } = request.nextUrl;
     const redirectUrl = redirects.get(pathname.toLocaleLowerCase());
-    console.log("redirectUrl", redirectUrl, pathname);
+    //console.log("redirectUrl", redirectUrl, pathname);
     if (redirectUrl) { 
       return NextResponse.redirect(new URL(redirectUrl, origin).toString(), 301);
     }

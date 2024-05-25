@@ -1,4 +1,4 @@
-// src/app/_components/header.jsx
+// src/app/_components/Header.tsx
 "use client";
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -34,7 +34,7 @@ const Header = (props: any) => {
               className={`overlay fixed inset-0 h-screen w-full z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
 
             {/* Menu */}
-            <div id='menu' className={`menus top-0 pt-1 z-[51] ${showMenu ? 'overflow-y-auto !right-0 h-screen' : 'hidden'}`}>
+            <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
               <button id='close-menu'
                 onClick={() => toggleMenu()} type="button" aria-label="Menu"
                 className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"
