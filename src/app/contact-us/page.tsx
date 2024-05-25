@@ -48,8 +48,8 @@ const ContactUsPage = () => {
                 <Reviews />
                 <Tabs 
                     tabs={[
-                        { label: 'Contact Us', content: <AIContacts /> },
-                        { label: 'Report a Bug', content: <BugReportForm /> }
+                        { label: 'Contact Us', content: <AIContacts />, id: 'contact' },
+                        { label: 'Report a Bug', content: <BugReportForm />, id: 'report' },
                     ]}
                 />
             </section>

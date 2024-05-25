@@ -11,16 +11,16 @@ const Tabs = ({ tabs }) => {
         {tabs.map(tab => (
           <button
             key={tab.label}
-            className={`px-4 py-2 text-lg font-bold ${activeTab === tab.label ? 'text-blue-500 border-b-2 border-blue-500' : 'text-gray-500'}`}
+            className={`px-4 py-2 text-lg font-bold ${activeTab === tab.label ? 'text-primary border-b-2 border-primary' : 'text-gray-500'}`}
             onClick={() => setActiveTab(tab.label)}
           >
             {tab.label}
           </button>
         ))}
       </div>
-      <div>
+      <div className="pt-8">
         {tabs.map(tab => (
-          tab.label === activeTab ? <div key={tab.label}>{tab.content}</div> : null
+           <div id={tab.id}  className={activeTab === tab.label ? 'block' : 'hidden'} key={tab.label}>{tab.content}</div>
         ))}
       </div>
     </div>

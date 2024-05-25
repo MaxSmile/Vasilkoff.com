@@ -17,7 +17,7 @@ const BugReportForm = () => {
                     <label htmlFor="description" className="block text-sm font-medium text-gray-700">Description</label>
                     <textarea id="description" className="mt-1 p-2 w-full border border-gray-300 rounded-md" required></textarea>
                 </div>
-                <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md">Submit</button>
+                <button type="submit" className="w-full bg-primary text-white py-2 rounded-md">Submit</button>
             </form>
         </div>
     );
