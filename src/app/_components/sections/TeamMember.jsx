@@ -17,7 +17,7 @@ const TeamMember = (
     return (
         <div className="group text-center"><Link href={link}>
             <div className="relative md:h-[180px] h-[280px] rounded-3xl transition-all duration-500 group-hover:shadow-[0_0_25px_#979797]">
-                <Image loading="lazy" width={200} height={180} src={picture} alt={name + ", " + keywords} className="h-full w-full rounded-3xl object-cover object-top grayscale transition duration-200 group-hover:grayscale-0" />
+                <Image loading="lazy" width={200} height={180} src={picture} alt={name + ", " + keywords} className="aspect-w-1 aspect-h-1 w-full rounded-3xl object-cover object-top grayscale transition duration-200 group-hover:grayscale-0" />
             </div>
             <h2 className="pt-5 pb-2 text-xl font-extrabold text-black transition duration-500 group-hover:text-secondary">
                 {name}
