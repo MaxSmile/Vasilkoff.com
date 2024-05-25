@@ -8,7 +8,7 @@ categories:
     - "Web App"
 
 title: "Morrow Hill"
-link: "morrowhillvisionworks.com"
+link: "https://morrowhillvisionworks.com"
 picture: "/assets/portfolio/morrowhill.webp"
 url: "https://morrowhillvisionworks.com/"
 extra: ""

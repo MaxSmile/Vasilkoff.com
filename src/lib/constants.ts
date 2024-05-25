@@ -68,3 +68,33 @@ export const hourSettings = {
 
 export const HOME_OG_IMAGE_URL =
   "https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg";
+
+// src/constants.js
+
+export const CONTACT_US_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Vasilkoff Ltd",
+  "description": "This page contains contact details for Vasilkoff Ltd",
+  "url": "https://vasilkoff.com/contact-us",
+  "mainEntity": {
+      "@type": "Organization",
+      "name": "Vasilkoff Ltd",
+      "headline": "Vasilkoff Ltd",
+      "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Glastonos 12-14",
+          "addressLocality": "Paphos",
+          "addressRegion": "Paphos",
+          "postalCode": "8046",
+          "addressCountry": "CY"
+      },
+      "email": "maxim@vasilkoff.com",
+      "telephone": "+35799169229",
+      "url": "https://vasilkoff.com",
+      "sameAs": [
+          "https://www.facebook.com/vasilkoff.software",
+          "https://www.instagram.com/vasilkoff"
+      ]
+  }
+};
