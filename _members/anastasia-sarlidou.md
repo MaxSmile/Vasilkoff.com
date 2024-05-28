@@ -1,8 +1,8 @@
 ---
 date: "2024-03-20T00:00:00Z"
 title: "The AI Engineer Behind Vasilkoff: Anastasia Sarlidou"
-subtitle: "Human Centered AI engineer"
-description: "Explore the innovative work of Anastasia Sarlidou, an AI Engineer at Vasilkoff Ltd, who masterfully integrates AI and machine learning into groundbreaking projects."
+subtitle: "AI engineer"
+description: "Explore the innovative work of Anastasia Sarlidou, a Human Centered AI Engineer at Vasilkoff Ltd, who masterfully integrates AI and machine learning into groundbreaking projects."
 picture: "/assets/team/anastasia-sarlidou.webp"
 time: "1 min"
 ---

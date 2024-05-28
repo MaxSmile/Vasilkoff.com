@@ -90,3 +90,29 @@ header .menus>ul li>a {
 header .menus>ul li>a.active {
     @apply text-secondary lg:scale-110;
 }
+
+.pulsing-text {
+    animation: pulse 2s infinite;
+}
+
+.pulsing-button {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        /* box-shadow: 0 0 0 0 currentColor; */
+        opacity: 0.7;
+    }
+    70% {
+        transform: scale(1);
+        /* box-shadow: 0 0 0 10px currentColor; */
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(0.95);
+        /* box-shadow: 0 0 0 0 currentColor; */
+        opacity: 0.9;
+    }
+}

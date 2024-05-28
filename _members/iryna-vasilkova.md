@@ -6,7 +6,7 @@ description: "Explore the design journey of Irina Vasilkova, Design Director at 
 picture: "/assets/team/irina-vasilkova.webp"
 time: "1 min"
 ---
-A company's website is often a client's first impression of their brand, and no one understands this better than Irina Vasilkova, the Design Director at [Vasilkoff CY Ltd](https://vasilkoff.com). With her keen eye for design, attention to detail, and dedication to user-friendly experiences, she played a pivotal role in the creation of the aesthetically pleasing and intuitive [Vasilkoff.com](https://vasilkoff.com) website.
+A company's website is often a client's first impression of their brand, and no one understands this better than Irina Vasilkova, the Design Director at [Vasilkoff CY Ltd](https://design.vasilkoff.com) design department. With her keen eye for design, attention to detail, and dedication to user-friendly experiences, she played a pivotal role in the creation of the aesthetically pleasing and intuitive [Vasilkoff.com](https://vasilkoff.com) website.
 
 Before joining Vasilkoff, Irina worked in the field of large format advertising printing. She further honed her skills while studying at the National Academy of Managerial Personnel of Culture and Arts in Kyiv, where she earned a bachelor's degree in design. This combination of practical experience and formal education has served her well in her career.
 
