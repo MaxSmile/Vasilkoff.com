@@ -7,7 +7,7 @@ import { ArrowLeftCircle } from 'react-bootstrap-icons';
 import Link from 'next/link';
 import BackHistoryButton from '../BackHistoryButton';
 
-export function PortfolioHeader({ article }: { article: Portfolio }) {
+export function PortfolioHeader({ article }: Readonly<{ article: Portfolio }>) {
 
   return (
     <Container>
@@ -30,7 +30,7 @@ export function PortfolioHeader({ article }: { article: Portfolio }) {
             ))}
             <br />
             <p className='py-4'>Project site:&nbsp;
-              <a href={article.link} target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>
+              <a href={article.url} target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>
                 {article.link}
               </a>
             </p>
