@@ -45,7 +45,7 @@ const TimeCell: React.FC<TimeCellProps> = ({ hour, timezone }) => {
     };
 
   
-    const currentTimeClass = isCurrentTime ? "border-l border-r border-gray-800 bg-opacity-40" : "";
+    const currentTimeClass = isCurrentTime ? "border border-gray-800 bg-opacity-40" : "";
 
     
     const formatMinutes = (minutes: number) => minutes.toString().padStart(2, '0');
