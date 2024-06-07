@@ -102,17 +102,53 @@ header .menus>ul li>a.active {
 @keyframes pulse {
     0% {
         transform: scale(0.95);
-        /* box-shadow: 0 0 0 0 currentColor; */
         opacity: 0.7;
     }
     70% {
         transform: scale(1);
-        /* box-shadow: 0 0 0 10px currentColor; */
         opacity: 1.0;
     }
     100% {
         transform: scale(0.95);
-        /* box-shadow: 0 0 0 0 currentColor; */
         opacity: 0.9;
+    }
+}
+
+
+/* Default horizontal table organization */
+
+.time-table {
+    display: table;
+    width: 100%;
+}
+
+.time-table-row {
+    display: table-row;
+}
+
+.time-table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Mobile view: vertical table organization */
+@media (max-width: 768px) {
+    .time-table {
+        display: block;
+    }
+
+    .time-table-row {
+        display: block;
+    }
+
+    .time-table-cell {
+        display: block;
+        width: 100%;
+    }
+
+    .time-table-cell.hour {
+        display: flex;
+        flex-direction: column;
     }
 }
