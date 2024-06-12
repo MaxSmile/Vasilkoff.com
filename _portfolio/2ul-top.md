@@ -11,7 +11,7 @@ categories:
 
 title: "2ul.top"
 link: "2ul.top"
-picture: "/assets/portfolio/2ul-top.webp"
+picture: "/assets/portfolio/2ul-top-logo.webp"
 url: "https://2ul.top"
 extra: "Ongoing Project"
 description: "2ul.top is an open-source URL shortening service developed by Vasilkoff Ltd. The project showcases DevOps best practices and offers both free and premium URL shortening services."
