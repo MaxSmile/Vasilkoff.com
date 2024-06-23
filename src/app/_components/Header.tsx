@@ -23,8 +23,8 @@ const Header = (props: any) => {
 
   return (
     <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl'>
-      <Container className='h-20'>
-        <div className="flex items-center justify-between py-5 lg:py-0">
+      <Container className={`h-20`}>
+        <div className={`flex items-center justify-between py-5 lg:py-0`}>
           <Link href="/">
             <Image src="/images/logo-vasilkoff.webp" alt="Vasilkoff logo" className="h-12" width={104} height={48} />
           </Link>
@@ -34,23 +34,26 @@ const Header = (props: any) => {
               className={`overlay fixed inset-0 h-screen w-full z-[51] bg-black/60 ${showMenu ? '' : 'hidden'}`}></div>
 
             {/* Menu */}
-            <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : 'hidden'}`}>
-              <button id='close-menu'
-                onClick={() => toggleMenu()} type="button" aria-label="Menu"
-                className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"
-                role='button'>
-                <MenuIconClose />
-              </button>
-              <ul role='menu' onClick={() => setShowMenu(false)} >
-                {MAIN_MENU.map((item, index) => (
-                  <li role='menuitem' key={index}>
-                    <Link href={item.link} className={router.includes(item.link) ? 'active' : ''}>
-                      {item.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div id='menu_container' className={`${showMenu ? 'max-md:opacity-100' : 'max-md:opacity-0'} `}>
+              <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
+                <button id='close-menu'
+                  onClick={() => toggleMenu()} type="button" aria-label="Menu"
+                  className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"
+                  role='button'>
+                  <MenuIconClose />
+                </button>
+                <ul role='menu' onClick={() => setShowMenu(false)} >
+                  {MAIN_MENU.map((item, index) => (
+                    <li role='menuitem' key={index}>
+                      <Link href={item.link} className={router.includes(item.link) ? 'active' : ''}>
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
+
 
             <button
               id='menu-toggle'

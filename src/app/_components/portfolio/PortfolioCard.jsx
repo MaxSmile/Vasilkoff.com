@@ -15,7 +15,7 @@ const PortfolioCard = (
             className={`project ${activeTab === 'all' || obj.categories?.includes(activeTab) ? 'block' : 'hidden'}`}>
             <div className="relative rounded-3xl object-cover">
                 <Link href={"/portfolio/" + obj.slug}>
-                    <img src={obj.picture} alt={obj.title} className="h-52 w-full rounded-t-3xl " />
+                    <img src={obj.picture} alt={obj.title} className="h-52 w-full rounded-t-3xl" />
                 </Link>
                 <div className="p-5 text-sm font-bold">
                     <Link href={"/portfolio/" + obj.slug}>
