@@ -24,7 +24,7 @@ export default function TimeSelectControls({
     for (let city of cities) {
       if (city.label.toLowerCase().includes(inputValue.toLowerCase())) {
         filteredOptions.push(city);
-        if (filteredOptions.length === 20) break; 
+        if (filteredOptions.length === 20) break;
       }
     }
     callback(filteredOptions);
@@ -40,7 +40,7 @@ export default function TimeSelectControls({
   };
 
   return (
-    <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-4xl mx-auto">
+    <div className="mt-4 md:grid md:grid-cols-2 gap-4 w-full max-w-4xl mx-auto">
       <div>
         Select time zone:<br />
         <TimezoneSelect
@@ -49,25 +49,27 @@ export default function TimeSelectControls({
         />
         <button onClick={() => addTimezone(selectedTimezone)} className="btn w-full mt-4">Add Timezone</button>
       </div>
-      
-      <div className="flex items-center gap-4">
-        <div className='w-fit'>OR</div>
-        <div className="w-full ml-1">
-        Start typing city name:<br />
-        <AsyncSelect
-          loadOptions={debouncedLoadOptions}
-          defaultOptions
-          onChange={setSelectedCity}
-        />
-        <button onClick={handleAddCityAsTimezone} className="btn w-full mt-4">Add City</button>
+
+      <div className="my-6 md:my-0">
+        <div className="flex items-center gap-4 ">
+          <div className='w-fit'>OR</div>
+          <div className="w-full ml-1">
+            Start typing city name:<br />
+            <AsyncSelect
+              loadOptions={debouncedLoadOptions}
+              defaultOptions
+              onChange={setSelectedCity}
+            />
+            <button onClick={handleAddCityAsTimezone} className="btn w-full mt-4">Add City</button>
+          </div>
         </div>
-        
+
       </div>
-      
+
       <div className="col-span-2">
         <button onClick={() => setSelectedTimezones([])} className="btn w-full mt-4">Clear All</button>
       </div>
     </div>
   );
-  
+
 }

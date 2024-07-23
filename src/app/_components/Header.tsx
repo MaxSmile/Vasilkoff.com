@@ -35,7 +35,7 @@ const Header = (props: any) => {
 
             {/* Menu */}
             <div id='menu_container' className={`${showMenu ? 'max-md:opacity-100' : 'max-md:opacity-0'} `}>
-              <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : ''}`}>
+              <div id='menu' className={`menus top-0 pt-1 ${showMenu ? 'overflow-y-auto !right-0' : 'hidden lg:block'}`}>
                 <button id='close-menu'
                   onClick={() => toggleMenu()} type="button" aria-label="Menu"
                   className="lg:hidden absolute top-5 right-5 p-2 z-[51] rounded-full bg-primary items-center justify-center"

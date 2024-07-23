@@ -14,9 +14,11 @@ const MobileTimeTable = () => {
                         if (timezone && typeof timezone === 'object' && 'offset' in timezone && 'label' in timezone) {
                             const gmtString = timezone.offset !== undefined && timezone.offset < 0 ? `GMT${timezone.offset}` : `GMT+${timezone.offset}`;
                             return (
-                                <th key={tzIndex} className="font-bold text-gray-700 text-center text-sm border-r border-b border-gray-800 w-1/2" title={timezone.abbrev}>
-                                    {gmtString}
-                                    <div className="text-gray-600 text-xs truncate font-normal max-w-[150px] overflow-hidden">{timezone.label}</div>
+                                <th key={tzIndex}  
+                                style={{width: '!important'+(100 / selectedTimezones.length)+'%'}} 
+                                className="font-bold text-gray-700 text-center text-sm border-r border-b border-gray-800 " title={timezone.abbrev}>
+                                    <div className='pb-1'>{gmtString}</div>
+                                    <div className="text-gray-600 text-xs font-normal" >{timezone.label}</div>
                                 </th>
                             );
                         }
@@ -39,7 +41,8 @@ const MobileTimeTable = () => {
                 ))}
                 <tr id="actions">
                     {selectedTimezones.map((timezone, tzIndex) => {
-                        return (<td key={tzIndex} className="border border-gray-800 text-center">
+                        return (<td key={tzIndex} className="border border-gray-800 text-center" 
+                            style={{width: (100 / selectedTimezones.length)+'%'}} width={(100 / selectedTimezones.length)+'%'}>
                             <button onClick={() => removeTimezone(tzIndex)} className="text-primary">
                                 <IconMinus />
                             </button>
