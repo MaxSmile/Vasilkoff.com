@@ -59,8 +59,9 @@ const redirects = new Map<string, string>([
   ['/portfolio/playmarket%20and%20appstore', '/portfolio/vpn-free'],
   ['/portfolio/mobile%20app', '/portfolio/vpn-free'],
   ['/portfolio/ios%20app', '/portfolio/calculatorx'],
-  //['/portfolio/smrtai', '/portfolio/smrtAI'],
+  ['/assets/portfolio/custom-box.png', '/assets/portfolio/custom-box.webp'],
   ['/portfolio/smartaichats.com', '/portfolio/smartaichats-com'],
+
 ]);
 
 export default function middleware(request: NextRequest) {
