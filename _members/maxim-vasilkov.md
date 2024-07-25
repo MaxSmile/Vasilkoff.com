@@ -12,11 +12,18 @@ In Darwin since 2024, I'm now immersed in AI, celebrated for "AI Chat Bridge," w
       
 
 
-Maksym Vasylkov (Maxim Vasilkov), alongside his talented team at Vasilkoff, consistently pushes the boundaries of technology, marrying deep technical expertise with a humble approach to innovation. With a keen focus on blockchain and artificial intelligence, Vasilkov has emerged as a quiet force in the tech industry, contributing significantly to its advancement.
+Maksym Vasylkov ([Maxim Vasilkov](https://intch.org/p/7738038)), alongside his talented team at Vasilkoff, consistently pushes the boundaries of technology, marrying deep technical expertise with a humble approach to innovation. With a keen focus on blockchain and artificial intelligence, Vasilkov has emerged as a quiet force in the tech industry, contributing significantly to its advancement.
 
-**A Testament to Blockchain Mastery**
+**Leading by Example**
 
-Delving into specialized domains, Vasilkov has established himself as an authority in blockchain technology. His expertise shines particularly in the realm of developing EVM (Ethereum Virtual Machine) smart contracts using Solidity, a programming language tailored for creating secure and efficient blockchain applications. Projects like [NFTTRX](https://vasilkoff.com/portfolio/nfttrx), [SMRT16](https://vasilkoff.com/portfolio/smrt16), [SMRTSGN](https://vasilkoff.com/portfolio/smrtsgn), and [smrtAI](https://vasilkoff.com/portfolio/smrtAI) stand as a testament to his proficiency and innovation, quietly revolutionizing the way we think about digital ownership, transaction security, and AI integration.
+Delving into specialized domains, Vasilkov has established himself as an authority in blockchain technology. His expertise shines particularly in the realm of developing EVM (Ethereum Virtual Machine) smart contracts using Solidity, a programming language tailored for creating secure and efficient blockchain applications. Projects like [NFTTRX](https://vasilkoff.com/portfolio/nfttrx), [SMRT16](https://vasilkoff.com/portfolio/smrt16), [SMRTSGN](https://vasilkoff.com/portfolio/smrtsgn), [AI-Bridge](https://ai-bridge.vasilkoff.com), [2UL.top](https://2ul.top), and [smrtAI](https://vasilkoff.com/portfolio/smrtAI) stand as a testament to his proficiency and innovation, quietly revolutionizing the way we think about digital ownership, transaction security, and AI integration.
+
+Worth to check also:
+- [F6s account](https://www.f6s.com/member/maximvasilkov)
+- [GitHub](https://github.com/MaxSmile)
+- [LinkedIn](https://www.linkedin.com/in/maximvasilkov/)
+- [Instagram](https://www.instagram.com/max_vasilkoff/)
+- [Medium](https://medium.com/@maximvasilkov/)
 
 **Sharing Knowledge and Inspiring Others**
 
