@@ -4,6 +4,8 @@ date: "2024-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "iOS App"
+    - "Design"
  
 title: "CalculatorX"
 link: "iOS and Android apps"

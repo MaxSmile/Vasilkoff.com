@@ -4,6 +4,11 @@ date: "2024-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "iOS App"
+    - "Android App"
+    - "Development"
+    - "React Native"
+    - "Business"
  
 title: "Black Box Control"
 link: "iOS and Android apps"

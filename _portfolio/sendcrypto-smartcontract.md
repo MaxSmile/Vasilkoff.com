@@ -5,7 +5,8 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Web3"
     - "Solidity"
-    - "Smart contract"
+    - "Smart Contract"
+    - "DApp"
 
 title: "Send Crypto"
 link: "SendCrypto.com"

@@ -5,6 +5,11 @@ date: "2021-03-20T00:00:00Z"
 categories: 
     - "Crypto"
     - "Mobile App"
+    - "Decentralized"
+    - "DApp"
+    - "Blockchain"
+    - "Android App"
+    - "iOS App"
 
 title: "NAVIADDRESS"
 link: "naviaddress.com"

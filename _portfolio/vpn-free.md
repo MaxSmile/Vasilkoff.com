@@ -6,6 +6,12 @@ categories:
     - "Mobile App"
     - "Android"
     - "Open Source"
+    - "Android App"
+    - "Design"
+    - "DevOps"
+    - "GitHub"
+    - "Free"
+    - "Development"
 
 title: "Easy VPN Free"
 link: "GitHub"

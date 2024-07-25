@@ -6,6 +6,13 @@ categories:
     - "Website"
     - "Wordpress"
     - "Web App"
+    - "PHP"
+    - "JavaScript"
+    - "PHP"
+    - "Laravel"
+    - "DevOps"
+    - "Development"
+    
 
 title: "Big Mail Project"
 link: "bigmail.io"
@@ -17,7 +24,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"
@@ -44,7 +51,7 @@ The Big Mail Project offers a straightforward web solution for users looking to 
 ### Technology Stack Behind the Project
 Utilizing a robust array of technologies, the Big Mail Project is built to ensure a smooth user experience:
 
-- **Backend Foundation with Laravel & Node.js**: By combining Laravel's MVC architectural pattern with Node.js, we crafted a solid backend that supports the application's functionality.
+- **Backend Foundation with Laravel & NodeJS**: By combining Laravel's MVC architectural pattern with NodeJS, we crafted a solid backend that supports the application's functionality.
 - **Interactive UI with React & Next.js**: For the frontend, React and Next.js were chosen to provide a responsive and interactive interface, enhancing the overall user experience.
 - **Data Management with MongoDB & MySQL**: To handle data efficiently, MongoDB and MySQL were employed, offering a flexible and reliable database solution.
 - **Client-Side Dynamics with jQuery & Bootstrap**: jQuery and Bootstrap contribute to the project's dynamic and responsive design, ensuring compatibility across different devices and browsers.

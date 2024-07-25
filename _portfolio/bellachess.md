@@ -15,6 +15,9 @@ categories:
         - "AI"
         - "Game"
         - "Crypto"
+        - "Decentralized"
+        - "Game"
+        - "Open Source"
 
 title: "Bella Chess"
 link: "https://bellachess.org"

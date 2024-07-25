@@ -6,6 +6,8 @@ categories:
     - "Website"
     - "Fintech"
     - "Web App"
+    - "Stripe"
+
 
 title: "Print my photos"
 link: "printmyphotos.com"
@@ -17,7 +19,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"

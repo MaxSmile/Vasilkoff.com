@@ -6,6 +6,12 @@ categories:
     - "Website"
     - "AI"
     - "Web App"
+    - "Chat"
+    - "JavaScript"
+    - "SaaS"
+    - "ReactJS" 
+    - "Machine Learning"
+    - "Business"
 
 title: "SmartAIChats"
 link: "SmartAIChats.com"
@@ -17,7 +23,7 @@ description: "SmartAIChats is a digital conversationalist that’s transforming 
 technologies: 
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"

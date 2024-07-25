@@ -5,6 +5,10 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Website"
     - "WordPress"
+    - "Web App"
+    - "PHP"
+    - "JavaScript"
+    - "Chat"
 
 title: "WALKING CURE"
 link: "walkingcure.com"

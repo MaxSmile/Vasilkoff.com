@@ -6,6 +6,8 @@ categories:
     - "Website"
     - "Fintech"
     - "Web App"
+    - "Crypto"
+    - "DevOps"
 
 title: "Erabanq"
 link: "erabanq.com"
@@ -17,7 +19,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"
@@ -44,7 +46,7 @@ Erabanq is crafted to revolutionize the way businesses handle transactions, movi
 ### Core Technologies:
 - **React.js**: Utilized for its efficient UI rendering and interactive features, ensuring a smooth user experience.
 - **HTML and CSS**: Forms the backbone of the platform’s design, offering a clean and accessible interface.
-- **Comprehensive Tech Stack**: Supported by Laravel, Next.js, Node.js, and an array of other technologies to ensure robust performance and scalability.
+- **Comprehensive Tech Stack**: Supported by Laravel, Next.js, NodeJS, and an array of other technologies to ensure robust performance and scalability.
 
 ### Features and Benefits:
 - **Cost Reduction**: By facilitating direct account-to-account transfers, Erabanq helps businesses save on the hefty fees associated with traditional payment methods.

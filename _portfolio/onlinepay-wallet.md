@@ -3,7 +3,7 @@ type: "projects"
 date: "2024-03-20T00:00:00Z"
 
 categories: 
-    - "Web app"
+    - "Web App"
     - "Mobile App"
     - "iOS App"
     - "Android App"

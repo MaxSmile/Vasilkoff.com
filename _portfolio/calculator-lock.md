@@ -6,7 +6,12 @@ categories:
     - "Mobile App"
     - "iOS App"
     - "Android App"
+    - "Android"
     - "Game"
+    - "Design"
+    - "DevOps"
+    - "Firebase"
+    - "Development"
 
 title: "Calculator Lock - Android App"
 link: "Play Market: Calculator Lock Hide App Photo"

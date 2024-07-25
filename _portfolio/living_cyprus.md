@@ -4,6 +4,12 @@ date: "2024-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "iOS App"
+    - "Android App"
+    - "Android"
+    - "React Native"
+    - "ExpressJS"
+
  
 title: "Living Cyprus"
 link: "iOS and Android apps"
@@ -11,7 +17,7 @@ picture: "/assets/portfolio/living_cyprus.webp"
 slug: "living_cyprus"
 url: "https://play.google.com/store/apps/details?id=com.thelivingapp.livingcyprus"
 extra: ""
-description: "Living Cyprus: React Native app, Nest.js backend, and Rect.js website. Your mobile passport to Cyprus's lifestyle. News, events, property listings. Stay connected for more features!"
+description: "Living Cyprus: React Native app, Nest.js backend, and ReactJS website. Your mobile passport to Cyprus's lifestyle. News, events, property listings. Stay connected for more features!"
 ---
 Vasilkoff Ltd is proud to introduce "Living Cyprus," a mobile application meticulously designed to serve as your guide to the vibrant lifestyle of Cyprus. Developed using React Native for mobile platforms, with a Nest.js backend and a React.js website, "Living Cyprus" offers users a rich, integrated experience of the island's offerings.
 

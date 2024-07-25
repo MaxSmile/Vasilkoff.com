@@ -4,6 +4,7 @@ date: "2023-05-20T00:00:00Z"
 
 categories:
     - "Mobile App"
+    - "iOS App"
 
 title: "CUSTOM BOX"
 link: "Mobile App"

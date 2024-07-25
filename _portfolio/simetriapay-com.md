@@ -6,6 +6,7 @@ categories:
     - "Website"
     - "Fintech"
     - "Web App"
+    - "JavaScript"
  
 title: "Simetria"
 link: "simetriapay.com"
@@ -17,7 +18,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"

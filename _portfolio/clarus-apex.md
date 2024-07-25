@@ -5,6 +5,10 @@ date: "2023-02-20T00:00:00Z"
 categories: 
     - "WordPress"
     - "Website"
+    - "Web App"
+    - "PHP"
+    - "JavaScript"
+    - "CRM"
 
 
 title: "CLARUS APEX"

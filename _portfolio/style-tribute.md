@@ -5,6 +5,8 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Website"
     - "ExpressJS"
+    - "NodeJS"
+    - "JavaScript"
 
 title: "STYLE TRIBUTE SELLER"
 link: "StyleTribute.com"

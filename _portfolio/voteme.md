@@ -6,6 +6,13 @@ categories:
     - "Mobile App"
     - "Chat"
     - "Firebase"
+    - "Xamarin"
+    - "iOS App"
+    - "Android App"
+    - "Android"
+    - "DevOps"
+    - "Game"
+
 
 title: "Voteme App"
 link: "iOS and Android apps"

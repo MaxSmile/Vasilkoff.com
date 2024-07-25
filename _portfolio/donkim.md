@@ -5,6 +5,8 @@ date: "2022-03-20T00:00:00Z"
 categories: 
     - "WordPress"
     - "Website"
+    - "Web App"
+    - "PHP"
 
 title: "DONKIM"
 link: "donkim.com"

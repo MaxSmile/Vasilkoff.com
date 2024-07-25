@@ -5,8 +5,6 @@ categories:
     - "Magento"
     - "eCommerce"
     - "PHP"
-    - "AI"
-    - "Machine Learning"
     - "Website"
 
 title: "A Better Florist"

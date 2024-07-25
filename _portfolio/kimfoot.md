@@ -5,6 +5,7 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Website"
     - "WordPress"
+    - "PHP"
 
 title: "KIMFOOT"
 link: "kimfoot.com"

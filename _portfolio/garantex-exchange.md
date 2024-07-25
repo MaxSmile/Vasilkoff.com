@@ -7,6 +7,11 @@ categories:
     - Exchange
     - Website
     - Design
+    - DevOps
+    - Blockchain
+    - PHP
+    - JavaScript
+    - Open Source
 
 title: "GARANTEX EXCHANGE"
 link: "Crypto Exchange"

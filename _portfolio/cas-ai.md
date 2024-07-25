@@ -6,6 +6,7 @@ categories:
     - "Website"
     - "AI"
     - "Web App"
+    - "Wordpress"
 
 title: "CAS"
 link: "cas.ai"
@@ -17,7 +18,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"
@@ -44,7 +45,7 @@ CAS.AI represents our approach to integrating AI with web applications, providin
 ### Technologies Employed:
 Our development of CAS.AI utilized a wide array of technologies, each chosen for its contribution to the platform's performance and user experience:
 
-- **Frontend and Backend Harmony**: Utilizing Laravel, React, Next.js, and Node.js, along with Express.js, we've ensured a seamless flow between server-side and client-side operations.
+- **Frontend and Backend Harmony**: Utilizing Laravel, React, Next.js, and NodeJS, along with Express.js, we've ensured a seamless flow between server-side and client-side operations.
 - **Database Efficiency**: MongoDB and MySQL serve as the data backbone, offering flexibility and robustness for handling complex data structures.
 - **AI Integration**: OpenAI's capabilities are integrated to enhance the platform's intelligence, providing dynamic, AI-driven solutions.
 - **Styling and Functionality**: With HTML5, CSS3, JavaScript, jQuery, and Bootstrap, the platform is designed to be intuitive and visually appealing.

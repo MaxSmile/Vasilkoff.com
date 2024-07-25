@@ -5,6 +5,9 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Mobile App"
     - "Game"
+    - "Android"
+    - "iOS App"
+    - "Development"
 
 title: "BUGMATH"
 link: "bugmath.com"

@@ -7,6 +7,8 @@ categories:
     - "Machine Learning"
     - "Website"
     - "Web App"
+    - "Development"
+
 
 title: "Vasilkoff.info"
 link: "Vasilkoff.info"

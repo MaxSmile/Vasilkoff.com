@@ -4,6 +4,14 @@ date: "2024-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "iOS App"
+    - "Android App"
+    - "Android"
+    - "Firebase"
+    - "Design"
+    - "DevOps"
+    - "Stripe"
+    - "JavaScript"
 
 title: "SPIN DEALS APP"
 link: "PlayMarket and AppStore"

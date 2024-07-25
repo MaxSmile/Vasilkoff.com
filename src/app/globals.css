@@ -62,7 +62,9 @@ article a {
 }
 
 
-
+.filter-btn {
+    @apply px-2 hover:bg-secondary hover:text-white;
+}
 
 .blackheading {
     @apply text-xl text-black text-left; 
@@ -70,7 +72,7 @@ article a {
 
  /* Header */
 
- header .menus {
+header .menus {
     @apply fixed z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 
     -right-full  lg:static lg:h-auto lg:max-w-none;
 }

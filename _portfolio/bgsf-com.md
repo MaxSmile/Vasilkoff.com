@@ -6,6 +6,8 @@ categories:
     - "Website"
     - "Fintech"
     - "Web App"
+    - "JavaScript"
+    - "ReactJS"
 
 title: "BGSF"
 link: "bgsf.com"
@@ -17,7 +19,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"
@@ -42,7 +44,7 @@ BG Staffing, a premier web platform created by Vasilkoff Ltd, embodies our excel
 At the heart of BG Staffing's web presence is a carefully selected stack of technologies orchestrated to enhance user experience and operational efficiency. This project is a vivid demonstration of Vasilkoff Ltd's ability to integrate various technologies into a cohesive and functional system.
 
 ### Advanced Tech Stack Behind BG Staffing:
-- **Backend Excellence with Laravel & Node.js**: Employing the robust PHP framework Laravel, combined with the event-driven architecture of Node.js, we crafted a solid backend that ensures reliability and scalability.
+- **Backend Excellence with Laravel & NodeJS**: Employing the robust PHP framework Laravel, combined with the event-driven architecture of NodeJS, we crafted a solid backend that ensures reliability and scalability.
 - **Frontend Innovation using React & Next.js**: The interactive user interface is powered by React, known for its responsive design, while Next.js provides a server-side rendering advantage for faster load times and improved SEO.
 - **Efficient Data Handling with MongoDB & MySQL**: The integration of both MongoDB and MySQL databases offers a versatile approach to data management, catering to the diverse data needs of BG Staffing.
 - **Interactivity Boosted by jQuery & Bootstrap**: jQuery scripts enhance website interactivity, and Bootstrap's framework ensures a mobile-responsive layout.

@@ -6,6 +6,8 @@ categories:
     - "Shopify"
     - "eCommerce"
     - "Plugin"
+    - "PHP"
+    - "JavaScript"
 
 title: "POLLCART"
 link: "pollcart.com"

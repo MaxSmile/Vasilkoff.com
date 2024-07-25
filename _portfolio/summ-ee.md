@@ -6,6 +6,8 @@ categories:
     - "Website"
     - "Wordpress"
     - "Web App"
+    - "eCommerce"
+    - "PHP"
 
 title: "Summ"
 link: "summ.ee"
@@ -17,7 +19,7 @@ technologies:
     - "Laravel"
     - "React"
     - "Next.js"
-    - "Node.js"
+    - "NodeJS"
     - "Express.js"
     - "MongoDB"
     - "OpenAI"

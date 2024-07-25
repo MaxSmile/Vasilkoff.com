@@ -5,6 +5,10 @@ date: "2020-03-20T00:00:00Z"
 categories: 
     - "Crypto"
     - "Website"
+    - "Design"
+    - "DevOps"
+    - "Blockchain"
+    - "Exchange"
 
 title: "COINAGE WALLET"
 link: "Coingage Wallet"

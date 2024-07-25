@@ -5,6 +5,11 @@ date: "2020-03-20T00:00:00Z"
 categories: 
     - "Website"
     - "eCommerce"
+    - "WordPress"
+    - "PHP"
+    - "JavaScript"
+    - "Laravel"
+    - "CRM"
 
 title: "CBAY RENT A CAR"
 link: "CBay.com.cy"

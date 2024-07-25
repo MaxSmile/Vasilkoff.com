@@ -2,8 +2,19 @@
 type: "our-projects"
 categories: 
     - "AI"
-    - "Web app"
+    - "Web App"
     - "SaaS"
+    - "Chat"
+    - "JavaScript"
+    - "ReactJS"
+    - "NextJS"
+    - "SaaS"
+    - "Plugin"
+    - "ExpressJS"
+    - "NodeJS"
+    - "Firebase"
+    - "Machine Learning"
+    
 
 title: "smrtAI"
 link: "smrtAI - LiveChat AI powered chatbot"

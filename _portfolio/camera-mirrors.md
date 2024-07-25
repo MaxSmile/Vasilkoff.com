@@ -3,7 +3,11 @@ type: "projects"
 date: "2024-03-20T00:00:00Z"
 
 categories: 
-   - "Mobile App"
+    - "Mobile App"
+    - "Android"
+    - "iOS App"
+    - "Android App"
+    - "Design"
 
 title: "CAMERA MIRRORS"
 link: "mobile App"

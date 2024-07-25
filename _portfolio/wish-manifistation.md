@@ -4,6 +4,10 @@ date: "2022-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "iOS App"
+    - "Android App"
+    - "Android"
+    - "Firebase"
  
 title: "WISH MANIFESTATION"
 link: "iOS and Android apps"

@@ -5,6 +5,7 @@ date: "2022-03-20T00:00:00Z"
 categories: 
     - "Game"
     - "Mobile App"
+    - "iOS App"
 
 title: "BUBBLE PIRATE QUEST"
 link: "iOS Game"

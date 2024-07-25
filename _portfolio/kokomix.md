@@ -10,6 +10,9 @@ categories:
     - "Firebase"
     - "Web App"
     - "Website"
+    - "ReactJS"
+    - "Development"
+    - "DevOps"
 
 title: "KOKO-MIX ADMIN"
 link: "Play Market, Admin Panel, Chat"

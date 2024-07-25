@@ -5,6 +5,13 @@ date: "2024-03-20T00:00:00Z"
 categories: 
     - "Mobile App"
     - "Website"
+    - "WordPress"
+    - "Web App"
+    - "Laravel"
+    - "PHP"
+    - "Android"
+    - "Android App"
+    - "iOS App"
 
 title: "Nutribar"
 link: "Nutribar.com"

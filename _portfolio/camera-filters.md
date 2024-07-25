@@ -4,6 +4,10 @@ date: "2024-03-20T00:00:00Z"
 
 categories: 
     - "Mobile App"
+    - "Android"
+    - "iOS App"
+    - "Android App"
+    - "Design"
 
 title: "CAMERA FILTERS"
 link: "iOS App"
