@@ -49,10 +49,11 @@ export default function AIContacts() {
         submitMessageBtnRef.current?.classList.add("shrink-away");
         containerRef.current.contentEditable = false;
 
-        trackEvent({
-            event: "contactFormSubmitted",
-            data: { hitType: "contactFormSubmitted", name: nameRef.current.value, email: emailRef.current.value, mobile: mobileRef.current.value, message: message, city: cityRef.current.value },
-        });
+        // Track event
+        const trackData = { event: "lead_button", data: {'app_name': 'vasilkoff.com', name: nameRef.current.value, email: emailRef.current.value, mobile: mobileRef.current.value, message: message, city: cityRef.current.value }};
+        trackEvent(trackData);
+        console.log("trackData", trackData);
+   
     }
 
 

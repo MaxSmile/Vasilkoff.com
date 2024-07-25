@@ -7,6 +7,11 @@ import Container from "@/app/_components/Container";
 import { PostBody } from "@/app/_components/posts/PostBody";
 import { PortfolioHeader } from "@/app/_components/posts/PortfolioHeader";
 
+type Params = {
+  params: {
+    slug: string;
+  };
+};
 
 export default async function PortfolioPage({ params }: Params) {
   const article = getPortfolioBySlug(params.slug);
@@ -21,19 +26,13 @@ export default async function PortfolioPage({ params }: Params) {
     <main>
       <Container>
         <article className="mb-32">
-          <PortfolioHeader article={article}/>
+          <PortfolioHeader article={article} />
           <PostBody content={content} />
         </article>
       </Container>
     </main>
   );
 }
-
-type Params = {
-  params: {
-    slug: string;
-  };
-};
 
 export function generateMetadata({ params }: Params): Metadata {
   const article = getPortfolioBySlug(params.slug);
@@ -42,11 +41,23 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
+  const pageTitle = `${article.title} - Vasilkoff Portfolio`;
+  const pageDescription = article.description || '';
+
   return {
+    title: pageTitle,
+    description: pageDescription,
     openGraph: {
-      title:article.title,
-      images: [article.picture],
-    },
+      title: pageTitle,
+      description: pageDescription,
+      images: [
+        {
+          url: article.picture,
+          alt: article.title
+        }
+      ],
+      url: `https://vasilkoff.com/portfolio/${article.slug}`
+    }
   };
 }
 
