@@ -5,11 +5,37 @@ import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill
 import version from "../../../version.js";
 import Container from './Container';
 import { FOOTER_MENU } from '@/lib/constants';
+
  
 import CSE from './CSE';
+import { trackEvent } from '@phntms/next-gtm';
 
 
 const Footer = () => {
+
+  const clickB1 = () => {
+    trackEvent({
+      event: "customEvent",
+      data: {
+        action: "Click - To: B1",
+        category: "CTA",
+        label: "Click",
+      },
+    });
+    console.log("clickB1");
+  }
+
+  const clickB2 = () => {
+    trackEvent({
+      event: "customEvent",
+      data: {
+        action: "Click - To: B2",
+        category: "CTA",
+        label: "Click",
+      },
+    });
+    console.log("clickB2");
+  }
 
   return (
     <>
@@ -35,7 +61,7 @@ const Footer = () => {
               <li className="mb-3 text-lg font-extrabold text-white">Cyprus</li>
             </ul>
             <ul>
-              <li>Vasilkoff (CY) Ltd Reg. HE 344792</li>
+              <li onClick={clickB1} className='cursor-pointer'>Vasilkoff (CY) Ltd Reg. HE 344792</li>
             </ul>
             <ul className="my-2">
 
@@ -63,7 +89,7 @@ const Footer = () => {
               <li className="mb-3 text-lg font-extrabold text-white">UK</li>
             </ul>
             <ul >
-              <li>Vasilkoff Ltd Reg. 07976437</li>
+              <li onClick={clickB2} className='cursor-pointer'>Vasilkoff Ltd Reg. 07976437</li>
               <li className="transition hover:text-shadow "><Telegram className="inline-block" />&nbsp;<a className="text-sm" href="https://t.me/Vasilkoff" target="_blank" rel="noopener noreferrer" aria-label="Join Vasilkoff on Telegram (opens in a new tab)">
                 Vasilkoff
               </a></li>
