@@ -1,5 +1,5 @@
 // src/app/_components/Footer.tsx
-
+"use client";
 import Link from 'next/link';
 import { EnvelopeAtFill, TelephoneFill, Telegram, CardText, Whatsapp, GeoAltFill, GeoAlt, Instagram, Facebook } from 'react-bootstrap-icons';
 import version from "../../../version.js";
