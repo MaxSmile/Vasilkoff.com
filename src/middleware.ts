@@ -66,12 +66,22 @@ const redirects = new Map<string, string>([
 
 export default function middleware(request: NextRequest) {
 
-    const { pathname, origin } = request.nextUrl;
+
+    const { pathname, origin, search } = request.nextUrl;
     const redirectUrl = redirects.get(pathname.toLocaleLowerCase());
     //console.log("redirectUrl", redirectUrl, pathname);
     if (redirectUrl) { 
       return NextResponse.redirect(new URL(redirectUrl, origin).toString(), 301);
-    }
+    } 
   
-    return NextResponse.next();
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set('x-pathname', pathname);
+    requestHeaders.set('x-url', request.url);
+    requestHeaders.set('x-search', search);
+  
+    return NextResponse.next({
+      request: {
+          headers: requestHeaders,
+      }
+  });
 }

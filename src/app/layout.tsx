@@ -9,41 +9,53 @@ import "./globals.css";
 
 import Header from "@/app/_components/Header";
 import Footer from "@/app/_components/Footer";
+import { headers } from "next/headers";
+
 
 
 const font = Mulish({ subsets: ["latin"] });
+const baseUrl = "https://vasilkoff.com";
 
 
-// TODO: Default metadata
-export const metadata: Metadata = {
-  title: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services`,
-  description: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services.`,
-  openGraph: {
-    images: [],
-  },
-  creator: 'Maksym Vasylkov',
-  publisher: 'Vasilkoff Ltd',
-  metadataBase: new URL('https://vasilkoff.com'),
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  console.log("params", params);
+  const headersList = headers();
+  console.log("headersList", headersList);
+  const pathname = headersList.get("x-pathname") + "" + headersList.get("x-search");
+  const canonicalUrl = `${baseUrl}${pathname}`;
+  return {
+    title: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services`,
+    description: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services.`,
+    openGraph: {
+      images: [],
     },
+    creator: 'Maksym Vasylkov',
+    publisher: 'Vasilkoff Ltd',
+    metadataBase: new URL(baseUrl),
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        noimageindex: false,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      }
+    },
+    alternates: { canonical: canonicalUrl },
   }
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
+
   return (
     <html lang="en" className="overflow-x-hidden">
       <head>
