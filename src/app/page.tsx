@@ -1,5 +1,4 @@
 // src/app/page.tsx
-import Head from "next/head";
 import Hero from "@/app/_components/sections/Hero";
 import Prefooter from "@/app/_components/sections/Prefooter";
 import TeamMembers from "@/app/_components/sections/TeamMembers";

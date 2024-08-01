@@ -10,18 +10,23 @@ export function PostHeader({ article }: { article: Blog }) {
   return (
     <Container>
       <div className='flex flex-col md:flex-row md:items-center pt-8 md:mt-14 lg:mt-[128px]'>
-      <div className='heading flex-1 text-center lg:text-left '>
+        <div className=' flex-1 text-center lg:text-left'>
           <BackHistoryButton />
-          <h1 className='text-secondary'>{article.title}</h1>
-          <h2 className="text-secondary text-lg py-2">{article.subtitle}</h2>
+          <div className='heading'>
+            <h1 className=' text-secondary'>{article.title}</h1>
+            <h2 className=" text-secondary text-lg py-2">{article.subtitle}</h2>
+          </div>
           <div className='text-secondary py-4'>
             <p>{article.description}</p>
+            <br />
+            <p className='py-2 text-xs'>
+              Date:&nbsp;<DateFormatter dateString={article.date} />
+              {article.time && <> | Time to read: {article.time}</>}
+            </p>
           </div>
-          <p className='text-secondary py-4 text-sm'>
-            Date:&nbsp;<DateFormatter dateString={article.date} />
-            {article.time && <> | Time to read: {article.time}</>}
-          </p>
+
         </div>
+
         <div className='flex-1 m-1' data-aos='fade-left' data-aos-duration='1000'>
           <Image
             width={0}

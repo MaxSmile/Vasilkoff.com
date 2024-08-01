@@ -37,7 +37,12 @@ const ContactUsPage = () => {
                             <MemberMaxim />
                         </div>
                     </div>
-                    <AIContacts />
+                    <Tabs
+                        tabs={[
+                            { label: 'Contact Us', content: <AIContacts />, id: 'contact' },
+                            { label: 'Report a Bug', content: <BugReportForm />, id: 'report' },
+                        ]}
+                    />
                     <div className="mx-auto text-center">
                         <h2 className="mb-6 text-3xl">Or Book your initial 30-minute online consultation</h2>
                     </div>
@@ -46,12 +51,7 @@ const ContactUsPage = () => {
                     <Calendly />
                 </div>
                 <Reviews />
-                <Tabs 
-                    tabs={[
-                        { label: 'Contact Us', content: <AIContacts />, id: 'contact' },
-                        { label: 'Report a Bug', content: <BugReportForm />, id: 'report' },
-                    ]}
-                />
+
             </section>
         </main>
     );

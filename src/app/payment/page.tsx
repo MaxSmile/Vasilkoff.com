@@ -44,7 +44,28 @@ export default function PaymentPage() {
                             </ol>
                             <p>Once your payment is successfully processed, you will receive a confirmation email with the payment details and a receipt for your records. Our system ensures the highest level of security and data protection to safeguard your payment information.</p>
                         </div>
-                        <div>Component</div>
+                        <div id="usd-account-details" className="pt-8 lg:text-left">
+                            <h2>USD Account Details for Vasilkoff Ltd.</h2>
+                            <div className='pl-4'>
+                                <ul>
+                                    <li><strong>Account Holder:</strong> Vasilkoff Ltd</li>
+                                    <li><strong>ACH and Wire Routing Number:</strong> 026073150</li>
+                                    <li><strong>Account Number:</strong> 8310802378</li>
+                                    <li><strong>Account Type:</strong> Checking</li>
+                                </ul>
+                            </div>
+                            <h3>Bank Information</h3>
+                            <div className='pl-4'>
+                                <ul>
+                                    <li><strong>Bank Name:</strong> Community Federal Savings Bank</li>
+                                    <li>
+                                        89-16 Jamaica Ave<br />
+                                        Woodhaven NY 11421<br />
+                                        United States
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </Container>
             </section>
@@ -74,18 +95,18 @@ export default function PaymentPage() {
             </section>
 
             <section className="max-w-4xl mx-auto py-8 mt-10">
-  <Container>
-    <div className="flex flex-col items-center text-center">
-      <p className='py-4 text-lg'>
-        <strong>If you encounter any issues or have questions, our team is ready to assist you. You can find various ways to get in touch on our contact page available by clicking below</strong>
-      </p>
-      <a href="/contact-us" className="btn btn-primary mt-4 py-2 px-6 rounded-md text-white" role="button">Get in Touch</a>
-      <p className='py-4 mt-4 text-lg'>
-        Thank you for considering Vasilkoff Ltd for your software outsourcing needs. Your business is important to us, and we're committed to delivering outstanding service and ensuring a smooth and secure experience.
-      </p>
-    </div>
-  </Container>
-</section>
+                <Container>
+                    <div className="flex flex-col items-center text-center">
+                        <p className='py-4 text-lg'>
+                            <strong>If you encounter any issues or have questions, our team is ready to assist you. You can find various ways to get in touch on our contact page available by clicking below</strong>
+                        </p>
+                        <a href="/contact-us" className="btn btn-primary mt-4 py-2 px-6 rounded-md text-white" role="button">Get in Touch</a>
+                        <p className='py-4 mt-4 text-lg'>
+                            Thank you for considering Vasilkoff Ltd for your software outsourcing needs. Your business is important to us, and we're committed to delivering outstanding service and ensuring a smooth and secure experience.
+                        </p>
+                    </div>
+                </Container>
+            </section>
 
         </>
     );

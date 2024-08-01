@@ -7,6 +7,11 @@
     border: 1px dotted silver;
 }
 
+p::first-letter {
+    font-size: 122%;
+    color: #6d0000;
+  }
+
 card {
     @apply bg-white shadow-md rounded-3xl;
     @apply overflow-hidden transition-all duration-500 hover:shadow-[0_0_25px_#979797];
@@ -40,6 +45,7 @@ h1, h2, h3 {
 .heading {
     @apply mb-10 lg:mb-14 sm:mb-4 text-center;
 }
+
 
 .heading h1 {
     @apply mb-3 text-3xl;

@@ -43,9 +43,9 @@ const Footer = () => {
       <footer className="pt-14 bg-black mt-20 lg:pt-[100px] text-light text-base">
         <Container className="grid gap-y-10 gap-x-8 sm:grid-cols-1 lg:grid-cols-3 max-w-6xl mx-auto pb-24">
           <div>
-            <p className="py-4">
+            <div className="py-4">
               <strong>Vasilkoff (CY) Ltd</strong>: Expertise in AI-enhanced web/mobile apps, DApps, and Smart Contracts. Your partner for advanced blockchain and AI solutions.
-            </p>
+            </div>
             <ul className="flex flex-col gap-3 font-bold">
               {FOOTER_MENU.map((item, index) => (
                 <li key={index}>
@@ -81,7 +81,7 @@ const Footer = () => {
               Charalambou Mouskou & Grigori Afxentiou 20
               Paphos 8010
             </p>
-            <p className='text-xs my-2 text-shadow'>DUNS number: 534508024</p>
+            <div className='text-xs my-2 text-shadow'>DUNS number: 534508024</div>
 
           </div>
           <div>
@@ -106,7 +106,7 @@ const Footer = () => {
                 Australia 0820
               </p>
             </ul>
-            <p className='text-xs my-2 text-shadow'>DUNS number: 218272992</p>
+            <div className='text-xs my-2 text-shadow'>DUNS number: 218272992</div>
           </div>
         </Container>
         <hr className="border-neutral-700" />
