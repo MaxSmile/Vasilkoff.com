@@ -69,13 +69,15 @@ const PricingCard: React.FC<PricingCardProps> = ({
                 ))}
 
             </ul>
-            <div className="border-t-2 border-[#BBC0D0]/50 pt-7">
+            <div className="border-t-2 border-gray-300 pt-7">
                 <div className="mb-3 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
                     <div className="relative mb-2 text-lg font-extrabold before:absolute before:top-1/2 
-                                            before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-primary pl-5 before:left-0 sm:mb-0">
+                                            before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rounded-full before:bg-green-400 pl-5 before:left-0 sm:mb-0">
                         {period}
                     </div>
-                    <Link href={"contact-us#" + id} passHref className="btn text-xl group-hover:bg-white group-hover:text-primary w-44">
+                    <Link href={"contact-us#" + id} passHref className="btn text-xl 
+                    border-gray-300  
+                    group-hover:bg-white group-hover:text-primary w-44">
                         {price}
                         <small className="text-xs lowercase">/{per}</small>
                     </Link>
