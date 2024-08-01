@@ -13,7 +13,7 @@ type Params = {
   };
 };
 
-export default async function PortfolioPage({ params }: Params) {
+export default async function PortfolioPage({ params }: Readonly<Params>) {
   const article = getPortfolioBySlug(params.slug);
 
   if (!article) {

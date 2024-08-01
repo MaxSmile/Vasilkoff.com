@@ -10,19 +10,18 @@ import "./globals.css";
 import Header from "@/app/_components/Header";
 import Footer from "@/app/_components/Footer";
 import { headers } from "next/headers";
+import { BASE_URL } from "@/lib/constants";
 
 
 
 const font = Mulish({ subsets: ["latin"] });
-const baseUrl = "https://vasilkoff.com";
+
 
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
-  console.log("params", params);
   const headersList = headers();
-  console.log("headersList", headersList);
-  const pathname = headersList.get("x-pathname") + "" + headersList.get("x-search");
-  const canonicalUrl = `${baseUrl}${pathname}`;
+  const pathname = headersList.get("x-pathname");// + "" + headersList.get("x-search");
+  const canonicalUrl = `${BASE_URL}${pathname}`;
   return {
     title: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services`,
     description: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services.`,
@@ -31,7 +30,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
     },
     creator: 'Maksym Vasylkov',
     publisher: 'Vasilkoff Ltd',
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(BASE_URL),
     robots: {
       index: true,
       follow: true,

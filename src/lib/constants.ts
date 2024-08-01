@@ -7,6 +7,7 @@ export const MAIN_MENU = [
   { title: "Contact Us", link: "/contact-us" },
 ];
 
+export const BASE_URL = "https://vasilkoff.com";
 
 export const TOOLS_LINKS = [
   

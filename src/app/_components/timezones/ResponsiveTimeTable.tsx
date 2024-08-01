@@ -1,4 +1,5 @@
 // src/app/_components/timezones/ResponsiveTimeTable.tsx
+"use client";
 import React, { useState, useEffect } from 'react';
 import DesktopTimeTable from './DesktopTimeTable';
 import MobileTimeTable from './MobileTimeTable';

@@ -4,6 +4,8 @@ import PortfolioFilter from "@/app/_components/portfolio/PortfolioFilter";
 import { getAllPortfolios } from '@/lib/api';
 import Container from '../_components/Container';
 import { Portfolio } from '@/interfaces/docTypes';
+import { headers } from "next/headers";
+import { BASE_URL } from "@/lib/constants";
 
 interface SearchParams {
   category?: string;
@@ -15,6 +17,10 @@ interface Props {
 
 export async function generateMetadata({ searchParams }: Props) {
   const category = searchParams.category || '';
+  const headersList = headers();
+  const pathname = headersList.get("x-pathname");
+  const canonicalUrl = `${BASE_URL}${pathname}${ category ? '?category=' + category: ''}`;
+
   const pageTitle = category ? `Portfolio - ${category} - Vasilkoff Ltd` : 'Portfolio - Vasilkoff Ltd';
   const pageDescription = category 
     ? `Explore Vasilkoff's ${category} portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!`
@@ -30,8 +36,8 @@ export async function generateMetadata({ searchParams }: Props) {
     'description': portfolio.description,
     'creator': {
       '@type': 'Organization',
-      'name': 'Vasilkoff',
-      'url': 'https://vasilkoff.com'
+      'name': 'Vasilkoff Ltd',
+      'url': BASE_URL
     }
   }));
 
@@ -59,13 +65,14 @@ export async function generateMetadata({ searchParams }: Props) {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
       'name': 'Portfolio',
-      'description': 'A collection of projects we have developed',
+      'description': 'A collection of projects developed by Vasilkoff Ltd',
       'hasPart': hasPart
-    }
+    },
+    alternates: { canonical: canonicalUrl },
   };
 }
 
-export default async function PortfolioListPage({ searchParams }: Props): Promise<JSX.Element> {
+export default async function PortfolioListPage({ searchParams }: Readonly<Props>): Promise<JSX.Element> {
   const category = searchParams.category || '';
   const portfolios: Portfolio[] = getAllPortfolios(category);
 
