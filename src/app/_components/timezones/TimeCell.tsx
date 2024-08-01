@@ -6,8 +6,8 @@ import { hourSettings } from "@/lib/constants";
 export const sleepingHoursColorClass = ' bg-red-400 ';
 export const workingHoursColorClass = ' bg-green-400 ';
 export const lateEveningHoursColorClass = "bg-yellow-500";
-export const earlyMorningHoursColorClass = "bg-yellow-500";
-export const defaultHoursColorClass = "bg-gray-200";
+export const earlyMorningHoursColorClass = "bg-lime-200";
+export const defaultHoursColorClass = "bg-stone-400";
 
 interface TimeCellProps {
     hour: number;
@@ -34,9 +34,10 @@ const TimeCell: React.FC<TimeCellProps> = ({ hour, timezone }) => {
     const getColorForHour = (): string => {
         if (localHour >= hourSettings.workingHours.start && localHour < hourSettings.workingHours.end) {
             return workingHoursColorClass;
-        } else if ((localHour >= hourSettings.evening.start && localHour < hourSettings.evening.end) || (localHour >= hourSettings.morning.start && localHour < hourSettings.workingHours.start)) {
-            return lateEveningHoursColorClass; 
-            
+        } else if (localHour >= hourSettings.evening.start && localHour < hourSettings.evening.end) {
+            return lateEveningHoursColorClass;
+        } else if (localHour >= hourSettings.morning.start && localHour < hourSettings.workingHours.start) {
+            return earlyMorningHoursColorClass; 
         } else if (localHour >= hourSettings.sleeping.start || localHour <= hourSettings.sleeping.end) {
             return sleepingHoursColorClass;
         } else {

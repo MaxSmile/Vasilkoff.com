@@ -15,15 +15,16 @@ interface LegendProps {
 
 const Legend: React.FC<LegendProps> = ({ hourSettings }) => {
     const legendItems = [
-        {
-            label: `Working Hours (${hourSettings.workingHours.start}:00 - ${hourSettings.workingHours.end}:00)`,
-            colorClass: workingHoursColorClass,
-            description: "These are the hours typically dedicated to work-related activities."
-        },
+        
         {
             label: `Morning Hours (${hourSettings.morning.start}:00 - ${hourSettings.morning.end}:00)`,
             colorClass: earlyMorningHoursColorClass,
             description: "These hours are usually early in the morning when people are starting their day. Possible hours for meetings outside of business conversations."
+        },
+        {
+            label: `Working Hours (${hourSettings.workingHours.start}:00 - ${hourSettings.workingHours.end}:00)`,
+            colorClass: workingHoursColorClass,
+            description: "These are the hours typically dedicated to work-related activities."
         },
         {
             label: `Evening Hours (${hourSettings.evening.start}:00 - ${hourSettings.evening.end}:00)`,
