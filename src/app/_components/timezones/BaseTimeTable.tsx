@@ -89,18 +89,20 @@ const BaseTimeTable: React.FC<BaseTimeTableProps> = ({ renderTable }) => {
     return (
         <div className="max-w-6xl mx-auto mb-8 border-b border-gray-200 py-4 overflow-x-auto">
             <TimeSelectControls addTimezone={addTimezone} setSelectedTimezones={setSelectedTimezones} />
-            <div className="max-w-full overflow-x-auto p-2">
+            <div className="max-w-full overflow-x-auto p-2 mb-4">
                 {renderTable(selectedTimezones, hoursTitles, removeTimezone)}
             </div>
+            <p>Want to share your time zones table?</p>
             <button onClick={() => {
                 navigator.clipboard.writeText(shareTimezones()).then(() => {
                     alert("Timezone URL copied to clipboard");
                 }).catch((err) => {
                     alert("Could not copy the URL to clipboard");
                 });
-            }} className="text-primary mt-4 underline">Click to Copy the time zones table Share link</button>
+            }} className="text-primary  underline">Click to Copy the time zones table Share link</button>
+            <p className="mt-4">Or copy the link text below</p>
             <div className="text-xs text-gray-400 break-all">{shareTimezones() as string}</div>
-            <div className="text-xs">Current Local Time and Date: {currentTime.toLocaleTimeString()} {currentTime.toLocaleDateString()}</div>
+            <div className="text-xs mt-4">Your Local Time and Date: {currentTime.toLocaleTimeString()} {currentTime.toLocaleDateString()}</div>
         </div>
     );
 };
