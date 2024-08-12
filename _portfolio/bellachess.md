@@ -67,7 +67,7 @@ Our NFTs are more than just digital art; they represent your achievements as a c
 
 #### The Benefits of NFT Ownership
 
-Owning a Bella Chess NFT offers several advantages:
+Owning a Bella Chess NFT offers several advantages: 
 
 -   **Digital Ownership:** You have full ownership of your NFT, backed by the security of blockchain technology.
 -   **Resale Potential:** The NFT marketplace allows you to buy, sell, or trade your collectibles with other chess enthusiasts.

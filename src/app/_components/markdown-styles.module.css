@@ -16,3 +16,13 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown h4 {
+  @apply text-xl font-bold underline;
+}
+
+.markdown li {
+  position: relative;
+  list-style: circle;
+  margin-left: 20px; 
+}
