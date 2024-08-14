@@ -10,7 +10,7 @@ import { BASE_URL } from '@/lib/constants';
 
 export async function generateMetadata() {
     const pageTitle = "Contact Us - Vasilkoff Ltd";
-    const pageDescription = "Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more.";
+    const pageDescription = "Contact Vasilkoff for mobile app and web development inquiries, partnerships, careers, and more. Reach out to our expert team today.";
     const canonicalUrl = `${BASE_URL}/contact-us`;
 
     return {
