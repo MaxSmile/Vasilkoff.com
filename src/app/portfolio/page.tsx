@@ -31,11 +31,11 @@ export async function generateMetadata({ searchParams }: Props) {
   const hasPart = portfolios.map(portfolio => ({
     '@type': 'CreativeWork',
     'name': portfolio.title,
-    'url': `https://vasilkoff.com/portfolio/${portfolio.slug}`,
+    'url': `${BASE_URL}/portfolio/${portfolio.slug}`,
     'image': `https://vasilkoff.com/${portfolio.picture}`,
     'description': portfolio.description,
     'creator': {
-      '@type': 'Organization',
+      '@type': 'Organization',  
       'name': 'Vasilkoff Ltd',
       'url': BASE_URL
     }
@@ -53,7 +53,7 @@ export async function generateMetadata({ searchParams }: Props) {
           alt: 'Vasilkoff Portfolio'
         }
       ],
-      url: 'https://vasilkoff.com/portfolio'
+      url: canonicalUrl
     },
     additionalMetaTags: [
       {
