@@ -1,6 +1,3 @@
-// src/app/contact-us/page.tsx
-
-import Head from 'next/head';
 import AIContacts from "@/app/_components/contacts/AIContacts";
 import Container from '@/app/_components/Container';
 import MemberSimon from '@/app/_components/sections/members/Simon';
@@ -9,22 +6,63 @@ import Calendly from "@/app/_components/contacts/Calendly";
 import Reviews from '@/app/_components/sections/Reviews';
 import Tabs from "@/app/_components/Tabs";
 import BugReportForm from "@/app/_components/BugReportForm";
-import { CONTACT_US_JSON_LD } from '@/lib/constants';
+import { BASE_URL } from '@/lib/constants';
+
+export async function generateMetadata() {
+    const pageTitle = "Contact Us - Vasilkoff Ltd";
+    const pageDescription = "Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more.";
+    const canonicalUrl = `${BASE_URL}/contact-us`;
+
+    return {
+        title: pageTitle,
+        description: pageDescription,
+        openGraph: {
+            title: pageTitle,
+            description: pageDescription,
+            url: canonicalUrl,
+            type: 'website',
+            images: [
+                {
+                    url: `${BASE_URL}/images/contact-us-banner.jpg`,
+                    alt: 'Contact Us - Vasilkoff'
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: pageTitle,
+            description: pageDescription,
+            image: `${BASE_URL}/images/contact-us-banner.jpg`,
+        },
+        additionalMetaTags: [
+            {
+                name: 'description',
+                content: pageDescription,
+            }
+        ],
+        alternates: { canonical: canonicalUrl },
+        structuredData: {
+            '@context': 'https://schema.org',
+            '@type': 'ContactPage',
+            'mainEntity': {
+                '@type': 'Organization',
+                'name': 'Vasilkoff CY Ltd',
+                'url': BASE_URL,
+                'contactPoint': {
+                    '@type': 'ContactPoint',
+                    'telephone': '+35799169229',
+                    'contactType': 'Customer Service',
+                    'areaServed': 'Global',
+                    'availableLanguage': ['English', 'Ukrainian']
+                }
+            }
+        }
+    };
+}
 
 const ContactUsPage = () => {
     return (
         <main>
-            <Head>
-                <title>Contact Us - Vasilkoff</title>
-                <meta
-                    name="description"
-                    content="Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more."
-                />
-                <script type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(CONTACT_US_JSON_LD) }}
-                />
-            </Head>
-
             <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent">
                 <Container>
                     <div className="mx-auto text-center max-w-3xl space-y-8">
@@ -51,7 +89,6 @@ const ContactUsPage = () => {
                     <Calendly />
                 </div>
                 <Reviews />
-
             </section>
         </main>
     );

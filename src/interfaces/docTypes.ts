@@ -41,6 +41,7 @@ export type Service = {
 export type Member = {
   slug: string;
   title: string;
+  subtitle: string;
   type: string;
   date: string;
   picture: string;
