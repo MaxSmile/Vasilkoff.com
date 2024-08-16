@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/Container";
@@ -34,7 +34,7 @@ type Params = {
   };
 };
 
-export async function generateMetadata({ params }: Params): Promise<Metadata> {
+export async function generateMetadata({ params }: Params): Promise<any>  {
   const member = getMemberBySlug(params.slug);
 
   if (!member) {
