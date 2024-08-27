@@ -10,7 +10,7 @@ export function PostHeader({ article }: { article: Blog }) {
   return (
     <Container>
       <div className='flex flex-col md:flex-row md:items-center pt-8 md:mt-14 lg:mt-[128px]'>
-        <div className=' flex-1 text-center lg:text-left'>
+        <div className=' flex-1 text-left'>
           <BackHistoryButton />
           <div className='heading'>
             <h1 className=' text-secondary'>{article.title}</h1>
