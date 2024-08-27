@@ -33,7 +33,6 @@ export default async function BlogPage({ params }: Params) {
       <PostHeader article={article} />
       <Container>
         <article className="mb-32">
-          
           <PostBody content={content} />
         </article>
       </Container>
