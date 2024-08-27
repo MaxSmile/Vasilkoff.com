@@ -1,4 +1,4 @@
-// src/pages/middleware.ts
+// src/middleware.ts
 import { NextRequest, NextResponse } from 'next/server';
 
 const redirects = new Map<string, string>([

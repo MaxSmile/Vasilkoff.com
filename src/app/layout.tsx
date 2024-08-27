@@ -16,11 +16,11 @@ import { BASE_URL } from "@/lib/constants";
 
 const font = Mulish({ subsets: ["latin"] });
 
-
+const GTM_ID = "GTM-KQHMWKC";
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
   const headersList = headers();
-  const pathname = headersList.get("x-pathname");// + "" + headersList.get("x-search");
+  const pathname = headersList.get("x-pathname");
   const canonicalUrl = `${BASE_URL}${pathname}`;
   return {
     title: `Vasilkoff Ltd - Full-stack Web & Mobile mobile apps and web-development Services`,
@@ -70,9 +70,19 @@ export default function RootLayout({
           content="/browserconfig.xml"
         />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <TrackingHeadScript id={"GTM-KQHMWKC"} />
+        <TrackingHeadScript id={GTM_ID} isGTM={true} />
       </head>
       <body className={font.className}>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<!-- Google Tag Manager (noscript) -->
+                  <noscript>
+                  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQHMWKC"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                  </noscript>
+                  <!-- End Google Tag Manager (noscript) -->`,
+        }}
+      />
         <a href="#maincontent" className="skip-link">Skip to main content</a>
         <SupportUkraineBanner />
         <Header />

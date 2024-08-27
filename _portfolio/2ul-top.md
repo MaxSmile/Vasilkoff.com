@@ -2,7 +2,6 @@
 type: "projects"
 date: "2024-05-23T00:00:00Z"
 categories: 
-    - "ReactJS"
     - "URL Shortener"
     - "NodeJS"
     - "JavaScript"
@@ -10,6 +9,7 @@ categories:
     - "DevOps"
     - "Website"
     - "NextJS"
+    - "Open Source"
 
 title: "2ul.top"
 link: "2ul.top"
@@ -51,7 +51,7 @@ The 2ul.top project incorporates several DevOps best practices, ensuring efficie
 
 ## Features
 
-- ReactJS for a dynamic, single-page application experience.
+- NextJS for a dynamic, single-page application experience.
 - Integration with a NodeJS/Express backend.
 - SQLite database for efficient and lightweight data storage.
 - Styled-components for styling.
