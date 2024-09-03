@@ -1,6 +1,6 @@
 ---
-date: "2024-03-21T00:00:00Z"
-title: "_blogs/2.md"
+date: "2024-09-03T00:00:00Z"
+title: "Where Code Fits: Building Products That Truly Deliverd"
 subtitle: "Where Code Fits: Building Products That Truly Deliver"
 description: "IT pros and startup founders often dive deep into coding and tech challenges, but there's more to creating a successful product than just solving technical problems. This article will help IT folks understand what businesses and startups really need—products that people love. It’ll also guide startup founders on why building a product is more than just turning an idea into code."
 picture: "/assets/blog/wise-cat.webp"
