@@ -73,13 +73,11 @@ export default function RootLayout({
         <TrackingHeadScript id={GTM_ID} isGTM={true} />
       </head>
       <body className={font.className}>
-      <div
+      <noscript
         dangerouslySetInnerHTML={{
           __html: `<!-- Google Tag Manager (noscript) -->
-                  <noscript>
                   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQHMWKC"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe>
-                  </noscript>
                   <!-- End Google Tag Manager (noscript) -->`,
         }}
       />
