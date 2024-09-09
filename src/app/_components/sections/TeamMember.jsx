@@ -22,9 +22,8 @@ const TeamMember = ({ name, position, picture, email, link, keywords = "web deve
                 <p className="text-sm font-bold">{position}</p>
             </Link>
             <p className="text-sm font-bold">
-                Contacts:{" "}
                 <Link href={`mailto:${email}`} aria-label={`Email ${name} at ${email}`}>
-                    <EnvelopeAt className="inline-block" />
+                    <EnvelopeAt className="inline-block" /> {email}
                 </Link>
             </p>
         </div>
