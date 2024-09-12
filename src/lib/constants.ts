@@ -1,10 +1,10 @@
 
 export const MAIN_MENU = [
-  { title: "Home", link: "/#maincontent" },
-  { title: "Team", link: "/#team" },
-  { title: "Portfolio", link: "/portfolio" },
-  { title: "Blog", link: "/blog" },
-  { title: "Contact Us", link: "/contact-us" },
+  { title: "Home", link: "/#maincontent", type:'link' },
+  { title: "Team", link: "/#team", type:'link' },
+  { title: "Portfolio", link: "/portfolio", type:'link' },
+  { title: "Blog", link: "/blog", type:'link' },
+  { title: "Contact Us", link: "/contact-us", type:'button' },
 ];
 
 export const BASE_URL = "https://vasilkoff.com";

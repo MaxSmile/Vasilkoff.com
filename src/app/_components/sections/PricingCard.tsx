@@ -21,12 +21,12 @@ const PricingCard: React.FC<PricingCardProps> = ({
     per
 }) => {
     return (
-        <card data-aos="fade-up" data-aos-duration="1000" className="group rounded-3xl bg-white p-6 px-4 sm:px-6">
+        <card data-aos="fade-up" data-aos-duration="1000" className="group rounded-3xl bg-white p-8 px-4 sm:px-6">
 
-            <div className="mb-8">
+            <div className="m-6">
                 <h3 className="text-[22px] font-black text-black">{title}</h3>
             </div>
-            <ul className="space-y-5 pb-7 text-sm font-bold group-hover:text-secondary">
+            <ul className="space-y-5 p-6 text-sm font-bold group-hover:text-secondary">
                 {plusArray.map((item, index) => (
                     <li key={'p' + index} className="flex items-center">
                         <div>

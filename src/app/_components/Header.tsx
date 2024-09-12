@@ -23,7 +23,7 @@ const Header = (props: any) => {
 
   return (
     <header className='sticky top-0 z-50 transition bg-white duration-300 drop-shadow-xl'>
-      <Container className={`h-20`}>
+      <Container className={`h-20 my-2`}>
         <div className={`flex items-center justify-between py-5 lg:py-0`}>
           <Link href="/">
             <Image src="/images/logo-vasilkoff.webp" alt="Vasilkoff logo" className="h-12" width={104} height={48} />
@@ -43,13 +43,22 @@ const Header = (props: any) => {
                   <MenuIconClose />
                 </button>
                 <ul role='menu' onClick={() => setShowMenu(false)} >
-                  {MAIN_MENU.map((item, index) => (
-                    <li role='menuitem' key={index}>
-                      <Link href={item.link} className={router.includes(item.link) ? 'active' : ''}>
+                  {MAIN_MENU.map((item, index) => { 
+                    const linkStyle  = item.type === 'button' ? {color: '#fff'} : {}; 
+                    const listStyle  = item.type === 'button' ? {
+                      border: '1px solid #990000', 
+                      backgroundColor: '#6d0000',
+                      borderRadius: '6px'
+                    } : {}; 
+                    return (
+                    <li role='menuitem' key={index} style={listStyle} className={item.type}>
+                      <Link href={item.link} className={router.includes(item.link) ? ' active' : '' } 
+                        aria-label={item.title} 
+                        style={linkStyle}>
                         {item.title}
                       </Link>
                     </li>
-                  ))}
+                  )})}
                 </ul>
               </div>
             </div>
