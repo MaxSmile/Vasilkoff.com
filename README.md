@@ -22,13 +22,13 @@ Big update is coming!
 16. NFTTRX - NFTTRX A Blockchain-based certificate creation and verification system https://codecanyon.net/item/pdf-merger-merge-rotate-organize-delete-preview-pdf-all-in-one-react-nextjs-web-application/42741922
 17. Inter-euro and neophitoullc ... maybe not
 18. https://dashboard.render.com/ cool free hosting
-19. https://github.com/raid-guild/smart-escrow-nextjs for which domain?
+19. https://github.com/raid-guild/smart-escrow-nextjs for which domain? And wha about https://github.com/UAANT/uaant-website?
 20. SMRT16 https://www.koob.ru/mlm/ 
 21. https://www.npmjs.com/package/react-vertical-timeline-component 
 22. Learn from https://cocosbcx.io - where they show partners, other services usage etc - useful for smrt16 and nfttrx
 23. ~~Interesting how contact us done here https://nodereal.io/contact-us~~ 
 24. DBML diagram to HTML - foliant slate
-25. Read Fast - improve the page - make the offer on base of it
+25. Read Fast - improve the page - make the offer on base of it. The app going to use AI for exaplnation and translations
 26. JSON validate tool
 27. base64, md5, URL, sha256 encoding/decoding tools
 28. Strong password generator https://stackoverflow.com/a/64767873/2496986 https://stackoverflow.com/a/70262799/2496986 https://codepen.io/dev_loop/pen/vYYxvbz 
