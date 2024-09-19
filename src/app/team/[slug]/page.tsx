@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Params): Promise<any>  {
     return notFound();
   }
 
-  const canonicalUrl = `${BASE_URL}/members/${params.slug}`;
+  const canonicalUrl = `${BASE_URL}/team/${params.slug}`;
   const pageTitle = member.title || "Member of Vasilkoff Ltd";
   const pageDescription = "Learn more about our team members at Vasilkoff Ltd.";
 
