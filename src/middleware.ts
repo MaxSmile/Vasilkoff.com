@@ -61,6 +61,11 @@ const redirects = new Map<string, string>([
   ['/portfolio/ios%20app', '/portfolio/calculatorx'],
   ['/assets/portfolio/custom-box.png', '/assets/portfolio/custom-box.webp'],
   ['/portfolio/smartaichats.com', '/portfolio/smartaichats-com'],
+  ['/members/nikol-todorova', '/team/nikol-todorova'],
+  ['/members/simon-papazov', '/team/simon-papazov'],
+  ['/members/maxim-vasilkov', '/team/maxim-vasilkov'],
+  ['/members/anastasia-sarlidou', '/team/anastasia-sarlidou'],
+  ['/members/iryna-vasilkova', '/team/iryna-vasilkova'],
 
 ]);
 
