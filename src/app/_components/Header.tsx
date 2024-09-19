@@ -52,7 +52,7 @@ const Header = (props: any) => {
                     } : {}; 
                     return (
                     <li role='menuitem' key={index} style={listStyle} className={item.type}>
-                      <Link href={item.link} className={router.includes(item.link) ? ' active' : '' } 
+                      <Link href={item.link} className={router.includes(item.link) ? item.type+' active' : item.type } 
                         aria-label={item.title} 
                         style={linkStyle}>
                         {item.title}

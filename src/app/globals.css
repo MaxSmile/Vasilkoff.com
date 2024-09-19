@@ -7,6 +7,10 @@
     border: 1px dotted silver;
 }
 
+.button:focus {
+    border: 1px dotted #6d0000;
+  }
+
 p::first-letter {
     font-size: 122%;
     color: #6d0000;
