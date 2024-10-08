@@ -47,9 +47,8 @@ const Legend: React.FC<LegendProps> = ({ hourSettings }) => {
         <div id="legend-container" className="mt-8">
             <h2 className="text-lg font-semibold">Legend</h2>
             {legendItems.map((item, index) => (
-                <div key={index} className={`flex items-center mt-2`}>
+                <div key={index} className="flex flex-col md:flex-row items-start md:items-center mt-2 space-y-2 md:space-y-0 md:space-x-4">
                     <div className={`flex h-5 p-4 items-center ${item.colorClass} w-80 min-w-80`}>
-                        
                         <span className="ml-5 text-sm font-medium">{item.label}</span>
                     </div>
                     <p className="text-sm text-gray-600 ml-4">{item.description}</p>
