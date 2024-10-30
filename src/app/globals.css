@@ -7,6 +7,10 @@
     border: 1px dotted silver;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    @apply scroll-mt-20; 
+  }
+
 .button:focus {
     border: 0px dotted transparent;
   }
@@ -48,6 +52,10 @@ h1, h2, h3 {
 
 .heading {
     @apply mb-10 lg:mb-14 sm:mb-4 text-center;
+}
+
+.lists ol {
+    list-style-type: decimal;
 }
 
 

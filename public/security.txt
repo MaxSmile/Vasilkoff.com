@@ -1,0 +1,3 @@
+Contact: mailto:security@vasilkoff.com
+Encryption: https://vasilkoff.com/pgp-key.txt
+Acknowledgments: https://vasilkoff.com/hall-of-fame

@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
+    "dev": "next dev",
+    "dev-patch": "export ENV=dev && yarn version --patch && genversion version.js && next dev",
     "build": "next build",
     "build-patch": "yarn version --patch && genversion version.js && next build",
     "build-minor": "yarn version --minor && genversion version.js && next build",
@@ -29,10 +30,11 @@
     "react-select": "^5.8.2",
     "react-support-ukraine-banner": "^1.1.5",
     "react-timezone-select": "^3.2.8",
-    "remark": "^14.0.2",
+    "rehype-stringify": "^10.0.1",
+    "remark": "^15.0.1",
     "remark-gfm": "^4.0.0",
-    "remark-html": "^14.0.0",
-    "remark-slug": "^7.0.0",
+    "remark-heading-id": "^1.0.1",
+    "remark-rehype": "^11.1.1",
     "stripe": "^17.3.0",
     "swiper": "^11.1.14"
   },
