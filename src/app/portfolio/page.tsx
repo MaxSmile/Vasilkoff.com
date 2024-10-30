@@ -10,10 +10,10 @@ import { BASE_URL } from "@/lib/constants";
 
 // Generate metadata with resolved searchParams and headers
 export async function generateMetadata({ searchParams }: any) {
-  const resolvedSearchParams = searchParams;
+  const resolvedSearchParams = await searchParams;
   const category = resolvedSearchParams.category || '';
-  const headersList = await headers(); // Using await for headers()
-  const pathname = headersList.get("x-pathname") || '';
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") ?? '';
   const canonicalUrl = `${BASE_URL}${pathname}${category ? '?category=' + category : ''}`;
 
   const pageTitle = category ? `Portfolio - ${category} - Vasilkoff Ltd` : 'Portfolio - Vasilkoff Ltd';
