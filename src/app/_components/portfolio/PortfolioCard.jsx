@@ -1,6 +1,7 @@
-import Image from "next/image";
+// src/app/_components/portfolio/PortfolioCard.jsx
 import Link from "next/link";
-import { Bookmark, BookmarkHeart } from "react-bootstrap-icons";
+import { BsBookmark, BsBookmarkHeart } from "react-icons/bs";
+//import { Bookmark, BookmarkHeart } from "react-bootstrap-icons";
 
 
 const PortfolioCard = (
@@ -24,7 +25,7 @@ const PortfolioCard = (
                             {obj.title}
                         </h2>
                         
-                        <p className="line-clamp-4"><span>{obj.type == "our-projects" ? <BookmarkHeart className="inline-block" /> : <Bookmark className="inline-block" />}&nbsp;</span>{obj.description}</p>
+                        <p className="line-clamp-4"><span>{obj.type == "our-projects" ? <BsBookmarkHeart className="inline-block" /> : <BsBookmark className="inline-block" />}&nbsp;</span>{obj.description}</p>
                      
                     </Link>
                 </div>

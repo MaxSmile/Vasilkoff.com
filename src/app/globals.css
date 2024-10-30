@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 .skip-link {
-    position: absolute;
-    top: -40px;
+    color: #ffffff;
 }
 
 .skip-link:focus {
-    top: 10px;
+    color: #666666;
 }
 
 *:focus {

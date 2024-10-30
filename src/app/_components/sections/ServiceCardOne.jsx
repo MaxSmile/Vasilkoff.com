@@ -16,7 +16,7 @@ const ServiceCardOne = (
             <div
                 className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary transition group-hover:bg-black"
             >
-                {icon}
+                <span className="text-white">{icon}</span>
             </div>
             <Link
                 href={"/services/" + slug}

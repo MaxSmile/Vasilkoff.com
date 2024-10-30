@@ -1,9 +1,7 @@
 // src/app/_components/posts/PortfolioHeader.tsx
 import Image from 'next/image';
-import DateFormatter from '../DateFormatter';
 import { Portfolio } from '@/interfaces/docTypes';
 import Container from '../Container';
-import { ArrowLeftCircle } from 'react-bootstrap-icons';
 import Link from 'next/link';
 import BackHistoryButton from '../BackHistoryButton';
 
@@ -14,8 +12,8 @@ export function PortfolioHeader({ article }: Readonly<{ article: Portfolio }>) {
       <div className='flex flex-col md:flex-row pt-8 md:mt-14 lg:mt-[128px]'>
         <div className='heading flex-1 text-left'>
           <div className='flex items-center space-x-2'>
-          <BackHistoryButton />
-          <h1 className='text-secondary pt-1'>{article.title}</h1>
+            <BackHistoryButton />
+            <h1 className='text-secondary pt-1'>{article.title}</h1>
           </div>
           <div className='text-secondary py-4 text-left'>
             <p>{article.description}</p>
@@ -37,7 +35,7 @@ export function PortfolioHeader({ article }: Readonly<{ article: Portfolio }>) {
             <p className='italic text-sm'>{article.extra}</p>
           </div>
         </div>
-        
+
         <div className='flex-1 m-1' data-aos='fade-left' data-aos-duration='1000'>
           <Image
             width={0}

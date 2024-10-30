@@ -46,7 +46,6 @@ const Header = (props: any) => {
                   {MAIN_MENU.map((item, index) => { 
                     const linkStyle  = item.type === 'button' ? {color: '#fff'} : {}; 
                     const listStyle  = item.type === 'button' ? {
-                      border: '1px solid #990000', 
                       backgroundColor: '#6d0000',
                       borderRadius: '6px'
                     } : {}; 

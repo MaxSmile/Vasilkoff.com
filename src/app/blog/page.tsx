@@ -54,7 +54,7 @@ export function generateMetadata(): Metadata {
   };
 }
 
-export default async function BlogsListPage({ params }: Params) {
+export default async function BlogsListPage({ params }: any) {
   const page = params.page;
   const blogs = getAllBlogs();
   const hasPart = blogs.map((blog: Blog) => ({

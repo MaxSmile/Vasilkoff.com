@@ -1,4 +1,5 @@
 // src/app/portfolio/page.tsx
+// src/app/portfolio/page.tsx
 import PortfolioCard from "@/app/_components/portfolio/PortfolioCard";
 import PortfolioFilter from "@/app/_components/portfolio/PortfolioFilter";
 import { getAllPortfolios } from '@/lib/api';
@@ -7,19 +8,13 @@ import { Portfolio } from '@/interfaces/docTypes';
 import { headers } from "next/headers";
 import { BASE_URL } from "@/lib/constants";
 
-interface SearchParams {
-  category?: string;
-}
-
-interface Props {
-  searchParams: SearchParams;
-}
-
-export async function generateMetadata({ searchParams }: Props) {
-  const category = searchParams.category || '';
-  const headersList = headers();
-  const pathname = headersList.get("x-pathname");
-  const canonicalUrl = `${BASE_URL}${pathname}${ category ? '?category=' + category: ''}`;
+// Generate metadata with resolved searchParams and headers
+export async function generateMetadata({ searchParams }: any) {
+  const resolvedSearchParams = searchParams;
+  const category = resolvedSearchParams.category || '';
+  const headersList = await headers(); // Using await for headers()
+  const pathname = headersList.get("x-pathname") || '';
+  const canonicalUrl = `${BASE_URL}${pathname}${category ? '?category=' + category : ''}`;
 
   const pageTitle = category ? `Portfolio - ${category} - Vasilkoff Ltd` : 'Portfolio - Vasilkoff Ltd';
   const pageDescription = category 
@@ -27,19 +22,24 @@ export async function generateMetadata({ searchParams }: Props) {
     : `Explore Vasilkoff's portfolio: A showcase of web & mobile apps, ML projects, and innovative blockchain solutions. Witness our tech prowess firsthand!`;
 
   const portfolios: Portfolio[] = getAllPortfolios(category);
-
-  const hasPart = portfolios.map(portfolio => ({
-    '@type': 'CreativeWork',
-    'name': portfolio.title,
-    'url': `${BASE_URL}/portfolio/${portfolio.slug}`,
-    'image': `https://vasilkoff.com/${portfolio.picture}`,
-    'description': portfolio.description,
-    'creator': {
-      '@type': 'Organization',  
-      'name': 'Vasilkoff Ltd',
-      'url': BASE_URL
-    }
-  }));
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Portfolio",
+    "description": "A collection of projects developed by Vasilkoff Ltd",
+    "hasPart": portfolios.map(portfolio => ({
+      "@type": "CreativeWork",
+      "name": portfolio.title,
+      "url": `${BASE_URL}/portfolio/${portfolio.slug}`,
+      "image": `${BASE_URL}/${portfolio.picture}`,
+      "description": portfolio.description,
+      "creator": {
+        "@type": "Organization",
+        "name": "Vasilkoff Ltd",
+        "url": BASE_URL
+      }
+    }))
+  };
 
   return {
     title: pageTitle,
@@ -49,31 +49,20 @@ export async function generateMetadata({ searchParams }: Props) {
       description: pageDescription,
       images: [
         {
-          url: 'https://vasilkoff.com/portfolio/portfolio.webp',
+          url: `${BASE_URL}/portfolio/portfolio.webp`,
           alt: 'Vasilkoff Portfolio'
         }
       ],
       url: canonicalUrl
     },
-    additionalMetaTags: [
-      {
-        name: 'description',
-        content: pageDescription,
-      }
-    ],
-    structuredData: {
-      '@context': 'https://schema.org',
-      '@type': 'CollectionPage',
-      'name': 'Portfolio',
-      'description': 'A collection of projects developed by Vasilkoff Ltd',
-      'hasPart': hasPart
-    },
+    structuredData,
     alternates: { canonical: canonicalUrl },
   };
 }
 
-export default async function PortfolioListPage({ searchParams }: Readonly<Props>): Promise<JSX.Element> {
-  const category = searchParams.category || '';
+export default async function PortfolioListPage({ searchParams }: any): Promise<JSX.Element> {
+  const resolvedSearchParams = await searchParams;
+  const category = resolvedSearchParams.category || '';
   const portfolios: Portfolio[] = getAllPortfolios(category);
 
   return (

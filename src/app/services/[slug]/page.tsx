@@ -8,21 +8,17 @@ import { getAllServices, getServiceBySlug } from "@/lib/api";
 import { ServiceHeader } from "@/app/_components/posts/ServiceHeader";
 import { BASE_URL } from "@/lib/constants";
 
-type Params = {
-  params: {
-    slug: string;
-  };
-};
 
-export default async function ServicePage({ params }: Params) {
-  const service = getServiceBySlug(params.slug);
+export default async function ServicePage({ params }: any) {
+  const { slug } = await params;
+  const service = getServiceBySlug(slug);
 
   if (!service) {
     return notFound();
   }
 
   const content = await markdownToHtml(service.content || "");
-  const canonicalUrl = `${BASE_URL}/services/${params.slug}`;
+  const canonicalUrl = `${BASE_URL}/services/${slug}`;
   const pageDescription = service.description || "Learn more about our specialized services at Vasilkoff Ltd.";
   const serviceImage = service.picture || `${BASE_URL}/assets/default-service-image.webp`;
 
@@ -59,17 +55,19 @@ export default async function ServicePage({ params }: Params) {
 }
 
 // Metadata for SEO and Open Graph
-export function generateMetadata({ params }: Params): Metadata {
-  const service = getServiceBySlug(params.slug);
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;  // Access 'slug' after resolving
+  const service = getServiceBySlug(slug);
 
   if (!service) {
     return notFound();
   }
 
-  const canonicalUrl = `${BASE_URL}/services/${params.slug}`;
-  const pageTitle = service.title || "Vasilkoff Service";
+  const canonicalUrl = `${BASE_URL}/services/${slug}`;
+  const pageTitle = service.title || "Vasilkoff Services";
   const pageDescription = service.description || "Learn more about our specialized services at Vasilkoff Ltd.";
-  const serviceImage = service.picture || `${BASE_URL}/assets/default-service-image.webp`;
+  const serviceImage = service.picture || `${BASE_URL}/assets/ai-development.webp`;
 
   return {
     title: pageTitle,

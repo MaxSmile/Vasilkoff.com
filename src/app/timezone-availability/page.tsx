@@ -10,7 +10,7 @@ import { headers } from 'next/headers';
 import InstructionSection from '../_components/timezones/InstructionSection'
 
 export async function generateMetadata() {
-    const headersList = headers();
+    const headersList = await headers();
     const pathname = headersList.get("x-pathname") + "" + headersList.get("x-search");
     const canonicalUrl = `${BASE_URL}${pathname}`;
     return {

@@ -1,10 +1,11 @@
 // src/app/_components/AIContacts.jsx
 "use client";
 import { useRef, useState } from 'react';
-import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots } from 'react-bootstrap-icons';
+//import { GeoAlt, Person, EnvelopeAt, Telephone, ChatLeftDots } from 'react-bootstrap-icons';
 import ActiveZone from './ActiveZone';
 import NoSSR from "./NoSSR";
 import { trackEvent } from '@phntms/next-gtm';
+import { BsChatLeftDots, BsEnvelopeAt, BsGeoAlt, BsPerson, BsTelephone } from 'react-icons/bs';
 
 export default function AIContacts() {
     const [activeZone, setActiveZone] = useState(false);
@@ -88,7 +89,7 @@ export default function AIContacts() {
                                             className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                         />
 
-                                        <Person className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                        <BsPerson className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                     </div>
                                     <div className="relative">
                                         <input required="true" aria-required="true"
@@ -99,7 +100,7 @@ export default function AIContacts() {
                                             id='email'
                                             className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                         />
-                                        <EnvelopeAt className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                        <BsEnvelopeAt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                     </div>
                                     <div className="relative">
                                         <input required="true" aria-required="true"
@@ -110,7 +111,7 @@ export default function AIContacts() {
                                             ref={mobileRef}
                                             className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                         />
-                                        <Telephone className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                        <BsTelephone className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                     </div>
                                     <div className="relative">
                                         <input required="true" aria-required="true"
@@ -122,7 +123,7 @@ export default function AIContacts() {
                                             className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12"
                                         />
 
-                                        <GeoAlt className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                        <BsGeoAlt className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                     </div>
                                 </div>
                                 <div className="relative my-10" ref={parentRef}>
@@ -137,7 +138,7 @@ export default function AIContacts() {
                                         className=" height-60 w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary pr-12"
                                     >{activeZone}</div>
 
-                                    <ChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
+                                    <BsChatLeftDots ref={chatLeftDotsRef} className="absolute top-1/2 -translate-y-1/2 right-4 " />
                                 </div>
                                 <div className="w-full text-red my-10">{error}</div>
                                 <div className="mt-10 text-center lg:text-right">

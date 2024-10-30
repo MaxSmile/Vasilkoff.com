@@ -19,7 +19,7 @@ const font = Mulish({ subsets: ["latin"] });
 const GTM_ID = "GTM-KQHMWKC";
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
-  const headersList = headers();
+  const headersList = await headers();
   const pathname = headersList.get("x-pathname");
   const canonicalUrl = `${BASE_URL}${pathname}`;
   return {
@@ -91,7 +91,10 @@ export default function RootLayout({
                   <!-- End Google Tag Manager (noscript) -->`,
           }}
         />
-        <a href="#maincontent" className="skip-link">Skip to main content</a>
+        <p>
+          <a href="#maincontent" className="skip-link">Skip to main content</a>
+        </p>
+
         <SupportUkraineBanner />
         <Header />
         <div className="min-h-screen overflow-x-hidden" id="maincontent">{children}</div>

@@ -7,14 +7,12 @@ import Container from "@/app/_components/Container";
 import { PostBody } from "@/app/_components/posts/PostBody";
 import { PortfolioHeader } from "@/app/_components/posts/PortfolioHeader";
 
-type Params = {
-  params: {
-    slug: string;
-  };
-};
+// Page Component
+export default async function PortfolioPage({ params }: any) {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;  // Access 'slug' after resolving
 
-export default async function PortfolioPage({ params }: Readonly<Params>) {
-  const article = getPortfolioBySlug(params.slug);
+  const article = getPortfolioBySlug(slug);
 
   if (!article) {
     return notFound();
@@ -34,8 +32,12 @@ export default async function PortfolioPage({ params }: Readonly<Params>) {
   );
 }
 
-export function generateMetadata({ params }: Params): Metadata {
-  const article = getPortfolioBySlug(params.slug);
+// Metadata Function
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;  // Access 'slug' after resolving
+
+  const article = getPortfolioBySlug(slug);
 
   if (!article) {
     return notFound();
@@ -56,11 +58,12 @@ export function generateMetadata({ params }: Params): Metadata {
           alt: article.title
         }
       ],
-      url: `https://vasilkoff.com/portfolio/${article.slug}`
-    }
+      url: `https://vasilkoff.com/portfolio/${slug}`
+    },
   };
 }
 
+// Static Params Function
 export async function generateStaticParams() {
   const portfolios = getAllPortfolios();
 
