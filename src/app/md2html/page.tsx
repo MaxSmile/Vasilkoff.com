@@ -2,19 +2,20 @@
 "use client";
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-import { remark } from "remark";
-import html from "remark-html";
 import Container from '../_components/Container';
 import { MD_EXAMPLE } from '@/lib/constants';
 import OtherServicesAndTools from '../_components/OtherServicesAndTools';
+import markdownToHtml from '@/lib/markdownToHtml';
 
 const Md2HtmlPage = () => {
     const [markdownInput, setMarkdownInput] = useState('');
     const [htmlOutput, setHtmlOutput] = useState('');
 
     const convertToHtml = async () => {
-        const result = await remark().use(html).process(markdownInput);
-        setHtmlOutput(result.toString());
+        // const result = await remark().use(html).process(markdownInput);
+        // setHtmlOutput(result.toString());
+        const result = await markdownToHtml(markdownInput);
+        setHtmlOutput(result);
     };
 
     const resetFields = () => {

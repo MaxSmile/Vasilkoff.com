@@ -2,23 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
 
 *:focus {
     border: 1px dotted silver;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    @apply scroll-mt-20; 
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply scroll-mt-20;
+}
 
 .button:focus {
     border: 0px dotted transparent;
-  }
+}
 
 p::first-letter {
     font-size: 122%;
     color: #6d0000;
-  }
+}
 
 card {
     @apply bg-white shadow-md rounded-3xl;
@@ -30,7 +43,7 @@ card img {
 }
 
 .btn {
-    border-width: 1px; 
+    border-width: 1px;
     @apply inline-block rounded-[6px] bg-white border-solid border-primary py-4 px-7 text-center text-sm font-extrabold uppercase text-black transition hover:bg-secondary hover:text-white;
 }
 
@@ -40,14 +53,18 @@ card img {
 }
 
 html {
-    background: #000;/*linear-gradient(to bottom, #fff, #000);*/
+    background: #000;
+    /*linear-gradient(to bottom, #fff, #000);*/
 }
+
 body {
     background: #fff;
 }
 
-h1, h2, h3 {
-    @apply font-extrabold text-secondary ;
+h1,
+h2,
+h3 {
+    @apply font-extrabold text-secondary;
 }
 
 .heading {
@@ -85,14 +102,13 @@ article a {
 }
 
 .blackheading {
-    @apply text-xl text-black text-left; 
+    @apply text-xl text-black text-left;
 }
 
- /* Header */
+/* Header */
 
 header .menus {
-    @apply fixed z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 
-    -right-full  lg:static lg:h-auto lg:max-w-none;
+    @apply fixed z-[52] h-screen w-full max-w-sm gap-9 bg-white transition-all duration-500 -right-full lg:static lg:h-auto lg:max-w-none;
 }
 
 header .menus>ul {
@@ -124,10 +140,12 @@ header .menus>ul li>a.active {
         transform: scale(0.95);
         opacity: 0.7;
     }
+
     70% {
         transform: scale(1);
         opacity: 1.0;
     }
+
     100% {
         transform: scale(0.95);
         opacity: 0.9;
@@ -172,4 +190,3 @@ header .menus>ul li>a.active {
         flex-direction: column;
     }
 }
-
