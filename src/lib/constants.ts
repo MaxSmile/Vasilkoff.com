@@ -1,4 +1,4 @@
-
+// src/lib/constants.ts
 export const MAIN_MENU = [
   { title: "Home", link: "/#maincontent", type:'link' },
   { title: "Team", link: "/#team", type:'link' },

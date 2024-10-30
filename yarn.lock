@@ -403,6 +403,13 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
+"@types/remark-heading-id@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/remark-heading-id/-/remark-heading-id-1.0.0.tgz#2c594c26b4d8306bb857fc357027498242436385"
+  integrity sha512-V6OgBN2Uv3kaYHOrBI2+j9xIo6N56bMpIFoKVkGltoJtzHr7Vo8pFxDZxNqUXC5NScV991Iq3BYD52BkCFMY+w==
+  dependencies:
+    unified "^11.0.0"
+
 "@types/unist@*", "@types/unist@^3.0.0":
   version "3.0.2"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-3.0.2.tgz"

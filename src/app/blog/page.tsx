@@ -3,102 +3,97 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllBlogs } from "@/lib/api";
 import Container from "@/app/_components/Container";
-
-import Head from "next/head";
-
 import { Blog } from "@/interfaces/docTypes";
 import { BlogsList } from "@/app/_components/posts/BlogsList";
+import { BASE_URL } from "@/lib/constants";
 
+const title = "Vasilkoff Blogs - Insights on Web Development, Blockchain, and AI";
+const description = "Explore Vasilkoff's blog. Dive into insights, trends, and stay ahead with expert articles about web-development, blockchain, and AI.";
 
-
-const title = `Our Blogs`;
 type Params = {
   params: {
     page: string;
   };
 };
-export default async function BlogsListPage({ params }: Params) {
-  const page = params.page;
-    // const page = 1;
-  // const blogsPerPage = 18;
-  // const start = (page - 1) * blogsPerPage;
-  // const end = page * blogsPerPage;
-  // const totalPages = Math.ceil(Object.keys(blogs).length / blogsPerPage);
-  const keys = getAllBlogs();
 
-  // const pagination = <Pagination limit={totalPages} baseLink="/blog" current={page} />;
-
-  let hasPart = keys.map((blog:Blog) => {
-      return {
-          "@type": "Article",
-          "name": blog.title,
-          "headline": blog.title,
-          "url": "https://vasilkoff.com/blog/" + blog.slug,
-          "image": "https://vasilkoff.com/" + blog.picture,
-          "description": blog.description,
-          "author": {
-              "@type": "Organization",
-              "name": "Vasilkoff",
-              "url": "https://vasilkoff.com"
-          }
-      }
-  });
-
-
-  if (!!page) {
-    return notFound();
-  }
-
-  return (
-    <main>
-      <Container>
-      <h1 className="m-8">
-        {title}
-      </h1>
-        <BlogsList blogs={getAllBlogs()} />
-      </Container>
-             <Head>
-              <title>Vasilkoff Blogs</title>
-              <meta
-                  name="description"
-                  content={`Explore Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles about web-development, blockchain, and AI.`}
-              />
-              <meta property="og:url" content={"https://vasilkoff.com/blog/"} />
-              <meta property="og:image" content="https://vasilkoff.com/assets/blog/blog.webp" />
-              <meta property="og:description" content="Explore the latest in mobile apps and web-development, blockchain, and AI on Vasilkoff's blog. Dive into insights, trends, and stay ahead with our expert articles." />
-
-              <script type="application/ld+json"
-                  dangerouslySetInnerHTML={{
-                      __html: `
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Blog",
-  "description": "A collection of blog posts written by our team",
-  "hasPart": ${JSON.stringify(hasPart)}
-}`
-                  }} />
-          </Head> 
-    </main>
-  );
+export async function generateStaticParams() {
+  const blogs = getAllBlogs();
+  return blogs.map((blog) => ({ slug: blog.slug }));
 }
 
-
-
+// Dynamic metadata generation for SEO and Open Graph
 export function generateMetadata(): Metadata {
+  const allBlogs = getAllBlogs();
+  const primaryImage = allBlogs[0]?.picture
+    ? `${BASE_URL}/${allBlogs[0].picture}`
+    : `${BASE_URL}/assets/blog/blog.webp`;
 
   return {
+    title,
+    description,
+    alternates: { canonical: `${BASE_URL}/blog` },
     openGraph: {
       title,
-      images: [],
+      description,
+      url: `${BASE_URL}/blog`,
+      images: [
+        {
+          url: primaryImage,
+          width: 1200,
+          height: 630,
+          alt: "Vasilkoff Blog Cover Image",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [primaryImage],
     },
   };
 }
 
-export async function generateStaticParams() {
+export default async function BlogsListPage({ params }: Params) {
+  const page = params.page;
   const blogs = getAllBlogs();
-
-  return blogs.map((blog) => ({
-    slug: blog.slug,
+  const hasPart = blogs.map((blog: Blog) => ({
+    "@type": "Article",
+    name: blog.title,
+    headline: blog.title,
+    url: `${BASE_URL}/blog/${blog.slug}`,
+    image: `${BASE_URL}/${blog.picture}`,
+    description: blog.description,
+    author: {
+      "@type": "Organization",
+      name: "Vasilkoff",
+      url: BASE_URL,
+    },
   }));
+
+  // Handle invalid page requests
+  if (!!page) return notFound();
+
+  return (
+    <main>
+      <Container>
+        <h1 className="m-8">{title}</h1>
+        <BlogsList blogs={blogs} />
+      </Container>
+
+      {/* Structured Data for Blog Collection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Blog",
+            description: "A collection of blog posts written by our team",
+            hasPart,
+          }),
+        }}
+      />
+    </main>
+  );
 }

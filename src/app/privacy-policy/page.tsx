@@ -1,21 +1,22 @@
-import Head from 'next/head';
+// src/app/privacy-policy/page.tsx
 import Link from 'next/link';
 import Container from '../_components/Container';
+import { BASE_URL } from '@/lib/constants';
+
+export const metadata = {
+    title: 'Privacy Policy - Vasilkoff',
+    description: 'Learn how Vasilkoff prioritizes your privacy, detailing our practices regarding data collection and use.',
+    alternates: { canonical: `${BASE_URL}/privacy-policy` },
+};
 
 export default function PrivacyPolicyPage() {
+    const lastUpdated = 'September 15, 2023';
+
     return (
         <Container>
-            <Head>
-                <title>Privacy Policy - Vasilkoff</title>
-                <meta 
-                    name="description" 
-                    content="Learn how Vasilkoff prioritizes your privacy, detailing our practices regarding data collection and use." 
-                />
-            </Head>
-            
             <article className="py-20">
                 <h1 className="mb-5 text-3xl font-bold text-secondary">Privacy Policy</h1>
-                <p className="mb-5">Last updated: September 15, 2023</p>
+                <p className="mb-5">Last updated: {lastUpdated}</p>
 
                 <div className="space-y-4">
                     <p>
