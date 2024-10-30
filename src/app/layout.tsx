@@ -91,10 +91,7 @@ export default function RootLayout({
                   <!-- End Google Tag Manager (noscript) -->`,
           }}
         />
-        <p>
-          <a href="#maincontent" className="skip-link">Skip to main content</a>
-        </p>
-
+        <a href="#maincontent" className="skip-link">Skip to main content</a>
         <SupportUkraineBanner />
         <Header />
         <div className="min-h-screen overflow-x-hidden" id="maincontent">{children}</div>
