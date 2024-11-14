@@ -49,10 +49,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
       description: pageDescription,
       images: [memberImage],
     },
-    alternates: { canonical: canonicalUrl },
-    other: {
-      description: pageDescription,
-    },
+    alternates: { canonical: canonicalUrl }
   };
 }
 
