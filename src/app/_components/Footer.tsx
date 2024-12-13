@@ -66,7 +66,7 @@ const Footer = () => {
               </a></li>
               <li className="transition hover:text-shadow "><BsWhatsapp className="inline-block" />&nbsp;<a className="text-sm u-url" href="https://wa.me/61479140233" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp for +61479140233 (opens in a new tab)">+61479140233</a></li>
               <li className="transition hover:text-shadow "><BsTelephoneFill className="inline-block" />&nbsp;<a className="text-sm p-tel" href="tel:+19295909246">+19295909246</a></li>
-              <li className="transition hover:text-shadow "><BsTelephoneFill className="inline-block" />&nbsp;<a className="text-sm p-tel" href="tel:+447458148224">+442045772478</a></li>
+              <li className="transition hover:text-shadow "><BsTelephoneFill className="inline-block" />&nbsp;<a className="text-sm p-tel" href="tel:+447458148224">+447458148224</a></li>
               <li className="transition hover:text-shadow "><BsEnvelopeAtFill className="inline-block" />&nbsp;<a className="text-sm u-email" href="mailto:maxim@vasilkoff.com" target="_blank" rel="noopener noreferrer" aria-label="maxim@vasilkoff.com (opens in a new tab)">maxim@vasilkoff.com</a></li>
               <li className="transition hover:text-shadow "><BsGeoAltFill className="inline-block" />&nbsp;<a className="text-sm p-adr" href="https://g.page/Vasilkoff-com?share" target="_blank" rel="noopener noreferrer" aria-label="Visit Glastonos 12-14, 2nd Floor, Paphos 8046 on Google Maps (opens in a new tab)">
                 <span className="p-street-address">20 Wenlock Road</span>, <span className="p-locality">London</span> <span className="p-postal-code">N1 7GU</span>
