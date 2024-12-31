@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function ActiveZone({ name, email, mobile, message, city }) {
   const brevoApiKey = process.env.BREVO;
-  console.log("env",process.env);
+
   const [status, setStatus] = useState("loading"); // Status can be 'loading', 'success', or 'error'
   const [errorMessage, setErrorMessage] = useState(""); // Detailed error message, if any
 
@@ -80,6 +80,7 @@ export default function ActiveZone({ name, email, mobile, message, city }) {
 
   return (
     <div className="status-container">
+      <p>Debug: {JSON.stringify(process.env)}</p>
       {status === "loading" && (
         <p className="text-gray-500">Sending your message, please wait...</p>
       )}
