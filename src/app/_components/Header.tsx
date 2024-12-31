@@ -47,7 +47,8 @@ const Header = (props: any) => {
                     const linkStyle  = item.type === 'button' ? {color: '#fff'} : {}; 
                     const listStyle  = item.type === 'button' ? {
                       backgroundColor: '#6d0000',
-                      borderRadius: '6px'
+                      borderRadius: '6px',
+                      margin: '0px 4px'
                     } : {}; 
                     return (
                     <li role='menuitem' key={index} style={listStyle} className={item.type}>

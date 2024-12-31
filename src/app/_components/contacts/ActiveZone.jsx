@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function ActiveZone({ name, email, mobile, message, city }) {
-  const brevoApiKey = process.env.BREVO;
+  const brevoApiKey = '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';
 
   const [status, setStatus] = useState("loading"); // Status can be 'loading', 'success', or 'error'
   const [errorMessage, setErrorMessage] = useState(""); // Detailed error message, if any

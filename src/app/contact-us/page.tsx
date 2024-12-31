@@ -63,14 +63,14 @@ export async function generateMetadata() {
 const ContactUsPage = () => {
     return (
         <main>
-            <section className="mt-40 bg-gradient-to-b from-white/40 to-transparent">
+            <section className="mt-16 bg-gradient-to-b from-white/40 to-transparent">
                 <Container>
                     <div className="mx-auto text-center max-w-3xl space-y-8">
                         <h1>Contact Us Now</h1>
                         <p>
                             Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more.
                         </p>
-                        <div className="grid gap-8 grid-cols-2 max-w-xl mx-auto py-12">
+                        <div className="grid gap-8 sm:grid-cols-2 grid-cols-1 max-w-xl mx-auto py-12">
                             <MemberSimon />
                             <MemberMaxim />
                         </div>

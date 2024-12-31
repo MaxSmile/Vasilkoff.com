@@ -8,8 +8,9 @@ const TeamMember = ({ name, position, picture, email, link, keywords = "web deve
     return (
         <div className="group text-center p-4" itemScope itemType="https://schema.org/Person">
             <Link href={link}>
+            <div className="w-full">
                 <div
-                    className="rounded-3xl transition-all duration-500 group-hover:shadow-lg h-64 mb-4"
+                    className="rounded-3xl transition-all duration-500 group-hover:shadow-lg h-64 max-w-64 mx-auto mb-4"
                     itemProp="image"
                 >
                     <Image
@@ -21,6 +22,7 @@ const TeamMember = ({ name, position, picture, email, link, keywords = "web deve
                         className="w-full h-full rounded-3xl object-cover object-top grayscale transition duration-200 group-hover:grayscale-0"
                     />
                 </div>
+                </div>
                 <h2
                     className="mt-5 lg:mt-0 pt-2 pb-2 text-2xl font-bold text-black lg:text-md transition duration-500 group-hover:text-secondary"
                     itemProp="name"
@@ -30,6 +32,7 @@ const TeamMember = ({ name, position, picture, email, link, keywords = "web deve
                 <p className="text-sm font-bold" itemProp="jobTitle">
                     {position}
                 </p>
+                
             </Link>
             <p className="text-sm font-bold">
                 <Link

@@ -5,7 +5,7 @@ export default function Reviews() {
       <div className="text-center text-2xl font-bold text-gray-800 mb-10">
         What our customers say about us
       </div>
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-2">
         <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
           <div className="flex-shrink-0">
             <img
