@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function ActiveZone({ name, email, mobile, message, city }) {
   const brevoApiKey = process.env.BREVO;
+  console.log("env",process.env);
   const [status, setStatus] = useState("loading"); // Status can be 'loading', 'success', or 'error'
   const [errorMessage, setErrorMessage] = useState(""); // Detailed error message, if any
 
@@ -11,7 +12,7 @@ export default function ActiveZone({ name, email, mobile, message, city }) {
       if (!brevoApiKey) {
         console.error("Brevo API key is not set in the environment variables.");
         setStatus("error");
-        setErrorMessage("Internal configuration error. Please contact support.");
+        setErrorMessage("Internal configuration error. Please contact support at team@vasilkoff.com.");
         return;
       }
 
@@ -86,9 +87,9 @@ export default function ActiveZone({ name, email, mobile, message, city }) {
         <p className="text-green-500">Thank you! Your message has been sent successfully.</p>
       )}
       {status === "error" && (
-        <p className="text-red-500">
+        <div className="text-red-500">
           Sorry, there was an error sending your message. {errorMessage}
-        </p>
+        </div>
       )}
     </div>
   );
