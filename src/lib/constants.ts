@@ -9,6 +9,8 @@ export const MAIN_MENU = [
 
 export const BASE_URL = "https://vasilkoff.com";
 
+export const brevoApiKey = '5a73259e937870f17a7b612aedd92362b0ffa7ff9e1e2e045f41ed7244ab7127-P0kT3pPaHWU6oNmp';
+
 export const TOOLS_LINKS = [
   
   {
