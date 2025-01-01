@@ -1,6 +1,6 @@
 import TeamMember from "../TeamMember";
 export default function MemberMaxim() {
-    return <TeamMember name="Maxim Vasilkov"
+    return <TeamMember name="Maxim"
         position="Systems Architect"
         email="maxim@vasilkoff.com"
         link={"/team/maxim-vasilkov"}

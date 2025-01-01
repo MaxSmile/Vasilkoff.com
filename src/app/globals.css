@@ -14,6 +14,11 @@
     border: 1px dotted silver;
 }
 
+.text-primary:focus {
+    border: 0px solid transparent;
+    @apply border-b-2 border-primary;
+}
+
 h1,
 h2,
 h3,

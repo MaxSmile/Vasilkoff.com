@@ -1,6 +1,6 @@
 import TeamMember from "../TeamMember";
 export default function MemberAnastasia() {
-    return <TeamMember name="Anastasia Sarlidou"
+    return <TeamMember name="Anastasia"
         position="Human Centered AI"
         email="anastasia@vasilkoff.com"
         link={"/team/anastasia-sarlidou"}

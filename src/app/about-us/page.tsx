@@ -1,6 +1,6 @@
 // src/app/about-us/page.tsx
 import Link from 'next/link';
-import AIContacts from '../_components/contacts/AIContacts';
+import ContactUsForm from '../_components/contacts/ContactUsForm';
 import Container from '../_components/Container';
 import { BASE_URL } from '@/lib/constants';
 
@@ -46,7 +46,7 @@ export default function AboutUsPage() {
                         </p>
                     </article>
                 </div>
-                <AIContacts />
+                <ContactUsForm />
             </Container>
         </section>
     );

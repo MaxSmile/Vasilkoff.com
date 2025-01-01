@@ -1,4 +1,5 @@
-import AIContacts from "@/app/_components/contacts/AIContacts";
+// src/app/contact-us/page.tsx
+import ContactUsForm from "@/app/_components/contacts/ContactUsForm";
 import Container from '@/app/_components/Container';
 import MemberSimon from '@/app/_components/sections/members/Simon';
 import MemberMaxim from '@/app/_components/sections/members/Maxim';
@@ -63,33 +64,38 @@ export async function generateMetadata() {
 const ContactUsPage = () => {
     return (
         <main>
-            <section className="mt-16 bg-gradient-to-b from-white/40 to-transparent">
-                <Container>
-                    <div className="mx-auto text-center max-w-3xl space-y-8">
-                        <h1>Contact Us Now</h1>
-                        <p>
-                            Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more.
-                        </p>
-                        <div className="grid gap-8 sm:grid-cols-2 grid-cols-1 max-w-xl mx-auto py-12">
-                            <MemberSimon />
-                            <MemberMaxim />
-                        </div>
+            <section className="relative overflow-x-hidden border-t-2 border-transparent bg-gradient-to-b from-white/40 to-transparent px-4 ">
+                <div className="items-center justify-center lg:flex">
+                    <div className="text-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="/assets/images/contact-text.webp" alt="Contact us" width={"393px"} height={"90px"} className="mx-auto sm:pt-4 xl:mx-0" />
                     </div>
-                    <Tabs
-                        tabs={[
-                            { label: 'Contact Us', content: <AIContacts />, id: 'contact' },
-                            { label: 'Report a Bug', content: <BugReportForm />, id: 'report' },
-                        ]}
-                    />
-                    <div className="mx-auto text-center">
-                        <h2 className="mb-6 text-3xl">Or Book your initial 30-minute online consultation</h2>
-                    </div>
-                </Container>
-                <div className="w-[110%] overflow-hidden">
-                    <Calendly />
                 </div>
-                <Reviews />
             </section>
+            <Container>
+                <div className="mx-auto text-center max-w-3xl pb-4 border-b-2 border-primary mb-4">
+                    <h1>Contact Us Now</h1>
+                    <div className="grid gap-8 sm:grid-cols-2 grid-cols-1 max-w-xl mx-auto py-4">
+                        <MemberSimon />
+                        <MemberMaxim />
+                    </div>
+                    <p>
+                        Get in touch with members of Vasilkoff team. Any inquiries related to our mobile apps and web-development services, partnerships, career opportunities, and more.
+                    </p>
+                </div>
+                <Tabs
+                    tabs={[
+                        { label: 'Contact Us Form', content: <ContactUsForm />, id: 'contact' },
+                        { label: 'Report a Bug Form', content: <BugReportForm />, id: 'report' },
+                    ]}
+                />
+                <div className="mx-auto text-center">
+                    <h2 className="mb-6 text-3xl">Or Book your initial 30-minute online consultation</h2>
+                </div>
+            </Container>
+            <div className="w-[110%] overflow-hidden">
+                <Calendly />
+            </div>
+            <Reviews />
         </main>
     );
 };

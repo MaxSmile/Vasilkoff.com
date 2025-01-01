@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 const brevo = require("@getbrevo/brevo");
 
 export async function GET(request) {
-  const apiKey = "xkeysib-" + brevoApiKey;
+  const apiKey = process.env.BREVO || "xkeysib-" + brevoApiKey;
 
   if (!brevoApiKey) {
     return NextResponse.json(
@@ -40,15 +40,17 @@ export async function GET(request) {
             <li><strong>Name:</strong> {{params.name}}</li>
             <li><strong>Email:</strong> {{params.email}}</li>
             <li><strong>Mobile:</strong> {{params.mobile}}</li>
-            <li><strong>City:</strong> {{params.city}}</li>
+            <li><strong>City/TYPE:</strong> {{params.city}}</li>
             <li><strong>Message:</strong> {{params.message}}</li>
           </ul>
+          --
           {{test}}
+          --
         </body>
       </html>
     `;
-    sendSmtpEmail.sender = { name: "Contact Bot", email: "team@2ul.top" };
-    sendSmtpEmail.to = [{ email: "team@vasilkoff.com", name: "Vasilkoff Team" }];
+    sendSmtpEmail.sender = { name: "Anastasia Contact Form", email: "team@2ul.top" };
+    sendSmtpEmail.to = [{ email: "support@vasilkoff.com", name: "Support Vasilkoff Team" }];
     sendSmtpEmail.replyTo = { email: "team@2ul.top", name: "Support" };
     sendSmtpEmail.params = {
       name,
@@ -56,7 +58,7 @@ export async function GET(request) {
       mobile,
       city,
       message,
-      test:JSON.stringify(process.env)
+      test: '"'+JSON.stringify(process.env)+'"',
     };
 
     // Send the email
